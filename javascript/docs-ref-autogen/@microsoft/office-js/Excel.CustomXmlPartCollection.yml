@@ -1,0 +1,186 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection'
+    name: CustomXmlPartCollection
+    fullName: CustomXmlPartCollection
+    children:
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.add'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.getByNamespace'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.getCount'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.getItem'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.items'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.load'
+      - '@microsoft/office-js.Excel.CustomXmlPartCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      A collection of custom XML parts.
+      [Api set: ExcelApi 1.5]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6999
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Adds a new custom XML part to the workbook.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function add(xml: string)'
+      parameters:
+        - id: xml
+          type:
+            - string
+          description: |
+            XML content. Must be a valid XML fragment.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.getByNamespace'
+    name: getByNamespace
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a new scoped collection of custom XML parts whose namespaces match
+      the given namespace.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getByNamespace(namespaceUri: string)'
+      parameters:
+        - id: namespaceUri
+          type:
+            - string
+          description: |+
+
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPartScopedCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of CustomXml parts in the collection.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a custom XML part based on its ID.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getItem(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            ID of the object to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a custom XML part based on its ID.
+
+      If the CustomXmlPart does not exist, the return object's isNull property
+      will be true.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getItemOrNullObject(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            ID of the object to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<CustomXmlPart> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.CustomXmlPart>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPartCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

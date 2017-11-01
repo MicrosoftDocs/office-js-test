@@ -1,0 +1,268 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.BindingCollection'
+    name: BindingCollection
+    fullName: BindingCollection
+    children:
+      - '@microsoft/office-js.Excel.BindingCollection.add'
+      - '@microsoft/office-js.Excel.BindingCollection.addFromNamedItem'
+      - '@microsoft/office-js.Excel.BindingCollection.addFromSelection'
+      - '@microsoft/office-js.Excel.BindingCollection.count'
+      - '@microsoft/office-js.Excel.BindingCollection.getCount'
+      - '@microsoft/office-js.Excel.BindingCollection.getItem'
+      - '@microsoft/office-js.Excel.BindingCollection.getItemAt'
+      - '@microsoft/office-js.Excel.BindingCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.BindingCollection.items'
+      - '@microsoft/office-js.Excel.BindingCollection.load'
+      - '@microsoft/office-js.Excel.BindingCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents the collection of all the binding objects that are part of the
+      workbook.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4314
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Add a new binding to a particular Range.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: 'function add(range: Range | string, bindingType: string, id: string)'
+      parameters:
+        - id: range
+          type:
+            - Range | string
+          description: >-
+            Range to bind the binding to. May be an Excel Range object, or a
+            string. If string, must contain the full address, including the
+            sheet name
+        - id: bindingType
+          type:
+            - string
+          description: Type of binding. See Excel.BindingType.
+        - id: id
+          type:
+            - string
+          description: |
+            Name of binding.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.addFromNamedItem'
+    name: addFromNamedItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Add a new binding based on a named item in the workbook.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: 'function addFromNamedItem(name: string, bindingType: string, id: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: Name from which to create binding.
+        - id: bindingType
+          type:
+            - string
+          description: Type of binding. See Excel.BindingType.
+        - id: id
+          type:
+            - string
+          description: |
+            Name of binding.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.addFromSelection'
+    name: addFromSelection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Add a new binding based on the current selection.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: 'function addFromSelection(bindingType: string, id: string)'
+      parameters:
+        - id: bindingType
+          type:
+            - string
+          description: Type of binding. See Excel.BindingType.
+        - id: id
+          type:
+            - string
+          description: |
+            Name of binding.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of bindings in the collection. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of bindings in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a binding object by ID.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            Id of the binding object to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a binding object based on its position in the items array.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a binding object by ID. If the binding object does not exist, will
+      return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: |
+            Id of the binding object to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Binding'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Binding> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.Binding>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.BindingCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.BindingCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

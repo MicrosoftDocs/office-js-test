@@ -1,0 +1,173 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartTitle'
+    name: ChartTitle
+    fullName: ChartTitle
+    children:
+      - '@microsoft/office-js.Excel.ChartTitle.format'
+      - '@microsoft/office-js.Excel.ChartTitle.load'
+      - '@microsoft/office-js.Excel.ChartTitle.overlay'
+      - '@microsoft/office-js.Excel.ChartTitle.set'
+      - '@microsoft/office-js.Excel.ChartTitle.set_1'
+      - '@microsoft/office-js.Excel.ChartTitle.text'
+      - '@microsoft/office-js.Excel.ChartTitle.toJSON'
+      - '@microsoft/office-js.Excel.ChartTitle.visible'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a chart title object of a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6332
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart title, which includes fill and font
+      formatting. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartTitleFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartTitleFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartTitle'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.overlay'
+    name: overlay
+    fullName: overlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the chart title will overlay the chart or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean overlay
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartTitleUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartTitle)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartTitle'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the title text of a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitle.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A boolean value the represents the visibility of a chart title object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel

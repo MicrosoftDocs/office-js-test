@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet'
+    name: FiveQuartersSet
+    fullName: FiveQuartersSet
+    children:
+      - '@microsoft/office-js.Excel.FiveQuartersSet.blackCircle'
+      - '@microsoft/office-js.Excel.FiveQuartersSet.circleWithOneWhiteQuarter'
+      - '@microsoft/office-js.Excel.FiveQuartersSet.circleWithThreeWhiteQuarters'
+      - '@microsoft/office-js.Excel.FiveQuartersSet.circleWithTwoWhiteQuarters'
+      - '@microsoft/office-js.Excel.FiveQuartersSet.whiteCircleAllWhiteQuarters'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2657
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet.blackCircle'
+    name: blackCircle
+    fullName: blackCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon blackCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet.circleWithOneWhiteQuarter'
+    name: circleWithOneWhiteQuarter
+    fullName: circleWithOneWhiteQuarter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon circleWithOneWhiteQuarter
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet.circleWithThreeWhiteQuarters'
+    name: circleWithThreeWhiteQuarters
+    fullName: circleWithThreeWhiteQuarters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon circleWithThreeWhiteQuarters
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet.circleWithTwoWhiteQuarters'
+    name: circleWithTwoWhiteQuarters
+    fullName: circleWithTwoWhiteQuarters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon circleWithTwoWhiteQuarters
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveQuartersSet.whiteCircleAllWhiteQuarters'
+    name: whiteCircleAllWhiteQuarters
+    fullName: whiteCircleAllWhiteQuarters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon whiteCircleAllWhiteQuarters
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

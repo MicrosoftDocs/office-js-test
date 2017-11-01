@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData'
+    name: ChartAxesUpdateData
+    fullName: ChartAxesUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.categoryAxis
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.seriesAxis
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.valueAxis
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartAxes object, for use in
+      "chartAxes.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13427
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.categoryAxis
+    name: categoryAxis
+    fullName: categoryAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the category axis in a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisUpdateData categoryAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.seriesAxis'
+    name: seriesAxis
+    fullName: seriesAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the series axis of a 3-dimensional chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisUpdateData seriesAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData.valueAxis'
+    name: valueAxis
+    fullName: valueAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the value axis in an axis.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisUpdateData valueAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+    module: Excel.Interfaces

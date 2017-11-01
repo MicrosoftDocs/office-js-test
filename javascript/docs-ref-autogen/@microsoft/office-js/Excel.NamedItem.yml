@@ -1,0 +1,303 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.NamedItem'
+    name: NamedItem
+    fullName: NamedItem
+    children:
+      - '@microsoft/office-js.Excel.NamedItem.comment'
+      - '@microsoft/office-js.Excel.NamedItem.delete'
+      - '@microsoft/office-js.Excel.NamedItem.getRange'
+      - '@microsoft/office-js.Excel.NamedItem.getRangeOrNullObject'
+      - '@microsoft/office-js.Excel.NamedItem.load'
+      - '@microsoft/office-js.Excel.NamedItem.name'
+      - '@microsoft/office-js.Excel.NamedItem.scope'
+      - '@microsoft/office-js.Excel.NamedItem.set_1'
+      - '@microsoft/office-js.Excel.NamedItem.set'
+      - '@microsoft/office-js.Excel.NamedItem.toJSON'
+      - '@microsoft/office-js.Excel.NamedItem.type'
+      - '@microsoft/office-js.Excel.NamedItem.value'
+      - '@microsoft/office-js.Excel.NamedItem.visible'
+      - '@microsoft/office-js.Excel.NamedItem.worksheet'
+      - '@microsoft/office-js.Excel.NamedItem.worksheetOrNullObject'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a defined name for a range of cells or value. Names can be
+      primitive named objects (as seen in the type below), range object,
+      reference to a range. This object can be used to obtain range object
+      associated with names.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4136
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.comment'
+    name: comment
+    fullName: comment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the comment associated with this name.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: string comment
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the given name.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the range object that is associated with the name. Throws an error
+      if the named item's type is not a range.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.getRangeOrNullObject'
+    name: getRangeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the range object that is associated with the name. Returns a null
+      object if the named item's type is not a range.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getRangeOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItem'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The name of the object. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.scope'
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the name is scoped to the workbook or to a specific
+      worksheet. Read-only.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: string scope
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: NamedItem)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.NamedItem'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: NamedItemUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates the type of the value returned by the name's formula. See
+      Excel.NamedItemType for details. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the value computed by the name's formula. For a named range,
+      will return the range address. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any value
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Specifies whether the object is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.worksheet'
+    name: worksheet
+    fullName: worksheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the worksheet on which the named item is scoped to. Throws an
+      error if the items is scoped to the workbook instead.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: Worksheet worksheet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItem.worksheetOrNullObject'
+    name: worksheetOrNullObject
+    fullName: worksheetOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the worksheet on which the named item is scoped to. Returns a null
+      object if the item is scoped to the workbook instead.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: Worksheet worksheetOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel

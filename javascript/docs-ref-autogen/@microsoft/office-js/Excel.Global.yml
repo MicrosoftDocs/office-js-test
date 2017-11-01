@@ -1,0 +1,238 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Global'
+    package: '@microsoft/office-js'
+    name: Global
+    module: Excel
+    children:
+      - '@microsoft/office-js.Excel.run'
+      - '@microsoft/office-js.Excel.run_1'
+      - '@microsoft/office-js.Excel.run_2'
+      - '@microsoft/office-js.Excel.run_3'
+      - '@microsoft/office-js.Excel.run_4'
+      - '@microsoft/office-js.Excel.run_5'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/office-js.Excel.run'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: 'function run<T>(batch: (context: RequestContext) => IPromise<T>)'
+      parameters:
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.run_1'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(requestInfo: RequestUrlAndHeaderInfo | Session, batch:
+        (context: RequestContext) => IPromise<T>)
+      parameters:
+        - id: requestInfo
+          type:
+            - RequestUrlAndHeaderInfo | Session
+          description: The URL of the remote workbook and the request headers to be sent.
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.run_2'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(object: ClientObject, batch: (context: RequestContext)
+        => IPromise<T>)
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: >-
+            A previously-created API object. The batch will use the same
+            RequestContext as the passed-in object, which means that any changes
+            applied to the object will be picked up by "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.run_3'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(requestInfo: RequestUrlAndHeaderInfo | Session, object:
+        ClientObject, batch: (context: RequestContext) => IPromise<T>)
+      parameters:
+        - id: requestInfo
+          type:
+            - RequestUrlAndHeaderInfo | Session
+          description: The URL of the remote workbook and the request headers to be sent.
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: >-
+            A previously-created API object. The batch will use the same
+            RequestContext as the passed-in object, which means that any changes
+            applied to the object will be picked up by "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.run_4'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(objects: ClientObject[], batch: (context:
+        RequestContext) => IPromise<T>)
+      parameters:
+        - id: objects
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject[]'
+          description: >-
+            An array of previously-created API objects. The array will be
+            validated to make sure that all of the objects share the same
+            context. The batch will use this shared RequestContext, which means
+            that any changes applied to these objects will be picked up by
+            "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.run_5'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Excel object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(requestInfo: RequestUrlAndHeaderInfo | Session, objects:
+        ClientObject[], batch: (context: RequestContext) => IPromise<T>)
+      parameters:
+        - id: requestInfo
+          type:
+            - RequestUrlAndHeaderInfo | Session
+          description: The URL of the remote workbook and the request headers to be sent.
+        - id: objects
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject[]'
+          description: >-
+            An array of previously-created API objects. The array will be
+            validated to make sure that all of the objects share the same
+            context. The batch will use this shared RequestContext, which means
+            that any changes applied to these objects will be picked up by
+            "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Excel application. Since the
+            Office add-in and the Excel application run in two different
+            processes, the RequestContext is required to get access to the Excel
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Excel

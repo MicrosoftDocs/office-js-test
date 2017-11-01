@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.EmailAddressDetails'
+    name: EmailAddressDetails
+    fullName: EmailAddressDetails
+    children:
+      - '@microsoft/office-js.Office.EmailAddressDetails.appointmentResponse'
+      - '@microsoft/office-js.Office.EmailAddressDetails.displayName'
+      - '@microsoft/office-js.Office.EmailAddressDetails.emailAddress'
+      - '@microsoft/office-js.Office.EmailAddressDetails.recipientType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1745
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailAddressDetails.appointmentResponse'
+    name: appointmentResponse
+    fullName: appointmentResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ResponseType appointmentResponse
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Office.MailboxEnums.ResponseType'
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailAddressDetails.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailAddressDetails.emailAddress'
+    name: emailAddress
+    fullName: emailAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string emailAddress
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailAddressDetails.recipientType'
+    name: recipientType
+    fullName: recipientType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RecipientType recipientType
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Office.MailboxEnums.RecipientType'
+    module: Office

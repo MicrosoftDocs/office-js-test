@@ -1,0 +1,403 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.List'
+    name: List
+    fullName: List
+    children:
+      - '@microsoft/office-js.Word.List.getLevelParagraphs'
+      - '@microsoft/office-js.Word.List.getLevelString'
+      - '@microsoft/office-js.Word.List.id'
+      - '@microsoft/office-js.Word.List.insertParagraph'
+      - '@microsoft/office-js.Word.List.levelExistences'
+      - '@microsoft/office-js.Word.List.levelTypes'
+      - '@microsoft/office-js.Word.List.load'
+      - '@microsoft/office-js.Word.List.paragraphs'
+      - '@microsoft/office-js.Word.List.setLevelAlignment'
+      - '@microsoft/office-js.Word.List.setLevelBullet'
+      - '@microsoft/office-js.Word.List.setLevelIndents'
+      - '@microsoft/office-js.Word.List.setLevelNumbering'
+      - '@microsoft/office-js.Word.List.setLevelStartingNumber'
+      - '@microsoft/office-js.Word.List.toJSON'
+      - '@microsoft/office-js.Word.List.track'
+      - '@microsoft/office-js.Word.List.untrack'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Contains a collection of [paragraph](paragraph.md) objects.
+      [Api set: WordApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 15900
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.getLevelParagraphs'
+    name: getLevelParagraphs
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the paragraphs that occur at the specified level in the list.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getLevelParagraphs(level: number)'
+      parameters:
+        - id: level
+          type:
+            - number
+          description: |
+            Required. The level in the list.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ParagraphCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.getLevelString'
+    name: getLevelString
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the bullet, number or picture at the specified level as a string.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getLevelString(level: number)'
+      parameters:
+        - id: level
+          type:
+            - number
+          description: |
+            Required. The level in the list.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the list's id.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.insertParagraph'
+    name: insertParagraph
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a paragraph at the specified location. The insertLocation value
+      can be 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function insertParagraph(paragraphText: string, insertLocation: string)'
+      parameters:
+        - id: paragraphText
+          type:
+            - string
+          description: Required. The paragraph text to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: |
+            Required. The value can be 'Start', 'End', 'Before' or 'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.levelExistences'
+    name: levelExistences
+    fullName: levelExistences
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Checks whether each of the 9 levels exists in the list. A true value
+      indicates the level exists, which means there is at least one list item at
+      that level. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Array<boolean> levelExistences
+      return:
+        type:
+          - Array<boolean>
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.levelTypes'
+    name: levelTypes
+    fullName: levelTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets all 9 level types in the list. Each type can be 'Bullet', 'Number' or
+      'Picture'. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Array<string> levelTypes
+      return:
+        type:
+          - Array<string>
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.List'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.paragraphs'
+    name: paragraphs
+    fullName: paragraphs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets paragraphs in the list. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ParagraphCollection paragraphs
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ParagraphCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.setLevelAlignment'
+    name: setLevelAlignment
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Sets the alignment of the bullet, number or picture at the specified level
+      in the list.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function setLevelAlignment(level: number, alignment: string)'
+      parameters:
+        - id: level
+          type:
+            - number
+          description: Required. The level in the list.
+        - id: alignment
+          type:
+            - string
+          description: >
+            Required. The level alignment that can be 'left', 'centered' or
+            'right'.
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.setLevelBullet'
+    name: setLevelBullet
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Sets the bullet format at the specified level in the list. If the bullet
+      is 'Custom', the charCode is required.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function setLevelBullet(level: number, listBullet: string, charCode?:
+        number, fontName?: string)
+      parameters:
+        - id: level
+          type:
+            - number
+          description: Required. The level in the list.
+        - id: listBullet
+          type:
+            - string
+          description: Required. The bullet.
+        - id: charCode
+          type:
+            - number
+          description: >-
+            Optional. The bullet character's code value. Used only if the bullet
+            is 'Custom'.
+          optional: true
+        - id: fontName
+          type:
+            - string
+          description: >
+            Optional. The bullet's font name. Used only if the bullet is
+            'Custom'.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.setLevelIndents'
+    name: setLevelIndents
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets the two indents of the specified level in the list.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function setLevelIndents(level: number, textIndent: number,
+        bulletNumberPictureIndent: number)
+      parameters:
+        - id: level
+          type:
+            - number
+          description: Required. The level in the list.
+        - id: textIndent
+          type:
+            - number
+          description: >
+            Required. The relative indent, in points, of the bullet, number or
+            picture. It is the same as paragraph first line indent.
+        - id: bulletNumberPictureIndent
+          type:
+            - number
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.setLevelNumbering'
+    name: setLevelNumbering
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets the numbering format at the specified level in the list.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function setLevelNumbering(level: number, listNumbering: string,
+        formatString?: Array<any>)
+      parameters:
+        - id: level
+          type:
+            - number
+          description: Required. The level in the list.
+        - id: listNumbering
+          type:
+            - string
+          description: Required. The ordinal format.
+        - id: formatString
+          type:
+            - Array<any>
+          description: >
+            Optional. The numbering string format defined as an array of strings
+            and/or integers. Each integer is a level of number type that is
+            higher than or equal to this level. For example, an array of ["(",
+            level - 1, ".", level, ")"] can define the format of "(2.c)", where
+            2 is the parent's item number and c is this level's item number.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.setLevelStartingNumber'
+    name: setLevelStartingNumber
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Sets the starting number at the specified level in the list. Default value
+      is 1.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function setLevelStartingNumber(level: number, startingNumber: number)'
+      parameters:
+        - id: level
+          type:
+            - number
+          description: Required. The level in the list.
+        - id: startingNumber
+          type:
+            - number
+          description: |
+            Required. The number to start with.
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.List'
+    module: Word
+  - uid: '@microsoft/office-js.Word.List.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.List'
+    module: Word

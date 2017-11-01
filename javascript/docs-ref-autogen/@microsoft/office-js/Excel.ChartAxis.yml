@@ -1,0 +1,254 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartAxis'
+    name: ChartAxis
+    fullName: ChartAxis
+    children:
+      - '@microsoft/office-js.Excel.ChartAxis.format'
+      - '@microsoft/office-js.Excel.ChartAxis.load'
+      - '@microsoft/office-js.Excel.ChartAxis.majorGridlines'
+      - '@microsoft/office-js.Excel.ChartAxis.majorUnit'
+      - '@microsoft/office-js.Excel.ChartAxis.maximum'
+      - '@microsoft/office-js.Excel.ChartAxis.minimum'
+      - '@microsoft/office-js.Excel.ChartAxis.minorGridlines'
+      - '@microsoft/office-js.Excel.ChartAxis.minorUnit'
+      - '@microsoft/office-js.Excel.ChartAxis.set'
+      - '@microsoft/office-js.Excel.ChartAxis.set_1'
+      - '@microsoft/office-js.Excel.ChartAxis.title'
+      - '@microsoft/office-js.Excel.ChartAxis.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a single axis in a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5830
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart object, which includes line and font
+      formatting. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxisFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxis'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.majorGridlines'
+    name: majorGridlines
+    fullName: majorGridlines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a gridlines object that represents the major gridlines for the
+      specified axis. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlines majorGridlines
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartGridlines'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.majorUnit'
+    name: majorUnit
+    fullName: majorUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the interval between two major tick marks. Can be set to a
+      numeric value or an empty string.  The returned value is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any majorUnit
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.maximum'
+    name: maximum
+    fullName: maximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the maximum value on the value axis.  Can be set to a numeric
+      value or an empty string (for automatic axis values).  The returned value
+      is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any maximum
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.minimum'
+    name: minimum
+    fullName: minimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the minimum value on the value axis. Can be set to a numeric
+      value or an empty string (for automatic axis values).  The returned value
+      is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any minimum
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.minorGridlines'
+    name: minorGridlines
+    fullName: minorGridlines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a Gridlines object that represents the minor gridlines for the
+      specified axis. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlines minorGridlines
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartGridlines'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.minorUnit'
+    name: minorUnit
+    fullName: minorUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the interval between two minor tick marks. "Can be set to a
+      numeric value or an empty string (for automatic axis values). The returned
+      value is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any minorUnit
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxisUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxis)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartAxis'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the axis title. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisTitle title
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxisTitle'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxis.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

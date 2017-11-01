@@ -1,0 +1,1213 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Table'
+    name: Table
+    fullName: Table
+    children:
+      - '@microsoft/office-js.Word.Table.addColumns'
+      - '@microsoft/office-js.Word.Table.addRows'
+      - '@microsoft/office-js.Word.Table.alignment'
+      - '@microsoft/office-js.Word.Table.autoFitWindow'
+      - '@microsoft/office-js.Word.Table.clear'
+      - '@microsoft/office-js.Word.Table.delete'
+      - '@microsoft/office-js.Word.Table.deleteColumns'
+      - '@microsoft/office-js.Word.Table.deleteRows'
+      - '@microsoft/office-js.Word.Table.distributeColumns'
+      - '@microsoft/office-js.Word.Table.font'
+      - '@microsoft/office-js.Word.Table.getBorder'
+      - '@microsoft/office-js.Word.Table.getCell'
+      - '@microsoft/office-js.Word.Table.getCellOrNullObject'
+      - '@microsoft/office-js.Word.Table.getCellPadding'
+      - '@microsoft/office-js.Word.Table.getNext'
+      - '@microsoft/office-js.Word.Table.getNextOrNullObject'
+      - '@microsoft/office-js.Word.Table.getParagraphAfter'
+      - '@microsoft/office-js.Word.Table.getParagraphAfterOrNullObject'
+      - '@microsoft/office-js.Word.Table.getParagraphBefore'
+      - '@microsoft/office-js.Word.Table.getParagraphBeforeOrNullObject'
+      - '@microsoft/office-js.Word.Table.getRange'
+      - '@microsoft/office-js.Word.Table.headerRowCount'
+      - '@microsoft/office-js.Word.Table.horizontalAlignment'
+      - '@microsoft/office-js.Word.Table.insertContentControl'
+      - '@microsoft/office-js.Word.Table.insertParagraph'
+      - '@microsoft/office-js.Word.Table.insertTable'
+      - '@microsoft/office-js.Word.Table.isUniform'
+      - '@microsoft/office-js.Word.Table.load'
+      - '@microsoft/office-js.Word.Table.nestingLevel'
+      - '@microsoft/office-js.Word.Table.parentBody'
+      - '@microsoft/office-js.Word.Table.parentContentControl'
+      - '@microsoft/office-js.Word.Table.parentContentControlOrNullObject'
+      - '@microsoft/office-js.Word.Table.parentTable'
+      - '@microsoft/office-js.Word.Table.parentTableCell'
+      - '@microsoft/office-js.Word.Table.parentTableCellOrNullObject'
+      - '@microsoft/office-js.Word.Table.parentTableOrNullObject'
+      - '@microsoft/office-js.Word.Table.rowCount'
+      - '@microsoft/office-js.Word.Table.rows'
+      - '@microsoft/office-js.Word.Table.search'
+      - '@microsoft/office-js.Word.Table.select'
+      - '@microsoft/office-js.Word.Table.set_1'
+      - '@microsoft/office-js.Word.Table.set'
+      - '@microsoft/office-js.Word.Table.setCellPadding'
+      - '@microsoft/office-js.Word.Table.shadingColor'
+      - '@microsoft/office-js.Word.Table.style'
+      - '@microsoft/office-js.Word.Table.styleBandedColumns'
+      - '@microsoft/office-js.Word.Table.styleBandedRows'
+      - '@microsoft/office-js.Word.Table.styleBuiltIn'
+      - '@microsoft/office-js.Word.Table.styleFirstColumn'
+      - '@microsoft/office-js.Word.Table.styleLastColumn'
+      - '@microsoft/office-js.Word.Table.styleTotalRow'
+      - '@microsoft/office-js.Word.Table.tables'
+      - '@microsoft/office-js.Word.Table.toJSON'
+      - '@microsoft/office-js.Word.Table.track'
+      - '@microsoft/office-js.Word.Table.untrack'
+      - '@microsoft/office-js.Word.Table.values'
+      - '@microsoft/office-js.Word.Table.verticalAlignment'
+      - '@microsoft/office-js.Word.Table.width'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a table in a Word document.
+      [Api set: WordApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 17357
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.addColumns'
+    name: addColumns
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds columns to the start or end of the table, using the first or last
+      existing column as a template. This is applicable to uniform tables. The
+      string values, if specified, are set in the newly inserted rows.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function addColumns(insertLocation: string, columnCount: number,
+        values?: Array<Array<string>>)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: >-
+            Required. It can be 'Start' or 'End', corresponding to the
+            appropriate side of the table.
+        - id: columnCount
+          type:
+            - number
+          description: Required. Number of columns to add.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.addRows'
+    name: addRows
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds rows to the start or end of the table, using the first or last
+      existing row as a template. The string values, if specified, are set in
+      the newly inserted rows.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function addRows(insertLocation: string, rowCount: number, values?:
+        Array<Array<string>>)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: Required. It can be 'Start' or 'End'.
+        - id: rowCount
+          type:
+            - number
+          description: Required. Number of rows to add.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableRowCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.alignment'
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the alignment of the table against the page column. The value
+      can be 'left', 'centered' or 'right'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string alignment
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.autoFitWindow'
+    name: autoFitWindow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Autofits the table columns to the width of the window.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function autoFitWindow()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears the contents of the table.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the entire table.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.deleteColumns'
+    name: deleteColumns
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes specific columns. This is applicable to uniform tables.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function deleteColumns(columnIndex: number, columnCount?: number)'
+      parameters:
+        - id: columnIndex
+          type:
+            - number
+          description: Required. The first column to delete.
+        - id: columnCount
+          type:
+            - number
+          description: |
+            Optional. The number of columns to delete. Default 1.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.deleteRows'
+    name: deleteRows
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes specific rows.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function deleteRows(rowIndex: number, rowCount?: number)'
+      parameters:
+        - id: rowIndex
+          type:
+            - number
+          description: Required. The first row to delete.
+        - id: rowCount
+          type:
+            - number
+          description: |
+            Optional. The number of rows to delete. Default 1.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.distributeColumns'
+    name: distributeColumns
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Distributes the column widths evenly. This is applicable to uniform
+      tables.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function distributeColumns()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the font. Use this to get and set font name, size, color, and other
+      properties. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Font font
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Font'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getBorder'
+    name: getBorder
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the border style for the specified border.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getBorder(borderLocation: string)'
+      parameters:
+        - id: borderLocation
+          type:
+            - string
+          description: |
+            Required. The border location.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableBorder'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getCell'
+    name: getCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the table cell at a specified row and column. Throws if the specified
+      table cell does not exist.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getCell(rowIndex: number, cellIndex: number)'
+      parameters:
+        - id: rowIndex
+          type:
+            - number
+          description: Required. The index of the row.
+        - id: cellIndex
+          type:
+            - number
+          description: |
+            Required. The index of the cell in the row.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getCellOrNullObject'
+    name: getCellOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the table cell at a specified row and column. Returns a null object
+      if the specified table cell does not exist.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getCellOrNullObject(rowIndex: number, cellIndex: number)'
+      parameters:
+        - id: rowIndex
+          type:
+            - number
+          description: Required. The index of the row.
+        - id: cellIndex
+          type:
+            - number
+          description: |
+            Required. The index of the cell in the row.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getCellPadding'
+    name: getCellPadding
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets cell padding in points.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getCellPadding(cellPaddingLocation: string)'
+      parameters:
+        - id: cellPaddingLocation
+          type:
+            - string
+          description: >
+            Required. The cell padding location can be 'Top', 'Left', 'Bottom'
+            or 'Right'.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getNext'
+    name: getNext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the next table. Throws if this table is the last one.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getNext()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getNextOrNullObject'
+    name: getNextOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the next table. Returns a null object if this table is the last one.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getNextOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getParagraphAfter'
+    name: getParagraphAfter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the paragraph after the table. Throws if there isn't a paragraph
+      after the table.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getParagraphAfter()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getParagraphAfterOrNullObject'
+    name: getParagraphAfterOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the paragraph after the table. Returns a null object if there isn't a
+      paragraph after the table.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getParagraphAfterOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getParagraphBefore'
+    name: getParagraphBefore
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the paragraph before the table. Throws if there isn't a paragraph
+      before the table.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getParagraphBefore()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getParagraphBeforeOrNullObject'
+    name: getParagraphBeforeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the paragraph before the table. Returns a null object if there isn't
+      a paragraph before the table.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getParagraphBeforeOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the range that contains this table, or the range at the start or end
+      of the table.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getRange(rangeLocation?: string)'
+      parameters:
+        - id: rangeLocation
+          type:
+            - string
+          description: >
+            Optional. The range location can be 'Whole', 'Start', 'End' or
+            'After'.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.headerRowCount'
+    name: headerRowCount
+    fullName: headerRowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the number of header rows.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number headerRowCount
+      return:
+        type:
+          - number
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.horizontalAlignment'
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the horizontal alignment of every cell in the table. The
+      value can be 'left', 'centered', 'right', or 'justified'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string horizontalAlignment
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.insertContentControl'
+    name: insertContentControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Inserts a content control on the table.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function insertContentControl()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.insertParagraph'
+    name: insertParagraph
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a paragraph at the specified location. The insertLocation value
+      can be 'Before' or 'After'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function insertParagraph(paragraphText: string, insertLocation: string)'
+      parameters:
+        - id: paragraphText
+          type:
+            - string
+          description: Required. The paragraph text to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: |
+            Required. The value can be 'Before' or 'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.insertTable'
+    name: insertTable
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a table with the specified number of rows and columns. The
+      insertLocation value can be 'Before' or 'After'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function insertTable(rowCount: number, columnCount: number,
+        insertLocation: string, values?: Array<Array<string>>)
+      parameters:
+        - id: rowCount
+          type:
+            - number
+          description: Required. The number of rows in the table.
+        - id: columnCount
+          type:
+            - number
+          description: Required. The number of columns in the table.
+        - id: insertLocation
+          type:
+            - string
+          description: Required. The value can be 'Before' or 'After'.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.isUniform'
+    name: isUniform
+    fullName: isUniform
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates whether all of the table rows are uniform. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean isUniform
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.nestingLevel'
+    name: nestingLevel
+    fullName: nestingLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the nesting level of the table. Top-level tables have level 1.
+      Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number nestingLevel
+      return:
+        type:
+          - number
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentBody'
+    name: parentBody
+    fullName: parentBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the parent body of the table. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Body parentBody
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Body'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentContentControl'
+    name: parentContentControl
+    fullName: parentContentControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the content control that contains the table. Throws if there isn't a
+      parent content control. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ContentControl parentContentControl
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentContentControlOrNullObject'
+    name: parentContentControlOrNullObject
+    fullName: parentContentControlOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the content control that contains the table. Returns a null object if
+      there isn't a parent content control. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ContentControl parentContentControlOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentTable'
+    name: parentTable
+    fullName: parentTable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table that contains this table. Throws if it is not contained in
+      a table. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Table parentTable
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentTableCell'
+    name: parentTableCell
+    fullName: parentTableCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table cell that contains this table. Throws if it is not
+      contained in a table cell. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCell parentTableCell
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentTableCellOrNullObject'
+    name: parentTableCellOrNullObject
+    fullName: parentTableCellOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table cell that contains this table. Returns a null object if it
+      is not contained in a table cell. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCell parentTableCellOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.parentTableOrNullObject'
+    name: parentTableOrNullObject
+    fullName: parentTableOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table that contains this table. Returns a null object if it is
+      not contained in a table. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Table parentTableOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.rowCount'
+    name: rowCount
+    fullName: rowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the number of rows in the table. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number rowCount
+      return:
+        type:
+          - number
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets all of the table rows. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableRowCollection rows
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableRowCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.search'
+    name: search
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Performs a search with the specified searchOptions on the scope of the
+      table object. The search results are a collection of range objects.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function search(searchText: string, searchOptions?: SearchOptions | )'
+      parameters:
+        - id: searchText
+          type:
+            - string
+          description: Required. The search text.
+        - id: searchOptions
+          type:
+            - 'SearchOptions | '
+          description: |
+            Optional. Options for the search.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.RangeCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.select'
+    name: select
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Selects the table, or the position at the start or end of the table, and
+      navigates the Word UI to it.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function select(selectionMode?: string)'
+      parameters:
+        - id: selectionMode
+          type:
+            - string
+          description: >
+            Optional. The selection mode can be 'Select', 'Start' or 'End'.
+            'Select' is the default.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Table)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Table'
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Word.Interfaces.TableUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.setCellPadding'
+    name: setCellPadding
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets cell padding in points.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function setCellPadding(cellPaddingLocation: string, cellPadding:
+        number)
+      parameters:
+        - id: cellPaddingLocation
+          type:
+            - string
+          description: >-
+            Required. The cell padding location can be 'Top', 'Left', 'Bottom'
+            or 'Right'.
+        - id: cellPadding
+          type:
+            - number
+          description: |
+            Required. The cell padding.
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.shadingColor'
+    name: shadingColor
+    fullName: shadingColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the shading color.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string shadingColor
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the style name for the table. Use this property for custom
+      styles and localized style names. To use the built-in styles that are
+      portable between locales, see the "styleBuiltIn" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleBandedColumns'
+    name: styleBandedColumns
+    fullName: styleBandedColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has banded columns.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleBandedColumns
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleBandedRows'
+    name: styleBandedRows
+    fullName: styleBandedRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has banded rows.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleBandedRows
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleBuiltIn'
+    name: styleBuiltIn
+    fullName: styleBuiltIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the built-in style name for the table. Use this property for
+      built-in styles that are portable between locales. To use custom styles or
+      localized style names, see the "style" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string styleBuiltIn
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleFirstColumn'
+    name: styleFirstColumn
+    fullName: styleFirstColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has a first column with a special style.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleFirstColumn
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleLastColumn'
+    name: styleLastColumn
+    fullName: styleLastColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has a last column with a special style.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleLastColumn
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.styleTotalRow'
+    name: styleTotalRow
+    fullName: styleTotalRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets whether the table has a total (last) row with a special
+      style.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleTotalRow
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.tables'
+    name: tables
+    fullName: tables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the child tables nested one level deeper. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCollection tables
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the text values in the table, as a 2D Javascript array.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Array<Array<string>> values
+      return:
+        type:
+          - Array<Array<string>>
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.verticalAlignment'
+    name: verticalAlignment
+    fullName: verticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the vertical alignment of every cell in the table. The value
+      can be 'top', 'center' or 'bottom'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string verticalAlignment
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Table.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the width of the table in points.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Word

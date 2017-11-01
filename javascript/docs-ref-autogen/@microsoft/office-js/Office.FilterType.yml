@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.FilterType'
+    name: FilterType
+    fullName: FilterType
+    children:
+      - '@microsoft/office-js.Office.FilterType.All'
+      - '@microsoft/office-js.Office.FilterType.OnlyVisible'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 334
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.FilterType.All'
+    name: All
+    children: []
+    langs:
+      - typeScript
+    summary: Returns all items
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.FilterType.OnlyVisible'
+    name: OnlyVisible
+    children: []
+    langs:
+      - typeScript
+    summary: Returns only visible items
+    type: field
+    module: Office

@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeStarsSet'
+    name: ThreeStarsSet
+    fullName: ThreeStarsSet
+    children:
+      - '@microsoft/office-js.Excel.ThreeStarsSet.goldStar'
+      - '@microsoft/office-js.Excel.ThreeStarsSet.halfGoldStar'
+      - '@microsoft/office-js.Excel.ThreeStarsSet.silverStar'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2665
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeStarsSet.goldStar'
+    name: goldStar
+    fullName: goldStar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon goldStar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeStarsSet.halfGoldStar'
+    name: halfGoldStar
+    fullName: halfGoldStar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon halfGoldStar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeStarsSet.silverStar'
+    name: silverStar
+    fullName: silverStar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon silverStar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

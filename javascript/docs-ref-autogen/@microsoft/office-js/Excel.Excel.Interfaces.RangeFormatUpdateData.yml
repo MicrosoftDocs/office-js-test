@@ -1,0 +1,179 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData'
+    name: RangeFormatUpdateData
+    fullName: RangeFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.columnWidth
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.fill'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.font'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.horizontalAlignment
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.protection
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.rowHeight
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.verticalAlignment
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.wrapText
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the RangeFormat object, for use in
+      "rangeFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13162
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.columnWidth
+    name: columnWidth
+    fullName: columnWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the width of all colums within the range. If the column
+      widths are not uniform, null will be returned.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: number columnWidth
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the fill object defined on the overall range.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFillUpdateData fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeFillUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the font object defined on the overall range.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeFontUpdateData'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the horizontal alignment for the specified object. See
+      Excel.HorizontalAlignment for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string horizontalAlignment
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.protection
+    name: protection
+    fullName: protection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the format protection object for a range.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: FormatProtectionUpdateData protection
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.FormatProtectionUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.rowHeight
+    name: rowHeight
+    fullName: rowHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the height of all rows in the range. If the row heights are
+      not uniform null will be returned.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: number rowHeight
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.verticalAlignment
+    name: verticalAlignment
+    fullName: verticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the vertical alignment for the specified object. See
+      Excel.VerticalAlignment for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string verticalAlignment
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData.wrapText'
+    name: wrapText
+    fullName: wrapText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates if Excel wraps the text in the object. A null value indicates
+      that the entire range doesn't have uniform wrap setting
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean wrapText
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

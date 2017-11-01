@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType'
+    name: EntityType
+    fullName: EntityType
+    children:
+      - '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Address'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Contact'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.EmailAddress'
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.EntityType.MeetingSuggestion
+      - '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.PhoneNumber'
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.EntityType.TaskSuggestion
+      - '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Url'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1503
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Address'
+    name: Address
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is a postal address
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Contact'
+    name: Contact
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is a contact
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.EmailAddress'
+    name: EmailAddress
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is SMTP email address
+    type: field
+    module: Office.MailboxEnums
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.EntityType.MeetingSuggestion
+    name: MeetingSuggestion
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is a meeting suggestion
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.PhoneNumber'
+    name: PhoneNumber
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is US phone number
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.TaskSuggestion'
+    name: TaskSuggestion
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is a task suggestion
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType.Url'
+    name: Url
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the entity is an Internet URL
+    type: field
+    module: Office.MailboxEnums

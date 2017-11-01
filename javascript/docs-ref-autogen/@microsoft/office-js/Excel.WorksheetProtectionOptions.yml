@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions'
+    name: WorksheetProtectionOptions
+    fullName: WorksheetProtectionOptions
+    children:
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowAutoFilter'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowDeleteColumns'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowDeleteRows'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatCells'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatColumns'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatRows'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertColumns'
+      - >-
+        @microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertHyperlinks
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertRows'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowPivotTables'
+      - '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowSort'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents the options in sheet protection.
+      [Api set: ExcelApi 1.2]
+    source:
+      path: office.d.ts
+      startLine: 3292
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowAutoFilter'
+    name: allowAutoFilter
+    fullName: allowAutoFilter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the worksheet protection option of allowing using auto filter
+      feature.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowAutoFilter
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowDeleteColumns'
+    name: allowDeleteColumns
+    fullName: allowDeleteColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing deleting columns.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowDeleteColumns
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowDeleteRows'
+    name: allowDeleteRows
+    fullName: allowDeleteRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing deleting rows.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowDeleteRows
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatCells'
+    name: allowFormatCells
+    fullName: allowFormatCells
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing formatting cells.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowFormatCells
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatColumns'
+    name: allowFormatColumns
+    fullName: allowFormatColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing formatting columns.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowFormatColumns
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowFormatRows'
+    name: allowFormatRows
+    fullName: allowFormatRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing formatting rows.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowFormatRows
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertColumns'
+    name: allowInsertColumns
+    fullName: allowInsertColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing inserting columns.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowInsertColumns
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: >-
+      @microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertHyperlinks
+    name: allowInsertHyperlinks
+    fullName: allowInsertHyperlinks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the worksheet protection option of allowing inserting
+      hyperlinks.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowInsertHyperlinks
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowInsertRows'
+    name: allowInsertRows
+    fullName: allowInsertRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing inserting rows.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowInsertRows
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowPivotTables'
+    name: allowPivotTables
+    fullName: allowPivotTables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the worksheet protection option of allowing using PivotTable
+      feature.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowPivotTables
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions.allowSort'
+    name: allowSort
+    fullName: allowSort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the worksheet protection option of allowing using sort feature.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean allowSort
+      return:
+        type:
+          - boolean
+    module: Excel

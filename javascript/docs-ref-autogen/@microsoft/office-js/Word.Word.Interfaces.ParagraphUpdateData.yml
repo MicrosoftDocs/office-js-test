@@ -1,0 +1,308 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData'
+    name: ParagraphUpdateData
+    fullName: ParagraphUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.alignment'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.firstLineIndent
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.font'
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.leftIndent'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineSpacing
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineUnitAfter
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineUnitBefore
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.listItem'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.listItemOrNullObject
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.outlineLevel
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.rightIndent
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.spaceAfter'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.spaceBefore
+      - '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.style'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.styleBuiltIn
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Paragraph object, for use in
+      "paragraph.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19263
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.alignment'
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the alignment for a paragraph. The value can be 'left',
+      'centered', 'right', or 'justified'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string alignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.firstLineIndent
+    name: firstLineIndent
+    fullName: firstLineIndent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the value, in points, for a first line or hanging indent. Use
+      a positive value to set a first-line indent, and use a negative value to
+      set a hanging indent.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number firstLineIndent
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the text format of the paragraph. Use this to get and set font name,
+      size, color, and other properties.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: FontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.leftIndent'
+    name: leftIndent
+    fullName: leftIndent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the left indent value, in points, for the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number leftIndent
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineSpacing'
+    name: lineSpacing
+    fullName: lineSpacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the line spacing, in points, for the specified paragraph. In
+      the Word UI, this value is divided by 12.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number lineSpacing
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineUnitAfter
+    name: lineUnitAfter
+    fullName: lineUnitAfter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the amount of spacing, in grid lines. after the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number lineUnitAfter
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.lineUnitBefore
+    name: lineUnitBefore
+    fullName: lineUnitBefore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the amount of spacing, in grid lines, before the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number lineUnitBefore
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.listItem'
+    name: listItem
+    fullName: listItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the ListItem for the paragraph. Throws if the paragraph is not part
+      of a list.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ListItemUpdateData listItem
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData'
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.listItemOrNullObject
+    name: listItemOrNullObject
+    fullName: listItemOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the ListItem for the paragraph. Returns a null object if the
+      paragraph is not part of a list.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ListItemUpdateData listItemOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.outlineLevel'
+    name: outlineLevel
+    fullName: outlineLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the outline level for the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number outlineLevel
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.rightIndent'
+    name: rightIndent
+    fullName: rightIndent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the right indent value, in points, for the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number rightIndent
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.spaceAfter'
+    name: spaceAfter
+    fullName: spaceAfter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the spacing, in points, after the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number spaceAfter
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.spaceBefore'
+    name: spaceBefore
+    fullName: spaceBefore
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the spacing, in points, before the paragraph.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number spaceBefore
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the style name for the paragraph. Use this property for
+      custom styles and localized style names. To use the built-in styles that
+      are portable between locales, see the "styleBuiltIn" property.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData.styleBuiltIn'
+    name: styleBuiltIn
+    fullName: styleBuiltIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the built-in style name for the paragraph. Use this property
+      for built-in styles that are portable between locales. To use custom
+      styles or localized style names, see the "style" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string styleBuiltIn
+      return:
+        type:
+          - string
+    module: Word.Interfaces

@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.AppointmentForm'
+    name: AppointmentForm
+    fullName: AppointmentForm
+    children:
+      - '@microsoft/office-js.Office.AppointmentForm.body'
+      - '@microsoft/office-js.Office.AppointmentForm.end'
+      - '@microsoft/office-js.Office.AppointmentForm.location'
+      - '@microsoft/office-js.Office.AppointmentForm.optionalAttendees'
+      - '@microsoft/office-js.Office.AppointmentForm.requiredAttendees'
+      - '@microsoft/office-js.Office.AppointmentForm.resources'
+      - '@microsoft/office-js.Office.AppointmentForm.start'
+      - '@microsoft/office-js.Office.AppointmentForm.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1649
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string body
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date end
+      return:
+        type:
+          - Date
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.optionalAttendees'
+    name: optionalAttendees
+    fullName: optionalAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array | Array optionalAttendees
+      return:
+        type:
+          - Array | Array
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.requiredAttendees'
+    name: requiredAttendees
+    fullName: requiredAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array | Array requiredAttendees
+      return:
+        type:
+          - Array | Array
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.resources'
+    name: resources
+    fullName: resources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> resources
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date start
+      return:
+        type:
+          - Date
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentForm.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string
+    module: Office

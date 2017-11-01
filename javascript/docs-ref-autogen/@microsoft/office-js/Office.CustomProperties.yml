@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CustomProperties'
+    name: CustomProperties
+    fullName: CustomProperties
+    children:
+      - '@microsoft/office-js.Office.CustomProperties.get'
+      - '@microsoft/office-js.Office.CustomProperties.remove'
+      - '@microsoft/office-js.Office.CustomProperties.saveAsync'
+      - '@microsoft/office-js.Office.CustomProperties.set'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1716
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomProperties.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the value of the specified custom property
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the property to be returned
+      return:
+        type:
+          - any
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomProperties.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the specified property from the custom property collection.
+    syntax:
+      content: 'function remove(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the property to be removed
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomProperties.saveAsync'
+    name: saveAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Saves the custom property collection to the server
+    syntax:
+      content: >-
+        function saveAsync(callback?: (result: AsyncResult) => void,
+        userContext?: any)
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: The optional callback method
+          optional: true
+        - id: userContext
+          type:
+            - any
+          description: >
+            Optional variable for any state data that is passed to the saveAsync
+            method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomProperties.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the specified property to the specified value
+    syntax:
+      content: 'function set(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the property to be set
+        - id: value
+          type:
+            - string
+          description: |
+            The value of the property to be set
+    module: Office

@@ -1,0 +1,213 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartCollection'
+    name: ChartCollection
+    fullName: ChartCollection
+    children:
+      - '@microsoft/office-js.Excel.ChartCollection.add'
+      - '@microsoft/office-js.Excel.ChartCollection.count'
+      - '@microsoft/office-js.Excel.ChartCollection.getCount'
+      - '@microsoft/office-js.Excel.ChartCollection.getItem'
+      - '@microsoft/office-js.Excel.ChartCollection.getItemAt'
+      - '@microsoft/office-js.Excel.ChartCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.ChartCollection.items'
+      - '@microsoft/office-js.Excel.ChartCollection.load'
+      - '@microsoft/office-js.Excel.ChartCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      A collection of all the chart objects on a worksheet.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5301
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Creates a new chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function add(type: string, sourceData: Range, seriesBy?: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: Represents the type of a chart. See Excel.ChartType for details.
+        - id: sourceData
+          type:
+            - '@@microsoft/office-js.Excel.Range'
+          description: The Range object corresponding to the source data.
+        - id: seriesBy
+          type:
+            - string
+          description: >
+            Specifies the way columns or rows are used as data series on the
+            chart. See Excel.ChartSeriesBy for details.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Chart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of charts in the worksheet. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the number of charts in the worksheet.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a chart using its name. If there are multiple charts with the same
+      name, the first one will be returned.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            Name of the chart to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Chart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a chart based on its position in the collection.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Chart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a chart using its name. If there are multiple charts with the same
+      name, the first one will be returned.
+
+      If the chart does not exist, will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            Name of the chart to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Chart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Chart> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.Chart>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Time'
+    name: Time
+    fullName: Time
+    children:
+      - '@microsoft/office-js.Office.Time.getAsync'
+      - '@microsoft/office-js.Office.Time.setAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2104
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Time.getAsync'
+    name: getAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Begins an asynchronous request to get the start or end time
+    syntax:
+      content: >-
+        function getAsync(options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Time.setAsync'
+    name: setAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Begins an asynchronous request to set the start or end time
+    syntax:
+      content: >-
+        function setAsync(dateTime: Date, options?: AsyncContextOptions,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: dateTime
+          type:
+            - Date
+          description: A date-time object in Coordinated Universal Time (UTC)
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office

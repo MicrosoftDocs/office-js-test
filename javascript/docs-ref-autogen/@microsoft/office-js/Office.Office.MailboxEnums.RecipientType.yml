@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType'
+    name: RecipientType
+    fullName: RecipientType
+    children:
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.RecipientType.DistributionList
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.RecipientType.ExternalUser
+      - '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType.Other'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType.User'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1579
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.RecipientType.DistributionList
+    name: DistributionList
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Specifies that the recipient is a distribution list containing a list of
+      email addresses
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType.ExternalUser'
+    name: ExternalUser
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Specifies that the recipient is an SMTP email address that is not on the
+      Exchange server
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType.Other'
+    name: Other
+    children: []
+    langs:
+      - typeScript
+    summary: Specifies that the recipient is not one of the other recipient types
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType.User'
+    name: User
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Specifies that the recipient is an SMTP email address that is on the
+      Exchange server
+    type: field
+    module: Office.MailboxEnums

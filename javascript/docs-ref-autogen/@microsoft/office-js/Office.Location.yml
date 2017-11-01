@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Location'
+    name: Location
+    fullName: Location
+    children:
+      - '@microsoft/office-js.Office.Location.getAsync'
+      - '@microsoft/office-js.Office.Location.setAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1880
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Location.getAsync'
+    name: getAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Begins an asynchronous request for the location of an appointment
+    syntax:
+      content: >-
+        function getAsync(options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Location.setAsync'
+    name: setAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Begins an asynchronous request to set the location of an appointment
+    syntax:
+      content: >-
+        function setAsync(location: string, options?: AsyncContextOptions,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: location
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the location is set
+          optional: true
+    module: Office

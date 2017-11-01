@@ -1,0 +1,315 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Table'
+    name: Table
+    fullName: Table
+    children:
+      - '@microsoft/office-js.OneNote.Table.appendColumn'
+      - '@microsoft/office-js.OneNote.Table.appendRow'
+      - '@microsoft/office-js.OneNote.Table.borderVisible'
+      - '@microsoft/office-js.OneNote.Table.clear'
+      - '@microsoft/office-js.OneNote.Table.columnCount'
+      - '@microsoft/office-js.OneNote.Table.getCell'
+      - '@microsoft/office-js.OneNote.Table.id'
+      - '@microsoft/office-js.OneNote.Table.insertColumn'
+      - '@microsoft/office-js.OneNote.Table.insertRow'
+      - '@microsoft/office-js.OneNote.Table.load'
+      - '@microsoft/office-js.OneNote.Table.paragraph'
+      - '@microsoft/office-js.OneNote.Table.rowCount'
+      - '@microsoft/office-js.OneNote.Table.rows'
+      - '@microsoft/office-js.OneNote.Table.setShadingColor'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a table in a OneNote page.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21428
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.appendColumn'
+    name: appendColumn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds a column to the end of the table. Values, if specified, are set in
+      the new column. Otherwise the column is empty.
+    syntax:
+      content: 'function appendColumn(values?: Array<string>)'
+      parameters:
+        - id: values
+          type:
+            - Array<string>
+          description: >
+            Optional. Strings to insert in the new column, specified as an
+            array. Must not have more values than rows in the table.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.appendRow'
+    name: appendRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds a row to the end of the table. Values, if specified, are set in the
+      new row. Otherwise the row is empty.
+    syntax:
+      content: 'function appendRow(values?: Array<string>)'
+      parameters:
+        - id: values
+          type:
+            - Array<string>
+          description: >
+            Optional. Strings to insert in the new row, specified as an array.
+            Must not have more values than columns in the table.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRow'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.borderVisible'
+    name: borderVisible
+    fullName: borderVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets whether the borders are visible or not. True if they are
+      visible, false if they are hidden.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: boolean borderVisible
+      return:
+        type:
+          - boolean
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears the contents of the table.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.columnCount'
+    name: columnCount
+    fullName: columnCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the number of columns in the table.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number columnCount
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.getCell'
+    name: getCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the table cell at a specified row and column.
+    syntax:
+      content: 'function getCell(rowIndex: number, cellIndex: number)'
+      parameters:
+        - id: rowIndex
+          type:
+            - number
+          description: The index of the row.
+        - id: cellIndex
+          type:
+            - number
+          description: |
+            The index of the cell in the row.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableCell'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the table. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.insertColumn'
+    name: insertColumn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Inserts a column at the given index in the table. Values, if specified,
+      are set in the new column. Otherwise the column is empty.
+    syntax:
+      content: 'function insertColumn(index: number, values?: Array<string>)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: Index where the column will be inserted in the table.
+        - id: values
+          type:
+            - Array<string>
+          description: >
+            Optional. Strings to insert in the new column, specified as an
+            array. Must not have more values than rows in the table.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.insertRow'
+    name: insertRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Inserts a row at the given index in the table. Values, if specified, are
+      set in the new row. Otherwise the row is empty.
+    syntax:
+      content: 'function insertRow(index: number, values?: Array<string>)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: Index where the row will be inserted in the table.
+        - id: values
+          type:
+            - Array<string>
+          description: >
+            Optional. Strings to insert in the new row, specified as an array.
+            Must not have more values than columns in the table.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRow'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.paragraph'
+    name: paragraph
+    fullName: paragraph
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the Paragraph object that contains the Table object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Paragraph paragraph
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.rowCount'
+    name: rowCount
+    fullName: rowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the number of rows in the table.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number rowCount
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets all of the table rows. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: TableRowCollection rows
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRowCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Table.setShadingColor'
+    name: setShadingColor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShadingColor(colorCode: string)'
+      parameters:
+        - id: colorCode
+          type:
+            - string
+          description: ''
+    module: OneNote

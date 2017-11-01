@@ -1,0 +1,2566 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields'
+    name: ProjectTaskFields
+    fullName: ProjectTaskFields
+    children:
+      - '@microsoft/office-js.Office.ProjectTaskFields.Active'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualDuration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualFinish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualOvertimeCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualOvertimeWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualStart'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ActualWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineBudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineBudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineDuration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineFinish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineFixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineFixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineStart'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BaselineWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Basline3Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BudgetCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BudgetFixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BudgetFixedWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.BudgetWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ConstraintDate'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ConstraintType'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Cost9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Critical'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Date9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Deadline'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Duration9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.EarnedValueMethod'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Finish9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.FinishSlack'
+      - '@microsoft/office-js.Office.ProjectTaskFields.FixedCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.FixedCostAccrual'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag11'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag12'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag13'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag14'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag15'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag16'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag17'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag18'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag19'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag20'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Flag9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.FreeSlack'
+      - '@microsoft/office-js.Office.ProjectTaskFields.HasRollupSubTasks'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ID'
+      - '@microsoft/office-js.Office.ProjectTaskFields.IsRollup'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Milestone'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Name'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Notes'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number11'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number12'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number13'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number14'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number15'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number16'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number17'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number18'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number19'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number20'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Number9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.OutlineLevel'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Overallocated'
+      - '@microsoft/office-js.Office.ProjectTaskFields.OvertimeCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.OvertimeWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.PercentComplete'
+      - '@microsoft/office-js.Office.ProjectTaskFields.PercentWorkComplete'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Predecessors'
+      - '@microsoft/office-js.Office.ProjectTaskFields.PreleveledFinish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.PreleveledStart'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Priority'
+      - '@microsoft/office-js.Office.ProjectTaskFields.RegularWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.RemainingCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.RemainingDuration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.RemainingOvertimeCost'
+      - '@microsoft/office-js.Office.ProjectTaskFields.RemainingWork'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ResourceNames'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ScheduledDuration'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ScheduledFinish'
+      - '@microsoft/office-js.Office.ProjectTaskFields.ScheduledStart'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Start9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.StartSlack'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Status'
+      - '@microsoft/office-js.Office.ProjectTaskFields.StatusManager'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Successors'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Summary'
+      - '@microsoft/office-js.Office.ProjectTaskFields.TaskCalendarGUID'
+      - '@microsoft/office-js.Office.ProjectTaskFields.TaskGUID'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text1'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text10'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text11'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text12'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text13'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text14'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text15'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text16'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text17'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text18'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text19'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text2'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text20'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text21'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text22'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text23'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text24'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text25'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text26'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text27'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text28'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text29'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text3'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text30'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text4'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text5'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text6'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text7'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text8'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Text9'
+      - '@microsoft/office-js.Office.ProjectTaskFields.TotalSlack'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Type'
+      - '@microsoft/office-js.Office.ProjectTaskFields.WBS'
+      - '@microsoft/office-js.Office.ProjectTaskFields.WBSPREDECESSORS'
+      - '@microsoft/office-js.Office.ProjectTaskFields.WBSSUCCESSORS'
+      - '@microsoft/office-js.Office.ProjectTaskFields.Work'
+      - '@microsoft/office-js.Office.ProjectTaskFields.WSSID'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1114
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Active'
+    name: Active
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualCost'
+    name: ActualCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualDuration'
+    name: ActualDuration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualFinish'
+    name: ActualFinish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualOvertimeCost'
+    name: ActualOvertimeCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualOvertimeWork'
+    name: ActualOvertimeWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualStart'
+    name: ActualStart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ActualWork'
+    name: ActualWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10BudgetCost'
+    name: Baseline10BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10BudgetWork'
+    name: Baseline10BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Cost'
+    name: Baseline10Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Duration'
+    name: Baseline10Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Finish'
+    name: Baseline10Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10FixedCost'
+    name: Baseline10FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10FixedCostAccrual'
+    name: Baseline10FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Start'
+    name: Baseline10Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline10Work'
+    name: Baseline10Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1BudgetCost'
+    name: Baseline1BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1BudgetWork'
+    name: Baseline1BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Cost'
+    name: Baseline1Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Duration'
+    name: Baseline1Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Finish'
+    name: Baseline1Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1FixedCost'
+    name: Baseline1FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1FixedCostAccrual'
+    name: Baseline1FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Start'
+    name: Baseline1Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline1Work'
+    name: Baseline1Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2BudgetCost'
+    name: Baseline2BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2BudgetWork'
+    name: Baseline2BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Cost'
+    name: Baseline2Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Duration'
+    name: Baseline2Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Finish'
+    name: Baseline2Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2FixedCost'
+    name: Baseline2FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2FixedCostAccrual'
+    name: Baseline2FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Start'
+    name: Baseline2Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline2Work'
+    name: Baseline2Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3BudgetCost'
+    name: Baseline3BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3BudgetWork'
+    name: Baseline3BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Cost'
+    name: Baseline3Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Duration'
+    name: Baseline3Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Finish'
+    name: Baseline3Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3FixedCost'
+    name: Baseline3FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3FixedCostAccrual'
+    name: Baseline3FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline3Work'
+    name: Baseline3Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4BudgetCost'
+    name: Baseline4BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4BudgetWork'
+    name: Baseline4BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Cost'
+    name: Baseline4Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Duration'
+    name: Baseline4Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Finish'
+    name: Baseline4Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4FixedCost'
+    name: Baseline4FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4FixedCostAccrual'
+    name: Baseline4FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Start'
+    name: Baseline4Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline4Work'
+    name: Baseline4Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5BudgetCost'
+    name: Baseline5BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5BudgetWork'
+    name: Baseline5BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Cost'
+    name: Baseline5Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Duration'
+    name: Baseline5Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Finish'
+    name: Baseline5Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5FixedCost'
+    name: Baseline5FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5FixedCostAccrual'
+    name: Baseline5FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Start'
+    name: Baseline5Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline5Work'
+    name: Baseline5Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6BudgetCost'
+    name: Baseline6BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6BudgetWork'
+    name: Baseline6BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Cost'
+    name: Baseline6Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Duration'
+    name: Baseline6Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Finish'
+    name: Baseline6Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6FixedCost'
+    name: Baseline6FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6FixedCostAccrual'
+    name: Baseline6FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Start'
+    name: Baseline6Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline6Work'
+    name: Baseline6Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7BudgetCost'
+    name: Baseline7BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7BudgetWork'
+    name: Baseline7BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Cost'
+    name: Baseline7Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Duration'
+    name: Baseline7Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Finish'
+    name: Baseline7Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7FixedCost'
+    name: Baseline7FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7FixedCostAccrual'
+    name: Baseline7FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Start'
+    name: Baseline7Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline7Work'
+    name: Baseline7Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8BudgetCost'
+    name: Baseline8BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8BudgetWork'
+    name: Baseline8BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Cost'
+    name: Baseline8Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Duration'
+    name: Baseline8Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Finish'
+    name: Baseline8Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8FixedCost'
+    name: Baseline8FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8FixedCostAccrual'
+    name: Baseline8FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Start'
+    name: Baseline8Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline8Work'
+    name: Baseline8Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9BudgetCost'
+    name: Baseline9BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9BudgetWork'
+    name: Baseline9BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Cost'
+    name: Baseline9Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Duration'
+    name: Baseline9Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Finish'
+    name: Baseline9Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9FixedCost'
+    name: Baseline9FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9FixedCostAccrual'
+    name: Baseline9FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Start'
+    name: Baseline9Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Baseline9Work'
+    name: Baseline9Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineBudgetCost'
+    name: BaselineBudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineBudgetWork'
+    name: BaselineBudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineCost'
+    name: BaselineCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineDuration'
+    name: BaselineDuration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineFinish'
+    name: BaselineFinish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineFixedCost'
+    name: BaselineFixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineFixedCostAccrual'
+    name: BaselineFixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineStart'
+    name: BaselineStart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BaselineWork'
+    name: BaselineWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Basline3Start'
+    name: Basline3Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BudgetCost'
+    name: BudgetCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BudgetFixedCost'
+    name: BudgetFixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BudgetFixedWork'
+    name: BudgetFixedWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.BudgetWork'
+    name: BudgetWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ConstraintDate'
+    name: ConstraintDate
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ConstraintType'
+    name: ConstraintType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost'
+    name: Cost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost1'
+    name: Cost1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost10'
+    name: Cost10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost2'
+    name: Cost2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost3'
+    name: Cost3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost4'
+    name: Cost4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost5'
+    name: Cost5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost6'
+    name: Cost6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost7'
+    name: Cost7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost8'
+    name: Cost8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Cost9'
+    name: Cost9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Critical'
+    name: Critical
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date1'
+    name: Date1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date10'
+    name: Date10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date2'
+    name: Date2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date3'
+    name: Date3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date4'
+    name: Date4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date5'
+    name: Date5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date6'
+    name: Date6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date7'
+    name: Date7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date8'
+    name: Date8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Date9'
+    name: Date9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Deadline'
+    name: Deadline
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration'
+    name: Duration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration1'
+    name: Duration1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration10'
+    name: Duration10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration2'
+    name: Duration2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration3'
+    name: Duration3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration4'
+    name: Duration4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration5'
+    name: Duration5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration6'
+    name: Duration6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration7'
+    name: Duration7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration8'
+    name: Duration8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Duration9'
+    name: Duration9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.EarnedValueMethod'
+    name: EarnedValueMethod
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish'
+    name: Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish1'
+    name: Finish1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish10'
+    name: Finish10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish2'
+    name: Finish2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish3'
+    name: Finish3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish4'
+    name: Finish4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish5'
+    name: Finish5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish6'
+    name: Finish6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish7'
+    name: Finish7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish8'
+    name: Finish8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Finish9'
+    name: Finish9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.FinishSlack'
+    name: FinishSlack
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.FixedCost'
+    name: FixedCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.FixedCostAccrual'
+    name: FixedCostAccrual
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag1'
+    name: Flag1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag10'
+    name: Flag10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag11'
+    name: Flag11
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag12'
+    name: Flag12
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag13'
+    name: Flag13
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag14'
+    name: Flag14
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag15'
+    name: Flag15
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag16'
+    name: Flag16
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag17'
+    name: Flag17
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag18'
+    name: Flag18
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag19'
+    name: Flag19
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag2'
+    name: Flag2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag20'
+    name: Flag20
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag3'
+    name: Flag3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag4'
+    name: Flag4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag5'
+    name: Flag5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag6'
+    name: Flag6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag7'
+    name: Flag7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag8'
+    name: Flag8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Flag9'
+    name: Flag9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.FreeSlack'
+    name: FreeSlack
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.HasRollupSubTasks'
+    name: HasRollupSubTasks
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ID'
+    name: ID
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.IsRollup'
+    name: IsRollup
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Milestone'
+    name: Milestone
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Name'
+    name: Name
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Notes'
+    name: Notes
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number1'
+    name: Number1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number10'
+    name: Number10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number11'
+    name: Number11
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number12'
+    name: Number12
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number13'
+    name: Number13
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number14'
+    name: Number14
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number15'
+    name: Number15
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number16'
+    name: Number16
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number17'
+    name: Number17
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number18'
+    name: Number18
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number19'
+    name: Number19
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number2'
+    name: Number2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number20'
+    name: Number20
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number3'
+    name: Number3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number4'
+    name: Number4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number5'
+    name: Number5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number6'
+    name: Number6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number7'
+    name: Number7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number8'
+    name: Number8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Number9'
+    name: Number9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.OutlineLevel'
+    name: OutlineLevel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Overallocated'
+    name: Overallocated
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.OvertimeCost'
+    name: OvertimeCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.OvertimeWork'
+    name: OvertimeWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.PercentComplete'
+    name: PercentComplete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.PercentWorkComplete'
+    name: PercentWorkComplete
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Predecessors'
+    name: Predecessors
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.PreleveledFinish'
+    name: PreleveledFinish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.PreleveledStart'
+    name: PreleveledStart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Priority'
+    name: Priority
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.RegularWork'
+    name: RegularWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.RemainingCost'
+    name: RemainingCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.RemainingDuration'
+    name: RemainingDuration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.RemainingOvertimeCost'
+    name: RemainingOvertimeCost
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.RemainingWork'
+    name: RemainingWork
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ResourceNames'
+    name: ResourceNames
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ScheduledDuration'
+    name: ScheduledDuration
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ScheduledFinish'
+    name: ScheduledFinish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.ScheduledStart'
+    name: ScheduledStart
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start'
+    name: Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start1'
+    name: Start1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start10'
+    name: Start10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start2'
+    name: Start2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start3'
+    name: Start3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start4'
+    name: Start4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start5'
+    name: Start5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start6'
+    name: Start6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start7'
+    name: Start7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start8'
+    name: Start8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Start9'
+    name: Start9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.StartSlack'
+    name: StartSlack
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Status'
+    name: Status
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.StatusManager'
+    name: StatusManager
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Successors'
+    name: Successors
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Summary'
+    name: Summary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.TaskCalendarGUID'
+    name: TaskCalendarGUID
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.TaskGUID'
+    name: TaskGUID
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text1'
+    name: Text1
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text10'
+    name: Text10
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text11'
+    name: Text11
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text12'
+    name: Text12
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text13'
+    name: Text13
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text14'
+    name: Text14
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text15'
+    name: Text15
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text16'
+    name: Text16
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text17'
+    name: Text17
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text18'
+    name: Text18
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text19'
+    name: Text19
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text2'
+    name: Text2
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text20'
+    name: Text20
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text21'
+    name: Text21
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text22'
+    name: Text22
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text23'
+    name: Text23
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text24'
+    name: Text24
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text25'
+    name: Text25
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text26'
+    name: Text26
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text27'
+    name: Text27
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text28'
+    name: Text28
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text29'
+    name: Text29
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text3'
+    name: Text3
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text30'
+    name: Text30
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text4'
+    name: Text4
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text5'
+    name: Text5
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text6'
+    name: Text6
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text7'
+    name: Text7
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text8'
+    name: Text8
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Text9'
+    name: Text9
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.TotalSlack'
+    name: TotalSlack
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Type'
+    name: Type
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.WBS'
+    name: WBS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.WBSPREDECESSORS'
+    name: WBSPREDECESSORS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.WBSSUCCESSORS'
+    name: WBSSUCCESSORS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.Work'
+    name: Work
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectTaskFields.WSSID'
+    name: WSSID
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office

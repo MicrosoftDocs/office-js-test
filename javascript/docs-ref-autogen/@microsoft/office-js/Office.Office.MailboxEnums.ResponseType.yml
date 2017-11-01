@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType'
+    name: ResponseType
+    fullName: ResponseType
+    children:
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Accepted'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Declined'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.None'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Organizer'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Tentative'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1557
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Accepted'
+    name: Accepted
+    children: []
+    langs:
+      - typeScript
+    summary: The meeting request was accepted by the attendee
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Declined'
+    name: Declined
+    children: []
+    langs:
+      - typeScript
+    summary: The meeting request was declined by the attendee
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: There has been no response from the attendee
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Organizer'
+    name: Organizer
+    children: []
+    langs:
+      - typeScript
+    summary: The attendee is the meeting organizer
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType.Tentative'
+    name: Tentative
+    children: []
+    langs:
+      - typeScript
+    summary: The meeting request was tentatively accepted by the attendee
+    type: field
+    module: Office.MailboxEnums

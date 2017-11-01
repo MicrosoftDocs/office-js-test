@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet'
+    name: FiveArrowsSet
+    fullName: FiveArrowsSet
+    children:
+      - '@microsoft/office-js.Excel.FiveArrowsSet.greenUpArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsSet.redDownArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsSet.yellowDownInclineArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsSet.yellowSideArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsSet.yellowUpInclineArrow'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2633
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet.greenUpArrow'
+    name: greenUpArrow
+    fullName: greenUpArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenUpArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet.redDownArrow'
+    name: redDownArrow
+    fullName: redDownArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redDownArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet.yellowDownInclineArrow'
+    name: yellowDownInclineArrow
+    fullName: yellowDownInclineArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowDownInclineArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet.yellowSideArrow'
+    name: yellowSideArrow
+    fullName: yellowSideArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowSideArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsSet.yellowUpInclineArrow'
+    name: yellowUpInclineArrow
+    fullName: yellowUpInclineArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowUpInclineArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

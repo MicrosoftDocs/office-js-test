@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.FileProperties'
+    name: FileProperties
+    fullName: FileProperties
+    children:
+      - '@microsoft/office-js.Office.FileProperties.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 758
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.FileProperties.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: File's URL
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+    module: Office

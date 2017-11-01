@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection'
+    name: ChartSeriesCollection
+    fullName: ChartSeriesCollection
+    children:
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.count'
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.getCount'
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.getItemAt'
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.items'
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.load'
+      - '@microsoft/office-js.Excel.ChartSeriesCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a collection of chart series.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5566
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of series in the collection. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the number of series in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Retrieves a series based on its position in the collection.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeries'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<ChartSeries> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.ChartSeries>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeriesCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

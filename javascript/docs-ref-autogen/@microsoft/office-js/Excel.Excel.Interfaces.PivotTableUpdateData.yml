@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.PivotTableUpdateData'
+    name: PivotTableUpdateData
+    fullName: PivotTableUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.PivotTableUpdateData.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the PivotTable object, for use in
+      "pivotTable.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13801
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.PivotTableUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Name of the PivotTable.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

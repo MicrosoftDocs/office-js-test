@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.RoamingSettings'
+    name: RoamingSettings
+    fullName: RoamingSettings
+    children:
+      - '@microsoft/office-js.Office.RoamingSettings.get'
+      - '@microsoft/office-js.Office.RoamingSettings.remove'
+      - '@microsoft/office-js.Office.RoamingSettings.saveAsync'
+      - '@microsoft/office-js.Office.RoamingSettings.set'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2062
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.RoamingSettings.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves the specified setting
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The case-sensitive name of the setting to retrieve
+      return:
+        type:
+          - any
+    module: Office
+  - uid: '@microsoft/office-js.Office.RoamingSettings.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the specified setting
+    syntax:
+      content: 'function remove(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The case-sensitive name of the setting to remove
+    module: Office
+  - uid: '@microsoft/office-js.Office.RoamingSettings.saveAsync'
+    name: saveAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Saves the settings
+    syntax:
+      content: 'function saveAsync(callback?: (result: AsyncResult) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: >
+            A function that is invoked when the callback returns, whose only
+            parameter is of type AsyncResult
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.RoamingSettings.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets or creates the specified setting
+    syntax:
+      content: 'function set(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The case-sensitive name of the setting to set or create
+        - id: value
+          type:
+            - any
+          description: |
+            Specifies the value to be stored
+    module: Office

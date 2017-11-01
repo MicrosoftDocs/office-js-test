@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.DialogOptions'
+    name: DialogOptions
+    fullName: DialogOptions
+    children:
+      - '@microsoft/office-js.Office.DialogOptions.displayInIframe'
+      - '@microsoft/office-js.Office.DialogOptions.height'
+      - '@microsoft/office-js.Office.DialogOptions.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 164
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.DialogOptions.displayInIframe'
+    name: displayInIframe
+    fullName: displayInIframe
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional. Determines whether the dialog box should be displayed within an
+      IFrame. This setting is only applicable in Office Online clients, and is
+      ignored on other platforms.
+    syntax:
+      content: boolean displayInIframe
+      return:
+        type:
+          - boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.DialogOptions.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional. Defines the width of the dialog as a percentage of the current
+      display. Defaults to 99%. 250px minimum.
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.DialogOptions.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optional. Defines the height of the dialog as a percentage of the current
+      display. Defaults to 99%. 150px minimum.
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Office

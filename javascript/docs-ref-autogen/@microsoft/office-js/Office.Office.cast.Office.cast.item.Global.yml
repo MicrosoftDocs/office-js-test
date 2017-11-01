@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.Global'
+    package: '@microsoft/office-js'
+    name: Global
+    module: Office.cast.item
+    children:
+      - '@microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointment'
+      - >-
+        @microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointmentCompose
+      - >-
+        @microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointmentRead
+      - '@microsoft/office-js.Office.Office.cast.Office.cast.item.toItemCompose'
+      - '@microsoft/office-js.Office.Office.cast.Office.cast.item.toItemRead'
+      - '@microsoft/office-js.Office.Office.cast.Office.cast.item.toMessage'
+      - >-
+        @microsoft/office-js.Office.Office.cast.Office.cast.item.toMessageCompose
+      - '@microsoft/office-js.Office.Office.cast.Office.cast.item.toMessageRead'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointment'
+    name: toAppointment
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toAppointment(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Appointment'
+    module: Office.cast.item
+  - uid: >-
+      @microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointmentCompose
+    name: toAppointmentCompose
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toAppointmentCompose(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.AppointmentCompose'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toAppointmentRead'
+    name: toAppointmentRead
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toAppointmentRead(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.AppointmentRead'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toItemCompose'
+    name: toItemCompose
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toItemCompose(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.ItemCompose'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toItemRead'
+    name: toItemRead
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toItemRead(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.ItemRead'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toMessage'
+    name: toMessage
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toMessage(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Message'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toMessageCompose'
+    name: toMessageCompose
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toMessageCompose(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.MessageCompose'
+    module: Office.cast.item
+  - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.toMessageRead'
+    name: toMessageRead
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toMessageRead(item: Item)'
+      parameters:
+        - id: item
+          type:
+            - '@@microsoft/office-js.Office.Item'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Office.MessageRead'
+    module: Office.cast.item

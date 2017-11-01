@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.SectionUpdateData'
+    name: SectionUpdateData
+    fullName: SectionUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.SectionUpdateData.body'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Section object, for use in
+      "section.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19454
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.SectionUpdateData.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the body object of the section. This does not include the
+      header/footer and other section metadata.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: BodyUpdateData body
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.BodyUpdateData'
+    module: Word.Interfaces

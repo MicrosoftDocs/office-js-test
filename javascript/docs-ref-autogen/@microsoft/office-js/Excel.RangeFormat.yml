@@ -1,0 +1,298 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.RangeFormat'
+    name: RangeFormat
+    fullName: RangeFormat
+    children:
+      - '@microsoft/office-js.Excel.RangeFormat.autofitColumns'
+      - '@microsoft/office-js.Excel.RangeFormat.autofitRows'
+      - '@microsoft/office-js.Excel.RangeFormat.borders'
+      - '@microsoft/office-js.Excel.RangeFormat.columnWidth'
+      - '@microsoft/office-js.Excel.RangeFormat.fill'
+      - '@microsoft/office-js.Excel.RangeFormat.font'
+      - '@microsoft/office-js.Excel.RangeFormat.horizontalAlignment'
+      - '@microsoft/office-js.Excel.RangeFormat.load'
+      - '@microsoft/office-js.Excel.RangeFormat.protection'
+      - '@microsoft/office-js.Excel.RangeFormat.rowHeight'
+      - '@microsoft/office-js.Excel.RangeFormat.set_1'
+      - '@microsoft/office-js.Excel.RangeFormat.set'
+      - '@microsoft/office-js.Excel.RangeFormat.toJSON'
+      - '@microsoft/office-js.Excel.RangeFormat.verticalAlignment'
+      - '@microsoft/office-js.Excel.RangeFormat.wrapText'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A format object encapsulating the range's font, fill, borders, alignment,
+      and other properties.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4948
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.autofitColumns'
+    name: autofitColumns
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Changes the width of the columns of the current range to achieve the best
+      fit, based on the current data in the columns.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function autofitColumns()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.autofitRows'
+    name: autofitRows
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Changes the height of the rows of the current range to achieve the best
+      fit, based on the current data in the columns.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function autofitRows()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.borders'
+    name: borders
+    fullName: borders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Collection of border objects that apply to the overall range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeBorderCollection borders
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeBorderCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.columnWidth'
+    name: columnWidth
+    fullName: columnWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the width of all colums within the range. If the column
+      widths are not uniform, null will be returned.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: number columnWidth
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the fill object defined on the overall range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the font object defined on the overall range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.horizontalAlignment'
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the horizontal alignment for the specified object. See
+      Excel.HorizontalAlignment for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string horizontalAlignment
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.protection'
+    name: protection
+    fullName: protection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the format protection object for a range.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: FormatProtection protection
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FormatProtection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.rowHeight'
+    name: rowHeight
+    fullName: rowHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the height of all rows in the range. If the row heights are
+      not uniform null will be returned.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: number rowHeight
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.RangeFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeFormatUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.verticalAlignment'
+    name: verticalAlignment
+    fullName: verticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the vertical alignment for the specified object. See
+      Excel.VerticalAlignment for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string verticalAlignment
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeFormat.wrapText'
+    name: wrapText
+    fullName: wrapText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates if Excel wraps the text in the object. A null value indicates
+      that the entire range doesn't have uniform wrap setting
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean wrapText
+      return:
+        type:
+          - boolean
+    module: Excel

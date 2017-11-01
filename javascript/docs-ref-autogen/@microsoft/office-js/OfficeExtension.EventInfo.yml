@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.EventInfo'
+    name: EventInfo
+    fullName: EventInfo<T>
+    children:
+      - '@microsoft/office-js.OfficeExtension.EventInfo.eventArgsTransformFunc'
+      - '@microsoft/office-js.OfficeExtension.EventInfo.registerFunc'
+      - '@microsoft/office-js.OfficeExtension.EventInfo.unregisterFunc'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2441
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventInfo.eventArgsTransformFunc'
+    name: eventArgsTransformFunc
+    fullName: eventArgsTransformFunc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(args: any) => IPromise<T> eventArgsTransformFunc'
+      return:
+        type:
+          - '(args: any) => IPromise<T>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventInfo.registerFunc'
+    name: registerFunc
+    fullName: registerFunc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(callback: (args: any) => void) => IPromise<any> registerFunc'
+      return:
+        type:
+          - '(callback: (args: any) => void) => IPromise<any>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventInfo.unregisterFunc'
+    name: unregisterFunc
+    fullName: unregisterFunc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(callback: (args: any) => void) => IPromise<any> unregisterFunc'
+      return:
+        type:
+          - '(callback: (args: any) => void) => IPromise<any>'
+    module: OfficeExtension

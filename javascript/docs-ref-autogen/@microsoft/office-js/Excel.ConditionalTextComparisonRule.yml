@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalTextComparisonRule'
+    name: ConditionalTextComparisonRule
+    fullName: ConditionalTextComparisonRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalTextComparisonRule.operator'
+      - '@microsoft/office-js.Excel.ConditionalTextComparisonRule.text'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents a Cell Value Conditional Format Rule
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 8125
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalTextComparisonRule.operator'
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The operator of the text conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string operator
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalTextComparisonRule.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The Text value of conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+    module: Excel

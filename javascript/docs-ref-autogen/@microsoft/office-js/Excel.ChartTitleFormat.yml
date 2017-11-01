@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat'
+    name: ChartTitleFormat
+    fullName: ChartTitleFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartTitleFormat.fill'
+      - '@microsoft/office-js.Excel.ChartTitleFormat.font'
+      - '@microsoft/office-js.Excel.ChartTitleFormat.load'
+      - '@microsoft/office-js.Excel.ChartTitleFormat.set'
+      - '@microsoft/office-js.Excel.ChartTitleFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartTitleFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Provides access to the office art formatting for chart title.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6387
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the fill format of an object, which includes background
+      formating information. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes (font name, font size, color, etc.) for an
+      object. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartTitleFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartTitleFormatUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartTitleFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartTitleFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartTitleFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

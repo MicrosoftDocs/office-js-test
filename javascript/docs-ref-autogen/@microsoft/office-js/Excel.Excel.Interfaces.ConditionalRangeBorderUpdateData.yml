@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData
+    name: ConditionalRangeBorderUpdateData
+    fullName: ConditionalRangeBorderUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData.color
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData.style
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ConditionalRangeBorder object, for
+      use in "conditionalRangeBorder.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14276
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the border line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      One of the constants of line style specifying the line style for the
+      border. See Excel.BorderLineStyle for details.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

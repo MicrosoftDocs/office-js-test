@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData'
+    name: ConditionalRangeFontUpdateData
+    fullName: ConditionalRangeFontUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.bold
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.color
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.italic
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.strikethrough
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.underline
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ConditionalRangeFont object, for use
+      in "conditionalRangeFont.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14228
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.bold
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the bold status of font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representation of the text color. E.g. #FF0000 represents
+      Red.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.italic
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the italic status of the font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.strikethrough
+    name: strikethrough
+    fullName: strikethrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the strikethrough status of the font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean strikethrough
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData.underline
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Type of underline applied to the font. See
+      Excel.ConditionalRangeFontUnderlineStyle for details.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

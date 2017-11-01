@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Slice'
+    name: Slice
+    fullName: Slice
+    children:
+      - '@microsoft/office-js.Office.Slice.data'
+      - '@microsoft/office-js.Office.Slice.index'
+      - '@microsoft/office-js.Office.Slice.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 817
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Slice.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any data
+      return:
+        type:
+          - any
+    module: Office
+  - uid: '@microsoft/office-js.Office.Slice.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.Slice.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Office

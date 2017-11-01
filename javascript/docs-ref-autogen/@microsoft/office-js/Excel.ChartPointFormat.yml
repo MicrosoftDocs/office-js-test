@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartPointFormat'
+    name: ChartPointFormat
+    fullName: ChartPointFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartPointFormat.fill'
+      - '@microsoft/office-js.Excel.ChartPointFormat.load'
+      - '@microsoft/office-js.Excel.ChartPointFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents formatting object for chart points.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5761
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the fill format of a chart, which includes background formating
+      information. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPointFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

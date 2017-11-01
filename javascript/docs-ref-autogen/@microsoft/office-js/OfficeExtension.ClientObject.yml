@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.ClientObject'
+    name: ClientObject
+    fullName: ClientObject
+    children:
+      - '@microsoft/office-js.OfficeExtension.ClientObject.context'
+      - '@microsoft/office-js.OfficeExtension.ClientObject.isNullObject'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      An abstract proxy object that represents an object in an Office document.
+      You create proxy objects from the context (or from other proxy objects),
+      add commands to a queue to act on the object, and then synchronize the
+      proxy object state with the document by calling "context.sync()".
+    source:
+      path: office.d.ts
+      startLine: 2143
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientObject.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The request context associated with the object
+    syntax:
+      content: ClientRequestContext context
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientObject.isNullObject'
+    name: isNullObject
+    fullName: isNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns a boolean value for whether the corresponding object is a null
+      object. You must call "context.sync()" before reading the isNullObject
+      property.
+    syntax:
+      content: boolean isNullObject
+      return:
+        type:
+          - boolean
+    module: OfficeExtension

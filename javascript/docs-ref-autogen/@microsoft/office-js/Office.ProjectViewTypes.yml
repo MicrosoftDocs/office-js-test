@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes'
+    name: ProjectViewTypes
+    fullName: ProjectViewTypes
+    children:
+      - '@microsoft/office-js.Office.ProjectViewTypes.Calendar'
+      - '@microsoft/office-js.Office.ProjectViewTypes.Gantt'
+      - '@microsoft/office-js.Office.ProjectViewTypes.NetworkDiagram'
+      - '@microsoft/office-js.Office.ProjectViewTypes.ResourceForm'
+      - '@microsoft/office-js.Office.ProjectViewTypes.ResourceGraph'
+      - '@microsoft/office-js.Office.ProjectViewTypes.ResourceNames'
+      - '@microsoft/office-js.Office.ProjectViewTypes.ResourceSheet'
+      - '@microsoft/office-js.Office.ProjectViewTypes.ResourceUsage'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskDetails'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskDiagram'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskForm'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskNameForm'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskSheet'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TaskUsage'
+      - '@microsoft/office-js.Office.ProjectViewTypes.TeamPlanner'
+      - '@microsoft/office-js.Office.ProjectViewTypes.Timeline'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1399
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.Calendar'
+    name: Calendar
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.Gantt'
+    name: Gantt
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.NetworkDiagram'
+    name: NetworkDiagram
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.ResourceForm'
+    name: ResourceForm
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.ResourceGraph'
+    name: ResourceGraph
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.ResourceNames'
+    name: ResourceNames
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.ResourceSheet'
+    name: ResourceSheet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.ResourceUsage'
+    name: ResourceUsage
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskDetails'
+    name: TaskDetails
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskDiagram'
+    name: TaskDiagram
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskForm'
+    name: TaskForm
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskNameForm'
+    name: TaskNameForm
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskSheet'
+    name: TaskSheet
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TaskUsage'
+    name: TaskUsage
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.TeamPlanner'
+    name: TeamPlanner
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectViewTypes.Timeline'
+    name: Timeline
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office

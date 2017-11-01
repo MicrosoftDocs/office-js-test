@@ -1,0 +1,421 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Chart'
+    name: Chart
+    fullName: Chart
+    children:
+      - '@microsoft/office-js.Excel.Chart.axes'
+      - '@microsoft/office-js.Excel.Chart.dataLabels'
+      - '@microsoft/office-js.Excel.Chart.delete'
+      - '@microsoft/office-js.Excel.Chart.format'
+      - '@microsoft/office-js.Excel.Chart.getImage'
+      - '@microsoft/office-js.Excel.Chart.height'
+      - '@microsoft/office-js.Excel.Chart.left'
+      - '@microsoft/office-js.Excel.Chart.legend'
+      - '@microsoft/office-js.Excel.Chart.load'
+      - '@microsoft/office-js.Excel.Chart.name'
+      - '@microsoft/office-js.Excel.Chart.series'
+      - '@microsoft/office-js.Excel.Chart.set'
+      - '@microsoft/office-js.Excel.Chart.set_1'
+      - '@microsoft/office-js.Excel.Chart.setData'
+      - '@microsoft/office-js.Excel.Chart.setPosition'
+      - '@microsoft/office-js.Excel.Chart.title'
+      - '@microsoft/office-js.Excel.Chart.toJSON'
+      - '@microsoft/office-js.Excel.Chart.top'
+      - '@microsoft/office-js.Excel.Chart.width'
+      - '@microsoft/office-js.Excel.Chart.worksheet'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a chart object in a workbook.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5371
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.axes'
+    name: axes
+    fullName: axes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart axes. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxes axes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxes'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.dataLabels'
+    name: dataLabels
+    fullName: dataLabels
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the datalabels on the chart. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartDataLabels dataLabels
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartDataLabels'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Encapsulates the format properties for the chart area. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAreaFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAreaFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.getImage'
+    name: getImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Renders the chart as a base64-encoded image by scaling the chart to fit
+      the specified dimensions.
+
+      The aspect ratio is preserved as part of the resizing.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getImage(width?: number, height?: number, fittingMode?: string)'
+      parameters:
+        - id: width
+          type:
+            - number
+          description: (Optional) The desired width of the resulting image.
+          optional: true
+        - id: height
+          type:
+            - number
+          description: (Optional) The desired height of the resulting image.
+          optional: true
+        - id: fittingMode
+          type:
+            - string
+          description: >
+            (Optional) The method used to scale the chart to the specified to
+            the specified dimensions (if both height and width are set)."
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the height, in points, of the chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.left'
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The distance, in points, from the left side of the chart to the worksheet
+      origin.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number left
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.legend'
+    name: legend
+    fullName: legend
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the legend for the chart. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLegend legend
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLegend'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Chart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of a chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.series'
+    name: series
+    fullName: series
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents either a single series or collection of series in the chart.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartSeriesCollection series
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeriesCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Chart)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Chart'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.setData'
+    name: setData
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Resets the source data for the chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function setData(sourceData: Range, seriesBy?: string)'
+      parameters:
+        - id: sourceData
+          type:
+            - '@@microsoft/office-js.Excel.Range'
+          description: The Range object corresponding to the source data.
+        - id: seriesBy
+          type:
+            - string
+          description: >
+            Specifies the way columns or rows are used as data series on the
+            chart. Can be one of the following: Auto (default), Rows, Columns.
+            See Excel.ChartSeriesBy for details.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.setPosition'
+    name: setPosition
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Positions the chart relative to cells on the worksheet.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: >-
+        function setPosition(startCell: Range | string, endCell?: Range |
+        string)
+      parameters:
+        - id: startCell
+          type:
+            - Range | string
+          description: >-
+            The start cell. This is where the chart will be moved to. The start
+            cell is the top-left or top-right cell, depending on the user's
+            right-to-left display settings.
+        - id: endCell
+          type:
+            - Range | string
+          description: >
+            (Optional) The end cell. If specified, the chart's width and height
+            will be set to fully cover up this cell/range.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the title of the specified chart, including the text,
+      visibility, position and formating of the title. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartTitle title
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartTitle'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the distance, in points, from the top edge of the object to the
+      top of row 1 (on a worksheet) or the top of the chart area (on a chart).
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number top
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the width, in points, of the chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Chart.worksheet'
+    name: worksheet
+    fullName: worksheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The worksheet containing the current chart. Read-only.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Worksheet worksheet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel

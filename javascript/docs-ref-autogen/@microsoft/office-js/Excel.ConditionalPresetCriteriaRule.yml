@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalPresetCriteriaRule'
+    name: ConditionalPresetCriteriaRule
+    fullName: ConditionalPresetCriteriaRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalPresetCriteriaRule.criterion'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents the Preset Criteria Conditional Format Rule
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 8071
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalPresetCriteriaRule.criterion'
+    name: criterion
+    fullName: criterion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The criterion of the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string criterion
+      return:
+        type:
+          - string
+    module: Excel

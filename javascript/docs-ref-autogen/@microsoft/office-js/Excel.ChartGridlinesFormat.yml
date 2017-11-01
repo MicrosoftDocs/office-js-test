@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat'
+    name: ChartGridlinesFormat
+    fullName: ChartGridlinesFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartGridlinesFormat.line'
+      - '@microsoft/office-js.Excel.ChartGridlinesFormat.load'
+      - '@microsoft/office-js.Excel.ChartGridlinesFormat.set'
+      - '@microsoft/office-js.Excel.ChartGridlinesFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartGridlinesFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Encapsulates the format properties for chart gridlines.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6207
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart line formatting. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLineFormat line
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLineFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartGridlinesFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ChartGridlinesFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartGridlinesFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartGridlinesFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

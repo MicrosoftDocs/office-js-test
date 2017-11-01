@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CustomXmlPart'
+    name: CustomXmlPart
+    fullName: CustomXmlPart
+    children:
+      - '@microsoft/office-js.Office.CustomXmlPart.addHandlerAsync'
+      - '@microsoft/office-js.Office.CustomXmlPart.builtIn'
+      - '@microsoft/office-js.Office.CustomXmlPart.deleteAsync'
+      - '@microsoft/office-js.Office.CustomXmlPart.getNodesAsync'
+      - '@microsoft/office-js.Office.CustomXmlPart.getXmlAsync'
+      - '@microsoft/office-js.Office.CustomXmlPart.id'
+      - '@microsoft/office-js.Office.CustomXmlPart.namespaceManager'
+      - '@microsoft/office-js.Office.CustomXmlPart.removeHandlerAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 556
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.addHandlerAsync'
+    name: addHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event handler to the object using the specified event type.
+    syntax:
+      content: >-
+        function addHandlerAsync(eventType: EventType, handler?: (result: any)
+        => void, options?: any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: >-
+            The event type. For CustomXmlPartNode it can be 'nodeDeleted',
+            'nodeInserted' or 'nodeReplaced'
+        - id: handler
+          type:
+            - '(result: any) => void'
+          description: The name of the handler
+          optional: true
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.builtIn'
+    name: builtIn
+    fullName: builtIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean builtIn
+      return:
+        type:
+          - boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.deleteAsync'
+    name: deleteAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes the Custom XML Part.
+    syntax:
+      content: >-
+        function deleteAsync(options?: any, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.getNodesAsync'
+    name: getNodesAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the nodes associated with the xPath expression.
+    syntax:
+      content: >-
+        function getNodesAsync(xPath: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: xPath
+          type:
+            - string
+          description: The xPath expression
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.getXmlAsync'
+    name: getXmlAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the XML for the Custom XML Part.
+    syntax:
+      content: >-
+        function getXmlAsync(options?: any, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.namespaceManager'
+    name: namespaceManager
+    fullName: namespaceManager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CustomXmlPrefixMappings namespaceManager
+      return:
+        type:
+          - '@@microsoft/office-js.Office.CustomXmlPrefixMappings'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPart.removeHandlerAsync'
+    name: removeHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes an event handler from the object using the specified event type.
+    syntax:
+      content: >-
+        function removeHandlerAsync(eventType: EventType, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: >-
+            The event type. For CustomXmlPartNode it can be 'nodeDeleted',
+            'nodeInserted' or 'nodeReplaced'
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {handler:eventHandler}
+                  handler: Indicates a specific handler to be removed, if not specified all handlers are removed
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office

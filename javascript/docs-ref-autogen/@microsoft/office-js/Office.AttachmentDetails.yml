@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.AttachmentDetails'
+    name: AttachmentDetails
+    fullName: AttachmentDetails
+    children:
+      - '@microsoft/office-js.Office.AttachmentDetails.attachmentType'
+      - '@microsoft/office-js.Office.AttachmentDetails.contentType'
+      - '@microsoft/office-js.Office.AttachmentDetails.id'
+      - '@microsoft/office-js.Office.AttachmentDetails.isInline'
+      - '@microsoft/office-js.Office.AttachmentDetails.name'
+      - '@microsoft/office-js.Office.AttachmentDetails.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1659
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.attachmentType'
+    name: attachmentType
+    fullName: attachmentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: AttachmentType attachmentType
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.contentType'
+    name: contentType
+    fullName: contentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string contentType
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.isInline'
+    name: isInline
+    fullName: isInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInline
+      return:
+        type:
+          - boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AttachmentDetails.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Office

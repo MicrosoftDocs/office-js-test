@@ -1,0 +1,265 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Page'
+    name: Page
+    fullName: Page
+    children:
+      - '@microsoft/office-js.OneNote.Page.addOutline'
+      - '@microsoft/office-js.OneNote.Page.clientUrl'
+      - '@microsoft/office-js.OneNote.Page.contents'
+      - '@microsoft/office-js.OneNote.Page.copyToSection'
+      - '@microsoft/office-js.OneNote.Page.id'
+      - '@microsoft/office-js.OneNote.Page.inkAnalysisOrNull'
+      - '@microsoft/office-js.OneNote.Page.insertPageAsSibling'
+      - '@microsoft/office-js.OneNote.Page.load'
+      - '@microsoft/office-js.OneNote.Page.pageLevel'
+      - '@microsoft/office-js.OneNote.Page.parentSection'
+      - '@microsoft/office-js.OneNote.Page.title'
+      - '@microsoft/office-js.OneNote.Page.webUrl'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a OneNote page.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20743
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.addOutline'
+    name: addOutline
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an Outline to the page at the specified position.
+    syntax:
+      content: 'function addOutline(left: number, top: number, html: string)'
+      parameters:
+        - id: left
+          type:
+            - number
+          description: 'The left position of the top, left corner of the Outline.'
+        - id: top
+          type:
+            - number
+          description: 'The top position of the top, left corner of the Outline.'
+        - id: html
+          type:
+            - string
+          description: >
+            An HTML string that describes the visual presentation of the
+            Outline. See [supported
+            HTML](../../docs/onenote/onenote-add-ins-page-content.md#supported-html)
+            for the OneNote add-ins JavaScript API.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.clientUrl'
+    name: clientUrl
+    fullName: clientUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The client url of the page. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string clientUrl
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.contents'
+    name: contents
+    fullName: contents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The collection of PageContent objects on the page. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: PageContentCollection contents
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContentCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.copyToSection'
+    name: copyToSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Copies this page to specified section.
+    syntax:
+      content: 'function copyToSection(destinationSection: Section)'
+      parameters:
+        - id: destinationSection
+          type:
+            - '@@microsoft/office-js.OneNote.Section'
+          description: |
+            The section to copy this page to.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the page. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.inkAnalysisOrNull'
+    name: inkAnalysisOrNull
+    fullName: inkAnalysisOrNull
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Text interpretation for the ink on the page. Returns null if there is no
+      ink analysis information. Read only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkAnalysis inkAnalysisOrNull
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysis'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.insertPageAsSibling'
+    name: insertPageAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts a new page before or after the current page.
+    syntax:
+      content: 'function insertPageAsSibling(location: string, title: string)'
+      parameters:
+        - id: location
+          type:
+            - string
+          description: The location of the new page relative to the current page.
+        - id: title
+          type:
+            - string
+          description: |
+            The title of the new page.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.pageLevel'
+    name: pageLevel
+    fullName: pageLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the indentation level of the page.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number pageLevel
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.parentSection'
+    name: parentSection
+    fullName: parentSection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the section that contains the page. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Section parentSection
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the title of the page.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Page.webUrl'
+    name: webUrl
+    fullName: webUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The web url of the page. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string webUrl
+      return:
+        type:
+          - string
+    module: OneNote

@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData'
+    name: ChartAxisTitleUpdateData
+    fullName: ChartAxisTitleUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.text
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.visible
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartAxisTitle object, for use in
+      "chartAxisTitle.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13527
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formatting of chart axis title.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisTitleFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleFormatUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the axis title.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData.visible
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A boolean that specifies the visibility of an axis title.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

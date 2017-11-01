@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.RequestContext'
+    name: RequestContext
+    fullName: RequestContext
+    children:
+      - '@microsoft/office-js.Word.RequestContext.document'
+      - '@microsoft/office-js.Word.RequestContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The RequestContext object facilitates requests to the Word application.
+      Since the Office add-in and the Word application run in two different
+      processes, the request context is required to get access to the Word
+      object model from the add-in.
+    extends:
+      name: '@@microsoft/office-js.OfficeCore.RequestContext'
+    source:
+      path: office.d.ts
+      startLine: 19691
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.RequestContext.document'
+    name: document
+    fullName: document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Document document
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Document'
+    module: Word
+  - uid: '@microsoft/office-js.Word.RequestContext.constructor'
+    name: RequestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RequestContext(url?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+          optional: true
+    module: Word

@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.ClientResult'
+    name: ClientResult
+    fullName: ClientResult<T>
+    children:
+      - '@microsoft/office-js.OfficeExtension.ClientResult.value'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Contains the result for methods that return primitive types. The object's
+      value property is retrieved from the document after "context.sync()" is
+      invoked.
+    source:
+      path: office.d.ts
+      startLine: 2189
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientResult.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The value of the result that is retrieved from the document after
+      "context.sync()" is invoked.
+    syntax:
+      content: T value
+      return:
+        type:
+          - T
+    module: OfficeExtension

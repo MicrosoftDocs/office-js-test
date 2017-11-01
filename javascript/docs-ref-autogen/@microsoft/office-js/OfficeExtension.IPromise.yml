@@ -1,0 +1,288 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise'
+    name: IPromise
+    fullName: IPromise<R>
+    children:
+      - '@microsoft/office-js.OfficeExtension.IPromise.catch'
+      - '@microsoft/office-js.OfficeExtension.IPromise.catch_1'
+      - '@microsoft/office-js.OfficeExtension.IPromise.catch_2'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then_1'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then_2'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then_3'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then_4'
+      - '@microsoft/office-js.OfficeExtension.IPromise.then_5'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An IPromise object that represents a deferred interaction with the host
+      Office application.
+    source:
+      path: office.d.ts
+      startLine: 2243
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.catch'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => IPromise<U>)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.catch_1'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => U)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.catch_2'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => void)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => IPromise<U>)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then_1'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => U)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then_2'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => void)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then_3'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => IPromise<U>)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then_4'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => U)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.IPromise.then_5'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method will be called once the previous promise has been resolved.
+
+      Both the onFulfilled on onRejected callbacks are optional.
+
+      If either or both are omitted, the next onFulfilled/onRejected in the
+      chain will be called called.
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => void)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension

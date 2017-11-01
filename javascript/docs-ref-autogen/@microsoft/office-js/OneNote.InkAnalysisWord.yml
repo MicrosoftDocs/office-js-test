@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord'
+    name: InkAnalysisWord
+    fullName: InkAnalysisWord
+    children:
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.id'
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.languageId'
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.line'
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.load'
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.strokePointers'
+      - '@microsoft/office-js.OneNote.InkAnalysisWord.wordAlternates'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents ink analysis data for an identified word formed by ink strokes.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20028
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the InkAnalysisWord object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.languageId'
+    name: languageId
+    fullName: languageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The id of the recognized language in this inkAnalysisWord. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string languageId
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Reference to the parent InkAnalysisLine. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkAnalysisLine line
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysisLine'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysisWord'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.strokePointers'
+    name: strokePointers
+    fullName: strokePointers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Weak references to the ink strokes that were recognized as part of this
+      ink analysis word. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Array<InkStrokePointer> strokePointers
+      return:
+        type:
+          - Array<@@microsoft/office-js.OneNote.InkStrokePointer>
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisWord.wordAlternates'
+    name: wordAlternates
+    fullName: wordAlternates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The words that were recognized in this ink word, in order of likelihood.
+      Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Array<string> wordAlternates
+      return:
+        type:
+          - Array<string>
+    module: OneNote

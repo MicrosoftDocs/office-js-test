@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Error'
+    name: Error
+    fullName: Error
+    children:
+      - '@microsoft/office-js.Office.Error.code'
+      - '@microsoft/office-js.Office.Error.message'
+      - '@microsoft/office-js.Office.Error.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Provides specific information about an error that occurred during an
+      asynchronous data operation.
+    source:
+      path: office.d.ts
+      startLine: 133
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Error.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the numeric code of the error.
+    syntax:
+      content: number code
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.Error.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the name of the error.
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Error.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets a detailed description of the error.
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Office

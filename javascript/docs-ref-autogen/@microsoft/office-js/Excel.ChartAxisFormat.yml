@@ -1,0 +1,138 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat'
+    name: ChartAxisFormat
+    fullName: ChartAxisFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartAxisFormat.font'
+      - '@microsoft/office-js.Excel.ChartAxisFormat.line'
+      - '@microsoft/office-js.Excel.ChartAxisFormat.load'
+      - '@microsoft/office-js.Excel.ChartAxisFormat.set'
+      - '@microsoft/office-js.Excel.ChartAxisFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartAxisFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Encapsulates the format properties for the chart axis.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5917
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes (font name, font size, color, etc.) for a
+      chart axis element. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart line formatting. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLineFormat line
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLineFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxisFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxisFormatUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxisFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartAxisFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

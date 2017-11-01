@@ -1,0 +1,223 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection'
+    name: CustomPropertyCollection
+    fullName: CustomPropertyCollection
+    children:
+      - '@microsoft/office-js.Word.CustomPropertyCollection.add'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.deleteAll'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.getCount'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.getItem'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.items'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.load'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.toJSON'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.track'
+      - '@microsoft/office-js.Word.CustomPropertyCollection.untrack'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Contains the collection of [customProperty](customProperty.md) objects.
+      [Api set: WordApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 15171
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Creates a new or sets an existing custom property.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function add(key: string, value: any)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: 'Required. The custom property''s key, which is case-insensitive.'
+        - id: value
+          type:
+            - any
+          description: |
+            Required. The custom property's value.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomProperty'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.deleteAll'
+    name: deleteAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes all custom properties in this collection.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function deleteAll()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the count of custom properties.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a custom property object by its key, which is case-insensitive.
+      Throws if the custom property does not exist.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getItem(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            The key that identifies the custom property object.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomProperty'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a custom property object by its key, which is case-insensitive.
+      Returns a null object if the custom property does not exist.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getItemOrNullObject(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            Required. The key that identifies the custom property object.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomProperty'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<CustomProperty> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Word.CustomProperty>
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomPropertyCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomPropertyCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.CustomPropertyCollection.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.CustomPropertyCollection'
+    module: Word

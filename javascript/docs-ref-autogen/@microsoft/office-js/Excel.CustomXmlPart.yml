@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart'
+    name: CustomXmlPart
+    fullName: CustomXmlPart
+    children:
+      - '@microsoft/office-js.Excel.CustomXmlPart.delete'
+      - '@microsoft/office-js.Excel.CustomXmlPart.getXml'
+      - '@microsoft/office-js.Excel.CustomXmlPart.id'
+      - '@microsoft/office-js.Excel.CustomXmlPart.load'
+      - '@microsoft/office-js.Excel.CustomXmlPart.namespaceUri'
+      - '@microsoft/office-js.Excel.CustomXmlPart.setXml'
+      - '@microsoft/office-js.Excel.CustomXmlPart.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a custom XML part object in a workbook.
+      [Api set: ExcelApi 1.5]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7058
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the custom XML part.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.getXml'
+    name: getXml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the custom XML part's full XML content.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: function getXml()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The custom XML part's ID. Read-only.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPart'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.namespaceUri'
+    name: namespaceUri
+    fullName: namespaceUri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The custom XML part's namespace URI. Read-only.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: string namespaceUri
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.setXml'
+    name: setXml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets the custom XML part's full XML content.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function setXml(xml: string)'
+      parameters:
+        - id: xml
+          type:
+            - string
+          description: |
+            XML content for the part.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomXmlPart.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

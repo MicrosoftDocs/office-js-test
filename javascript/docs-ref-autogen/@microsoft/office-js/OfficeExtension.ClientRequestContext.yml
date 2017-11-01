@@ -1,0 +1,175 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext'
+    name: ClientRequestContext
+    fullName: ClientRequestContext
+    children:
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.constructor'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.load'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.loadRecursive'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.requestHeaders'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.sync'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.trace'
+      - '@microsoft/office-js.OfficeExtension.ClientRequestContext.trackedObjects'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      An abstract RequestContext object that facilitates requests to the host
+      Office application. The "Excel.run" and "Word.run" methods provide a
+      request context.
+    source:
+      path: office.d.ts
+      startLine: 2158
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.constructor'
+    name: ClientRequestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ClientRequestContext(url?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+          optional: true
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(object: ClientObject, option?: string |  | LoadOption)'
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: ''
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.loadRecursive'
+    name: loadRecursive
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to recursively load the specified properties of the
+      object and its navigation properties.
+
+      You must call "context.sync()" before reading the properties.
+    syntax:
+      content: >-
+        function loadRecursive(object: ClientObject, options: [key: string]:
+        function, maxDepth?: number)
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: The object to be loaded.
+        - id: options
+          type:
+            - '[key: string]: function'
+          description: >-
+            The key-value pairing of load options for the types, such as {
+            "Workbook": "worksheets,tables",  "Worksheet": "tables",  "Tables":
+            "name" }
+        - id: maxDepth
+          type:
+            - number
+          description: |
+            The maximum recursive depth.
+          optional: true
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.requestHeaders'
+    name: requestHeaders
+    fullName: requestHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Request headers
+    syntax:
+      content: '[key: string]: string requestHeaders'
+      return:
+        type:
+          - '[key: string]: string'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.sync'
+    name: sync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Synchronizes the state between JavaScript proxy objects and the Office
+      document, by executing instructions queued on the request context and
+      retrieving properties of loaded Office objects for use in your code.�This
+      method returns a promise, which is resolved when the synchronization is
+      complete.
+    syntax:
+      content: 'function sync<T>(passThroughValue?: T)'
+      parameters:
+        - id: passThroughValue
+          type:
+            - T
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.trace'
+    name: trace
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds a trace message to the queue. If the promise returned by
+      "context.sync()" is rejected due to an error, this adds a ".traceMessages"
+      array to the OfficeExtension.Error object, containing all trace messages
+      that were executed. These messages can help you monitor the program
+      execution sequence and detect the cause of the error.
+    syntax:
+      content: 'function trace(message: string)'
+      parameters:
+        - id: message
+          type:
+            - string
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext.trackedObjects'
+    name: trackedObjects
+    fullName: trackedObjects
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Collection of objects that are tracked for automatic adjustments based on
+      surrounding changes in the document.
+    syntax:
+      content: TrackedObjects trackedObjects
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.TrackedObjects'
+    module: OfficeExtension

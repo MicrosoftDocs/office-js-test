@@ -1,0 +1,417 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Paragraph'
+    name: Paragraph
+    fullName: Paragraph
+    children:
+      - '@microsoft/office-js.OneNote.Paragraph.delete'
+      - '@microsoft/office-js.OneNote.Paragraph.id'
+      - '@microsoft/office-js.OneNote.Paragraph.image'
+      - '@microsoft/office-js.OneNote.Paragraph.inkWords'
+      - '@microsoft/office-js.OneNote.Paragraph.insertHtmlAsSibling'
+      - '@microsoft/office-js.OneNote.Paragraph.insertImageAsSibling'
+      - '@microsoft/office-js.OneNote.Paragraph.insertRichTextAsSibling'
+      - '@microsoft/office-js.OneNote.Paragraph.insertTableAsSibling'
+      - '@microsoft/office-js.OneNote.Paragraph.load'
+      - '@microsoft/office-js.OneNote.Paragraph.outline'
+      - '@microsoft/office-js.OneNote.Paragraph.paragraphs'
+      - '@microsoft/office-js.OneNote.Paragraph.parentParagraph'
+      - '@microsoft/office-js.OneNote.Paragraph.parentParagraphOrNull'
+      - '@microsoft/office-js.OneNote.Paragraph.parentTableCell'
+      - '@microsoft/office-js.OneNote.Paragraph.parentTableCellOrNull'
+      - '@microsoft/office-js.OneNote.Paragraph.richText'
+      - '@microsoft/office-js.OneNote.Paragraph.table'
+      - '@microsoft/office-js.OneNote.Paragraph.type'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A container for the visible content on a page. A Paragraph can contain any
+      one ParagraphType type of content.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21104
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the paragraph
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the Paragraph object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Image object in the Paragraph. Throws an exception if
+      ParagraphType is not Image. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Image image
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.inkWords'
+    name: inkWords
+    fullName: inkWords
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Ink collection in the Paragraph. Throws an exception if
+      ParagraphType is not Ink. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkWordCollection inkWords
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkWordCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.insertHtmlAsSibling'
+    name: insertHtmlAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts the specified HTML content
+    syntax:
+      content: 'function insertHtmlAsSibling(insertLocation: string, html: string)'
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: The location of new contents relative to the current Paragraph.
+        - id: html
+          type:
+            - string
+          description: >
+            An HTML string that describes the visual presentation of the
+            content. See [supported
+            HTML](../../docs/onenote/onenote-add-ins-page-content.md#supported-html)
+            for the OneNote add-ins JavaScript API.
+
+
+            [Api set: OneNoteApi 1.1]
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.insertImageAsSibling'
+    name: insertImageAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts the image at the specified insert location..
+    syntax:
+      content: >-
+        function insertImageAsSibling(insertLocation: string,
+        base64EncodedImage: string, width: number, height: number)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: The location of the table relative to the current Paragraph.
+        - id: base64EncodedImage
+          type:
+            - string
+          description: HTML string to append.
+        - id: width
+          type:
+            - number
+          description: >-
+            Optional. Width in the unit of Points. The default value is null and
+            image width will be respected.
+        - id: height
+          type:
+            - number
+          description: >
+            Optional. Height in the unit of Points. The default value is null
+            and image height will be respected.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.insertRichTextAsSibling'
+    name: insertRichTextAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts the paragraph text at the specifiec insert location.
+    syntax:
+      content: >-
+        function insertRichTextAsSibling(insertLocation: string, paragraphText:
+        string)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: The location of the table relative to the current Paragraph.
+        - id: paragraphText
+          type:
+            - string
+          description: |
+            HTML string to append.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.RichText'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.insertTableAsSibling'
+    name: insertTableAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds a table with the specified number of rows and columns before or after
+      the current paragraph.
+    syntax:
+      content: >-
+        function insertTableAsSibling(insertLocation: string, rowCount: number,
+        columnCount: number, values?: Array<Array<string>>)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: The location of the table relative to the current Paragraph.
+        - id: rowCount
+          type:
+            - number
+          description: The number of rows in the table.
+        - id: columnCount
+          type:
+            - number
+          description: The number of columns in the table.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.outline'
+    name: outline
+    fullName: outline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the Outline object that contains the Paragraph. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Outline outline
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.paragraphs'
+    name: paragraphs
+    fullName: paragraphs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The collection of paragraphs under this paragraph. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: ParagraphCollection paragraphs
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.ParagraphCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.parentParagraph'
+    name: parentParagraph
+    fullName: parentParagraph
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the parent paragraph object. Throws if a parent paragraph does not
+      exist. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Paragraph parentParagraph
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.parentParagraphOrNull'
+    name: parentParagraphOrNull
+    fullName: parentParagraphOrNull
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the parent paragraph object. Returns null if a parent paragraph does
+      not exist. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Paragraph parentParagraphOrNull
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.parentTableCell'
+    name: parentTableCell
+    fullName: parentTableCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the TableCell object that contains the Paragraph if one exists. If
+      parent is not a TableCell, throws ItemNotFound. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: TableCell parentTableCell
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableCell'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.parentTableCellOrNull'
+    name: parentTableCellOrNull
+    fullName: parentTableCellOrNull
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the TableCell object that contains the Paragraph if one exists. If
+      parent is not a TableCell, returns null. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: TableCell parentTableCellOrNull
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableCell'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.richText'
+    name: richText
+    fullName: richText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the RichText object in the Paragraph. Throws an exception if
+      ParagraphType is not RichText. Read-only
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: RichText richText
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.RichText'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.table'
+    name: table
+    fullName: table
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Table object in the Paragraph. Throws an exception if
+      ParagraphType is not Table. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Table table
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Paragraph.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the type of the Paragraph object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: OneNote

@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData
+    name: ConditionalDataBarNegativeFormatUpdateData
+    fullName: ConditionalDataBarNegativeFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.borderColor
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.fillColor
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.matchPositiveBorderColor
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.matchPositiveFillColor
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ConditionalDataBarNegativeFormat
+      object, for use in "conditionalDataBarNegativeFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14036
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.borderColor
+    name: borderColor
+    fullName: borderColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the border line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      "Empty String" if no border is present or set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string borderColor
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.fillColor
+    name: fillColor
+    fullName: fillColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the fill color, of the form #RRGGBB (e.g.
+      "FFA500") or as a named HTML color (e.g. "orange").
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string fillColor
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.matchPositiveBorderColor
+    name: matchPositiveBorderColor
+    fullName: matchPositiveBorderColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean representation of whether or not the negative DataBar has the same
+      border color as the positive DataBar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean matchPositiveBorderColor
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData.matchPositiveFillColor
+    name: matchPositiveFillColor
+    fullName: matchPositiveFillColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean representation of whether or not the negative DataBar has the same
+      fill color as the positive DataBar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean matchPositiveFillColor
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Subject'
+    name: Subject
+    fullName: Subject
+    children:
+      - '@microsoft/office-js.Office.Subject.getAsync'
+      - '@microsoft/office-js.Office.Subject.setAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2085
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Subject.getAsync'
+    name: getAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an asynchronous request to get the subject of an appointment or
+      message
+    syntax:
+      content: >-
+        function getAsync(options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Subject.setAsync'
+    name: setAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an asynchronous call to set the subject of an appointment or
+      message
+    syntax:
+      content: >-
+        function setAsync(data: string, options?: AsyncContextOptions,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: data
+          type:
+            - string
+          description: >-
+            The subject of the appointment. The string is limited to 255
+            characters
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office

@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartAxes'
+    name: ChartAxes
+    fullName: ChartAxes
+    children:
+      - '@microsoft/office-js.Excel.ChartAxes.categoryAxis'
+      - '@microsoft/office-js.Excel.ChartAxes.load'
+      - '@microsoft/office-js.Excel.ChartAxes.seriesAxis'
+      - '@microsoft/office-js.Excel.ChartAxes.set'
+      - '@microsoft/office-js.Excel.ChartAxes.set_1'
+      - '@microsoft/office-js.Excel.ChartAxes.toJSON'
+      - '@microsoft/office-js.Excel.ChartAxes.valueAxis'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the chart axes.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5783
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.categoryAxis'
+    name: categoryAxis
+    fullName: categoryAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the category axis in a chart. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxis categoryAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxis'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxes'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.seriesAxis'
+    name: seriesAxis
+    fullName: seriesAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the series axis of a 3-dimensional chart. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxis seriesAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxis'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxesUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxes)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartAxes'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxes.valueAxis'
+    name: valueAxis
+    fullName: valueAxis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the value axis in an axis. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxis valueAxis
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxis'
+    module: Excel

@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.SettingsChangedEventArgs'
+    name: SettingsChangedEventArgs
+    fullName: SettingsChangedEventArgs
+    children:
+      - '@microsoft/office-js.Excel.SettingsChangedEventArgs.settings'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Provides information about the setting that raised the SettingsChanged
+      event
+
+      [Api set: ExcelApi 1.4]
+    source:
+      path: office.d.ts
+      startLine: 2846
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingsChangedEventArgs.settings'
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Setting object that represents the binding that raised the
+      SettingsChanged event
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: SettingCollection settings
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.SettingCollection'
+    module: Excel

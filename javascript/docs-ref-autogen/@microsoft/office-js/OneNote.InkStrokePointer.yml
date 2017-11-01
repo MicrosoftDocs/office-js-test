@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.InkStrokePointer'
+    name: InkStrokePointer
+    fullName: InkStrokePointer
+    children:
+      - '@microsoft/office-js.OneNote.InkStrokePointer.contentId'
+      - '@microsoft/office-js.OneNote.InkStrokePointer.inkStrokeId'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Weak reference to an ink stroke object and its content parent
+      [Api set: OneNoteApi 1.1]
+    source:
+      path: office.d.ts
+      startLine: 21830
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkStrokePointer.contentId'
+    name: contentId
+    fullName: contentId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the id of the page content object corresponding to this stroke
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string contentId
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkStrokePointer.inkStrokeId'
+    name: inkStrokeId
+    fullName: inkStrokeId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the id of the ink stroke
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string inkStrokeId
+      return:
+        type:
+          - string
+    module: OneNote

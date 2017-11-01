@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CoercionTypeOptions'
+    name: CoercionTypeOptions
+    fullName: CoercionTypeOptions
+    children:
+      - '@microsoft/office-js.Office.CoercionTypeOptions.coercionType'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1618
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionTypeOptions.coercionType'
+    name: coercionType
+    fullName: coercionType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CoercionType coercionType
+      return:
+        type:
+          - '@@microsoft/office-js.Office.CoercionType'
+    module: Office

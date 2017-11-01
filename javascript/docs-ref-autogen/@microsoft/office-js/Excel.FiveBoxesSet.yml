@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet'
+    name: FiveBoxesSet
+    fullName: FiveBoxesSet
+    children:
+      - '@microsoft/office-js.Excel.FiveBoxesSet.fourFilledBoxes'
+      - '@microsoft/office-js.Excel.FiveBoxesSet.noFilledBoxes'
+      - '@microsoft/office-js.Excel.FiveBoxesSet.oneFilledBox'
+      - '@microsoft/office-js.Excel.FiveBoxesSet.threeFilledBoxes'
+      - '@microsoft/office-js.Excel.FiveBoxesSet.twoFilledBoxes'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2677
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet.fourFilledBoxes'
+    name: fourFilledBoxes
+    fullName: fourFilledBoxes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon fourFilledBoxes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet.noFilledBoxes'
+    name: noFilledBoxes
+    fullName: noFilledBoxes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon noFilledBoxes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet.oneFilledBox'
+    name: oneFilledBox
+    fullName: oneFilledBox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon oneFilledBox
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet.threeFilledBoxes'
+    name: threeFilledBoxes
+    fullName: threeFilledBoxes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon threeFilledBoxes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveBoxesSet.twoFilledBoxes'
+    name: twoFilledBoxes
+    fullName: twoFilledBoxes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon twoFilledBoxes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

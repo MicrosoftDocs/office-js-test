@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.InkStroke'
+    name: InkStroke
+    fullName: InkStroke
+    children:
+      - '@microsoft/office-js.OneNote.InkStroke.floatingInk'
+      - '@microsoft/office-js.OneNote.InkStroke.id'
+      - '@microsoft/office-js.OneNote.InkStroke.load'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a single stroke of ink.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20160
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkStroke.floatingInk'
+    name: floatingInk
+    fullName: floatingInk
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the InkStroke object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: FloatingInk floatingInk
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.FloatingInk'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkStroke.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the InkStroke object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkStroke.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkStroke'
+    module: OneNote

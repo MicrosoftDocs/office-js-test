@@ -1,0 +1,215 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Outline'
+    name: Outline
+    fullName: Outline
+    children:
+      - '@microsoft/office-js.OneNote.Outline.appendHtml'
+      - '@microsoft/office-js.OneNote.Outline.appendImage'
+      - '@microsoft/office-js.OneNote.Outline.appendRichText'
+      - '@microsoft/office-js.OneNote.Outline.appendTable'
+      - '@microsoft/office-js.OneNote.Outline.id'
+      - '@microsoft/office-js.OneNote.Outline.load'
+      - '@microsoft/office-js.OneNote.Outline.pageContent'
+      - '@microsoft/office-js.OneNote.Outline.paragraphs'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a container for Paragraph objects.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21027
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.appendHtml'
+    name: appendHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified HTML to the bottom of the Outline.
+    syntax:
+      content: 'function appendHtml(html: string)'
+      parameters:
+        - id: html
+          type:
+            - string
+          description: >
+            The HTML string to append. See [supported
+            HTML](../../docs/onenote/onenote-add-ins-page-content.md#supported-html)
+            for the OneNote add-ins JavaScript API.
+
+
+            [Api set: OneNoteApi 1.1]
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.appendImage'
+    name: appendImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified image to the bottom of the Outline.
+    syntax:
+      content: >-
+        function appendImage(base64EncodedImage: string, width: number, height:
+        number)
+      parameters:
+        - id: base64EncodedImage
+          type:
+            - string
+          description: HTML string to append.
+        - id: width
+          type:
+            - number
+          description: >-
+            Optional. Width in the unit of Points. The default value is null and
+            image width will be respected.
+        - id: height
+          type:
+            - number
+          description: >
+            Optional. Height in the unit of Points. The default value is null
+            and image height will be respected.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.appendRichText'
+    name: appendRichText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified text to the bottom of the Outline.
+    syntax:
+      content: 'function appendRichText(paragraphText: string)'
+      parameters:
+        - id: paragraphText
+          type:
+            - string
+          description: |
+            HTML string to append.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.RichText'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.appendTable'
+    name: appendTable
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds a table with the specified number of rows and columns to the bottom
+      of the outline.
+    syntax:
+      content: >-
+        function appendTable(rowCount: number, columnCount: number, values?:
+        Array<Array<string>>)
+      parameters:
+        - id: rowCount
+          type:
+            - number
+          description: Required. The number of rows in the table.
+        - id: columnCount
+          type:
+            - number
+          description: Required. The number of columns in the table.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the Outline object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.pageContent'
+    name: pageContent
+    fullName: pageContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the PageContent object that contains the Outline. This object defines
+      the position of the Outline on the page. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: PageContent pageContent
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Outline.paragraphs'
+    name: paragraphs
+    fullName: paragraphs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of Paragraph objects in the Outline. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: ParagraphCollection paragraphs
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.ParagraphCollection'
+    module: OneNote

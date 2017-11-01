@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FilterDatetime'
+    name: FilterDatetime
+    fullName: FilterDatetime
+    children:
+      - '@microsoft/office-js.Excel.FilterDatetime.date'
+      - '@microsoft/office-js.Excel.FilterDatetime.specificity'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents how to filter a date when filtering on values.
+      [Api set: ExcelApi 1.2]
+    source:
+      path: office.d.ts
+      startLine: 6896
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterDatetime.date'
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The date in ISO8601 format used to filter data.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string date
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterDatetime.specificity'
+    name: specificity
+    fullName: specificity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      How specific the date should be used to keep data. For example, if the
+      date is 2005-04-02 and the specifity is set to "month", the filter
+      operation will keep all rows with a date in the month of april 2009.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string specificity
+      return:
+        type:
+          - string
+    module: Excel

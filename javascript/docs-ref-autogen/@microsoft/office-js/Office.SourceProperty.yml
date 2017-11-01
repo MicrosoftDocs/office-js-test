@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.SourceProperty'
+    name: SourceProperty
+    fullName: SourceProperty
+    children:
+      - '@microsoft/office-js.Office.SourceProperty.Body'
+      - '@microsoft/office-js.Office.SourceProperty.Subject'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1621
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.SourceProperty.Body'
+    name: Body
+    children: []
+    langs:
+      - typeScript
+    summary: The source of the data is from the body of the message.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.SourceProperty.Subject'
+    name: Subject
+    children: []
+    langs:
+      - typeScript
+    summary: The source of the data is from the subject of the message.
+    type: field
+    module: Office

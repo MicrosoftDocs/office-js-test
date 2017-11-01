@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet'
+    name: FiveRatingSet
+    fullName: FiveRatingSet
+    children:
+      - '@microsoft/office-js.Excel.FiveRatingSet.fourBars'
+      - '@microsoft/office-js.Excel.FiveRatingSet.noBars'
+      - '@microsoft/office-js.Excel.FiveRatingSet.oneBar'
+      - '@microsoft/office-js.Excel.FiveRatingSet.threeBars'
+      - '@microsoft/office-js.Excel.FiveRatingSet.twoBars'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2649
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet.fourBars'
+    name: fourBars
+    fullName: fourBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon fourBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet.noBars'
+    name: noBars
+    fullName: noBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon noBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet.oneBar'
+    name: oneBar
+    fullName: oneBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon oneBar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet.threeBars'
+    name: threeBars
+    fullName: threeBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon threeBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveRatingSet.twoBars'
+    name: twoBars
+    fullName: twoBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon twoBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

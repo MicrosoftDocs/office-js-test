@@ -1,0 +1,257 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Application'
+    name: Application
+    fullName: Application
+    children:
+      - '@microsoft/office-js.OneNote.Application.getActiveNotebook'
+      - '@microsoft/office-js.OneNote.Application.getActiveNotebookOrNull'
+      - '@microsoft/office-js.OneNote.Application.getActiveOutline'
+      - '@microsoft/office-js.OneNote.Application.getActiveOutlineOrNull'
+      - '@microsoft/office-js.OneNote.Application.getActivePage'
+      - '@microsoft/office-js.OneNote.Application.getActivePageOrNull'
+      - '@microsoft/office-js.OneNote.Application.getActiveSection'
+      - '@microsoft/office-js.OneNote.Application.getActiveSectionOrNull'
+      - '@microsoft/office-js.OneNote.Application.load'
+      - '@microsoft/office-js.OneNote.Application.navigateToPage'
+      - '@microsoft/office-js.OneNote.Application.navigateToPageWithClientUrl'
+      - '@microsoft/office-js.OneNote.Application.notebooks'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents the top-level object that contains all globally addressable
+      OneNote objects such as notebooks, the active notebook, and the active
+      section.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 19739
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveNotebook'
+    name: getActiveNotebook
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active notebook if one exists. If no notebook is active, throws
+      ItemNotFound.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveNotebook()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Notebook'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveNotebookOrNull'
+    name: getActiveNotebookOrNull
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active notebook if one exists. If no notebook is active, returns
+      null.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveNotebookOrNull()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Notebook'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveOutline'
+    name: getActiveOutline
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active outline if one exists, If no outline is active, throws
+      ItemNotFound.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveOutline()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveOutlineOrNull'
+    name: getActiveOutlineOrNull
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the active outline if one exists, otherwise returns null.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveOutlineOrNull()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActivePage'
+    name: getActivePage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active page if one exists. If no page is active, throws
+      ItemNotFound.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActivePage()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActivePageOrNull'
+    name: getActivePageOrNull
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the active page if one exists. If no page is active, returns null.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActivePageOrNull()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveSection'
+    name: getActiveSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active section if one exists. If no section is active, throws
+      ItemNotFound.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveSection()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.getActiveSectionOrNull'
+    name: getActiveSectionOrNull
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the active section if one exists. If no section is active, returns
+      null.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getActiveSectionOrNull()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Application'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.navigateToPage'
+    name: navigateToPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Opens the specified page in the application instance.
+    syntax:
+      content: 'function navigateToPage(page: Page)'
+      parameters:
+        - id: page
+          type:
+            - '@@microsoft/office-js.OneNote.Page'
+          description: |
+            The page to open.
+
+            [Api set: OneNoteApi 1.1]
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.navigateToPageWithClientUrl'
+    name: navigateToPageWithClientUrl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Gets the specified page, and opens it in the application instance.'
+    syntax:
+      content: 'function navigateToPageWithClientUrl(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |
+            The client url of the page to open.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Application.notebooks'
+    name: notebooks
+    fullName: notebooks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the collection of notebooks that are open in the OneNote application
+      instance. In OneNote Online, only one notebook at a time is open in the
+      application instance. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: NotebookCollection notebooks
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.NotebookCollection'
+    module: OneNote

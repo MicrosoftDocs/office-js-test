@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalTopBottomRule'
+    name: ConditionalTopBottomRule
+    fullName: ConditionalTopBottomRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalTopBottomRule.rank'
+      - '@microsoft/office-js.Excel.ConditionalTopBottomRule.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents the rule of the top/bottom conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 8010
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalTopBottomRule.rank'
+    name: rank
+    fullName: rank
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The rank between 1 and 1000 for numeric ranks or 1 and 100 for percent
+      ranks.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: number rank
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalTopBottomRule.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Format values based on the top or bottom rank.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel

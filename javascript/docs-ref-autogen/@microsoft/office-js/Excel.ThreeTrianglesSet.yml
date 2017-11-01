@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeTrianglesSet'
+    name: ThreeTrianglesSet
+    fullName: ThreeTrianglesSet
+    children:
+      - '@microsoft/office-js.Excel.ThreeTrianglesSet.greenUpTriangle'
+      - '@microsoft/office-js.Excel.ThreeTrianglesSet.redDownTriangle'
+      - '@microsoft/office-js.Excel.ThreeTrianglesSet.yellowDash'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2671
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrianglesSet.greenUpTriangle'
+    name: greenUpTriangle
+    fullName: greenUpTriangle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenUpTriangle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrianglesSet.redDownTriangle'
+    name: redDownTriangle
+    fullName: redDownTriangle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redDownTriangle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrianglesSet.yellowDash'
+    name: yellowDash
+    fullName: yellowDash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowDash
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

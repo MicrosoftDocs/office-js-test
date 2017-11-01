@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeCore.RequestContext'
+    name: RequestContext
+    fullName: RequestContext
+    children:
+      - '@microsoft/office-js.OfficeCore.RequestContext.flighting'
+      - '@microsoft/office-js.OfficeCore.RequestContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+    source:
+      path: office.d.ts
+      startLine: 2528
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.RequestContext.flighting'
+    name: flighting
+    fullName: flighting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FlightingService flighting
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeCore.FlightingService'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.RequestContext.constructor'
+    name: RequestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RequestContext(url?: string | RequestUrlAndHeaderInfo | any)'
+      parameters:
+        - id: url
+          type:
+            - string | RequestUrlAndHeaderInfo | any
+          description: ''
+          optional: true
+    module: OfficeCore

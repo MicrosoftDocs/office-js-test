@@ -1,0 +1,250 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat'
+    name: DataBarConditionalFormat
+    fullName: DataBarConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.axisColor'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.axisFormat'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.barDirection'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.load'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.lowerBoundRule'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.negativeFormat'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.positiveFormat'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.set'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.showDataBarOnly'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.toJSON'
+      - '@microsoft/office-js.Excel.DataBarConditionalFormat.upperBoundRule'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents an Excel Conditional Data Bar Type.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7483
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.axisColor'
+    name: axisColor
+    fullName: axisColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the Axis line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      "" (empty string) if no axis is present or set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string axisColor
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.axisFormat'
+    name: axisFormat
+    fullName: axisFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Representation of how the axis is determined for an Excel data bar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string axisFormat
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.barDirection'
+    name: barDirection
+    fullName: barDirection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the direction that the data bar graphic should be based on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string barDirection
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.DataBarConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.lowerBoundRule'
+    name: lowerBoundRule
+    fullName: lowerBoundRule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The rule for what consistutes the lower bound (and how to calculate it, if
+      applicable) for a data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarRule lowerBoundRule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarRule'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.negativeFormat'
+    name: negativeFormat
+    fullName: negativeFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Representation of all values to the left of the axis in an Excel data bar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarNegativeFormat negativeFormat
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarNegativeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.positiveFormat'
+    name: positiveFormat
+    fullName: positiveFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Representation of all values to the right of the axis in an Excel data
+      bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarPositiveFormat positiveFormat
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: DataBarConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.DataBarConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: DataBarConditionalFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.showDataBarOnly'
+    name: showDataBarOnly
+    fullName: showDataBarOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If true, hides the values from the cells where the data bar is applied.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean showDataBarOnly
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat.upperBoundRule'
+    name: upperBoundRule
+    fullName: upperBoundRule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The rule for what constitutes the upper bound (and how to calculate it, if
+      applicable) for a data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarRule upperBoundRule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarRule'
+    module: Excel

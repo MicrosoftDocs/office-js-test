@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Item'
+    name: Item
+    fullName: Item
+    children:
+      - '@microsoft/office-js.Office.Item.body'
+      - '@microsoft/office-js.Office.Item.itemType'
+      - '@microsoft/office-js.Office.Item.loadCustomPropertiesAsync'
+      - '@microsoft/office-js.Office.Item.notificationMessages'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1764
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Item.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Body body
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Body'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Item.itemType'
+    name: itemType
+    fullName: itemType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ItemType itemType
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Office.MailboxEnums.ItemType'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Item.loadCustomPropertiesAsync'
+    name: loadCustomPropertiesAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously loads custom properties that are specific to the item and a
+      app for Office
+    syntax:
+      content: >-
+        function loadCustomPropertiesAsync(callback?: (result: AsyncResult) =>
+        void, userContext?: any)
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: The optional callback method
+          optional: true
+        - id: userContext
+          type:
+            - any
+          description: >
+            Optional variable for any state data that is passed to the
+            asynchronous method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Item.notificationMessages'
+    name: notificationMessages
+    fullName: notificationMessages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: NotificationMessages notificationMessages
+      return:
+        type:
+          - '@@microsoft/office-js.Office.NotificationMessages'
+    module: Office

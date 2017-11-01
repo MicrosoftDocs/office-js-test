@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.FileType'
+    name: FileType
+    fullName: FileType
+    children:
+      - '@microsoft/office-js.Office.FileType.Compressed'
+      - '@microsoft/office-js.Office.FileType.Pdf'
+      - '@microsoft/office-js.Office.FileType.Text'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 320
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.FileType.Compressed'
+    name: Compressed
+    children: []
+    langs:
+      - typeScript
+    summary: Returns the file as a byte array
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.FileType.Pdf'
+    name: Pdf
+    children: []
+    langs:
+      - typeScript
+    summary: Returns the file in PDF format as a byte array
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.FileType.Text'
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: Returns the file as plain text
+    type: field
+    module: Office

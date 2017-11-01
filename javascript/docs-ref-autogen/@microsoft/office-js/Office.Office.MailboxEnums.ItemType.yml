@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ItemType'
+    name: ItemType
+    fullName: ItemType
+    children:
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ItemType.Appointment'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.ItemType.Message'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1547
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ItemType.Appointment'
+    name: Appointment
+    children: []
+    langs:
+      - typeScript
+    summary: An appointment item
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ItemType.Message'
+    name: Message
+    children: []
+    langs:
+      - typeScript
+    summary: 'An email, meeting request, meeting response, or meeting cancellation'
+    type: field
+    module: Office.MailboxEnums

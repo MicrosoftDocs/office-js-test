@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.GoToType'
+    name: GoToType
+    fullName: GoToType
+    children:
+      - '@microsoft/office-js.Office.GoToType.Binding'
+      - '@microsoft/office-js.Office.GoToType.Index'
+      - '@microsoft/office-js.Office.GoToType.NamedItem'
+      - '@microsoft/office-js.Office.GoToType.Slide'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 344
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.GoToType.Binding'
+    name: Binding
+    children: []
+    langs:
+      - typeScript
+    summary: Goes to a binding object using the specified binding id.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.GoToType.Index'
+    name: Index
+    children: []
+    langs:
+      - typeScript
+    summary: Goes to the specified index by slide number or enum Office.Index
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.GoToType.NamedItem'
+    name: NamedItem
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Goes to a named item using that item's name.
+
+      In Excel, you can use any structured reference for a named range or table:
+      "Worksheet2!Table1"
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.GoToType.Slide'
+    name: Slide
+    children: []
+    langs:
+      - typeScript
+    summary: Goes to a slide using the specified id.
+    type: field
+    module: Office

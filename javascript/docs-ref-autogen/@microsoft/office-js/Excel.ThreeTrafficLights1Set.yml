@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights1Set'
+    name: ThreeTrafficLights1Set
+    fullName: ThreeTrafficLights1Set
+    children:
+      - '@microsoft/office-js.Excel.ThreeTrafficLights1Set.greenCircle'
+      - '@microsoft/office-js.Excel.ThreeTrafficLights1Set.redCircleWithBorder'
+      - '@microsoft/office-js.Excel.ThreeTrafficLights1Set.yellowCircle'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2568
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights1Set.greenCircle'
+    name: greenCircle
+    fullName: greenCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights1Set.redCircleWithBorder'
+    name: redCircleWithBorder
+    fullName: redCircleWithBorder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redCircleWithBorder
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights1Set.yellowCircle'
+    name: yellowCircle
+    fullName: yellowCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

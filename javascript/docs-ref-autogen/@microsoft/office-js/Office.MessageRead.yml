@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.MessageRead'
+    name: MessageRead
+    fullName: MessageRead
+    children:
+      - '@microsoft/office-js.Office.MessageRead.cc'
+      - '@microsoft/office-js.Office.MessageRead.from'
+      - '@microsoft/office-js.Office.MessageRead.internetMessageId'
+      - '@microsoft/office-js.Office.MessageRead.sender'
+      - '@microsoft/office-js.Office.MessageRead.to'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Message'
+    source:
+      path: office.d.ts
+      startLine: 1971
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageRead.cc'
+    name: cc
+    fullName: cc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailAddressDetails> cc
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailAddressDetails>
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageRead.from'
+    name: from
+    fullName: from
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmailAddressDetails from
+      return:
+        type:
+          - '@@microsoft/office-js.Office.EmailAddressDetails'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageRead.internetMessageId'
+    name: internetMessageId
+    fullName: internetMessageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string internetMessageId
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageRead.sender'
+    name: sender
+    fullName: sender
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmailAddressDetails sender
+      return:
+        type:
+          - '@@microsoft/office-js.Office.EmailAddressDetails'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageRead.to'
+    name: to
+    fullName: to
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailAddressDetails> to
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailAddressDetails>
+    module: Office

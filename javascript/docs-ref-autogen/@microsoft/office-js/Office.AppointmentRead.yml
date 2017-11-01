@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.AppointmentRead'
+    name: AppointmentRead
+    fullName: AppointmentRead
+    children:
+      - '@microsoft/office-js.Office.AppointmentRead.end'
+      - '@microsoft/office-js.Office.AppointmentRead.location'
+      - '@microsoft/office-js.Office.AppointmentRead.optionalAttendees'
+      - '@microsoft/office-js.Office.AppointmentRead.organizer'
+      - '@microsoft/office-js.Office.AppointmentRead.requiredAttendees'
+      - '@microsoft/office-js.Office.AppointmentRead.resources'
+      - '@microsoft/office-js.Office.AppointmentRead.start'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Appointment'
+    source:
+      path: office.d.ts
+      startLine: 1640
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date end
+      return:
+        type:
+          - Date
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.optionalAttendees'
+    name: optionalAttendees
+    fullName: optionalAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailAddressDetails> optionalAttendees
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailAddressDetails>
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.organizer'
+    name: organizer
+    fullName: organizer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmailAddressDetails organizer
+      return:
+        type:
+          - '@@microsoft/office-js.Office.EmailAddressDetails'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.requiredAttendees'
+    name: requiredAttendees
+    fullName: requiredAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailAddressDetails> requiredAttendees
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailAddressDetails>
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.resources'
+    name: resources
+    fullName: resources
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: EmailAddressDetails resources
+      return:
+        type:
+          - '@@microsoft/office-js.Office.EmailAddressDetails'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentRead.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date start
+      return:
+        type:
+          - Date
+    module: Office

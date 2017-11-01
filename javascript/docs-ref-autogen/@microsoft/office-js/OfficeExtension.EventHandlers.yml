@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlers'
+    name: EventHandlers
+    fullName: EventHandlers<T>
+    children:
+      - '@microsoft/office-js.OfficeExtension.EventHandlers.add'
+      - '@microsoft/office-js.OfficeExtension.EventHandlers.constructor'
+      - '@microsoft/office-js.OfficeExtension.EventHandlers.remove'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2430
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlers.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(handler: (args: T) => IPromise<any>)'
+      parameters:
+        - id: handler
+          type:
+            - '(args: T) => IPromise<any>'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.EventHandlerResult<T>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlers.constructor'
+    name: EventHandlers
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new EventHandlers(context: ClientRequestContext, parentObject:
+        ClientObject, name: string, eventInfo: EventInfo<T>)
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+          description: ''
+        - id: parentObject
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: eventInfo
+          type:
+            - '@@microsoft/office-js.OfficeExtension.EventInfo<T>'
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlers.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(handler: (args: T) => IPromise<any>)'
+      parameters:
+        - id: handler
+          type:
+            - '(args: T) => IPromise<any>'
+          description: ''
+    module: OfficeExtension

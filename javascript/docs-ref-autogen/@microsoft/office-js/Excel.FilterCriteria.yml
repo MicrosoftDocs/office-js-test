@@ -1,0 +1,176 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FilterCriteria'
+    name: FilterCriteria
+    fullName: FilterCriteria
+    children:
+      - '@microsoft/office-js.Excel.FilterCriteria.color'
+      - '@microsoft/office-js.Excel.FilterCriteria.criterion1'
+      - '@microsoft/office-js.Excel.FilterCriteria.criterion2'
+      - '@microsoft/office-js.Excel.FilterCriteria.dynamicCriteria'
+      - '@microsoft/office-js.Excel.FilterCriteria.filterOn'
+      - '@microsoft/office-js.Excel.FilterCriteria.icon'
+      - '@microsoft/office-js.Excel.FilterCriteria.operator'
+      - '@microsoft/office-js.Excel.FilterCriteria.values'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents the filtering criteria applied to a column.
+      [Api set: ExcelApi 1.2]
+    source:
+      path: office.d.ts
+      startLine: 6829
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The HTML color string used to filter cells. Used with "cellColor" and
+      "fontColor" filtering.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.criterion1'
+    name: criterion1
+    fullName: criterion1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The first criterion used to filter data. Used as an operator in the case
+      of "custom" filtering.
+
+      For example ">50" for number greater than 50 or "=*s" for values ending in
+      "s".
+
+      Used as a number in the case of top/bottom items/percents. E.g. "5" for
+      the top 5 items if filterOn is set to "topItems"
+
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string criterion1
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.criterion2'
+    name: criterion2
+    fullName: criterion2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The second criterion used to filter data. Only used as an operator in the
+      case of "custom" filtering.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string criterion2
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.dynamicCriteria'
+    name: dynamicCriteria
+    fullName: dynamicCriteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The dynamic criteria from the Excel.DynamicFilterCriteria set to apply on
+      this column. Used with "dynamic" filtering.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string dynamicCriteria
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.filterOn'
+    name: filterOn
+    fullName: filterOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The property used by the filter to determine whether the values should
+      stay visible.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string filterOn
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The icon used to filter cells. Used with "icon" filtering.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Icon icon
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.operator'
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The operator used to combine criterion 1 and 2 when using "custom"
+      filtering.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string operator
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FilterCriteria.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The set of values to be used as part of "values" filtering.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Array<string | FilterDatetime> values
+      return:
+        type:
+          - Array<string | FilterDatetime>
+    module: Excel

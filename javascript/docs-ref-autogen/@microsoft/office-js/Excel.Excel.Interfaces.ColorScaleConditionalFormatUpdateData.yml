@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ColorScaleConditionalFormatUpdateData
+    name: ColorScaleConditionalFormatUpdateData
+    fullName: ColorScaleConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ColorScaleConditionalFormatUpdateData.criteria
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ColorScaleConditionalFormat object,
+      for use in "colorScaleConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14140
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ColorScaleConditionalFormatUpdateData.criteria
+    name: criteria
+    fullName: criteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The criteria of the color scale. Midpoint is optional when using a two
+      point color scale.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalColorScaleCriteria criteria
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalColorScaleCriteria'
+    module: Excel.Interfaces

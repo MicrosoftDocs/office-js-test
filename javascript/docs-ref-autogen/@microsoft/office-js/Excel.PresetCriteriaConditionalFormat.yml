@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+    name: PresetCriteriaConditionalFormat
+    fullName: PresetCriteriaConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.format'
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.load'
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.rule'
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.set'
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents the the preset criteria conditional format such as above
+      average/below average/unique values/contains blank/nonblank/error/noerror.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 8032
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties. Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.rule'
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The rule of the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalPresetCriteriaRule rule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalPresetCriteriaRule'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: PresetCriteriaConditionalFormatUpdateData,
+        options?: function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: PresetCriteriaConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

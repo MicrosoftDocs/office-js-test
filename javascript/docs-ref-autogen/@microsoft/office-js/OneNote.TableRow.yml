@@ -1,0 +1,191 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.TableRow'
+    name: TableRow
+    fullName: TableRow
+    children:
+      - '@microsoft/office-js.OneNote.TableRow.cellCount'
+      - '@microsoft/office-js.OneNote.TableRow.cells'
+      - '@microsoft/office-js.OneNote.TableRow.clear'
+      - '@microsoft/office-js.OneNote.TableRow.id'
+      - '@microsoft/office-js.OneNote.TableRow.insertRowAsSibling'
+      - '@microsoft/office-js.OneNote.TableRow.load'
+      - '@microsoft/office-js.OneNote.TableRow.parentTable'
+      - '@microsoft/office-js.OneNote.TableRow.rowIndex'
+      - '@microsoft/office-js.OneNote.TableRow.setShadingColor'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a row in a table.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21545
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.cellCount'
+    name: cellCount
+    fullName: cellCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the number of cells in the row. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number cellCount
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.cells'
+    name: cells
+    fullName: cells
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the cells in the row. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: TableCellCollection cells
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableCellCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears the contents of the row.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the row. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.insertRowAsSibling'
+    name: insertRowAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts a row before or after the current row.
+    syntax:
+      content: >-
+        function insertRowAsSibling(insertLocation: string, values?:
+        Array<string>)
+      parameters:
+        - id: insertLocation
+          type:
+            - string
+          description: Where the new rows should be inserted relative to the current row.
+        - id: values
+          type:
+            - Array<string>
+          description: >
+            Strings to insert in the new row, specified as an array. Must not
+            have more cells than in the current row. Optional.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRow'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRow'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.parentTable'
+    name: parentTable
+    fullName: parentTable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the parent table. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Table parentTable
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.rowIndex'
+    name: rowIndex
+    fullName: rowIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the index of the row in its parent table. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number rowIndex
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableRow.setShadingColor'
+    name: setShadingColor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShadingColor(colorCode: string)'
+      parameters:
+        - id: colorCode
+          type:
+            - string
+          description: ''
+    module: OneNote

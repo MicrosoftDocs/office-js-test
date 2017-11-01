@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.DocumentMode'
+    name: DocumentMode
+    fullName: DocumentMode
+    children:
+      - '@microsoft/office-js.Office.DocumentMode.ReadOnly'
+      - '@microsoft/office-js.Office.DocumentMode.ReadWrite'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 256
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.DocumentMode.ReadOnly'
+    name: ReadOnly
+    children: []
+    langs:
+      - typeScript
+    summary: Document in Read Only Mode
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.DocumentMode.ReadWrite'
+    name: ReadWrite
+    children: []
+    langs:
+      - typeScript
+    summary: Document in Read/Write Mode
+    type: field
+    module: Office

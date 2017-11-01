@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FourRatingSet'
+    name: FourRatingSet
+    fullName: FourRatingSet
+    children:
+      - '@microsoft/office-js.Excel.FourRatingSet.fourBars'
+      - '@microsoft/office-js.Excel.FourRatingSet.oneBar'
+      - '@microsoft/office-js.Excel.FourRatingSet.threeBars'
+      - '@microsoft/office-js.Excel.FourRatingSet.twoBars'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2619
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRatingSet.fourBars'
+    name: fourBars
+    fullName: fourBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon fourBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRatingSet.oneBar'
+    name: oneBar
+    fullName: oneBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon oneBar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRatingSet.threeBars'
+    name: threeBars
+    fullName: threeBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon threeBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRatingSet.twoBars'
+    name: twoBars
+    fullName: twoBars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon twoBars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

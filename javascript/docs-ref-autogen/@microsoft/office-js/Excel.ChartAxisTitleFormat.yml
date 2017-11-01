@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat'
+    name: ChartAxisTitleFormat
+    fullName: ChartAxisTitleFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartAxisTitleFormat.font'
+      - '@microsoft/office-js.Excel.ChartAxisTitleFormat.load'
+      - '@microsoft/office-js.Excel.ChartAxisTitleFormat.set'
+      - '@microsoft/office-js.Excel.ChartAxisTitleFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartAxisTitleFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the chart axis title formatting.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6003
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes, such as font name, font size, color, etc.
+      of chart axis title object. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartAxisTitleFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ChartAxisTitleFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartAxisTitleFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartAxisTitleFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

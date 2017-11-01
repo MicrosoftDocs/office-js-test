@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.TaskSuggestion'
+    name: TaskSuggestion
+    fullName: TaskSuggestion
+    children:
+      - '@microsoft/office-js.Office.TaskSuggestion.assignees'
+      - '@microsoft/office-js.Office.TaskSuggestion.taskString'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2100
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.TaskSuggestion.assignees'
+    name: assignees
+    fullName: assignees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailUser> assignees
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailUser>
+    module: Office
+  - uid: '@microsoft/office-js.Office.TaskSuggestion.taskString'
+    name: taskString
+    fullName: taskString
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string taskString
+      return:
+        type:
+          - string
+    module: Office

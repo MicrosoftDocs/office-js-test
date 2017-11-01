@@ -1,0 +1,186 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData
+    name: DataBarConditionalFormatUpdateData
+    fullName: DataBarConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.axisColor
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.axisFormat
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.barDirection
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.lowerBoundRule
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.negativeFormat
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.positiveFormat
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.showDataBarOnly
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.upperBoundRule
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the DataBarConditionalFormat object, for
+      use in "dataBarConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13951
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.axisColor
+    name: axisColor
+    fullName: axisColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the Axis line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      "" (empty string) if no axis is present or set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string axisColor
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.axisFormat
+    name: axisFormat
+    fullName: axisFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Representation of how the axis is determined for an Excel data bar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string axisFormat
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.barDirection
+    name: barDirection
+    fullName: barDirection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the direction that the data bar graphic should be based on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string barDirection
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.lowerBoundRule
+    name: lowerBoundRule
+    fullName: lowerBoundRule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The rule for what consistutes the lower bound (and how to calculate it, if
+      applicable) for a data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarRule lowerBoundRule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarRule'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.negativeFormat
+    name: negativeFormat
+    fullName: negativeFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Representation of all values to the left of the axis in an Excel data bar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarNegativeFormatUpdateData negativeFormat
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.positiveFormat
+    name: positiveFormat
+    fullName: positiveFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Representation of all values to the right of the axis in an Excel data
+      bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarPositiveFormatUpdateData positiveFormat
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarPositiveFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.showDataBarOnly
+    name: showDataBarOnly
+    fullName: showDataBarOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If true, hides the values from the cells where the data bar is applied.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean showDataBarOnly
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData.upperBoundRule
+    name: upperBoundRule
+    fullName: upperBoundRule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The rule for what constitutes the upper bound (and how to calculate it, if
+      applicable) for a data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalDataBarRule upperBoundRule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarRule'
+    module: Excel.Interfaces

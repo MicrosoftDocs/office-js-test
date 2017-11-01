@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Recipients'
+    name: Recipients
+    fullName: Recipients
+    children:
+      - '@microsoft/office-js.Office.Recipients.addAsync'
+      - '@microsoft/office-js.Office.Recipients.getAsync'
+      - '@microsoft/office-js.Office.Recipients.setAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2029
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Recipients.addAsync'
+    name: addAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an asynchronous request to add a recipient list to an appointment
+      or message
+    syntax:
+      content: >-
+        function addAsync(recipients: Array<string | EmailUser |
+        EmailAddressDetails>, options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: recipients
+          type:
+            - Array<string | EmailUser | EmailAddressDetails>
+          description: The recipients to add to the recipients list
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Recipients.getAsync'
+    name: getAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an asynchronous request to get the recipient list for an
+      appointment or message
+    syntax:
+      content: >-
+        function getAsync(options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Recipients.setAsync'
+    name: setAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an asynchronous request to set the recipient list for an
+      appointment or message
+    syntax:
+      content: >-
+        function setAsync(recipients: Array<string | EmailUser |
+        EmailAddressDetails>, options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: recipients
+          type:
+            - Array<string | EmailUser | EmailAddressDetails>
+          description: The recipients to add to the recipients list
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional method to call when the string is inserted
+          optional: true
+    module: Office

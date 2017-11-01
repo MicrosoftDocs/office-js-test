@@ -1,0 +1,1171 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Range'
+    name: Range
+    fullName: Range
+    children:
+      - '@microsoft/office-js.Word.Range.clear'
+      - '@microsoft/office-js.Word.Range.compareLocationWith'
+      - '@microsoft/office-js.Word.Range.contentControls'
+      - '@microsoft/office-js.Word.Range.delete'
+      - '@microsoft/office-js.Word.Range.expandTo'
+      - '@microsoft/office-js.Word.Range.expandToOrNullObject'
+      - '@microsoft/office-js.Word.Range.font'
+      - '@microsoft/office-js.Word.Range.getHtml'
+      - '@microsoft/office-js.Word.Range.getHyperlinkRanges'
+      - '@microsoft/office-js.Word.Range.getNextTextRange'
+      - '@microsoft/office-js.Word.Range.getNextTextRangeOrNullObject'
+      - '@microsoft/office-js.Word.Range.getOoxml'
+      - '@microsoft/office-js.Word.Range.getRange'
+      - '@microsoft/office-js.Word.Range.getTextRanges'
+      - '@microsoft/office-js.Word.Range.hyperlink'
+      - '@microsoft/office-js.Word.Range.inlinePictures'
+      - '@microsoft/office-js.Word.Range.insertBreak'
+      - '@microsoft/office-js.Word.Range.insertContentControl'
+      - '@microsoft/office-js.Word.Range.insertFileFromBase64'
+      - '@microsoft/office-js.Word.Range.insertHtml'
+      - '@microsoft/office-js.Word.Range.insertInlinePictureFromBase64'
+      - '@microsoft/office-js.Word.Range.insertOoxml'
+      - '@microsoft/office-js.Word.Range.insertParagraph'
+      - '@microsoft/office-js.Word.Range.insertTable'
+      - '@microsoft/office-js.Word.Range.insertText'
+      - '@microsoft/office-js.Word.Range.intersectWith'
+      - '@microsoft/office-js.Word.Range.intersectWithOrNullObject'
+      - '@microsoft/office-js.Word.Range.isEmpty'
+      - '@microsoft/office-js.Word.Range.lists'
+      - '@microsoft/office-js.Word.Range.load'
+      - '@microsoft/office-js.Word.Range.paragraphs'
+      - '@microsoft/office-js.Word.Range.parentBody'
+      - '@microsoft/office-js.Word.Range.parentContentControl'
+      - '@microsoft/office-js.Word.Range.parentContentControlOrNullObject'
+      - '@microsoft/office-js.Word.Range.parentTable'
+      - '@microsoft/office-js.Word.Range.parentTableCell'
+      - '@microsoft/office-js.Word.Range.parentTableCellOrNullObject'
+      - '@microsoft/office-js.Word.Range.parentTableOrNullObject'
+      - '@microsoft/office-js.Word.Range.search'
+      - '@microsoft/office-js.Word.Range.select'
+      - '@microsoft/office-js.Word.Range.set'
+      - '@microsoft/office-js.Word.Range.set_1'
+      - '@microsoft/office-js.Word.Range.split'
+      - '@microsoft/office-js.Word.Range.style'
+      - '@microsoft/office-js.Word.Range.styleBuiltIn'
+      - '@microsoft/office-js.Word.Range.tables'
+      - '@microsoft/office-js.Word.Range.text'
+      - '@microsoft/office-js.Word.Range.toJSON'
+      - '@microsoft/office-js.Word.Range.track'
+      - '@microsoft/office-js.Word.Range.untrack'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a contiguous area in a document.
+      [Api set: WordApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 16718
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Clears the contents of the range object. The user can perform the undo
+      operation on the cleared content.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.compareLocationWith'
+    name: compareLocationWith
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Compares this range's location with another range's location.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function compareLocationWith(range: Range)'
+      parameters:
+        - id: range
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: |
+            Required. The range to compare with this range.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.contentControls'
+    name: contentControls
+    fullName: contentControls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of content control objects in the range. Read-only.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: ContentControlCollection contentControls
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControlCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the range and its content from the document.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.expandTo'
+    name: expandTo
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns a new range that extends from this range in either direction to
+      cover another range. This range is not changed. Throws if the two ranges
+      do not have a union.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function expandTo(range: Range)'
+      parameters:
+        - id: range
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: |
+            Required. Another range.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.expandToOrNullObject'
+    name: expandToOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns a new range that extends from this range in either direction to
+      cover another range. This range is not changed. Returns a null object if
+      the two ranges do not have a union.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function expandToOrNullObject(range: Range)'
+      parameters:
+        - id: range
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: |
+            Required. Another range.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the text format of the range. Use this to get and set font name,
+      size, color, and other properties. Read-only.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: Font font
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Font'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getHtml'
+    name: getHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the HTML representation of the range object.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: function getHtml()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getHyperlinkRanges'
+    name: getHyperlinkRanges
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets hyperlink child ranges within the range.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getHyperlinkRanges()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.RangeCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getNextTextRange'
+    name: getNextTextRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the next text range by using punctuation marks and/or other ending
+      marks. Throws if this text range is the last one.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function getNextTextRange(endingMarks: Array<string>, trimSpacing?:
+        boolean)
+      parameters:
+        - id: endingMarks
+          type:
+            - Array<string>
+          description: >-
+            Required. The punctuation marks and/or other ending marks as an
+            array of strings.
+        - id: trimSpacing
+          type:
+            - boolean
+          description: >
+            Optional. Indicates whether to trim spacing characters (spaces,
+            tabs, column breaks and paragraph end marks) from the start and end
+            of the returned range. Default is false which indicates that spacing
+            characters at the start and end of the range are included.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getNextTextRangeOrNullObject'
+    name: getNextTextRangeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the next text range by using punctuation marks and/or other ending
+      marks. Returns a null object if this text range is the last one.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function getNextTextRangeOrNullObject(endingMarks: Array<string>,
+        trimSpacing?: boolean)
+      parameters:
+        - id: endingMarks
+          type:
+            - Array<string>
+          description: >-
+            Required. The punctuation marks and/or other ending marks as an
+            array of strings.
+        - id: trimSpacing
+          type:
+            - boolean
+          description: >
+            Optional. Indicates whether to trim spacing characters (spaces,
+            tabs, column breaks and paragraph end marks) from the start and end
+            of the returned range. Default is false which indicates that spacing
+            characters at the start and end of the range are included.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getOoxml'
+    name: getOoxml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the OOXML representation of the range object.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: function getOoxml()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Clones the range, or gets the starting or ending point of the range as a
+      new range.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function getRange(rangeLocation?: string)'
+      parameters:
+        - id: rangeLocation
+          type:
+            - string
+          description: >
+            Optional. The range location can be 'Whole', 'Start', 'End', 'After'
+            or 'Content'.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.getTextRanges'
+    name: getTextRanges
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the text child ranges in the range by using punctuation marks and/or
+      other ending marks.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function getTextRanges(endingMarks: Array<string>, trimSpacing?:
+        boolean)
+      parameters:
+        - id: endingMarks
+          type:
+            - Array<string>
+          description: >-
+            Required. The punctuation marks and/or other ending marks as an
+            array of strings.
+        - id: trimSpacing
+          type:
+            - boolean
+          description: >
+            Optional. Indicates whether to trim spacing characters (spaces,
+            tabs, column breaks and paragraph end marks) from the start and end
+            of the ranges returned in the range collection. Default is false
+            which indicates that spacing characters at the start and end of the
+            ranges are included in the range collection.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.RangeCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.hyperlink'
+    name: hyperlink
+    fullName: hyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the first hyperlink in the range, or sets a hyperlink on the range.
+      All hyperlinks in the range are deleted when you set a new hyperlink on
+      the range. Use a '#' to separate the address part from the optional
+      location part.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string hyperlink
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.inlinePictures'
+    name: inlinePictures
+    fullName: inlinePictures
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of inline picture objects in the range. Read-only.
+      [Api set: WordApi 1.2]
+    syntax:
+      content: InlinePictureCollection inlinePictures
+      return:
+        type:
+          - '@@microsoft/office-js.Word.InlinePictureCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertBreak'
+    name: insertBreak
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a break at the specified location in the main document. The
+      insertLocation value can be 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function insertBreak(breakType: string, insertLocation: string)'
+      parameters:
+        - id: breakType
+          type:
+            - string
+          description: Required. The break type to add.
+        - id: insertLocation
+          type:
+            - string
+          description: |
+            Required. The value can be 'Before' or 'After'.
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertContentControl'
+    name: insertContentControl
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Wraps the range object with a rich text content control.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: function insertContentControl()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertFileFromBase64'
+    name: insertFileFromBase64
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a document at the specified location. The insertLocation value can
+      be 'Replace', 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: >-
+        function insertFileFromBase64(base64File: string, insertLocation:
+        string)
+      parameters:
+        - id: base64File
+          type:
+            - string
+          description: Required. The base64 encoded content of a .docx file.
+        - id: insertLocation
+          type:
+            - string
+          description: >
+            Required. The value can be 'Replace', 'Start', 'End', 'Before' or
+            'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertHtml'
+    name: insertHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts HTML at the specified location. The insertLocation value can be
+      'Replace', 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function insertHtml(html: string, insertLocation: string)'
+      parameters:
+        - id: html
+          type:
+            - string
+          description: Required. The HTML to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: >
+            Required. The value can be 'Replace', 'Start', 'End', 'Before' or
+            'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertInlinePictureFromBase64'
+    name: insertInlinePictureFromBase64
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a picture at the specified location. The insertLocation value can
+      be 'Replace', 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.2]
+    syntax:
+      content: >-
+        function insertInlinePictureFromBase64(base64EncodedImage: string,
+        insertLocation: string)
+      parameters:
+        - id: base64EncodedImage
+          type:
+            - string
+          description: Required. The base64 encoded image to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: >
+            Required. The value can be 'Replace', 'Start', 'End', 'Before' or
+            'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.InlinePicture'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertOoxml'
+    name: insertOoxml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts OOXML at the specified location.  The insertLocation value can be
+      'Replace', 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function insertOoxml(ooxml: string, insertLocation: string)'
+      parameters:
+        - id: ooxml
+          type:
+            - string
+          description: Required. The OOXML to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: >
+            Required. The value can be 'Replace', 'Start', 'End', 'Before' or
+            'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertParagraph'
+    name: insertParagraph
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a paragraph at the specified location. The insertLocation value
+      can be 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function insertParagraph(paragraphText: string, insertLocation: string)'
+      parameters:
+        - id: paragraphText
+          type:
+            - string
+          description: Required. The paragraph text to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: |
+            Required. The value can be 'Before' or 'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Paragraph'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertTable'
+    name: insertTable
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a table with the specified number of rows and columns. The
+      insertLocation value can be 'Before' or 'After'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function insertTable(rowCount: number, columnCount: number,
+        insertLocation: string, values?: Array<Array<string>>)
+      parameters:
+        - id: rowCount
+          type:
+            - number
+          description: Required. The number of rows in the table.
+        - id: columnCount
+          type:
+            - number
+          description: Required. The number of columns in the table.
+        - id: insertLocation
+          type:
+            - string
+          description: Required. The value can be 'Before' or 'After'.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.insertText'
+    name: insertText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts text at the specified location. The insertLocation value can be
+      'Replace', 'Start', 'End', 'Before' or 'After'.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function insertText(text: string, insertLocation: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: Required. Text to be inserted.
+        - id: insertLocation
+          type:
+            - string
+          description: >
+            Required. The value can be 'Replace', 'Start', 'End', 'Before' or
+            'After'.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.intersectWith'
+    name: intersectWith
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns a new range as the intersection of this range with another range.
+      This range is not changed. Throws if the two ranges are not overlapped or
+      adjacent.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function intersectWith(range: Range)'
+      parameters:
+        - id: range
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: |
+            Required. Another range.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.intersectWithOrNullObject'
+    name: intersectWithOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns a new range as the intersection of this range with another range.
+      This range is not changed. Returns a null object if the two ranges are not
+      overlapped or adjacent.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: 'function intersectWithOrNullObject(range: Range)'
+      parameters:
+        - id: range
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: |
+            Required. Another range.
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.isEmpty'
+    name: isEmpty
+    fullName: isEmpty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Checks whether the range length is zero. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean isEmpty
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.lists'
+    name: lists
+    fullName: lists
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of list objects in the range. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ListCollection lists
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ListCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.paragraphs'
+    name: paragraphs
+    fullName: paragraphs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of paragraph objects in the range. Read-only.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: ParagraphCollection paragraphs
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ParagraphCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentBody'
+    name: parentBody
+    fullName: parentBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the parent body of the range. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Body parentBody
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Body'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentContentControl'
+    name: parentContentControl
+    fullName: parentContentControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the content control that contains the range. Throws if there isn't a
+      parent content control. Read-only.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: ContentControl parentContentControl
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentContentControlOrNullObject'
+    name: parentContentControlOrNullObject
+    fullName: parentContentControlOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the content control that contains the range. Returns a null object if
+      there isn't a parent content control. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: ContentControl parentContentControlOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.ContentControl'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentTable'
+    name: parentTable
+    fullName: parentTable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table that contains the range. Throws if it is not contained in a
+      table. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Table parentTable
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentTableCell'
+    name: parentTableCell
+    fullName: parentTableCell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table cell that contains the range. Throws if it is not contained
+      in a table cell. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCell parentTableCell
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentTableCellOrNullObject'
+    name: parentTableCellOrNullObject
+    fullName: parentTableCellOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table cell that contains the range. Returns a null object if it
+      is not contained in a table cell. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCell parentTableCellOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCell'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.parentTableOrNullObject'
+    name: parentTableOrNullObject
+    fullName: parentTableOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the table that contains the range. Returns a null object if it is not
+      contained in a table. Read-only.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Table parentTableOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Table'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.search'
+    name: search
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Performs a search with the specified searchOptions on the scope of the
+      range object. The search results are a collection of range objects.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function search(searchText: string, searchOptions?: SearchOptions | )'
+      parameters:
+        - id: searchText
+          type:
+            - string
+          description: Required. The search text.
+        - id: searchOptions
+          type:
+            - 'SearchOptions | '
+          description: |
+            Optional. Options for the search.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.RangeCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.select'
+    name: select
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Selects and navigates the Word UI to the range.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: 'function select(selectionMode?: string)'
+      parameters:
+        - id: selectionMode
+          type:
+            - string
+          description: >
+            Optional. The selection mode can be 'Select', 'Start' or 'End'.
+            'Select' is the default.
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Word.Interfaces.RangeUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Range)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Range'
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.split'
+    name: split
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Splits the range into child ranges by using delimiters.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: >-
+        function split(delimiters: Array<string>, multiParagraphs?: boolean,
+        trimDelimiters?: boolean, trimSpacing?: boolean)
+      parameters:
+        - id: delimiters
+          type:
+            - Array<string>
+          description: Required. The delimiters as an array of strings.
+        - id: multiParagraphs
+          type:
+            - boolean
+          description: >-
+            Optional. Indicates whether a returned child range can cover
+            multiple paragraphs. Default is false which indicates that the
+            paragraph boundaries are also used as delimiters.
+          optional: true
+        - id: trimDelimiters
+          type:
+            - boolean
+          description: >-
+            Optional. Indicates whether to trim delimiters from the ranges in
+            the range collection. Default is false which indicates that the
+            delimiters are included in the ranges returned in the range
+            collection.
+          optional: true
+        - id: trimSpacing
+          type:
+            - boolean
+          description: >
+            Optional. Indicates whether to trim spacing characters (spaces,
+            tabs, column breaks and paragraph end marks) from the start and end
+            of the ranges returned in the range collection. Default is false
+            which indicates that spacing characters at the start and end of the
+            ranges are included in the range collection.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.RangeCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the style name for the range. Use this property for custom
+      styles and localized style names. To use the built-in styles that are
+      portable between locales, see the "styleBuiltIn" property.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.styleBuiltIn'
+    name: styleBuiltIn
+    fullName: styleBuiltIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the built-in style name for the range. Use this property for
+      built-in styles that are portable between locales. To use custom styles or
+      localized style names, see the "style" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string styleBuiltIn
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.tables'
+    name: tables
+    fullName: tables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of table objects in the range. Read-only.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: TableCollection tables
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the text of the range. Read-only.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Range.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Range'
+    module: Word

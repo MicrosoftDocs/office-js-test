@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisLine'
+    name: InkAnalysisLine
+    fullName: InkAnalysisLine
+    children:
+      - '@microsoft/office-js.OneNote.InkAnalysisLine.id'
+      - '@microsoft/office-js.OneNote.InkAnalysisLine.load'
+      - '@microsoft/office-js.OneNote.InkAnalysisLine.paragraph'
+      - '@microsoft/office-js.OneNote.InkAnalysisLine.words'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents ink analysis data for an identified text line formed by ink
+      strokes.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 19949
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisLine.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the InkAnalysisLine object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisLine.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysisLine'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisLine.paragraph'
+    name: paragraph
+    fullName: paragraph
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Reference to the parent InkAnalysisParagraph. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkAnalysisParagraph paragraph
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysisParagraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkAnalysisLine.words'
+    name: words
+    fullName: words
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ink analysis words in this ink analysis line. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkAnalysisWordCollection words
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkAnalysisWordCollection'
+    module: OneNote

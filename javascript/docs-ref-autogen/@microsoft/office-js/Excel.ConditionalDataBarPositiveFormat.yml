@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat'
+    name: ConditionalDataBarPositiveFormat
+    fullName: ConditionalDataBarPositiveFormat
+    children:
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.borderColor'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.fillColor'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.gradientFill'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.load'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.set'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.set_1'
+      - '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a conditional format DataBar Format for the positive side of
+      the data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7571
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.borderColor'
+    name: borderColor
+    fullName: borderColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the border line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      "" (empty string) if no border is present or set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string borderColor
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.fillColor'
+    name: fillColor
+    fullName: fillColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the fill color, of the form #RRGGBB (e.g.
+      "FFA500") or as a named HTML color (e.g. "orange").
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string fillColor
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.gradientFill'
+    name: gradientFill
+    fullName: gradientFill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean representation of whether or not the DataBar has a gradient.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean gradientFill
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalDataBarPositiveFormatUpdateData,
+        options?: function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarPositiveFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalDataBarPositiveFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

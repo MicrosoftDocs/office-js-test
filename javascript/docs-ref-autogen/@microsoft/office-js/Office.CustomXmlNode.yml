@@ -1,0 +1,269 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CustomXmlNode'
+    name: CustomXmlNode
+    fullName: CustomXmlNode
+    children:
+      - '@microsoft/office-js.Office.CustomXmlNode.baseName'
+      - '@microsoft/office-js.Office.CustomXmlNode.getNodesAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.getNodeValueAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.getTextAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.getXmlAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.namespaceUri'
+      - '@microsoft/office-js.Office.CustomXmlNode.nodeType'
+      - '@microsoft/office-js.Office.CustomXmlNode.setNodeValueAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.setTextAsync'
+      - '@microsoft/office-js.Office.CustomXmlNode.setXmlAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 498
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.baseName'
+    name: baseName
+    fullName: baseName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string baseName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.getNodesAsync'
+    name: getNodesAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the nodes associated with the xPath expression.
+    syntax:
+      content: >-
+        function getNodesAsync(xPath: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: xPath
+          type:
+            - string
+          description: The xPath expression
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.getNodeValueAsync'
+    name: getNodeValueAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the node value.
+    syntax:
+      content: >-
+        function getNodeValueAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.getTextAsync'
+    name: getTextAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Asynchronously gets the text of an XML node in a custom XML part.
+    syntax:
+      content: >-
+        function getTextAsync(options?: any, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.getXmlAsync'
+    name: getXmlAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the node's XML.
+    syntax:
+      content: >-
+        function getXmlAsync(options?: any, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.namespaceUri'
+    name: namespaceUri
+    fullName: namespaceUri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string namespaceUri
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.nodeType'
+    name: nodeType
+    fullName: nodeType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string nodeType
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.setNodeValueAsync'
+    name: setNodeValueAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the node value.
+    syntax:
+      content: >-
+        function setNodeValueAsync(value: string, options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: value
+          type:
+            - string
+          description: The value to be set on the node
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.setTextAsync'
+    name: setTextAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Asynchronously sets the text of an XML node in a custom XML part.
+    syntax:
+      content: >-
+        function setTextAsync(text: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: text
+          type:
+            - string
+          description: Required. The text value of the XML node.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlNode.setXmlAsync'
+    name: setXmlAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the node XML.
+    syntax:
+      content: >-
+        function setXmlAsync(xml: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: xml
+          type:
+            - string
+          description: The XML to be set on the node
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office

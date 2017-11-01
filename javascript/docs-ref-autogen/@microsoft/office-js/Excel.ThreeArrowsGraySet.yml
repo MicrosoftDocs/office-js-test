@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsGraySet'
+    name: ThreeArrowsGraySet
+    fullName: ThreeArrowsGraySet
+    children:
+      - '@microsoft/office-js.Excel.ThreeArrowsGraySet.grayDownArrow'
+      - '@microsoft/office-js.Excel.ThreeArrowsGraySet.graySideArrow'
+      - '@microsoft/office-js.Excel.ThreeArrowsGraySet.grayUpArrow'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2556
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsGraySet.grayDownArrow'
+    name: grayDownArrow
+    fullName: grayDownArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayDownArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsGraySet.graySideArrow'
+    name: graySideArrow
+    fullName: graySideArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon graySideArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsGraySet.grayUpArrow'
+    name: grayUpArrow
+    fullName: grayUpArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayUpArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

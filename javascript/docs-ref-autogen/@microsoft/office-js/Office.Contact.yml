@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Contact'
+    name: Contact
+    fullName: Contact
+    children:
+      - '@microsoft/office-js.Office.Contact.addresses'
+      - '@microsoft/office-js.Office.Contact.businessName'
+      - '@microsoft/office-js.Office.Contact.emailAddresses'
+      - '@microsoft/office-js.Office.Contact.personName'
+      - '@microsoft/office-js.Office.Contact.phoneNumbers'
+      - '@microsoft/office-js.Office.Contact.urls'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1704
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.addresses'
+    name: addresses
+    fullName: addresses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> addresses
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.businessName'
+    name: businessName
+    fullName: businessName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string businessName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.emailAddresses'
+    name: emailAddresses
+    fullName: emailAddresses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> emailAddresses
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.personName'
+    name: personName
+    fullName: personName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string personName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.phoneNumbers'
+    name: phoneNumbers
+    fullName: phoneNumbers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<PhoneNumber> phoneNumbers
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.PhoneNumber>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Contact.urls'
+    name: urls
+    fullName: urls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> urls
+      return:
+        type:
+          - Array<string>
+    module: Office

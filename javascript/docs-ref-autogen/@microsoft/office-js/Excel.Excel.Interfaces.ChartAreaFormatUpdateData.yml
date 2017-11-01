@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAreaFormatUpdateData'
+    name: ChartAreaFormatUpdateData
+    fullName: ChartAreaFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAreaFormatUpdateData.font
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartAreaFormat object, for use in
+      "chartAreaFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13390
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAreaFormatUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes (font name, font size, color, etc.) for the
+      current object.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+    module: Excel.Interfaces

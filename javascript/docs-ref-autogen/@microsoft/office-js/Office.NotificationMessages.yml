@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.NotificationMessages'
+    name: NotificationMessages
+    fullName: NotificationMessages
+    children:
+      - '@microsoft/office-js.Office.NotificationMessages.addAsync'
+      - '@microsoft/office-js.Office.NotificationMessages.getAllAsync'
+      - '@microsoft/office-js.Office.NotificationMessages.removeAsync'
+      - '@microsoft/office-js.Office.NotificationMessages.replaceAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1993
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessages.addAsync'
+    name: addAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a notification to an item
+    syntax:
+      content: >-
+        function addAsync(key: string, JSONmessage: NotificationMessageDetails,
+        options?: AsyncContextOptions, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: key
+          type:
+            - string
+          description: >-
+            A developer-specified key used to refrence this notification
+            message. Developers can use it to modify this message later.
+        - id: JSONmessage
+          type:
+            - '@@microsoft/office-js.Office.NotificationMessageDetails'
+          description: >-
+            A JSON object that contains the notification message to be added to
+            this item
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessages.getAllAsync'
+    name: getAllAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all keys and messages for an item.
+    syntax:
+      content: >-
+        function getAllAsync(options?: AsyncContextOptions, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessages.removeAsync'
+    name: removeAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes a notification message for an item.
+    syntax:
+      content: >-
+        function removeAsync(key: string, options?: AsyncContextOptions,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: key
+          type:
+            - string
+          description: The key for the notification message to remove
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessages.replaceAsync'
+    name: replaceAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Replaces a notification message that has a given key with another message
+    syntax:
+      content: >-
+        function replaceAsync(key: string, JSONmessage:
+        NotificationMessageDetails, options?: AsyncContextOptions, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: key
+          type:
+            - string
+          description: The key for the notification message to replace.
+        - id: JSONmessage
+          type:
+            - '@@microsoft/office-js.Office.NotificationMessageDetails'
+          description: >-
+            A JSON object that contains the new notification message to replace
+            the existing message
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.AsyncContextOptions'
+          description: Any optional parameters or state data passed to the method
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office

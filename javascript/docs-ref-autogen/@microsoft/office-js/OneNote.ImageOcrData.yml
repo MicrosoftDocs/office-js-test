@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.ImageOcrData'
+    name: ImageOcrData
+    fullName: ImageOcrData
+    children:
+      - '@microsoft/office-js.OneNote.ImageOcrData.ocrLanguageId'
+      - '@microsoft/office-js.OneNote.ImageOcrData.ocrText'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Represents data obtained by OCR (optical character recognition) of an
+      image
+
+      [Api set: OneNoteApi 1.1]
+    source:
+      path: office.d.ts
+      startLine: 21808
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.ImageOcrData.ocrLanguageId'
+    name: ocrLanguageId
+    fullName: ocrLanguageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the OCR language, with values such as EN-US
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string ocrLanguageId
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.ImageOcrData.ocrText'
+    name: ocrText
+    fullName: ocrText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the text obtained by OCR of the image
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string ocrText
+      return:
+        type:
+          - string
+    module: OneNote

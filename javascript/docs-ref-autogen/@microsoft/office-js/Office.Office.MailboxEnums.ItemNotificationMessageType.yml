@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType
+    name: ItemNotificationMessageType
+    fullName: ItemNotificationMessageType
+    children:
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.ErrorMessage
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.InformationalMessage
+      - >-
+        @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.ProgressIndicator
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1533
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.ErrorMessage
+    name: ErrorMessage
+    children: []
+    langs:
+      - typeScript
+    summary: The notificationMessage is an error message.
+    type: field
+    module: Office.MailboxEnums
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.InformationalMessage
+    name: InformationalMessage
+    children: []
+    langs:
+      - typeScript
+    summary: The notificationMessage is an informational message.
+    type: field
+    module: Office.MailboxEnums
+  - uid: >-
+      @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType.ProgressIndicator
+    name: ProgressIndicator
+    children: []
+    langs:
+      - typeScript
+    summary: The notificationMessage is a progress indicator.
+    type: field
+    module: Office.MailboxEnums

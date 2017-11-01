@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Binding'
+    name: Binding
+    fullName: Binding
+    children:
+      - '@microsoft/office-js.Office.Binding.addHandlerAsync'
+      - '@microsoft/office-js.Office.Binding.document'
+      - '@microsoft/office-js.Office.Binding.getDataAsync'
+      - '@microsoft/office-js.Office.Binding.id'
+      - '@microsoft/office-js.Office.Binding.removeHandlerAsync'
+      - '@microsoft/office-js.Office.Binding.setDataAsync'
+      - '@microsoft/office-js.Office.Binding.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 385
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.addHandlerAsync'
+    name: addHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event handler to the object using the specified event type.
+    syntax:
+      content: >-
+        function addHandlerAsync(eventType: EventType, handler: any, options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: >-
+            The event type. For binding it can be 'bindingDataChanged' and
+            'bindingSelectionChanged'
+        - id: handler
+          type:
+            - any
+          description: The name of the handler
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.document'
+    name: document
+    fullName: document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Document document
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Document'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.getDataAsync'
+    name: getDataAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the current selection.
+    syntax:
+      content: >-
+        function getDataAsync(options?: any, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: >-
+            Syntax example: {coercionType: 'matrix,'valueFormat: 'formatted',
+            filterType:'all'}
+                  coercionType: The expected shape of the selection. If not specified returns the bindingType shape. Use Office.CoercionType or text value.
+                  valueFormat: Get data with or without format. Use Office.ValueFormat or text value.
+                  startRow: Used in partial get for table/matrix. Indicates the start row.
+                  startColumn: Used in partial get for table/matrix. Indicates the start column.
+                  rowCount: Used in partial get for table/matrix. Indicates the number of rows from the start row.
+                  columnCount: Used in partial get for table/matrix. Indicates the number of columns from the start column.
+                  filterType: Get the visible or all the data. Useful when filtering data. Use Office.FilterType or text value.
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Id of the Binding
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.removeHandlerAsync'
+    name: removeHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes an event handler from the object using the specified event type.
+    syntax:
+      content: >-
+        function removeHandlerAsync(eventType: EventType, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: >-
+            The event type. For binding can be 'bindingDataChanged' and
+            'bindingSelectionChanged'
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {handler:eventHandler}
+                  handler: Indicates a specific handler to be removed, if not specified all handlers are removed
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.setDataAsync'
+    name: setDataAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Writes the specified data into the current selection.
+    syntax:
+      content: >-
+        function setDataAsync(data: TableData | any, options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: data
+          type:
+            - TableData | any
+          description: >-
+            The data to be set. Either a string or value, 2d array or TableData
+            object
+        - id: options
+          type:
+            - any
+          description: >-
+            Syntax example: {coercionType:Office.CoercionType.Matrix} or
+            {coercionType: 'matrix'}
+                  coercionType: Explicitly sets the shape of the data object. Use Office.CoercionType or text value. If not supplied is inferred from the data type.
+                  startRow: Used in partial set for table/matrix. Indicates the start row.
+                  startColumn: Used in partial set for table/matrix. Indicates the start column.
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Binding.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BindingType type
+      return:
+        type:
+          - '@@microsoft/office-js.Office.BindingType'
+    module: Office

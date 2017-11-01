@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.AppointmentCompose'
+    name: AppointmentCompose
+    fullName: AppointmentCompose
+    children:
+      - '@microsoft/office-js.Office.AppointmentCompose.end'
+      - '@microsoft/office-js.Office.AppointmentCompose.location'
+      - '@microsoft/office-js.Office.AppointmentCompose.optionalAttendees'
+      - '@microsoft/office-js.Office.AppointmentCompose.requiredAttendees'
+      - '@microsoft/office-js.Office.AppointmentCompose.start'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Appointment'
+    source:
+      path: office.d.ts
+      startLine: 1633
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentCompose.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Time end
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Time'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentCompose.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Location location
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Location'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentCompose.optionalAttendees'
+    name: optionalAttendees
+    fullName: optionalAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Recipients optionalAttendees
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Recipients'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentCompose.requiredAttendees'
+    name: requiredAttendees
+    fullName: requiredAttendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Recipients requiredAttendees
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Recipients'
+    module: Office
+  - uid: '@microsoft/office-js.Office.AppointmentCompose.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Time start
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Time'
+    module: Office

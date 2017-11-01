@@ -1,0 +1,319 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.IconCollections'
+    name: IconCollections
+    fullName: IconCollections
+    children:
+      - '@microsoft/office-js.Excel.IconCollections.fiveArrows'
+      - '@microsoft/office-js.Excel.IconCollections.fiveArrowsGray'
+      - '@microsoft/office-js.Excel.IconCollections.fiveBoxes'
+      - '@microsoft/office-js.Excel.IconCollections.fiveQuarters'
+      - '@microsoft/office-js.Excel.IconCollections.fiveRating'
+      - '@microsoft/office-js.Excel.IconCollections.fourArrows'
+      - '@microsoft/office-js.Excel.IconCollections.fourArrowsGray'
+      - '@microsoft/office-js.Excel.IconCollections.fourRating'
+      - '@microsoft/office-js.Excel.IconCollections.fourRedToBlack'
+      - '@microsoft/office-js.Excel.IconCollections.fourTrafficLights'
+      - '@microsoft/office-js.Excel.IconCollections.threeArrows'
+      - '@microsoft/office-js.Excel.IconCollections.threeArrowsGray'
+      - '@microsoft/office-js.Excel.IconCollections.threeFlags'
+      - '@microsoft/office-js.Excel.IconCollections.threeSigns'
+      - '@microsoft/office-js.Excel.IconCollections.threeStars'
+      - '@microsoft/office-js.Excel.IconCollections.threeSymbols'
+      - '@microsoft/office-js.Excel.IconCollections.threeSymbols2'
+      - '@microsoft/office-js.Excel.IconCollections.threeTrafficLights1'
+      - '@microsoft/office-js.Excel.IconCollections.threeTrafficLights2'
+      - '@microsoft/office-js.Excel.IconCollections.threeTriangles'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2685
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fiveArrows'
+    name: fiveArrows
+    fullName: fiveArrows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FiveArrowsSet fiveArrows
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FiveArrowsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fiveArrowsGray'
+    name: fiveArrowsGray
+    fullName: fiveArrowsGray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FiveArrowsGraySet fiveArrowsGray
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FiveArrowsGraySet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fiveBoxes'
+    name: fiveBoxes
+    fullName: fiveBoxes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FiveBoxesSet fiveBoxes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FiveBoxesSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fiveQuarters'
+    name: fiveQuarters
+    fullName: fiveQuarters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FiveQuartersSet fiveQuarters
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FiveQuartersSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fiveRating'
+    name: fiveRating
+    fullName: fiveRating
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FiveRatingSet fiveRating
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FiveRatingSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fourArrows'
+    name: fourArrows
+    fullName: fourArrows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FourArrowsSet fourArrows
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FourArrowsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fourArrowsGray'
+    name: fourArrowsGray
+    fullName: fourArrowsGray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FourArrowsGraySet fourArrowsGray
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FourArrowsGraySet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fourRating'
+    name: fourRating
+    fullName: fourRating
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FourRatingSet fourRating
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FourRatingSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fourRedToBlack'
+    name: fourRedToBlack
+    fullName: fourRedToBlack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FourRedToBlackSet fourRedToBlack
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FourRedToBlackSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.fourTrafficLights'
+    name: fourTrafficLights
+    fullName: fourTrafficLights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FourTrafficLightsSet fourTrafficLights
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FourTrafficLightsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeArrows'
+    name: threeArrows
+    fullName: threeArrows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeArrowsSet threeArrows
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeArrowsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeArrowsGray'
+    name: threeArrowsGray
+    fullName: threeArrowsGray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeArrowsGraySet threeArrowsGray
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeArrowsGraySet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeFlags'
+    name: threeFlags
+    fullName: threeFlags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeFlagsSet threeFlags
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeFlagsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeSigns'
+    name: threeSigns
+    fullName: threeSigns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeSignsSet threeSigns
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeSignsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeStars'
+    name: threeStars
+    fullName: threeStars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeStarsSet threeStars
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeStarsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeSymbols'
+    name: threeSymbols
+    fullName: threeSymbols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeSymbolsSet threeSymbols
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeSymbolsSet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeSymbols2'
+    name: threeSymbols2
+    fullName: threeSymbols2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeSymbols2Set threeSymbols2
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeSymbols2Set'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeTrafficLights1'
+    name: threeTrafficLights1
+    fullName: threeTrafficLights1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeTrafficLights1Set threeTrafficLights1
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeTrafficLights1Set'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeTrafficLights2'
+    name: threeTrafficLights2
+    fullName: threeTrafficLights2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeTrafficLights2Set threeTrafficLights2
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeTrafficLights2Set'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconCollections.threeTriangles'
+    name: threeTriangles
+    fullName: threeTriangles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ThreeTrianglesSet threeTriangles
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ThreeTrianglesSet'
+    module: Excel

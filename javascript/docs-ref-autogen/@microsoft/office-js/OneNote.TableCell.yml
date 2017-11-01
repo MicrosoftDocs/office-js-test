@@ -1,0 +1,276 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.TableCell'
+    name: TableCell
+    fullName: TableCell
+    children:
+      - '@microsoft/office-js.OneNote.TableCell.appendHtml'
+      - '@microsoft/office-js.OneNote.TableCell.appendImage'
+      - '@microsoft/office-js.OneNote.TableCell.appendRichText'
+      - '@microsoft/office-js.OneNote.TableCell.appendTable'
+      - '@microsoft/office-js.OneNote.TableCell.cellIndex'
+      - '@microsoft/office-js.OneNote.TableCell.clear'
+      - '@microsoft/office-js.OneNote.TableCell.id'
+      - '@microsoft/office-js.OneNote.TableCell.load'
+      - '@microsoft/office-js.OneNote.TableCell.paragraphs'
+      - '@microsoft/office-js.OneNote.TableCell.parentRow'
+      - '@microsoft/office-js.OneNote.TableCell.rowIndex'
+      - '@microsoft/office-js.OneNote.TableCell.shadingColor'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a cell in a OneNote table.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21658
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.appendHtml'
+    name: appendHtml
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified HTML to the bottom of the TableCell.
+    syntax:
+      content: 'function appendHtml(html: string)'
+      parameters:
+        - id: html
+          type:
+            - string
+          description: >
+            The HTML string to append. See [supported
+            HTML](../../docs/onenote/onenote-add-ins-page-content.md#supported-html)
+            for the OneNote add-ins JavaScript API.
+
+
+            [Api set: OneNoteApi 1.1]
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.appendImage'
+    name: appendImage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified image to table cell.
+    syntax:
+      content: >-
+        function appendImage(base64EncodedImage: string, width: number, height:
+        number)
+      parameters:
+        - id: base64EncodedImage
+          type:
+            - string
+          description: HTML string to append.
+        - id: width
+          type:
+            - number
+          description: >-
+            Optional. Width in the unit of Points. The default value is null and
+            image width will be respected.
+        - id: height
+          type:
+            - number
+          description: >
+            Optional. Height in the unit of Points. The default value is null
+            and image height will be respected.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.appendRichText'
+    name: appendRichText
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified text to table cell.
+    syntax:
+      content: 'function appendRichText(paragraphText: string)'
+      parameters:
+        - id: paragraphText
+          type:
+            - string
+          description: |
+            HTML string to append.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.RichText'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.appendTable'
+    name: appendTable
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a table with the specified number of rows and columns to table cell.
+    syntax:
+      content: >-
+        function appendTable(rowCount: number, columnCount: number, values?:
+        Array<Array<string>>)
+      parameters:
+        - id: rowCount
+          type:
+            - number
+          description: Required. The number of rows in the table.
+        - id: columnCount
+          type:
+            - number
+          description: Required. The number of columns in the table.
+        - id: values
+          type:
+            - Array<Array<string>>
+          description: >
+            Optional 2D array. Cells are filled if the corresponding strings are
+            specified in the array.
+
+
+            [Api set: OneNoteApi 1.1]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Table'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.cellIndex'
+    name: cellIndex
+    fullName: cellIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the index of the cell in its row. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number cellIndex
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears the contents of the cell.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the cell. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableCell'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.paragraphs'
+    name: paragraphs
+    fullName: paragraphs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the collection of Paragraph objects in the TableCell. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: ParagraphCollection paragraphs
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.ParagraphCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.parentRow'
+    name: parentRow
+    fullName: parentRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the parent row of the cell. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: TableRow parentRow
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.TableRow'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.rowIndex'
+    name: rowIndex
+    fullName: rowIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the index of the cell's row in the table. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number rowIndex
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.TableCell.shadingColor'
+    name: shadingColor
+    fullName: shadingColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the shading color of the cell
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string shadingColor
+      return:
+        type:
+          - string
+    module: OneNote

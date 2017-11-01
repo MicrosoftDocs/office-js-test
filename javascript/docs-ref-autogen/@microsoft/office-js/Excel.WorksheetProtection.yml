@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection'
+    name: WorksheetProtection
+    fullName: WorksheetProtection
+    children:
+      - '@microsoft/office-js.Excel.WorksheetProtection.load'
+      - '@microsoft/office-js.Excel.WorksheetProtection.options'
+      - '@microsoft/office-js.Excel.WorksheetProtection.protect'
+      - '@microsoft/office-js.Excel.WorksheetProtection.protected'
+      - '@microsoft/office-js.Excel.WorksheetProtection.toJSON'
+      - '@microsoft/office-js.Excel.WorksheetProtection.unprotect'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the protection of a sheet object.
+      [Api set: ExcelApi 1.2]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 3246
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.WorksheetProtection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.options'
+    name: options
+    fullName: options
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Sheet protection options. Read-Only.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: WorksheetProtectionOptions options
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.WorksheetProtectionOptions'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.protect'
+    name: protect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Protects a worksheet. Fails if the worksheet has been protected.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function protect(options?: WorksheetProtectionOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@@microsoft/office-js.Excel.WorksheetProtectionOptions'
+          description: |
+            sheet protection options.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.protected'
+    name: protected
+    fullName: protected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates if the worksheet is protected. Read-Only.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean protected
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetProtection.unprotect'
+    name: unprotect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Unprotects a worksheet.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function unprotect()
+      parameters: []
+    module: Excel

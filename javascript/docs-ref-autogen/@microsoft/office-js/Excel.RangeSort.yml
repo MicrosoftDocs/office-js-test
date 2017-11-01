@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.RangeSort'
+    name: RangeSort
+    fullName: RangeSort
+    children:
+      - '@microsoft/office-js.Excel.RangeSort.apply'
+      - '@microsoft/office-js.Excel.RangeSort.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Manages sorting operations on Range objects.
+      [Api set: ExcelApi 1.2]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6564
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeSort.apply'
+    name: apply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Perform a sort operation.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: >-
+        function apply(fields: Array<SortField>, matchCase?: boolean,
+        hasHeaders?: boolean, orientation?: string, method?: string)
+      parameters:
+        - id: fields
+          type:
+            - Array<@@microsoft/office-js.Excel.SortField>
+          description: The list of conditions to sort on.
+        - id: matchCase
+          type:
+            - boolean
+          description: Whether to have the casing impact string ordering.
+          optional: true
+        - id: hasHeaders
+          type:
+            - boolean
+          description: Whether the range has a header.
+          optional: true
+        - id: orientation
+          type:
+            - string
+          description: Whether the operation is sorting rows or columns.
+          optional: true
+        - id: method
+          type:
+            - string
+          description: |
+            The ordering method used for Chinese characters.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeSort.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

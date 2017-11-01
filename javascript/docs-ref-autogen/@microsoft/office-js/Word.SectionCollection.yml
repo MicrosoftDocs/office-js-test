@@ -1,0 +1,156 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.SectionCollection'
+    name: SectionCollection
+    fullName: SectionCollection
+    children:
+      - '@microsoft/office-js.Word.SectionCollection.getFirst'
+      - '@microsoft/office-js.Word.SectionCollection.getFirstOrNullObject'
+      - '@microsoft/office-js.Word.SectionCollection.items'
+      - '@microsoft/office-js.Word.SectionCollection.load'
+      - '@microsoft/office-js.Word.SectionCollection.toJSON'
+      - '@microsoft/office-js.Word.SectionCollection.track'
+      - '@microsoft/office-js.Word.SectionCollection.untrack'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Contains the collection of the document's [section](section.md) objects.
+      [Api set: WordApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 17320
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.getFirst'
+    name: getFirst
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the first section in this collection. Throws if this collection is
+      empty.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getFirst()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Section'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.getFirstOrNullObject'
+    name: getFirstOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the first section in this collection. Returns a null object if this
+      collection is empty.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: function getFirstOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Section'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Section> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Word.Section>
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.SectionCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.SectionCollection'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SectionCollection.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.SectionCollection'
+    module: Word

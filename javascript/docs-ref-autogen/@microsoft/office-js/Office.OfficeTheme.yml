@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.OfficeTheme'
+    name: OfficeTheme
+    fullName: OfficeTheme
+    children:
+      - '@microsoft/office-js.Office.OfficeTheme.bodyBackgroundColor'
+      - '@microsoft/office-js.Office.OfficeTheme.bodyForegroundColor'
+      - '@microsoft/office-js.Office.OfficeTheme.controlBackgroundColor'
+      - '@microsoft/office-js.Office.OfficeTheme.controlForgroundColor'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 178
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.OfficeTheme.bodyBackgroundColor'
+    name: bodyBackgroundColor
+    fullName: bodyBackgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyBackgroundColor
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.OfficeTheme.bodyForegroundColor'
+    name: bodyForegroundColor
+    fullName: bodyForegroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string bodyForegroundColor
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.OfficeTheme.controlBackgroundColor'
+    name: controlBackgroundColor
+    fullName: controlBackgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string controlBackgroundColor
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.OfficeTheme.controlForgroundColor'
+    name: controlForgroundColor
+    fullName: controlForgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string controlForgroundColor
+      return:
+        type:
+          - string
+    module: Office

@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData'
+    name: TableColumnUpdateData
+    fullName: TableColumnUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData.name'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData.values'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the TableColumn object, for use in
+      "tableColumn.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13135
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of the table column.
+      [Api set: ExcelApi 1.1 for getting the name; 1.4 for setting it.]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the raw values of the specified range. The data returned could
+      be of type string, number, or a boolean. Cell that contain an error will
+      return the error string.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> values
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces

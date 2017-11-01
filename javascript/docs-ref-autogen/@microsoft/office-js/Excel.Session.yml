@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Session'
+    name: Session
+    fullName: Session
+    children:
+      - '@microsoft/office-js.Excel.Session.close'
+      - '@microsoft/office-js.Excel.Session.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: Provides connection session for a remote workbook.
+    source:
+      path: office.d.ts
+      startLine: 2711
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Session.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Close the session.
+    syntax:
+      content: function close()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<void>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Session.constructor'
+    name: Session
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Session(workbookUrl?: string, requestHeaders?: [key: string]:
+        string, persisted?: boolean)
+      parameters:
+        - id: workbookUrl
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: requestHeaders
+          type:
+            - '[key: string]: string'
+          description: ''
+          optional: true
+        - id: persisted
+          type:
+            - boolean
+          description: ''
+          optional: true
+    module: Excel

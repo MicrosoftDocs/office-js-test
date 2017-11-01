@@ -1,0 +1,219 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection'
+    name: TableColumnCollection
+    fullName: TableColumnCollection
+    children:
+      - '@microsoft/office-js.Excel.TableColumnCollection.add'
+      - '@microsoft/office-js.Excel.TableColumnCollection.count'
+      - '@microsoft/office-js.Excel.TableColumnCollection.getCount'
+      - '@microsoft/office-js.Excel.TableColumnCollection.getItem'
+      - '@microsoft/office-js.Excel.TableColumnCollection.getItemAt'
+      - '@microsoft/office-js.Excel.TableColumnCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.TableColumnCollection.items'
+      - '@microsoft/office-js.Excel.TableColumnCollection.load'
+      - '@microsoft/office-js.Excel.TableColumnCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a collection of all the columns that are part of the table.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4659
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds a new column to the table.
+
+      [Api set: ExcelApi 1.1 requires an index smaller than the total column
+      count; 1.4 allows index to be optional (null or -1) and will append a
+      column at the end; 1.4 allows name parameter at creation time.]
+    syntax:
+      content: >-
+        function add(index?: number, values?: Array | boolean | string | number,
+        name?: string)
+      parameters:
+        - id: index
+          type:
+            - number
+          description: >-
+            Specifies the relative position of the new column. If null or -1,
+            the addition happens at the end. Columns with a higher index will be
+            shifted to the side. Zero-indexed.
+          optional: true
+        - id: values
+          type:
+            - Array | boolean | string | number
+          description: A 2-dimensional array of unformatted values of the table column.
+          optional: true
+        - id: name
+          type:
+            - string
+          description: >
+            Specifies the name of the new column. If null, the default name will
+            be used.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumn'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of columns in the table. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of columns in the table.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a column object by Name or ID.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(key: number | string)'
+      parameters:
+        - id: key
+          type:
+            - number | string
+          description: |
+            Column Name or ID.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumn'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a column based on its position in the collection.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumn'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a column object by Name or ID. If the column does not exist, will
+      return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(key: number | string)'
+      parameters:
+        - id: key
+          type:
+            - number | string
+          description: |
+            Column Name or ID.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumn'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<TableColumn> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.TableColumn>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumnCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumnCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

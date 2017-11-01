@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails'
+    name: NotificationMessageDetails
+    fullName: NotificationMessageDetails
+    children:
+      - '@microsoft/office-js.Office.NotificationMessageDetails.icon'
+      - '@microsoft/office-js.Office.NotificationMessageDetails.key'
+      - '@microsoft/office-js.Office.NotificationMessageDetails.message'
+      - '@microsoft/office-js.Office.NotificationMessageDetails.persistent'
+      - '@microsoft/office-js.Office.NotificationMessageDetails.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1986
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails.icon'
+    name: icon
+    fullName: icon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string icon
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails.persistent'
+    name: persistent
+    fullName: persistent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Boolean persistent
+      return:
+        type:
+          - Boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.NotificationMessageDetails.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ItemNotificationMessageType type
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType
+    module: Office

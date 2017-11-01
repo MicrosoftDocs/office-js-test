@@ -1,0 +1,563 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat'
+    name: ConditionalFormat
+    fullName: ConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.ConditionalFormat.cellValue'
+      - '@microsoft/office-js.Excel.ConditionalFormat.cellValueOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.colorScale'
+      - '@microsoft/office-js.Excel.ConditionalFormat.colorScaleOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.custom'
+      - '@microsoft/office-js.Excel.ConditionalFormat.customOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.dataBar'
+      - '@microsoft/office-js.Excel.ConditionalFormat.dataBarOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.delete'
+      - '@microsoft/office-js.Excel.ConditionalFormat.getRange'
+      - '@microsoft/office-js.Excel.ConditionalFormat.getRangeOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.iconSet'
+      - '@microsoft/office-js.Excel.ConditionalFormat.iconSetOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.id'
+      - '@microsoft/office-js.Excel.ConditionalFormat.load'
+      - '@microsoft/office-js.Excel.ConditionalFormat.preset'
+      - '@microsoft/office-js.Excel.ConditionalFormat.presetOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.priority'
+      - '@microsoft/office-js.Excel.ConditionalFormat.set'
+      - '@microsoft/office-js.Excel.ConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.ConditionalFormat.stopIfTrue'
+      - '@microsoft/office-js.Excel.ConditionalFormat.textComparison'
+      - '@microsoft/office-js.Excel.ConditionalFormat.textComparisonOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.toJSON'
+      - '@microsoft/office-js.Excel.ConditionalFormat.topBottom'
+      - '@microsoft/office-js.Excel.ConditionalFormat.topBottomOrNullObject'
+      - '@microsoft/office-js.Excel.ConditionalFormat.type'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      An object encapsulating a conditional format's range, format, rule, and
+      other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7268
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.cellValue'
+    name: cellValue
+    fullName: cellValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the cell value conditional format properties if the current
+      conditional format is a CellValue type.
+
+      For example to format all cells between 5 and 10.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: CellValueConditionalFormat cellValue
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CellValueConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.cellValueOrNullObject'
+    name: cellValueOrNullObject
+    fullName: cellValueOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the cell value conditional format properties if the current
+      conditional format is a CellValue type.
+
+      For example to format all cells between 5 and 10.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: CellValueConditionalFormat cellValueOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CellValueConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.colorScale'
+    name: colorScale
+    fullName: colorScale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the ColorScale conditional format properties if the current
+      conditional format is an ColorScale type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ColorScaleConditionalFormat colorScale
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.colorScaleOrNullObject'
+    name: colorScaleOrNullObject
+    fullName: colorScaleOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the ColorScale conditional format properties if the current
+      conditional format is an ColorScale type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ColorScaleConditionalFormat colorScaleOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.custom'
+    name: custom
+    fullName: custom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the custom conditional format properties if the current
+      conditional format is a custom type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: CustomConditionalFormat custom
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.customOrNullObject'
+    name: customOrNullObject
+    fullName: customOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the custom conditional format properties if the current
+      conditional format is a custom type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: CustomConditionalFormat customOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.dataBar'
+    name: dataBar
+    fullName: dataBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the data bar properties if the current conditional format is a
+      data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: DataBarConditionalFormat dataBar
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.DataBarConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.dataBarOrNullObject'
+    name: dataBarOrNullObject
+    fullName: dataBarOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the data bar properties if the current conditional format is a
+      data bar.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: DataBarConditionalFormat dataBarOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.DataBarConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes this conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the range the conditonal format is applied to or a null object if
+      the range is discontiguous. Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function getRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.getRangeOrNullObject'
+    name: getRangeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the range the conditonal format is applied to or a null object if
+      the range is discontiguous. Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function getRangeOrNullObject()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.iconSet'
+    name: iconSet
+    fullName: iconSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the IconSet conditional format properties if the current
+      conditional format is an IconSet type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: IconSetConditionalFormat iconSet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.IconSetConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.iconSetOrNullObject'
+    name: iconSetOrNullObject
+    fullName: iconSetOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the IconSet conditional format properties if the current
+      conditional format is an IconSet type.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: IconSetConditionalFormat iconSetOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.IconSetConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The Priority of the Conditional Format within the current
+      ConditionalFormatCollection.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.preset'
+    name: preset
+    fullName: preset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the preset criteria conditional format such as above average/below
+      average/unique values/contains blank/nonblank/error/noerror properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: PresetCriteriaConditionalFormat preset
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.presetOrNullObject'
+    name: presetOrNullObject
+    fullName: presetOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the preset criteria conditional format such as above average/below
+      average/unique values/contains blank/nonblank/error/noerror properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: PresetCriteriaConditionalFormat presetOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.priority'
+    name: priority
+    fullName: priority
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The priority (or index) within the conditional format collection that this
+      conditional format currently exists in. Changing this also
+
+      changes other conditional formats' priorities, to allow for a contiguous
+      priority order.
+
+      Use a negative priority to begin from the back.
+
+      Priorities greater than than bounds will get and set to the maximum (or
+      minimum if negative) priority.
+
+      Also note that if you change the priority, you have to re-fetch a new copy
+      of the object at that new priority location if you want to make further
+      changes to it.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: number priority
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.stopIfTrue'
+    name: stopIfTrue
+    fullName: stopIfTrue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If the conditions of this conditional format are met, no lower-priority
+      formats shall take effect on that cell.
+
+      Null on databars, icon sets, and colorscales as there's no concept of
+      StopIfTrue for these
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean stopIfTrue
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.textComparison'
+    name: textComparison
+    fullName: textComparison
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the specific text conditional format properties if the current
+      conditional format is a text type.
+
+      For example to format cells matching the word "Text".
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: TextConditionalFormat textComparison
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TextConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.textComparisonOrNullObject'
+    name: textComparisonOrNullObject
+    fullName: textComparisonOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the specific text conditional format properties if the current
+      conditional format is a text type.
+
+      For example to format cells matching the word "Text".
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: TextConditionalFormat textComparisonOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TextConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.topBottom'
+    name: topBottom
+    fullName: topBottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the Top/Bottom conditional format properties if the current
+      conditional format is an TopBottom type.
+
+      For example to format the top 10% or bottom 10 items.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: TopBottomConditionalFormat topBottom
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TopBottomConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.topBottomOrNullObject'
+    name: topBottomOrNullObject
+    fullName: topBottomOrNullObject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the Top/Bottom conditional format properties if the current
+      conditional format is an TopBottom type.
+
+      For example to format the top 10% or bottom 10 items.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: TopBottomConditionalFormat topBottomOrNullObject
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TopBottomConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormat.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A type of conditional format. Only one can be set at a time. Read-Only.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel

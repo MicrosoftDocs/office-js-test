@@ -1,0 +1,208 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Image'
+    name: Image
+    fullName: Image
+    children:
+      - '@microsoft/office-js.OneNote.Image.description'
+      - '@microsoft/office-js.OneNote.Image.getBase64Image'
+      - '@microsoft/office-js.OneNote.Image.height'
+      - '@microsoft/office-js.OneNote.Image.hyperlink'
+      - '@microsoft/office-js.OneNote.Image.id'
+      - '@microsoft/office-js.OneNote.Image.load'
+      - '@microsoft/office-js.OneNote.Image.ocrData'
+      - '@microsoft/office-js.OneNote.Image.pageContent'
+      - '@microsoft/office-js.OneNote.Image.paragraph'
+      - '@microsoft/office-js.OneNote.Image.width'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents an Image. An Image can be a direct child of a PageContent
+      object or a Paragraph object.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 21343
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the description of the Image.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string description
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.getBase64Image'
+    name: getBase64Image
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the base64-encoded binary representation of the Image.
+      Example: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIA...
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function getBase64Image()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<string>'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the height of the Image layout.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.hyperlink'
+    name: hyperlink
+    fullName: hyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the hyperlink of the Image.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string hyperlink
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the Image object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.ocrData'
+    name: ocrData
+    fullName: ocrData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the data obtained by OCR (Optical Character Recognition) of this
+      Image, such as OCR text and language.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: ImageOcrData ocrData
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.ImageOcrData'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.pageContent'
+    name: pageContent
+    fullName: pageContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the PageContent object that contains the Image. Throws if the Image
+      is not a direct child of a PageContent. This object defines the position
+      of the Image on the page. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: PageContent pageContent
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.paragraph'
+    name: paragraph
+    fullName: paragraph
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Paragraph object that contains the Image. Throws if the Image is
+      not a direct child of a Paragraph. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Paragraph paragraph
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Image.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the width of the Image layout.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: OneNote

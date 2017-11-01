@@ -1,0 +1,192 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData'
+    name: DocumentPropertiesUpdateData
+    fullName: DocumentPropertiesUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.author
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.category
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.comments
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.company
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.format
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.keywords
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.manager
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.subject
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.title
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the DocumentProperties object, for use
+      in "documentProperties.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19062
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.author
+    name: author
+    fullName: author
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the author of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string author
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.category
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the category of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string category
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.comments
+    name: comments
+    fullName: comments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the comments of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string comments
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.company
+    name: company
+    fullName: company
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the company of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string company
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the format of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string format
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.keywords
+    name: keywords
+    fullName: keywords
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the keywords of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string keywords
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.manager
+    name: manager
+    fullName: manager
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the manager of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string manager
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.subject
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the subject of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the title of the document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string title
+      return:
+        type:
+          - string
+    module: Word.Interfaces

@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Global'
+    package: '@microsoft/office-js'
+    name: Global
+    module: Office
+    children:
+      - '@microsoft/office-js.Office.initialize'
+      - '@microsoft/office-js.Office.select'
+      - '@microsoft/office-js.Office.useShortNamespace'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/office-js.Office.initialize'
+    name: initialize
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: This method is called after the Office API was loaded.
+    syntax:
+      content: 'function initialize(reason: InitializationReason)'
+      parameters:
+        - id: reason
+          type:
+            - '@@microsoft/office-js.Office.InitializationReason'
+          description: |
+            Indicates how the app was initialized
+    module: Office
+  - uid: '@microsoft/office-js.Office.select'
+    name: select
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns a promise of an object described in the expression. Callback is
+      invoked only if method fails.
+    syntax:
+      content: >-
+        function select(expression: string, callback?: (result: AsyncResult) =>
+        void)
+      parameters:
+        - id: expression
+          type:
+            - string
+          description: >-
+            The object to be retrieved. Example "bindings#BindingName",
+            retrieves a binding promise for a binding named 'BindingName'
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Binding'
+    module: Office
+  - uid: '@microsoft/office-js.Office.useShortNamespace'
+    name: useShortNamespace
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Indicates if the large namespace for objects will be used or not.
+    syntax:
+      content: 'function useShortNamespace(useShortNamespace: boolean)'
+      parameters:
+        - id: useShortNamespace
+          type:
+            - boolean
+          description: |
+            Indicates if 'true' that the short namespace will be used
+    module: Office

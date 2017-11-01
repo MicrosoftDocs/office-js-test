@@ -1,0 +1,199 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes'
+    name: ErrorCodes
+    fullName: ErrorCodes
+    children:
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.accessDenied'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.activityLimitReached'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.apiNotFound'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.cannotRegisterEvent'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.connectionFailure'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.generalException'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidArgument'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidObjectPath'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidRequestContext'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.propertyNotLoaded'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.runMustReturnPromise'
+      - '@microsoft/office-js.OfficeExtension.ErrorCodes.valueNotLoaded'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2226
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.accessDenied'
+    name: accessDenied
+    fullName: accessDenied
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string accessDenied
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.activityLimitReached'
+    name: activityLimitReached
+    fullName: activityLimitReached
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string activityLimitReached
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.apiNotFound'
+    name: apiNotFound
+    fullName: apiNotFound
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string apiNotFound
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.cannotRegisterEvent'
+    name: cannotRegisterEvent
+    fullName: cannotRegisterEvent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string cannotRegisterEvent
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.connectionFailure'
+    name: connectionFailure
+    fullName: connectionFailure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string connectionFailure
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.generalException'
+    name: generalException
+    fullName: generalException
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string generalException
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidArgument'
+    name: invalidArgument
+    fullName: invalidArgument
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string invalidArgument
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidObjectPath'
+    name: invalidObjectPath
+    fullName: invalidObjectPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string invalidObjectPath
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.invalidRequestContext'
+    name: invalidRequestContext
+    fullName: invalidRequestContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string invalidRequestContext
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.propertyNotLoaded'
+    name: propertyNotLoaded
+    fullName: propertyNotLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string propertyNotLoaded
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.runMustReturnPromise'
+    name: runMustReturnPromise
+    fullName: runMustReturnPromise
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string runMustReturnPromise
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes.valueNotLoaded'
+    name: valueNotLoaded
+    fullName: valueNotLoaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static string valueNotLoaded
+      return:
+        type:
+          - string
+    module: OfficeExtension

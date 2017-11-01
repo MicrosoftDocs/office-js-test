@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.PivotTable'
+    name: PivotTable
+    fullName: PivotTable
+    children:
+      - '@microsoft/office-js.Excel.PivotTable.id'
+      - '@microsoft/office-js.Excel.PivotTable.load'
+      - '@microsoft/office-js.Excel.PivotTable.name'
+      - '@microsoft/office-js.Excel.PivotTable.refresh'
+      - '@microsoft/office-js.Excel.PivotTable.set'
+      - '@microsoft/office-js.Excel.PivotTable.set_1'
+      - '@microsoft/office-js.Excel.PivotTable.toJSON'
+      - '@microsoft/office-js.Excel.PivotTable.worksheet'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents an Excel PivotTable.
+      [Api set: ExcelApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7158
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Id of the PivotTable.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTable'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Name of the PivotTable.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.refresh'
+    name: refresh
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Refreshes the PivotTable.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: function refresh()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: PivotTableUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.PivotTableUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: PivotTable)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.PivotTable'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTable.worksheet'
+    name: worksheet
+    fullName: worksheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The worksheet containing the current PivotTable. Read-only.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: Worksheet worksheet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel

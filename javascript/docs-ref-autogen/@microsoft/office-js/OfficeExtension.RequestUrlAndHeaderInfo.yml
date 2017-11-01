@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo'
+    name: RequestUrlAndHeaderInfo
+    fullName: RequestUrlAndHeaderInfo
+    children:
+      - '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo.headers'
+      - '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: Request URL and headers
+    source:
+      path: office.d.ts
+      startLine: 2451
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Request headers
+    syntax:
+      content: '[key: string]: string headers'
+      return:
+        type:
+          - '[key: string]: string'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Request URL
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+    module: OfficeExtension

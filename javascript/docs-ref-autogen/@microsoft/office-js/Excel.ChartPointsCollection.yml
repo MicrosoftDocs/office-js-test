@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection'
+    name: ChartPointsCollection
+    fullName: ChartPointsCollection
+    children:
+      - '@microsoft/office-js.Excel.ChartPointsCollection.count'
+      - '@microsoft/office-js.Excel.ChartPointsCollection.getCount'
+      - '@microsoft/office-js.Excel.ChartPointsCollection.getItemAt'
+      - '@microsoft/office-js.Excel.ChartPointsCollection.items'
+      - '@microsoft/office-js.Excel.ChartPointsCollection.load'
+      - '@microsoft/office-js.Excel.ChartPointsCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      A collection of all the chart points within a series inside a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5691
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of chart points in the series. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the number of chart points in the series.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Retrieve a point based on its position within the series.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPoint'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<ChartPoint> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.ChartPoint>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPointsCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPointsCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

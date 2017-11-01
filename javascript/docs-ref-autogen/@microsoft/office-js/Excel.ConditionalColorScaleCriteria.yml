@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriteria'
+    name: ConditionalColorScaleCriteria
+    fullName: ConditionalColorScaleCriteria
+    children:
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.maximum'
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.midpoint'
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.minimum'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents the criteria of the color scale.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 7913
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.maximum'
+    name: maximum
+    fullName: maximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The maximum point Color Scale Criterion.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalColorScaleCriterion maximum
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalColorScaleCriterion'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.midpoint'
+    name: midpoint
+    fullName: midpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The midpoint Color Scale Criterion if the color scale is a 3-color scale.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalColorScaleCriterion midpoint
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalColorScaleCriterion'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriteria.minimum'
+    name: minimum
+    fullName: minimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The minimum point Color Scale Criterion.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalColorScaleCriterion minimum
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalColorScaleCriterion'
+    module: Excel

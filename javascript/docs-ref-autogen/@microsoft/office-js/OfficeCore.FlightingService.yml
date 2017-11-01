@@ -1,0 +1,156 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService'
+    name: FlightingService
+    fullName: FlightingService
+    children:
+      - '@microsoft/office-js.OfficeCore.FlightingService.getFeature'
+      - '@microsoft/office-js.OfficeCore.FlightingService.getFeatureGate'
+      - '@microsoft/office-js.OfficeCore.FlightingService.newObject'
+      - '@microsoft/office-js.OfficeCore.FlightingService.resetOverride'
+      - '@microsoft/office-js.OfficeCore.FlightingService.setOverride'
+      - '@microsoft/office-js.OfficeCore.FlightingService.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: '[Api set: Experimentation 1.1 (PREVIEW)]'
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 2467
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.getFeature'
+    name: getFeature
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getFeature(featureName: string, type: string, defaultValue:
+        number | boolean | string, possibleValues?: Array | Array | Array |
+        Array)
+      parameters:
+        - id: featureName
+          type:
+            - string
+          description: ''
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - number | boolean | string
+          description: ''
+        - id: possibleValues
+          type:
+            - Array | Array | Array | Array
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeCore.ABType'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.getFeatureGate'
+    name: getFeatureGate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFeatureGate(featureName: string, scope?: string)'
+      parameters:
+        - id: featureName
+          type:
+            - string
+          description: ''
+        - id: scope
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeCore.ABType'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.newObject'
+    name: newObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Create a new instance of OfficeCore.FlightingService object
+    syntax:
+      content: 'static function newObject(context: ClientRequestContext)'
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeCore.FlightingService'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.resetOverride'
+    name: resetOverride
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resetOverride(featureName: string)'
+      parameters:
+        - id: featureName
+          type:
+            - string
+          description: ''
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.setOverride'
+    name: setOverride
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setOverride(featureName: string, type: string, value: number |
+        boolean | string)
+      parameters:
+        - id: featureName
+          type:
+            - string
+          description: ''
+        - id: type
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - number | boolean | string
+          description: ''
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.FlightingService.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: OfficeCore

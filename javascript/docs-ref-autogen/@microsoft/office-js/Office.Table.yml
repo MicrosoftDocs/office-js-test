@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Table'
+    name: Table
+    fullName: Table
+    children:
+      - '@microsoft/office-js.Office.Table.All'
+      - '@microsoft/office-js.Office.Table.Data'
+      - '@microsoft/office-js.Office.Table.Headers'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 891
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Table.All'
+    name: All
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.Table.Data'
+    name: Data
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.Table.Headers'
+    name: Headers
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office

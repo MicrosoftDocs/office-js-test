@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData'
+    name: ChartDataLabelsUpdateData
+    fullName: ChartDataLabelsUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.position
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.separator
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showBubbleSize
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showCategoryName
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showLegendKey
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showPercentage
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showSeriesName
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showValue
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartDataLabels object, for use in
+      "chartDataLabels.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13561
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the format of chart data labels, which includes fill and font
+      formatting.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartDataLabelFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.position
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      DataLabelPosition value that represents the position of the data label.
+      See Excel.ChartDataLabelPosition for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      String representing the separator used for the data labels on a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string separator
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showBubbleSize
+    name: showBubbleSize
+    fullName: showBubbleSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label bubble size is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showBubbleSize
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showCategoryName
+    name: showCategoryName
+    fullName: showCategoryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label category name is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showCategoryName
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showLegendKey
+    name: showLegendKey
+    fullName: showLegendKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label legend key is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showLegendKey
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showPercentage
+    name: showPercentage
+    fullName: showPercentage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label percentage is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showPercentage
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showSeriesName
+    name: showSeriesName
+    fullName: showSeriesName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label series name is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showSeriesName
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData.showValue
+    name: showValue
+    fullName: showValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label value is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showValue
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

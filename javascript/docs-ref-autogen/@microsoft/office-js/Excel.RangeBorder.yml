@@ -1,0 +1,177 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.RangeBorder'
+    name: RangeBorder
+    fullName: RangeBorder
+    children:
+      - '@microsoft/office-js.Excel.RangeBorder.color'
+      - '@microsoft/office-js.Excel.RangeBorder.load'
+      - '@microsoft/office-js.Excel.RangeBorder.set'
+      - '@microsoft/office-js.Excel.RangeBorder.set_1'
+      - '@microsoft/office-js.Excel.RangeBorder.sideIndex'
+      - '@microsoft/office-js.Excel.RangeBorder.style'
+      - '@microsoft/office-js.Excel.RangeBorder.toJSON'
+      - '@microsoft/office-js.Excel.RangeBorder.weight'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the border of an object.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5133
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the border line, of the form
+      #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeBorder'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeBorderUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeBorderUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeBorder)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.RangeBorder'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.sideIndex'
+    name: sideIndex
+    fullName: sideIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Constant value that indicates the specific side of the border. See
+      Excel.BorderIndex for details. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string sideIndex
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      One of the constants of line style specifying the line style for the
+      border. See Excel.BorderLineStyle for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RangeBorder.weight'
+    name: weight
+    fullName: weight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Specifies the weight of the border around a range. See Excel.BorderWeight
+      for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string weight
+      return:
+        type:
+          - string
+    module: Excel

@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.PageContent'
+    name: PageContent
+    fullName: PageContent
+    children:
+      - '@microsoft/office-js.OneNote.PageContent.delete'
+      - '@microsoft/office-js.OneNote.PageContent.id'
+      - '@microsoft/office-js.OneNote.PageContent.image'
+      - '@microsoft/office-js.OneNote.PageContent.ink'
+      - '@microsoft/office-js.OneNote.PageContent.left'
+      - '@microsoft/office-js.OneNote.PageContent.load'
+      - '@microsoft/office-js.OneNote.PageContent.outline'
+      - '@microsoft/office-js.OneNote.PageContent.parentPage'
+      - '@microsoft/office-js.OneNote.PageContent.top'
+      - '@microsoft/office-js.OneNote.PageContent.type'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a region on a page that contains top-level content types such
+      as Outline or Image. A PageContent object can be assigned an XY position.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20901
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the PageContent object.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the PageContent object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.image'
+    name: image
+    fullName: image
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Image in the PageContent object. Throws an exception if
+      PageContentType is not Image.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Image image
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Image'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.ink'
+    name: ink
+    fullName: ink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the ink in the PageContent object. Throws an exception if
+      PageContentType is not Ink.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: FloatingInk ink
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.FloatingInk'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.left'
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the left (X-axis) position of the PageContent object.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number left
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.outline'
+    name: outline
+    fullName: outline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the Outline in the PageContent object. Throws an exception if
+      PageContentType is not Outline.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Outline outline
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Outline'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.parentPage'
+    name: parentPage
+    fullName: parentPage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the page that contains the PageContent object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Page parentPage
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the top (Y-axis) position of the PageContent object.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number top
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContent.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the type of the PageContent object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: OneNote

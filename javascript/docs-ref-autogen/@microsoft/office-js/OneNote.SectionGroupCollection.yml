@@ -1,0 +1,145 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection'
+    name: SectionGroupCollection
+    fullName: SectionGroupCollection
+    children:
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.count'
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.getByName'
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.getItem'
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.getItemAt'
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.items'
+      - '@microsoft/office-js.OneNote.SectionGroupCollection.load'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a collection of section groups.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20535
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of section groups in the collection. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.getByName'
+    name: getByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the collection of section groups with the specified name.
+    syntax:
+      content: 'function getByName(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the section group.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroupCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a section group by ID or by its index in the collection. Read-only.
+    syntax:
+      content: 'function getItem(index: number | string)'
+      parameters:
+        - id: index
+          type:
+            - number | string
+          description: >
+            The ID of the section group, or the index location of the section
+            group in the collection.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroup'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a section group on its position in the collection.
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroup'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<SectionGroup> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.OneNote.SectionGroup>
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.SectionGroupCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroupCollection'
+    module: OneNote

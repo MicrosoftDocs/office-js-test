@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableRow'
+    name: TableRow
+    fullName: TableRow
+    children:
+      - '@microsoft/office-js.Excel.TableRow.delete'
+      - '@microsoft/office-js.Excel.TableRow.getRange'
+      - '@microsoft/office-js.Excel.TableRow.index'
+      - '@microsoft/office-js.Excel.TableRow.load'
+      - '@microsoft/office-js.Excel.TableRow.set'
+      - '@microsoft/office-js.Excel.TableRow.set_1'
+      - '@microsoft/office-js.Excel.TableRow.toJSON'
+      - '@microsoft/office-js.Excel.TableRow.values'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a row in a table.
+
+      Note that unlike Ranges or Columns, which will adjust if new rows/columns
+      are added before them,
+
+      a TableRow object represent the physical location of the table row, but
+      not the data.
+
+      That is, if the data is sorted or if new rows are added, a table row will
+      continue
+
+      to point at the index for which it was created.
+
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4895
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the row from the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the range object associated with the entire row.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the index number of the row within the rows collection of the
+      table. Zero-indexed. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableRow'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableRowUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.TableRowUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableRow)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.TableRow'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRow.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the raw values of the specified range. The data returned could
+      be of type string, number, or a boolean. Cell that contain an error will
+      return the error string.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> values
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel

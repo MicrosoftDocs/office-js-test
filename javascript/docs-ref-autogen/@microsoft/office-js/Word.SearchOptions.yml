@@ -1,0 +1,275 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.SearchOptions'
+    name: SearchOptions
+    fullName: SearchOptions
+    children:
+      - '@microsoft/office-js.Word.SearchOptions.ignorePunct'
+      - '@microsoft/office-js.Word.SearchOptions.ignoreSpace'
+      - '@microsoft/office-js.Word.SearchOptions.load'
+      - '@microsoft/office-js.Word.SearchOptions.matchCase'
+      - '@microsoft/office-js.Word.SearchOptions.matchPrefix'
+      - '@microsoft/office-js.Word.SearchOptions.matchSuffix'
+      - '@microsoft/office-js.Word.SearchOptions.matchWholeWord'
+      - '@microsoft/office-js.Word.SearchOptions.matchWildcards'
+      - '@microsoft/office-js.Word.SearchOptions.matchWildCards'
+      - '@microsoft/office-js.Word.SearchOptions.newObject'
+      - '@microsoft/office-js.Word.SearchOptions.set'
+      - '@microsoft/office-js.Word.SearchOptions.set_1'
+      - '@microsoft/office-js.Word.SearchOptions.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Specifies the options to be included in a search operation.
+      [Api set: WordApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 17165
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.ignorePunct'
+    name: ignorePunct
+    fullName: ignorePunct
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to ignore all punctuation
+      characters between words. Corresponds to the Ignore punctuation check box
+      in the Find and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean ignorePunct
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.ignoreSpace'
+    name: ignoreSpace
+    fullName: ignoreSpace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to ignore all whitespace
+      between words. Corresponds to the Ignore whitespace characters check box
+      in the Find and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean ignoreSpace
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.SearchOptions'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchCase'
+    name: matchCase
+    fullName: matchCase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to perform a case sensitive
+      search. Corresponds to the Match case check box in the Find and Replace
+      dialog box (Edit menu).
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean matchCase
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchPrefix'
+    name: matchPrefix
+    fullName: matchPrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to match words that begin with
+      the search string. Corresponds to the Match prefix check box in the Find
+      and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean matchPrefix
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchSuffix'
+    name: matchSuffix
+    fullName: matchSuffix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to match words that end with
+      the search string. Corresponds to the Match suffix check box in the Find
+      and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean matchSuffix
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchWholeWord'
+    name: matchWholeWord
+    fullName: matchWholeWord
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether to find operation only entire
+      words, not text that is part of a larger word. Corresponds to the Find
+      whole words only check box in the Find and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean matchWholeWord
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchWildcards'
+    name: matchWildcards
+    fullName: matchWildcards
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the search will be performed
+      using special search operators. Corresponds to the Use wildcards check box
+      in the Find and Replace dialog box.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean matchWildcards
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.matchWildCards'
+    name: matchWildCards
+    fullName: matchWildCards
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean matchWildCards
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.newObject'
+    name: newObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Create a new instance of Word.SearchOptions object
+    syntax:
+      content: 'static function newObject(context: ClientRequestContext)'
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.Word.SearchOptions'
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: SearchOptionsUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Word.Interfaces.SearchOptionsUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: SearchOptions)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.SearchOptions'
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.SearchOptions.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word

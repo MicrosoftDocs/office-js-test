@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableCollection'
+    name: TableCollection
+    fullName: TableCollection
+    children:
+      - '@microsoft/office-js.Excel.TableCollection.add'
+      - '@microsoft/office-js.Excel.TableCollection.count'
+      - '@microsoft/office-js.Excel.TableCollection.getCount'
+      - '@microsoft/office-js.Excel.TableCollection.getItem'
+      - '@microsoft/office-js.Excel.TableCollection.getItemAt'
+      - '@microsoft/office-js.Excel.TableCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.TableCollection.items'
+      - '@microsoft/office-js.Excel.TableCollection.load'
+      - '@microsoft/office-js.Excel.TableCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of all the tables that are part of the workbook or
+      worksheet, depending on how it was reached.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4404
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Create a new table. The range object or source address determines the
+      worksheet under which the table will be added. If the table cannot be
+      added (e.g., because the address is invalid, or the table would overlap
+      with another table), an error will be thrown.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function add(address: Range | string, hasHeaders: boolean)'
+      parameters:
+        - id: address
+          type:
+            - Range | string
+          description: >-
+            A Range object, or a string address or name of the range
+            representing the data source. If the address does not contain a
+            sheet name, the currently-active sheet is used. [Api set: ExcelApi
+            1.1 for string parameter; 1.3 for accepting a Range object as well]
+        - id: hasHeaders
+          type:
+            - boolean
+          description: >
+            Boolean value that indicates whether the data being imported has
+            column labels. If the source does not contain headers (i.e,. when
+            this property set to false), Excel will automatically generate
+            header shifting the data down by one row.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Table'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of tables in the workbook. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of tables in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a table by Name or ID.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(key: number | string)'
+      parameters:
+        - id: key
+          type:
+            - number | string
+          description: |
+            Name or ID of the table to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Table'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a table based on its position in the collection.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Table'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a table by Name or ID. If the table does not exist, will return a
+      null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(key: number | string)'
+      parameters:
+        - id: key
+          type:
+            - number | string
+          description: |
+            Name or ID of the table to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Table'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Table> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.Table>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

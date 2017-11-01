@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat'
+    name: ChartLegendFormat
+    fullName: ChartLegendFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartLegendFormat.fill'
+      - '@microsoft/office-js.Excel.ChartLegendFormat.font'
+      - '@microsoft/office-js.Excel.ChartLegendFormat.load'
+      - '@microsoft/office-js.Excel.ChartLegendFormat.set'
+      - '@microsoft/office-js.Excel.ChartLegendFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartLegendFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Encapsulates the format properties of a chart legend.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6293
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the fill format of an object, which includes background
+      formating information. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes such as font name, font size, color, etc.
+      of a chart legend. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLegendFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ChartLegendFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartLegendFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartLegendFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegendFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

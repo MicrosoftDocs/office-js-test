@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartGridlines'
+    name: ChartGridlines
+    fullName: ChartGridlines
+    children:
+      - '@microsoft/office-js.Excel.ChartGridlines.format'
+      - '@microsoft/office-js.Excel.ChartGridlines.load'
+      - '@microsoft/office-js.Excel.ChartGridlines.set'
+      - '@microsoft/office-js.Excel.ChartGridlines.set_1'
+      - '@microsoft/office-js.Excel.ChartGridlines.toJSON'
+      - '@microsoft/office-js.Excel.ChartGridlines.visible'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents major or minor gridlines on a chart axis.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6168
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formatting of chart gridlines. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlinesFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartGridlinesFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartGridlines'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartGridlinesUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartGridlines)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartGridlines'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartGridlines.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the axis gridlines are visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel

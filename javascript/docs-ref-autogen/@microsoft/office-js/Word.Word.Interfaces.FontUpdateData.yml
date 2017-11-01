@@ -1,0 +1,231 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+    name: FontUpdateData
+    fullName: FontUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.bold'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.color'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.FontUpdateData.doubleStrikeThrough
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.highlightColor'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.italic'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.name'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.size'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.strikeThrough'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.subscript'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.superscript'
+      - '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.underline'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Font object, for use in "font.set({
+      ... })".
+    source:
+      path: office.d.ts
+      startLine: 19128
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.bold'
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is bold. True if the
+      font is formatted as bold, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the color for the specified font. You can provide the value
+      in the '#RRGGBB' format or the color name.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.FontUpdateData.doubleStrikeThrough
+    name: doubleStrikeThrough
+    fullName: doubleStrikeThrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font has a double strike
+      through. True if the font is formatted as double strikethrough text,
+      otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean doubleStrikeThrough
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.highlightColor'
+    name: highlightColor
+    fullName: highlightColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the highlight color. To set it, use a value either in the
+      '#RRGGBB' format or the color name. To remove highlight color, set it to
+      null. The returned highlight color can be in the '#RRGGBB' format, or an
+      empty string for mixed highlight colors, or null for no highlight color.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string highlightColor
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.italic'
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is italicized. True
+      if the font is italicized, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a value that represents the name of the font.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a value that represents the font size in points.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.strikeThrough'
+    name: strikeThrough
+    fullName: strikeThrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font has a strike through.
+      True if the font is formatted as strikethrough text, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean strikeThrough
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.subscript'
+    name: subscript
+    fullName: subscript
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is a subscript. True
+      if the font is formatted as subscript, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean subscript
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.superscript'
+    name: superscript
+    fullName: superscript
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is a superscript.
+      True if the font is formatted as superscript, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean superscript
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData.underline'
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates the font's underline type. 'None' if
+      the font is not underlined.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Word.Interfaces

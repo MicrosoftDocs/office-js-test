@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsSet'
+    name: ThreeArrowsSet
+    fullName: ThreeArrowsSet
+    children:
+      - '@microsoft/office-js.Excel.ThreeArrowsSet.greenUpArrow'
+      - '@microsoft/office-js.Excel.ThreeArrowsSet.redDownArrow'
+      - '@microsoft/office-js.Excel.ThreeArrowsSet.yellowSideArrow'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2550
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsSet.greenUpArrow'
+    name: greenUpArrow
+    fullName: greenUpArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenUpArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsSet.redDownArrow'
+    name: redDownArrow
+    fullName: redDownArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redDownArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeArrowsSet.yellowSideArrow'
+    name: yellowSideArrow
+    fullName: yellowSideArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowSideArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

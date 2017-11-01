@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData
+    name: CustomConditionalFormatUpdateData
+    fullName: CustomConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData.rule
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the CustomConditionalFormat object, for
+      use in "customConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14068
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData.rule
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the Rule object on this conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalFormatRuleUpdateData rule
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData
+    module: Excel.Interfaces

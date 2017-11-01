@@ -1,0 +1,214 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Context'
+    name: Context
+    fullName: Context
+    children:
+      - '@microsoft/office-js.Office.Context.contentLanguage'
+      - '@microsoft/office-js.Office.Context.diagnostics'
+      - '@microsoft/office-js.Office.Context.displayLanguage'
+      - '@microsoft/office-js.Office.Context.document'
+      - '@microsoft/office-js.Office.Context.host'
+      - '@microsoft/office-js.Office.Context.license'
+      - '@microsoft/office-js.Office.Context.mailbox'
+      - '@microsoft/office-js.Office.Context.officeTheme'
+      - '@microsoft/office-js.Office.Context.platform'
+      - '@microsoft/office-js.Office.Context.requirements'
+      - '@microsoft/office-js.Office.Context.roamingSettings'
+      - '@microsoft/office-js.Office.Context.touchEnabled'
+      - '@microsoft/office-js.Office.Context.ui'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 107
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.contentLanguage'
+    name: contentLanguage
+    fullName: contentLanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string contentLanguage
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.diagnostics'
+    name: diagnostics
+    fullName: diagnostics
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function diagnostics
+      return:
+        type:
+          - function
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.displayLanguage'
+    name: displayLanguage
+    fullName: displayLanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayLanguage
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.document'
+    name: document
+    fullName: document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Document document
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Document'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostType host
+      return:
+        type:
+          - '@@microsoft/office-js.Office.HostType'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.license'
+    name: license
+    fullName: license
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string license
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.mailbox'
+    name: mailbox
+    fullName: mailbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Mailbox mailbox
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Mailbox'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.officeTheme'
+    name: officeTheme
+    fullName: officeTheme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: OfficeTheme officeTheme
+      return:
+        type:
+          - '@@microsoft/office-js.Office.OfficeTheme'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.platform'
+    name: platform
+    fullName: platform
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: PlatformType platform
+      return:
+        type:
+          - '@@microsoft/office-js.Office.PlatformType'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.requirements'
+    name: requirements
+    fullName: requirements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: function requirements
+      return:
+        type:
+          - function
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.roamingSettings'
+    name: roamingSettings
+    fullName: roamingSettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: RoamingSettings roamingSettings
+      return:
+        type:
+          - '@@microsoft/office-js.Office.RoamingSettings'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.touchEnabled'
+    name: touchEnabled
+    fullName: touchEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean touchEnabled
+      return:
+        type:
+          - boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.Context.ui'
+    name: ui
+    fullName: ui
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: UI ui
+      return:
+        type:
+          - '@@microsoft/office-js.Office.UI'
+    module: Office

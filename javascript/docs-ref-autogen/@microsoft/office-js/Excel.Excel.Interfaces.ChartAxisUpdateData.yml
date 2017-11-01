@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+    name: ChartAxisUpdateData
+    fullName: ChartAxisUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.format'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.majorGridlines
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.majorUnit
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.maximum'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minimum'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minorGridlines
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minorUnit
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.title'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartAxis object, for use in
+      "chartAxis.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13451
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart object, which includes line and font
+      formatting.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.majorGridlines
+    name: majorGridlines
+    fullName: majorGridlines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a gridlines object that represents the major gridlines for the
+      specified axis.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlinesUpdateData majorGridlines
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.majorUnit'
+    name: majorUnit
+    fullName: majorUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the interval between two major tick marks. Can be set to a
+      numeric value or an empty string.  The returned value is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any majorUnit
+      return:
+        type:
+          - any
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.maximum'
+    name: maximum
+    fullName: maximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the maximum value on the value axis.  Can be set to a numeric
+      value or an empty string (for automatic axis values).  The returned value
+      is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any maximum
+      return:
+        type:
+          - any
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minimum'
+    name: minimum
+    fullName: minimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the minimum value on the value axis. Can be set to a numeric
+      value or an empty string (for automatic axis values).  The returned value
+      is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any minimum
+      return:
+        type:
+          - any
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minorGridlines
+    name: minorGridlines
+    fullName: minorGridlines
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a Gridlines object that represents the minor gridlines for the
+      specified axis.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlinesUpdateData minorGridlines
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.minorUnit'
+    name: minorUnit
+    fullName: minorUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the interval between two minor tick marks. "Can be set to a
+      numeric value or an empty string (for automatic axis values). The returned
+      value is always a number.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any minorUnit
+      return:
+        type:
+          - any
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the axis title.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxisTitleUpdateData title
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData
+    module: Excel.Interfaces

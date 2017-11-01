@@ -1,0 +1,176 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Notebook'
+    name: Notebook
+    fullName: Notebook
+    children:
+      - '@microsoft/office-js.OneNote.Notebook.addSection'
+      - '@microsoft/office-js.OneNote.Notebook.addSectionGroup'
+      - '@microsoft/office-js.OneNote.Notebook.clientUrl'
+      - '@microsoft/office-js.OneNote.Notebook.id'
+      - '@microsoft/office-js.OneNote.Notebook.load'
+      - '@microsoft/office-js.OneNote.Notebook.name'
+      - '@microsoft/office-js.OneNote.Notebook.sectionGroups'
+      - '@microsoft/office-js.OneNote.Notebook.sections'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a OneNote notebook. Notebooks contain section groups and
+      sections.
+
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20318
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.addSection'
+    name: addSection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a new section to the end of the notebook.
+    syntax:
+      content: 'function addSection(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the new section.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.addSectionGroup'
+    name: addSectionGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a new section group to the end of the notebook.
+    syntax:
+      content: 'function addSectionGroup(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            The name of the new section.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroup'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.clientUrl'
+    name: clientUrl
+    fullName: clientUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The client url of the notebook. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string clientUrl
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the notebook. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Notebook'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the name of the notebook. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.sectionGroups'
+    name: sectionGroups
+    fullName: sectionGroups
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The section groups in the notebook. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: SectionGroupCollection sectionGroups
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroupCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Notebook.sections'
+    name: sections
+    fullName: sections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The the sections of the notebook. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: SectionCollection sections
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionCollection'
+    module: OneNote

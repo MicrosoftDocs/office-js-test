@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ReplyFormAttachment'
+    name: ReplyFormAttachment
+    fullName: ReplyFormAttachment
+    children:
+      - '@microsoft/office-js.Office.ReplyFormAttachment.itemId'
+      - '@microsoft/office-js.Office.ReplyFormAttachment.name'
+      - '@microsoft/office-js.Office.ReplyFormAttachment.type'
+      - '@microsoft/office-js.Office.ReplyFormAttachment.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2051
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormAttachment.itemId'
+    name: itemId
+    fullName: itemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string itemId
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormAttachment.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormAttachment.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormAttachment.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+    module: Office

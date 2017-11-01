@@ -1,0 +1,151 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Setting'
+    name: Setting
+    fullName: Setting
+    children:
+      - '@microsoft/office-js.Excel.Setting.delete'
+      - '@microsoft/office-js.Excel.Setting.key'
+      - '@microsoft/office-js.Excel.Setting.load'
+      - '@microsoft/office-js.Excel.Setting.set'
+      - '@microsoft/office-js.Excel.Setting.set_1'
+      - '@microsoft/office-js.Excel.Setting.toJSON'
+      - '@microsoft/office-js.Excel.Setting.value'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Setting represents a key-value pair of a setting persisted to the
+      document.
+
+      [Api set: ExcelApi 1.4]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4023
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the setting.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the key that represents the id of the Setting. Read-only.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: string key
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Setting'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: SettingUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.SettingUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Setting)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Setting'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Setting.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the value stored for this setting.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: any value
+      return:
+        type:
+          - any
+    module: Excel

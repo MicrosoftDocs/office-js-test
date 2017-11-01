@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData
+    name: TopBottomConditionalFormatUpdateData
+    fullName: TopBottomConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData.rule
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the TopBottomConditionalFormat object,
+      for use in "topBottomConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14150
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData.rule
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The criteria of the Top/Bottom conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalTopBottomRule rule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalTopBottomRule'
+    module: Excel.Interfaces

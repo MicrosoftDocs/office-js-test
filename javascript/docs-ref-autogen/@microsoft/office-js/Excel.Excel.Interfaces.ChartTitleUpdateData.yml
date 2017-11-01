@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData'
+    name: ChartTitleUpdateData
+    fullName: ChartTitleUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.format'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.overlay'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.text'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.visible'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartTitle object, for use in
+      "chartTitle.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13705
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart title, which includes fill and font
+      formatting.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartTitleFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleFormatUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.overlay'
+    name: overlay
+    fullName: overlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the chart title will overlay the chart or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean overlay
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the title text of a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string text
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A boolean value the represents the visibility of a chart title object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

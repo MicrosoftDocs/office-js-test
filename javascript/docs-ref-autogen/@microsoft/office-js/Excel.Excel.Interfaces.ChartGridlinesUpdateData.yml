@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData'
+    name: ChartGridlinesUpdateData
+    fullName: ChartGridlinesUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData.visible
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartGridlines object, for use in
+      "chartGridlines.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13637
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formatting of chart gridlines.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartGridlinesFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData.visible
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the axis gridlines are visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

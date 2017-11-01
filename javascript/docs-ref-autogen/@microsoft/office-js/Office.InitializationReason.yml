@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.InitializationReason'
+    name: InitializationReason
+    fullName: InitializationReason
+    children:
+      - '@microsoft/office-js.Office.InitializationReason.DocumentOpened'
+      - '@microsoft/office-js.Office.InitializationReason.Inserted'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 34
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.InitializationReason.DocumentOpened'
+    name: DocumentOpened
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates if the extension already existed in the document
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.InitializationReason.Inserted'
+    name: Inserted
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates the app was just inserted in the document
+    type: field
+    module: Office

@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ValueFormat'
+    name: ValueFormat
+    fullName: ValueFormat
+    children:
+      - '@microsoft/office-js.Office.ValueFormat.Formatted'
+      - '@microsoft/office-js.Office.ValueFormat.Unformatted'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 374
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ValueFormat.Formatted'
+    name: Formatted
+    children: []
+    langs:
+      - typeScript
+    summary: Returns items with format
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ValueFormat.Unformatted'
+    name: Unformatted
+    children: []
+    langs:
+      - typeScript
+    summary: Returns items without format
+    type: field
+    module: Office

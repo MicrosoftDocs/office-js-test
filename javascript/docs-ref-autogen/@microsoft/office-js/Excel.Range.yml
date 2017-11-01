@@ -1,0 +1,1140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Range'
+    name: Range
+    fullName: Range
+    children:
+      - '@microsoft/office-js.Excel.Range.address'
+      - '@microsoft/office-js.Excel.Range.addressLocal'
+      - '@microsoft/office-js.Excel.Range.calculate'
+      - '@microsoft/office-js.Excel.Range.cellCount'
+      - '@microsoft/office-js.Excel.Range.clear'
+      - '@microsoft/office-js.Excel.Range.columnCount'
+      - '@microsoft/office-js.Excel.Range.columnHidden'
+      - '@microsoft/office-js.Excel.Range.columnIndex'
+      - '@microsoft/office-js.Excel.Range.conditionalFormats'
+      - '@microsoft/office-js.Excel.Range.delete'
+      - '@microsoft/office-js.Excel.Range.format'
+      - '@microsoft/office-js.Excel.Range.formulas'
+      - '@microsoft/office-js.Excel.Range.formulasLocal'
+      - '@microsoft/office-js.Excel.Range.formulasR1C1'
+      - '@microsoft/office-js.Excel.Range.getBoundingRect'
+      - '@microsoft/office-js.Excel.Range.getCell'
+      - '@microsoft/office-js.Excel.Range.getColumn'
+      - '@microsoft/office-js.Excel.Range.getColumnsAfter'
+      - '@microsoft/office-js.Excel.Range.getColumnsBefore'
+      - '@microsoft/office-js.Excel.Range.getEntireColumn'
+      - '@microsoft/office-js.Excel.Range.getEntireRow'
+      - '@microsoft/office-js.Excel.Range.getIntersection'
+      - '@microsoft/office-js.Excel.Range.getIntersectionOrNullObject'
+      - '@microsoft/office-js.Excel.Range.getLastCell'
+      - '@microsoft/office-js.Excel.Range.getLastColumn'
+      - '@microsoft/office-js.Excel.Range.getLastRow'
+      - '@microsoft/office-js.Excel.Range.getOffsetRange'
+      - '@microsoft/office-js.Excel.Range.getResizedRange'
+      - '@microsoft/office-js.Excel.Range.getRow'
+      - '@microsoft/office-js.Excel.Range.getRowsAbove'
+      - '@microsoft/office-js.Excel.Range.getRowsBelow'
+      - '@microsoft/office-js.Excel.Range.getUsedRange'
+      - '@microsoft/office-js.Excel.Range.getUsedRangeOrNullObject'
+      - '@microsoft/office-js.Excel.Range.getVisibleView'
+      - '@microsoft/office-js.Excel.Range.hidden'
+      - '@microsoft/office-js.Excel.Range.insert'
+      - '@microsoft/office-js.Excel.Range.load'
+      - '@microsoft/office-js.Excel.Range.merge'
+      - '@microsoft/office-js.Excel.Range.numberFormat'
+      - '@microsoft/office-js.Excel.Range.rowCount'
+      - '@microsoft/office-js.Excel.Range.rowHidden'
+      - '@microsoft/office-js.Excel.Range.rowIndex'
+      - '@microsoft/office-js.Excel.Range.select'
+      - '@microsoft/office-js.Excel.Range.set'
+      - '@microsoft/office-js.Excel.Range.set_1'
+      - '@microsoft/office-js.Excel.Range.sort'
+      - '@microsoft/office-js.Excel.Range.text'
+      - '@microsoft/office-js.Excel.Range.toJSON'
+      - '@microsoft/office-js.Excel.Range.track'
+      - '@microsoft/office-js.Excel.Range.unmerge'
+      - '@microsoft/office-js.Excel.Range.untrack'
+      - '@microsoft/office-js.Excel.Range.values'
+      - '@microsoft/office-js.Excel.Range.valueTypes'
+      - '@microsoft/office-js.Excel.Range.worksheet'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Range represents a set of one or more contiguous cells such as a cell, a
+      row, a column, block of cells, etc.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 3377
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the range reference in A1-style. Address value will contain the
+      Sheet reference (e.g. Sheet1!A1:B4). Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string address
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.addressLocal'
+    name: addressLocal
+    fullName: addressLocal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents range reference for the specified range in the language of the
+      user. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string addressLocal
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.calculate'
+    name: calculate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Calculates a range of cells on a worksheet.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function calculate()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.cellCount'
+    name: cellCount
+    fullName: cellCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Number of cells in the range. This API will return -1 if the cell count
+      exceeds 2^31-1 (2,147,483,647). Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number cellCount
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clear range values, format, fill, border, etc.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function clear(applyTo?: string)'
+      parameters:
+        - id: applyTo
+          type:
+            - string
+          description: >
+            Determines the type of clear action. See Excel.ClearApplyTo for
+            details.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.columnCount'
+    name: columnCount
+    fullName: columnCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the total number of columns in the range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number columnCount
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.columnHidden'
+    name: columnHidden
+    fullName: columnHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents if all columns of the current range are hidden.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean columnHidden
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.columnIndex'
+    name: columnIndex
+    fullName: columnIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the column number of the first cell in the range. Zero-indexed.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number columnIndex
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.conditionalFormats'
+    name: conditionalFormats
+    fullName: conditionalFormats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Collection of ConditionalFormats that intersect the range. Read-only.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalFormatCollection conditionalFormats
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormatCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the cells associated with the range.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function delete(shift: string)'
+      parameters:
+        - id: shift
+          type:
+            - string
+          description: >
+            Specifies which way to shift the cells. See
+            Excel.DeleteShiftDirection for details.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the range's font, fill, borders,
+      alignment, and other properties. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.formulas'
+    name: formulas
+    fullName: formulas
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formula in A1-style notation.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> formulas
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.formulasLocal'
+    name: formulasLocal
+    fullName: formulasLocal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formula in A1-style notation, in the user's language and
+      number-formatting locale.  For example, the English "=SUM(A1, 1.5)"
+      formula would become "=SUMME(A1; 1,5)" in German.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> formulasLocal
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.formulasR1C1'
+    name: formulasR1C1
+    fullName: formulasR1C1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formula in R1C1-style notation.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Array<Array<any>> formulasR1C1
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getBoundingRect'
+    name: getBoundingRect
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the smallest range object that encompasses the given ranges. For
+      example, the GetBoundingRect of "B2:C5" and "D10:E15" is "B2:E16".
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getBoundingRect(anotherRange: Range | string)'
+      parameters:
+        - id: anotherRange
+          type:
+            - Range | string
+          description: |
+            The range object or address or range name.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getCell'
+    name: getCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the range object containing the single cell based on row and column
+      numbers. The cell can be outside the bounds of its parent range, so long
+      as it's stays within the worksheet grid. The returned cell is located
+      relative to the top left cell of the range.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getCell(row: number, column: number)'
+      parameters:
+        - id: row
+          type:
+            - number
+          description: Row number of the cell to be retrieved. Zero-indexed.
+        - id: column
+          type:
+            - number
+          description: |
+            Column number of the cell to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getColumn'
+    name: getColumn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a column contained in the range.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getColumn(column: number)'
+      parameters:
+        - id: column
+          type:
+            - number
+          description: |
+            Column number of the range to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getColumnsAfter'
+    name: getColumnsAfter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a certain number of columns to the right of the current Range object.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getColumnsAfter(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: >
+            The number of columns to include in the resulting range. In general,
+            use a positive number to create a range outside the current range.
+            You can also use a negative number to create a range within the
+            current range. The default value is 1.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getColumnsBefore'
+    name: getColumnsBefore
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a certain number of columns to the left of the current Range object.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getColumnsBefore(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: >
+            The number of columns to include in the resulting range. In general,
+            use a positive number to create a range outside the current range.
+            You can also use a negative number to create a range within the
+            current range. The default value is 1.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getEntireColumn'
+    name: getEntireColumn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets an object that represents the entire column of the range (for
+      example, if the current range represents cells "B4:E11", it's
+      `getEntireColumn` is a range that represents columns "B:E").
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getEntireColumn()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getEntireRow'
+    name: getEntireRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets an object that represents the entire row of the range (for example,
+      if the current range represents cells "B4:E11", it's `GetEntireRow` is a
+      range that represents rows "4:11").
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getEntireRow()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getIntersection'
+    name: getIntersection
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the range object that represents the rectangular intersection of the
+      given ranges.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getIntersection(anotherRange: Range | string)'
+      parameters:
+        - id: anotherRange
+          type:
+            - Range | string
+          description: >
+            The range object or range address that will be used to determine the
+            intersection of ranges.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getIntersectionOrNullObject'
+    name: getIntersectionOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the range object that represents the rectangular intersection of the
+      given ranges. If no intersection is found, will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getIntersectionOrNullObject(anotherRange: Range | string)'
+      parameters:
+        - id: anotherRange
+          type:
+            - Range | string
+          description: >
+            The range object or range address that will be used to determine the
+            intersection of ranges.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getLastCell'
+    name: getLastCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the last cell within the range. For example, the last cell of "B2:D5"
+      is "D5".
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getLastCell()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getLastColumn'
+    name: getLastColumn
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the last column within the range. For example, the last column of
+      "B2:D5" is "D2:D5".
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getLastColumn()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getLastRow'
+    name: getLastRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the last row within the range. For example, the last row of "B2:D5"
+      is "B5:D5".
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getLastRow()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getOffsetRange'
+    name: getOffsetRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets an object which represents a range that's offset from the specified
+      range. The dimension of the returned range will match this range. If the
+      resulting range is forced outside the bounds of the worksheet grid, an
+      error will be thrown.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getOffsetRange(rowOffset: number, columnOffset: number)'
+      parameters:
+        - id: rowOffset
+          type:
+            - number
+          description: >-
+            The number of rows (positive, negative, or 0) by which the range is
+            to be offset. Positive values are offset downward, and negative
+            values are offset upward.
+        - id: columnOffset
+          type:
+            - number
+          description: >
+            The number of columns (positive, negative, or 0) by which the range
+            is to be offset. Positive values are offset to the right, and
+            negative values are offset to the left.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getResizedRange'
+    name: getResizedRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a Range object similar to the current Range object, but with its
+      bottom-right corner expanded (or contracted) by some number of rows and
+      columns.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getResizedRange(deltaRows: number, deltaColumns: number)'
+      parameters:
+        - id: deltaRows
+          type:
+            - number
+          description: >-
+            The number of rows by which to expand the bottom-right corner,
+            relative to the current range. Use a positive number to expand the
+            range, or a negative number to decrease it.
+        - id: deltaColumns
+          type:
+            - number
+          description: >
+            The number of columnsby which to expand the bottom-right corner,
+            relative to the current range. Use a positive number to expand the
+            range, or a negative number to decrease it.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getRow'
+    name: getRow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a row contained in the range.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getRow(row: number)'
+      parameters:
+        - id: row
+          type:
+            - number
+          description: |
+            Row number of the range to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getRowsAbove'
+    name: getRowsAbove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a certain number of rows above the current Range object.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getRowsAbove(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: >
+            The number of rows to include in the resulting range. In general,
+            use a positive number to create a range outside the current range.
+            You can also use a negative number to create a range within the
+            current range. The default value is 1.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getRowsBelow'
+    name: getRowsBelow
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a certain number of rows below the current Range object.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function getRowsBelow(count?: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: >
+            The number of rows to include in the resulting range. In general,
+            use a positive number to create a range outside the current range.
+            You can also use a negative number to create a range within the
+            current range. The default value is 1.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getUsedRange'
+    name: getUsedRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the used range of the given range object. If there are no used
+      cells within the range, this function will throw an ItemNotFound error.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getUsedRange(valuesOnly?: boolean)'
+      parameters:
+        - id: valuesOnly
+          type:
+            - boolean
+          description: >
+            Considers only cells with values as used cells. [Api set: ExcelApi
+            1.2]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getUsedRangeOrNullObject'
+    name: getUsedRangeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns the used range of the given range object. If there are no used
+      cells within the range, this function will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getUsedRangeOrNullObject(valuesOnly?: boolean)'
+      parameters:
+        - id: valuesOnly
+          type:
+            - boolean
+          description: |
+            Considers only cells with values as used cells.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.getVisibleView'
+    name: getVisibleView
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Represents the visible rows of the current range.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: function getVisibleView()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeView'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.hidden'
+    name: hidden
+    fullName: hidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents if all cells of the current range are hidden.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean hidden
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.insert'
+    name: insert
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Inserts a cell or a range of cells into the worksheet in place of this
+      range, and shifts the other cells to make space. Returns a new Range
+      object at the now blank space.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function insert(shift: string)'
+      parameters:
+        - id: shift
+          type:
+            - string
+          description: >
+            Specifies which way to shift the cells. See
+            Excel.InsertShiftDirection for details.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.merge'
+    name: merge
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Merge the range cells into one region in the worksheet.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function merge(across?: boolean)'
+      parameters:
+        - id: across
+          type:
+            - boolean
+          description: >
+            Set true to merge cells in each row of the specified range as
+            separate merged cells. The default value is false.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.numberFormat'
+    name: numberFormat
+    fullName: numberFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents Excel's number format code for the given cell.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> numberFormat
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.rowCount'
+    name: rowCount
+    fullName: rowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the total number of rows in the range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number rowCount
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.rowHidden'
+    name: rowHidden
+    fullName: rowHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents if all rows of the current range are hidden.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean rowHidden
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.rowIndex'
+    name: rowIndex
+    fullName: rowIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the row number of the first cell in the range. Zero-indexed.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number rowIndex
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.select'
+    name: select
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Selects the specified range in the Excel UI.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function select()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: RangeUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Range)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Range'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.sort'
+    name: sort
+    fullName: sort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the range sort of the current range.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: RangeSort sort
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.RangeSort'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Text values of the specified range. The Text value will not depend on the
+      cell width. The # sign substitution that happens in Excel UI will not
+      affect the text value returned by the API. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> text
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.unmerge'
+    name: unmerge
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Unmerge the range cells into separate cells.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function unmerge()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the raw values of the specified range. The data returned could
+      be of type string, number, or a boolean. Cell that contain an error will
+      return the error string.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> values
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.valueTypes'
+    name: valueTypes
+    fullName: valueTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the type of data of each cell. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<string>> valueTypes
+      return:
+        type:
+          - Array<Array<string>>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Range.worksheet'
+    name: worksheet
+    fullName: worksheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The worksheet containing the current range. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Worksheet worksheet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel

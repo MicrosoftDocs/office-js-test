@@ -1,0 +1,266 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Workbook'
+    name: Workbook
+    fullName: Workbook
+    children:
+      - '@microsoft/office-js.Excel.Workbook.application'
+      - '@microsoft/office-js.Excel.Workbook.bindings'
+      - '@microsoft/office-js.Excel.Workbook.customXmlParts'
+      - '@microsoft/office-js.Excel.Workbook.functions'
+      - '@microsoft/office-js.Excel.Workbook.getSelectedRange'
+      - '@microsoft/office-js.Excel.Workbook.load'
+      - '@microsoft/office-js.Excel.Workbook.names'
+      - '@microsoft/office-js.Excel.Workbook.onSelectionChanged'
+      - '@microsoft/office-js.Excel.Workbook.pivotTables'
+      - '@microsoft/office-js.Excel.Workbook.settings'
+      - '@microsoft/office-js.Excel.Workbook.tables'
+      - '@microsoft/office-js.Excel.Workbook.toJSON'
+      - '@microsoft/office-js.Excel.Workbook.worksheets'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Workbook is the top level object which contains related workbook objects
+      such as worksheets, tables, ranges, etc.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 2899
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.application'
+    name: application
+    fullName: application
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents Excel application instance that contains this workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Application application
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Application'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.bindings'
+    name: bindings
+    fullName: bindings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents a collection of bindings that are part of the workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: BindingCollection bindings
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.BindingCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.customXmlParts'
+    name: customXmlParts
+    fullName: customXmlParts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the collection of custom XML parts contained by this workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: CustomXmlPartCollection customXmlParts
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomXmlPartCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.functions'
+    name: functions
+    fullName: functions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents Excel application instance that contains this workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Functions functions
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Functions'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.getSelectedRange'
+    name: getSelectedRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the currently selected range from the workbook.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getSelectedRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Workbook'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.names'
+    name: names
+    fullName: names
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents a collection of workbook scoped named items (named ranges and
+      constants). Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: NamedItemCollection names
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItemCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.onSelectionChanged'
+    name: onSelectionChanged
+    fullName: onSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Occurs when the selection in the document is changed.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: EventHandlers<SelectionChangedEventArgs> onSelectionChanged
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.OfficeExtension.EventHandlers<@@microsoft/office-js.Excel.SelectionChangedEventArgs>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.pivotTables'
+    name: pivotTables
+    fullName: pivotTables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents a collection of PivotTables associated with the workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: PivotTableCollection pivotTables
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.settings'
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents a collection of Settings associated with the workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: SettingCollection settings
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.SettingCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.tables'
+    name: tables
+    fullName: tables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents a collection of tables associated with the workbook. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: TableCollection tables
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Workbook.worksheets'
+    name: worksheets
+    fullName: worksheets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents a collection of worksheets associated with the workbook.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: WorksheetCollection worksheets
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.WorksheetCollection'
+    module: Excel

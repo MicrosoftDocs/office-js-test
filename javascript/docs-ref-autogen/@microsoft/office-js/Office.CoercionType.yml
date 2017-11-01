@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CoercionType'
+    name: CoercionType
+    fullName: CoercionType
+    children:
+      - '@microsoft/office-js.Office.CoercionType.Html'
+      - '@microsoft/office-js.Office.CoercionType.Image'
+      - '@microsoft/office-js.Office.CoercionType.Matrix'
+      - '@microsoft/office-js.Office.CoercionType.Ooxml'
+      - '@microsoft/office-js.Office.CoercionType.SlideRange'
+      - '@microsoft/office-js.Office.CoercionType.Table'
+      - '@microsoft/office-js.Office.CoercionType.Text'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 226
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Html'
+    name: Html
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as HTML
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Image'
+    name: Image
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as Image
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Matrix'
+    name: Matrix
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as Matrix
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Ooxml'
+    name: Ooxml
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as Office Open XML
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.SlideRange'
+    name: SlideRange
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Coerce as JSON object containing an array of the ids, titles, and indexes
+      of the selected slides.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Table'
+    name: Table
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as Table
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.CoercionType.Text'
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: Coerce as Text
+    type: field
+    module: Office

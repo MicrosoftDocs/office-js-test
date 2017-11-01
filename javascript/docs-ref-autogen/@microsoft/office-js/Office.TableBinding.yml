@@ -1,0 +1,291 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.TableBinding'
+    name: TableBinding
+    fullName: TableBinding
+    children:
+      - '@microsoft/office-js.Office.TableBinding.addColumnsAsync'
+      - '@microsoft/office-js.Office.TableBinding.addRowsAsync'
+      - '@microsoft/office-js.Office.TableBinding.clearFormatsAsync'
+      - '@microsoft/office-js.Office.TableBinding.columnCount'
+      - '@microsoft/office-js.Office.TableBinding.deleteAllDataValuesAsync'
+      - '@microsoft/office-js.Office.TableBinding.getFormatsAsync'
+      - '@microsoft/office-js.Office.TableBinding.hasHeaders'
+      - '@microsoft/office-js.Office.TableBinding.rowCount'
+      - '@microsoft/office-js.Office.TableBinding.setFormatsAsync'
+      - '@microsoft/office-js.Office.TableBinding.setTableOptionsAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Binding'
+    source:
+      path: office.d.ts
+      startLine: 822
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.addColumnsAsync'
+    name: addColumnsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified columns to the table
+    syntax:
+      content: >-
+        function addColumnsAsync(tableData: TableData | , options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: tableData
+          type:
+            - 'TableData | '
+          description: A TableData object with the headers and rows
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.addRowsAsync'
+    name: addRowsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the specified rows to the table
+    syntax:
+      content: >-
+        function addRowsAsync(rows: TableData | , options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: rows
+          type:
+            - 'TableData | '
+          description: A 2D array with the rows to add
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.clearFormatsAsync'
+    name: clearFormatsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears formatting on the bound table.
+    syntax:
+      content: >-
+        function clearFormatsAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.columnCount'
+    name: columnCount
+    fullName: columnCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number columnCount
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.deleteAllDataValuesAsync'
+    name: deleteAllDataValuesAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears the table
+    syntax:
+      content: >-
+        function deleteAllDataValuesAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.getFormatsAsync'
+    name: getFormatsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the formatting on specified items in the table.
+    syntax:
+      content: >-
+        function getFormatsAsync(cellReference?: any, formats?: any[], options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: cellReference
+          type:
+            - any
+          description: >-
+            An object literal containing name-value pairs that specify the range
+            of cells to get formatting from.
+          optional: true
+        - id: formats
+          type:
+            - 'any[]'
+          description: An array specifying the format properties to get.
+          optional: true
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.hasHeaders'
+    name: hasHeaders
+    fullName: hasHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasHeaders
+      return:
+        type:
+          - boolean
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.rowCount'
+    name: rowCount
+    fullName: rowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number rowCount
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.setFormatsAsync'
+    name: setFormatsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets formatting on specified items and data in the table.
+    syntax:
+      content: >-
+        function setFormatsAsync(formatsInfo?: any[], options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: formatsInfo
+          type:
+            - 'any[]'
+          description: >-
+            Array elements are themselves three-element arrays:[target, type,
+            formats]
+                  target: The identifier of the item to format. String.
+                  type: The kind of item to format. String.
+                  formats: An object literal containing a list of property name-value pairs that define the formatting to apply.
+          optional: true
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableBinding.setTableOptionsAsync'
+    name: setTableOptionsAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Updates table formatting options on the bound table.
+    syntax:
+      content: >-
+        function setTableOptionsAsync(tableOptions: any, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: tableOptions
+          type:
+            - any
+          description: >-
+            An object literal containing a list of property name-value pairs
+            that define the table options to apply.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office

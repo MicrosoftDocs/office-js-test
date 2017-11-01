@@ -1,0 +1,236 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection'
+    name: WorksheetCollection
+    fullName: WorksheetCollection
+    children:
+      - '@microsoft/office-js.Excel.WorksheetCollection.add'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getActiveWorksheet'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getCount'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getFirst'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getItem'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.WorksheetCollection.getLast'
+      - '@microsoft/office-js.Excel.WorksheetCollection.items'
+      - '@microsoft/office-js.Excel.WorksheetCollection.load'
+      - '@microsoft/office-js.Excel.WorksheetCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of worksheet objects that are part of the
+      workbook.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 3174
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds a new worksheet to the workbook. The worksheet will be added at the
+      end of existing worksheets. If you wish to activate the newly added
+      worksheet, call ".activate() on it.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function add(name?: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: >
+            The name of the worksheet to be added. If specified, name should be
+            unqiue. If not specified, Excel determines the name of the new
+            worksheet.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getActiveWorksheet'
+    name: getActiveWorksheet
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the currently active worksheet in the workbook.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getActiveWorksheet()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of worksheets in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getCount(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getFirst'
+    name: getFirst
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the first worksheet in the collection.
+      If true, considers only visible worksheets, skipping over any hidden ones.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getFirst(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a worksheet object using its Name or ID.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            The Name or ID of the worksheet.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a worksheet object using its Name or ID. If the worksheet does not
+      exist, will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            The Name or ID of the worksheet.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.getLast'
+    name: getLast
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the last worksheet in the collection.
+      If true, considers only visible worksheets, skipping over any hidden ones.
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getLast(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Worksheet> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.Worksheet>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.WorksheetCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.WorksheetCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

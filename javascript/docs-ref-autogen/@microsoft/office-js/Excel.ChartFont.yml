@@ -1,0 +1,209 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartFont'
+    name: ChartFont
+    fullName: ChartFont
+    children:
+      - '@microsoft/office-js.Excel.ChartFont.bold'
+      - '@microsoft/office-js.Excel.ChartFont.color'
+      - '@microsoft/office-js.Excel.ChartFont.italic'
+      - '@microsoft/office-js.Excel.ChartFont.load'
+      - '@microsoft/office-js.Excel.ChartFont.name'
+      - '@microsoft/office-js.Excel.ChartFont.set'
+      - '@microsoft/office-js.Excel.ChartFont.set_1'
+      - '@microsoft/office-js.Excel.ChartFont.size'
+      - '@microsoft/office-js.Excel.ChartFont.toJSON'
+      - '@microsoft/office-js.Excel.ChartFont.underline'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This object represents the font attributes (font name, font size, color,
+      etc.) for a chart object.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6493
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.bold'
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the bold status of font.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representation of the text color. E.g. #FF0000 represents
+      Red.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.italic'
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the italic status of the font.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Font name (e.g. "Calibri")
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartFontUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartFont)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartFont'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Size of the font (e.g. 11)
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFont.underline'
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Type of underline applied to the font. See Excel.ChartUnderlineStyle for
+      details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Excel

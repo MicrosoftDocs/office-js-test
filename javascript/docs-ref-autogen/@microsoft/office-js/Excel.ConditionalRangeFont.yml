@@ -1,0 +1,209 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont'
+    name: ConditionalRangeFont
+    fullName: ConditionalRangeFont
+    children:
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.bold'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.clear'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.color'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.italic'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.load'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.set'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.set_1'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.strikethrough'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.toJSON'
+      - '@microsoft/office-js.Excel.ConditionalRangeFont.underline'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      This object represents the font attributes (font style,, color, etc.) for
+      an object.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 8267
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.bold'
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the bold status of font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Resets the font formats.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representation of the text color. E.g. #FF0000 represents
+      Red.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.italic'
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the italic status of the font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalRangeFontUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalRangeFont)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalRangeFont'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.strikethrough'
+    name: strikethrough
+    fullName: strikethrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the strikethrough status of the font.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean strikethrough
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFont.underline'
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Type of underline applied to the font. See
+      Excel.ConditionalRangeFontUnderlineStyle for details.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Excel

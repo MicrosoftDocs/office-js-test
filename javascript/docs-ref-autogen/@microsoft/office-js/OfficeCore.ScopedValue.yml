@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeCore.ScopedValue'
+    name: ScopedValue
+    fullName: ScopedValue
+    children:
+      - '@microsoft/office-js.OfficeCore.ScopedValue.scope'
+      - '@microsoft/office-js.OfficeCore.ScopedValue.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Provides information about the scoped value.
+      [Api set: Experimentation 1.1 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 2484
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.ScopedValue.scope'
+    name: scope
+    fullName: scope
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the scope.
+      [Api set: Experimentation 1.1 (PREVIEW)]
+    syntax:
+      content: string scope
+      return:
+        type:
+          - string
+    module: OfficeCore
+  - uid: '@microsoft/office-js.OfficeCore.ScopedValue.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the value.
+      [Api set: Experimentation 1.1 (PREVIEW)]
+    syntax:
+      content: string | number | boolean value
+      return:
+        type:
+          - string | number | boolean
+    module: OfficeCore

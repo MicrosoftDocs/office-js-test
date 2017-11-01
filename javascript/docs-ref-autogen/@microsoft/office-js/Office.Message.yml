@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Message'
+    name: Message
+    fullName: Message
+    children:
+      - '@microsoft/office-js.Office.Message.conversationId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Item'
+    source:
+      path: office.d.ts
+      startLine: 1963
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Message.conversationId'
+    name: conversationId
+    fullName: conversationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string conversationId
+      return:
+        type:
+          - string
+    module: Office

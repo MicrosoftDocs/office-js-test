@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeSignsSet'
+    name: ThreeSignsSet
+    fullName: ThreeSignsSet
+    children:
+      - '@microsoft/office-js.Excel.ThreeSignsSet.greenCircle'
+      - '@microsoft/office-js.Excel.ThreeSignsSet.redDiamond'
+      - '@microsoft/office-js.Excel.ThreeSignsSet.yellowTriangle'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2580
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSignsSet.greenCircle'
+    name: greenCircle
+    fullName: greenCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSignsSet.redDiamond'
+    name: redDiamond
+    fullName: redDiamond
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redDiamond
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSignsSet.yellowTriangle'
+    name: yellowTriangle
+    fullName: yellowTriangle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowTriangle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

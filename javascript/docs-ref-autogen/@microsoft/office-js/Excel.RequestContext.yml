@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.RequestContext'
+    name: RequestContext
+    fullName: RequestContext
+    children:
+      - '@microsoft/office-js.Excel.RequestContext.application'
+      - '@microsoft/office-js.Excel.RequestContext.constructor'
+      - '@microsoft/office-js.Excel.RequestContext.workbook'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      The RequestContext object facilitates requests to the Excel application.
+      Since the Office add-in and the Excel application run in two different
+      processes, the request context is required to get access to the Excel
+      object model from the add-in.
+    extends:
+      name: '@@microsoft/office-js.OfficeCore.RequestContext'
+    source:
+      path: office.d.ts
+      startLine: 2725
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RequestContext.application'
+    name: application
+    fullName: application
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Application application
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Application'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RequestContext.constructor'
+    name: RequestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RequestContext(url?: string | Session)'
+      parameters:
+        - id: url
+          type:
+            - string | Session
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.RequestContext.workbook'
+    name: workbook
+    fullName: workbook
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Workbook workbook
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Workbook'
+    module: Excel

@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+    name: ColorScaleConditionalFormat
+    fullName: ColorScaleConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.criteria'
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.load'
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.set'
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.threeColorScale'
+      - '@microsoft/office-js.Excel.ColorScaleConditionalFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents an IconSet criteria for conditional formatting.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7874
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.criteria'
+    name: criteria
+    fullName: criteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The criteria of the color scale. Midpoint is optional when using a two
+      point color scale.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalColorScaleCriteria criteria
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalColorScaleCriteria'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ColorScaleConditionalFormatUpdateData,
+        options?: function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ColorScaleConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ColorScaleConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.threeColorScale'
+    name: threeColorScale
+    fullName: threeColorScale
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If true the color scale will have three points (minimum, midpoint,
+      maximum), otherwise it will have two (minimum, maximum).
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean threeColorScale
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

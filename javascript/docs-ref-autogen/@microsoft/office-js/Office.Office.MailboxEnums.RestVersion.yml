@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion'
+    name: RestVersion
+    fullName: RestVersion
+    children:
+      - '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.Beta'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.v1_0'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.v2_0'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1597
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.Beta'
+    name: Beta
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.v1_0'
+    name: v1_0
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion.v2_0'
+    name: v2_0
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office.MailboxEnums

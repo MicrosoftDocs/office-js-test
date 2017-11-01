@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.LocalClientTime'
+    name: LocalClientTime
+    fullName: LocalClientTime
+    children:
+      - '@microsoft/office-js.Office.LocalClientTime.date'
+      - '@microsoft/office-js.Office.LocalClientTime.hours'
+      - '@microsoft/office-js.Office.LocalClientTime.milliseconds'
+      - '@microsoft/office-js.Office.LocalClientTime.minutes'
+      - '@microsoft/office-js.Office.LocalClientTime.month'
+      - '@microsoft/office-js.Office.LocalClientTime.seconds'
+      - '@microsoft/office-js.Office.LocalClientTime.timezoneOffset'
+      - '@microsoft/office-js.Office.LocalClientTime.year'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1870
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.date'
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number date
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.hours'
+    name: hours
+    fullName: hours
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number hours
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.milliseconds'
+    name: milliseconds
+    fullName: milliseconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number milliseconds
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.minutes'
+    name: minutes
+    fullName: minutes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number minutes
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.month'
+    name: month
+    fullName: month
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number month
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.seconds'
+    name: seconds
+    fullName: seconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number seconds
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.timezoneOffset'
+    name: timezoneOffset
+    fullName: timezoneOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number timezoneOffset
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.LocalClientTime.year'
+    name: year
+    fullName: year
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number year
+      return:
+        type:
+          - number
+    module: Office

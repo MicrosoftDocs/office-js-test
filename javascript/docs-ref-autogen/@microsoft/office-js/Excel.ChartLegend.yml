@@ -1,0 +1,175 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartLegend'
+    name: ChartLegend
+    fullName: ChartLegend
+    children:
+      - '@microsoft/office-js.Excel.ChartLegend.format'
+      - '@microsoft/office-js.Excel.ChartLegend.load'
+      - '@microsoft/office-js.Excel.ChartLegend.overlay'
+      - '@microsoft/office-js.Excel.ChartLegend.position'
+      - '@microsoft/office-js.Excel.ChartLegend.set'
+      - '@microsoft/office-js.Excel.ChartLegend.set_1'
+      - '@microsoft/office-js.Excel.ChartLegend.toJSON'
+      - '@microsoft/office-js.Excel.ChartLegend.visible'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the legend in a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6238
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart legend, which includes fill and font
+      formatting. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLegendFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLegendFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLegend'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.overlay'
+    name: overlay
+    fullName: overlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value for whether the chart legend should overlap with the main
+      body of the chart.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean overlay
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the position of the legend on the chart. See
+      Excel.ChartLegendPosition for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartLegendUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartLegend)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartLegend'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartLegend.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A boolean value the represents the visibility of a ChartLegend object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel

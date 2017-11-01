@@ -1,0 +1,275 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableColumn'
+    name: TableColumn
+    fullName: TableColumn
+    children:
+      - '@microsoft/office-js.Excel.TableColumn.delete'
+      - '@microsoft/office-js.Excel.TableColumn.filter'
+      - '@microsoft/office-js.Excel.TableColumn.getDataBodyRange'
+      - '@microsoft/office-js.Excel.TableColumn.getHeaderRowRange'
+      - '@microsoft/office-js.Excel.TableColumn.getRange'
+      - '@microsoft/office-js.Excel.TableColumn.getTotalRowRange'
+      - '@microsoft/office-js.Excel.TableColumn.id'
+      - '@microsoft/office-js.Excel.TableColumn.index'
+      - '@microsoft/office-js.Excel.TableColumn.load'
+      - '@microsoft/office-js.Excel.TableColumn.name'
+      - '@microsoft/office-js.Excel.TableColumn.set'
+      - '@microsoft/office-js.Excel.TableColumn.set_1'
+      - '@microsoft/office-js.Excel.TableColumn.toJSON'
+      - '@microsoft/office-js.Excel.TableColumn.values'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a column in a table.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4728
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the column from the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.filter'
+    name: filter
+    fullName: filter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Retrieve the filter applied to the column.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Filter filter
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Filter'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.getDataBodyRange'
+    name: getDataBodyRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the data body of the column.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getDataBodyRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.getHeaderRowRange'
+    name: getHeaderRowRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the header row of the column.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getHeaderRowRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the entire column.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.getTotalRowRange'
+    name: getTotalRowRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the totals row of the column.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getTotalRowRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a unique key that identifies the column within the table.
+      Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the index number of the column within the columns collection of
+      the table. Zero-indexed. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumn'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of the table column.
+      [Api set: ExcelApi 1.1 for getting the name; 1.4 for setting it.]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableColumnUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableColumn)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.TableColumn'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableColumn.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the raw values of the specified range. The data returned could
+      be of type string, number, or a boolean. Cell that contain an error will
+      return the error string.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> values
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel

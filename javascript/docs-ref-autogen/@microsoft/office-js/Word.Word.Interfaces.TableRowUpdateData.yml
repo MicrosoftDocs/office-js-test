@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData'
+    name: TableRowUpdateData
+    fullName: TableRowUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.font'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.horizontalAlignment
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.preferredHeight
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.shadingColor
+      - '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.values'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.verticalAlignment
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the TableRow object, for use in
+      "tableRow.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19572
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the font. Use this to get and set font name, size, color, and other
+      properties.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: FontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the horizontal alignment of every cell in the row. The value
+      can be 'left', 'centered', 'right', or 'justified'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string horizontalAlignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.preferredHeight
+    name: preferredHeight
+    fullName: preferredHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the preferred height of the row in points.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number preferredHeight
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.shadingColor'
+    name: shadingColor
+    fullName: shadingColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the shading color.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string shadingColor
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the text values in the row, as a 2D Javascript array.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Array<Array<string>> values
+      return:
+        type:
+          - Array<Array<string>>
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData.verticalAlignment
+    name: verticalAlignment
+    fullName: verticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the vertical alignment of the cells in the row. The value
+      can be 'top', 'center' or 'bottom'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string verticalAlignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces

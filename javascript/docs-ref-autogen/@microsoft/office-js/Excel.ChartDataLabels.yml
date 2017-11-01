@@ -1,0 +1,265 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels'
+    name: ChartDataLabels
+    fullName: ChartDataLabels
+    children:
+      - '@microsoft/office-js.Excel.ChartDataLabels.format'
+      - '@microsoft/office-js.Excel.ChartDataLabels.load'
+      - '@microsoft/office-js.Excel.ChartDataLabels.position'
+      - '@microsoft/office-js.Excel.ChartDataLabels.separator'
+      - '@microsoft/office-js.Excel.ChartDataLabels.set_1'
+      - '@microsoft/office-js.Excel.ChartDataLabels.set'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showBubbleSize'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showCategoryName'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showLegendKey'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showPercentage'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showSeriesName'
+      - '@microsoft/office-js.Excel.ChartDataLabels.showValue'
+      - '@microsoft/office-js.Excel.ChartDataLabels.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a collection of all the data labels on a chart point.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6034
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the format of chart data labels, which includes fill and font
+      formatting. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartDataLabelFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartDataLabelFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartDataLabels'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      DataLabelPosition value that represents the position of the data label.
+      See Excel.ChartDataLabelPosition for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.separator'
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      String representing the separator used for the data labels on a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string separator
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartDataLabels)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartDataLabels'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartDataLabelsUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showBubbleSize'
+    name: showBubbleSize
+    fullName: showBubbleSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label bubble size is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showBubbleSize
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showCategoryName'
+    name: showCategoryName
+    fullName: showCategoryName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label category name is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showCategoryName
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showLegendKey'
+    name: showLegendKey
+    fullName: showLegendKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label legend key is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showLegendKey
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showPercentage'
+    name: showPercentage
+    fullName: showPercentage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label percentage is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showPercentage
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showSeriesName'
+    name: showSeriesName
+    fullName: showSeriesName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value representing if the data label series name is visible or
+      not.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showSeriesName
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.showValue'
+    name: showValue
+    fullName: showValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Boolean value representing if the data label value is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showValue
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartDataLabels.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

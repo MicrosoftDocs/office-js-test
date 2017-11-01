@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Entities'
+    name: Entities
+    fullName: Entities
+    children:
+      - '@microsoft/office-js.Office.Entities.addresses'
+      - '@microsoft/office-js.Office.Entities.contacts'
+      - '@microsoft/office-js.Office.Entities.emailAddresses'
+      - '@microsoft/office-js.Office.Entities.meetingSuggestions'
+      - '@microsoft/office-js.Office.Entities.phoneNumbers'
+      - '@microsoft/office-js.Office.Entities.taskSuggestions'
+      - '@microsoft/office-js.Office.Entities.urls'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1755
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.addresses'
+    name: addresses
+    fullName: addresses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> addresses
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.contacts'
+    name: contacts
+    fullName: contacts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<Contact> contacts
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.Contact>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.emailAddresses'
+    name: emailAddresses
+    fullName: emailAddresses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> emailAddresses
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.meetingSuggestions'
+    name: meetingSuggestions
+    fullName: meetingSuggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<MeetingSuggestion> meetingSuggestions
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.MeetingSuggestion>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.phoneNumbers'
+    name: phoneNumbers
+    fullName: phoneNumbers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<PhoneNumber> phoneNumbers
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.PhoneNumber>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.taskSuggestions'
+    name: taskSuggestions
+    fullName: taskSuggestions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> taskSuggestions
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.Entities.urls'
+    name: urls
+    fullName: urls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<string> urls
+      return:
+        type:
+          - Array<string>
+    module: Office

@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Appointment'
+    name: Appointment
+    fullName: Appointment
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Item'
+    source:
+      path: office.d.ts
+      startLine: 1631
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office

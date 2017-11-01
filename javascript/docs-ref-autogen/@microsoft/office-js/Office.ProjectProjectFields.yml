@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields'
+    name: ProjectProjectFields
+    fullName: ProjectProjectFields
+    children:
+      - '@microsoft/office-js.Office.ProjectProjectFields.CurrencyDigits'
+      - '@microsoft/office-js.Office.ProjectProjectFields.CurrencySymbol'
+      - '@microsoft/office-js.Office.ProjectProjectFields.CurrencySymbolPosition'
+      - '@microsoft/office-js.Office.ProjectProjectFields.DurationUnits'
+      - '@microsoft/office-js.Office.ProjectProjectFields.Finish'
+      - '@microsoft/office-js.Office.ProjectProjectFields.GUID'
+      - '@microsoft/office-js.Office.ProjectProjectFields.ProjectServerUrl'
+      - '@microsoft/office-js.Office.ProjectProjectFields.ReadOnly'
+      - '@microsoft/office-js.Office.ProjectProjectFields.Start'
+      - '@microsoft/office-js.Office.ProjectProjectFields.VERSION'
+      - '@microsoft/office-js.Office.ProjectProjectFields.WorkUnits'
+      - '@microsoft/office-js.Office.ProjectProjectFields.WSSList'
+      - '@microsoft/office-js.Office.ProjectProjectFields.WSSUrl'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 897
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.CurrencyDigits'
+    name: CurrencyDigits
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.CurrencySymbol'
+    name: CurrencySymbol
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.CurrencySymbolPosition'
+    name: CurrencySymbolPosition
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.DurationUnits'
+    name: DurationUnits
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.Finish'
+    name: Finish
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.GUID'
+    name: GUID
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.ProjectServerUrl'
+    name: ProjectServerUrl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.ReadOnly'
+    name: ReadOnly
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.Start'
+    name: Start
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.VERSION'
+    name: VERSION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.WorkUnits'
+    name: WorkUnits
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.WSSList'
+    name: WSSList
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ProjectProjectFields.WSSUrl'
+    name: WSSUrl
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office

@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FunctionResult'
+    name: FunctionResult
+    fullName: FunctionResult<T>
+    children:
+      - '@microsoft/office-js.Excel.FunctionResult.error'
+      - '@microsoft/office-js.Excel.FunctionResult.load'
+      - '@microsoft/office-js.Excel.FunctionResult.toJSON'
+      - '@microsoft/office-js.Excel.FunctionResult.value'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      An object containing the result of a function-evaluation operation
+      [Api set: ExcelApi 1.2]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 9134
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FunctionResult.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Error value (such as "#DIV/0") representing the error. If the error string
+      is not set, then the function succeeded, and its result is written to the
+      Value field. The error is always in the English locale.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string error
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FunctionResult.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FunctionResult<T>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FunctionResult.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FunctionResult.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The value of function evaluation. The value field will be populated only
+      if no error has occurred (i.e., the Error property is not set).
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: T value
+      return:
+        type:
+          - T
+    module: Excel

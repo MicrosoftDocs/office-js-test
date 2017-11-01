@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ReplyFormData'
+    name: ReplyFormData
+    fullName: ReplyFormData
+    children:
+      - '@microsoft/office-js.Office.ReplyFormData.attachments'
+      - '@microsoft/office-js.Office.ReplyFormData.callback'
+      - '@microsoft/office-js.Office.ReplyFormData.htmlBody'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2057
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormData.attachments'
+    name: attachments
+    fullName: attachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<ReplyFormAttachment> attachments
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.ReplyFormAttachment>
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormData.callback'
+    name: callback
+    fullName: callback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '(result: AsyncResult) => void callback'
+      return:
+        type:
+          - '(result: AsyncResult) => void'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ReplyFormData.htmlBody'
+    name: htmlBody
+    fullName: htmlBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string htmlBody
+      return:
+        type:
+          - string
+    module: Office

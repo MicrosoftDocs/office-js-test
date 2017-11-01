@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion'
+    name: ConditionalIconCriterion
+    fullName: ConditionalIconCriterion
+    children:
+      - '@microsoft/office-js.Excel.ConditionalIconCriterion.customIcon'
+      - '@microsoft/office-js.Excel.ConditionalIconCriterion.formula'
+      - '@microsoft/office-js.Excel.ConditionalIconCriterion.operator'
+      - '@microsoft/office-js.Excel.ConditionalIconCriterion.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Represents an Icon Criterion which contains a type, value, an Operator,
+      and an optional custom icon, if not using an iconset.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 7838
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion.customIcon'
+    name: customIcon
+    fullName: customIcon
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The custom icon for the current criterion if different from the default
+      IconSet, else null will be returned.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: Icon customIcon
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion.formula'
+    name: formula
+    fullName: formula
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A number or a formula depending on the type.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion.operator'
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      GreaterThan or GreaterThanOrEqual for each of the rule type for the Icon
+      conditional format.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string operator
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      What the icon conditional formula should be based on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel

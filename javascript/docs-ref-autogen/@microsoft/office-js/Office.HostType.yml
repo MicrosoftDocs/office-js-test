@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.HostType'
+    name: HostType
+    fullName: HostType
+    children:
+      - '@microsoft/office-js.Office.HostType.Access'
+      - '@microsoft/office-js.Office.HostType.Excel'
+      - '@microsoft/office-js.Office.HostType.OneNote'
+      - '@microsoft/office-js.Office.HostType.Outlook'
+      - '@microsoft/office-js.Office.HostType.PowerPoint'
+      - '@microsoft/office-js.Office.HostType.Project'
+      - '@microsoft/office-js.Office.HostType.Word'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 44
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.Access'
+    name: Access
+    children: []
+    langs:
+      - typeScript
+    summary: Host is Access
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.Excel'
+    name: Excel
+    children: []
+    langs:
+      - typeScript
+    summary: Host is Excel
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.OneNote'
+    name: OneNote
+    children: []
+    langs:
+      - typeScript
+    summary: Host is OneNote
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.Outlook'
+    name: Outlook
+    children: []
+    langs:
+      - typeScript
+    summary: Host is Outlook
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.PowerPoint'
+    name: PowerPoint
+    children: []
+    langs:
+      - typeScript
+    summary: Host is PowerPoint
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.Project'
+    name: Project
+    children: []
+    langs:
+      - typeScript
+    summary: Host is Project
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.HostType.Word'
+    name: Word
+    children: []
+    langs:
+      - typeScript
+    summary: Host is Word
+    type: field
+    module: Office

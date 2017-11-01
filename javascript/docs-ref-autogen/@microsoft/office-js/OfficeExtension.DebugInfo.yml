@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.DebugInfo'
+    name: DebugInfo
+    fullName: DebugInfo
+    children:
+      - '@microsoft/office-js.OfficeExtension.DebugInfo.code'
+      - '@microsoft/office-js.OfficeExtension.DebugInfo.errorLocation'
+      - '@microsoft/office-js.OfficeExtension.DebugInfo.innerError'
+      - '@microsoft/office-js.OfficeExtension.DebugInfo.message'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2195
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.DebugInfo.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Error code string, such as "InvalidArgument".'
+    syntax:
+      content: string code
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.DebugInfo.errorLocation'
+    name: errorLocation
+    fullName: errorLocation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The object type and property or method name (or similar information), if
+      available.
+    syntax:
+      content: string errorLocation
+      return:
+        type:
+          - string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.DebugInfo.innerError'
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Inner error, if applicable.'
+    syntax:
+      content: DebugInfo | string innerError
+      return:
+        type:
+          - DebugInfo | string
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.DebugInfo.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error message passed through from the host Office application.
+    syntax:
+      content: string message
+      return:
+        type:
+          - string
+    module: OfficeExtension

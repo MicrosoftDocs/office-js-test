@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarRule'
+    name: ConditionalDataBarRule
+    fullName: ConditionalDataBarRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalDataBarRule.formula'
+      - '@microsoft/office-js.Excel.ConditionalDataBarRule.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents a rule-type for a Data Bar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 7675
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarRule.formula'
+    name: formula
+    fullName: formula
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The formula, if required, to evaluate the databar rule on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalDataBarRule.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The type of rule for the databar.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel

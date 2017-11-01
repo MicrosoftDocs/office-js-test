@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+    name: ConditionalRangeFormatUpdateData
+    fullName: ConditionalRangeFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData.numberFormat
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ConditionalRangeFormat object, for
+      use in "conditionalRangeFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14218
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData.numberFormat
+    name: numberFormat
+    fullName: numberFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents Excel's number format code for the given range. Cleared if null
+      is passed in.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: any numberFormat
+      return:
+        type:
+          - any
+    module: Excel.Interfaces

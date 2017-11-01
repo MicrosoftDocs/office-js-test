@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartPoint'
+    name: ChartPoint
+    fullName: ChartPoint
+    children:
+      - '@microsoft/office-js.Excel.ChartPoint.format'
+      - '@microsoft/office-js.Excel.ChartPoint.load'
+      - '@microsoft/office-js.Excel.ChartPoint.toJSON'
+      - '@microsoft/office-js.Excel.ChartPoint.value'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a point of a series in a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5731
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPoint.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Encapsulates the format properties chart point. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartPointFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPointFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPoint.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPoint'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPoint.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartPoint.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the value of a chart point. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: any value
+      return:
+        type:
+          - any
+    module: Excel

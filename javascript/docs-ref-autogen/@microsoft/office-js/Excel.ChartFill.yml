@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartFill'
+    name: ChartFill
+    fullName: ChartFill
+    children:
+      - '@microsoft/office-js.Excel.ChartFill.clear'
+      - '@microsoft/office-js.Excel.ChartFill.load'
+      - '@microsoft/office-js.Excel.ChartFill.setSolidColor'
+      - '@microsoft/office-js.Excel.ChartFill.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the fill formatting for a chart element.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6426
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFill.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clear the fill color of a chart element.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFill.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFill.setSolidColor'
+    name: setSolidColor
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets the fill formatting of a chart element to a uniform color.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function setSolidColor(color: string)'
+      parameters:
+        - id: color
+          type:
+            - string
+          description: >
+            HTML color code representing the color of the border line, of the
+            form #RRGGBB (e.g. "FFA500") or as a named HTML color (e.g.
+            "orange").
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartFill.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

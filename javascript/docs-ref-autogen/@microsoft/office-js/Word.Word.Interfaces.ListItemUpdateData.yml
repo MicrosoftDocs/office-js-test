@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData'
+    name: ListItemUpdateData
+    fullName: ListItemUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData.level'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ListItem object, for use in
+      "listItem.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19253
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData.level'
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the level of the item in the list.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number level
+      return:
+        type:
+          - number
+    module: Word.Interfaces

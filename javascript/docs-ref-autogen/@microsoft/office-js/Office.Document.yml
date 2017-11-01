@@ -1,0 +1,590 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Document'
+    name: Document
+    fullName: Document
+    children:
+      - '@microsoft/office-js.Office.Document.addHandlerAsync'
+      - '@microsoft/office-js.Office.Document.bindings'
+      - '@microsoft/office-js.Office.Document.customXmlParts'
+      - '@microsoft/office-js.Office.Document.getActiveViewAsync'
+      - '@microsoft/office-js.Office.Document.getFileAsync'
+      - '@microsoft/office-js.Office.Document.getFilePropertiesAsync'
+      - '@microsoft/office-js.Office.Document.getProjectFieldAsync'
+      - '@microsoft/office-js.Office.Document.getResourceFieldAsync'
+      - '@microsoft/office-js.Office.Document.getSelectedDataAsync'
+      - '@microsoft/office-js.Office.Document.getSelectedResourceAsync'
+      - '@microsoft/office-js.Office.Document.getSelectedTaskAsync'
+      - '@microsoft/office-js.Office.Document.getSelectedViewAsync'
+      - '@microsoft/office-js.Office.Document.getTaskAsync'
+      - '@microsoft/office-js.Office.Document.getTaskFieldAsync'
+      - '@microsoft/office-js.Office.Document.getWSSUrlAsync'
+      - '@microsoft/office-js.Office.Document.goToByIdAsync'
+      - '@microsoft/office-js.Office.Document.mode'
+      - '@microsoft/office-js.Office.Document.removeHandlerAsync'
+      - '@microsoft/office-js.Office.Document.setSelectedDataAsync'
+      - '@microsoft/office-js.Office.Document.settings'
+      - '@microsoft/office-js.Office.Document.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 654
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.addHandlerAsync'
+    name: addHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event handler for the specified event type.
+    syntax:
+      content: >-
+        function addHandlerAsync(eventType: EventType, handler: any, options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: The event type. For document can be 'DocumentSelectionChanged'
+        - id: handler
+          type:
+            - any
+          description: The name of the handler
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.bindings'
+    name: bindings
+    fullName: bindings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Bindings bindings
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Bindings'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.customXmlParts'
+    name: customXmlParts
+    fullName: customXmlParts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CustomXmlParts customXmlParts
+      return:
+        type:
+          - '@@microsoft/office-js.Office.CustomXmlParts'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getActiveViewAsync'
+    name: getActiveViewAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the current view of the presentation.
+    syntax:
+      content: >-
+        function getActiveViewAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getFileAsync'
+    name: getFileAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the entire file in slices of up to 4MB.
+    syntax:
+      content: >-
+        function getFileAsync(fileType: FileType, options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: fileType
+          type:
+            - '@@microsoft/office-js.Office.FileType'
+          description: The format in which the file will be returned
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {sliceSize:1024}
+                  sliceSize: Specifies the desired slice size (in bytes) up to 4MB. If not specified a default slice size of 4MB will be used.
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getFilePropertiesAsync'
+    name: getFilePropertiesAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets file properties of the current document.
+    syntax:
+      content: >-
+        function getFilePropertiesAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getProjectFieldAsync'
+    name: getProjectFieldAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get Project field (Ex. ProjectWebAccessURL).
+    syntax:
+      content: >-
+        function getProjectFieldAsync(fieldId: number, options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: fieldId
+          type:
+            - number
+          description: Project level fields.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getResourceFieldAsync'
+    name: getResourceFieldAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get resource field for provided resource Id. (Ex.ResourceName)
+    syntax:
+      content: >-
+        function getResourceFieldAsync(resourceId: string, fieldId: number,
+        options?: any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: resourceId
+          type:
+            - string
+          description: Either a string or value of the Resource Id.
+        - id: fieldId
+          type:
+            - number
+          description: Resource Fields.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getSelectedDataAsync'
+    name: getSelectedDataAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the current selection.
+    syntax:
+      content: >-
+        function getSelectedDataAsync(coercionType: CoercionType, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: coercionType
+          type:
+            - '@@microsoft/office-js.Office.CoercionType'
+          description: The expected shape of the selection.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {valueFormat: 'formatted', filterType:'all'}
+                  valueFormat: Get data with or without format. Use Office.ValueFormat or text value.
+                  filterType: Get the visible or all the data. Useful when filtering data. Use Office.FilterType or text value.
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getSelectedResourceAsync'
+    name: getSelectedResourceAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the current selected Resource's Id.
+    syntax:
+      content: >-
+        function getSelectedResourceAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getSelectedTaskAsync'
+    name: getSelectedTaskAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the current selected Task's Id.
+    syntax:
+      content: >-
+        function getSelectedTaskAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getSelectedViewAsync'
+    name: getSelectedViewAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get the current selected View Type (Ex. Gantt) and View Name.
+    syntax:
+      content: >-
+        function getSelectedViewAsync(options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getTaskAsync'
+    name: getTaskAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Get the Task Name, WSS Task Id, and ResourceNames for given taskId.'
+    syntax:
+      content: >-
+        function getTaskAsync(taskId: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: taskId
+          type:
+            - string
+          description: Either a string or value of the Task Id.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getTaskFieldAsync'
+    name: getTaskFieldAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get task field for provided task Id. (Ex. StartDate).
+    syntax:
+      content: >-
+        function getTaskFieldAsync(taskId: string, fieldId: number, options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: taskId
+          type:
+            - string
+          description: Either a string or value of the Task Id.
+        - id: fieldId
+          type:
+            - number
+          description: Task Fields.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.getWSSUrlAsync'
+    name: getWSSUrlAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Get the WSS Url and list name for the Tasks List, the MPP is synced too.'
+    syntax:
+      content: >-
+        function getWSSUrlAsync(options?: any, callback?: (result: AsyncResult)
+        => void)
+      parameters:
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.goToByIdAsync'
+    name: goToByIdAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Goes to the specified object or location in the document.
+    syntax:
+      content: >-
+        function goToByIdAsync(id: string | number, goToType: GoToType,
+        options?: any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: id
+          type:
+            - string | number
+          description: The identifier of the object or location to go to.
+        - id: goToType
+          type:
+            - '@@microsoft/office-js.Office.GoToType'
+          description: The type of the location to go to.
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  selectionMode: Use Office.SelectionMode or text value.
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DocumentMode mode
+      return:
+        type:
+          - '@@microsoft/office-js.Office.DocumentMode'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.removeHandlerAsync'
+    name: removeHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes an event handler for the specified event type.
+    syntax:
+      content: >-
+        function removeHandlerAsync(eventType: EventType, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: The event type. For document can be 'DocumentSelectionChanged'
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+                  handler: The name of the handler. If not specified all handlers are removed
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.setSelectedDataAsync'
+    name: setSelectedDataAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Writes the specified data into the current selection.
+    syntax:
+      content: >-
+        function setSelectedDataAsync(data: string | TableData | , options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: data
+          type:
+            - 'string | TableData | '
+          description: >-
+            The data to be set. Either a string or value, 2d array or TableData
+            object
+        - id: options
+          type:
+            - any
+          description: >-
+            Syntax example: {coercionType:Office.CoercionType.Matrix} or
+            {coercionType: 'matrix'}
+                  coercionType: Explicitly sets the shape of the data object. Use Office.CoercionType or text value. If not supplied is inferred from the data type.
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.settings'
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Settings settings
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Settings'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Document.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+    module: Office

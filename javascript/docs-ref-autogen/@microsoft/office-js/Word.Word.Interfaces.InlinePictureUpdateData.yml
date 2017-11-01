@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData'
+    name: InlinePictureUpdateData
+    fullName: InlinePictureUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.altTextDescription
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.altTextTitle
+      - '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.height'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.hyperlink
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.lockAspectRatio
+      - '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the InlinePicture object, for use in
+      "inlinePicture.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19208
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.altTextDescription
+    name: altTextDescription
+    fullName: altTextDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a string that represents the alternative text associated with
+      the inline image
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string altTextDescription
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.altTextTitle
+    name: altTextTitle
+    fullName: altTextTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a string that contains the title for the inline image.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string altTextTitle
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a number that describes the height of the inline image.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.hyperlink
+    name: hyperlink
+    fullName: hyperlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a hyperlink on the image. Use a '#' to separate the address
+      part from the optional location part.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string hyperlink
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.lockAspectRatio
+    name: lockAspectRatio
+    fullName: lockAspectRatio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the inline image retains its
+      original proportions when you resize it.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean lockAspectRatio
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a number that describes the width of the inline image.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Word.Interfaces

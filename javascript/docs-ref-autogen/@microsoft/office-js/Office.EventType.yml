@@ -1,0 +1,138 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.EventType'
+    name: EventType
+    fullName: EventType
+    children:
+      - '@microsoft/office-js.Office.EventType.ActiveViewChanged'
+      - '@microsoft/office-js.Office.EventType.BindingDataChanged'
+      - '@microsoft/office-js.Office.EventType.BindingSelectionChanged'
+      - '@microsoft/office-js.Office.EventType.DialogEventReceived'
+      - '@microsoft/office-js.Office.EventType.DialogMessageReceived'
+      - '@microsoft/office-js.Office.EventType.DocumentSelectionChanged'
+      - '@microsoft/office-js.Office.EventType.NodeDeleted'
+      - '@microsoft/office-js.Office.EventType.NodeInserted'
+      - '@microsoft/office-js.Office.EventType.NodeReplaced'
+      - '@microsoft/office-js.Office.EventType.ResourceSelectionChanged'
+      - '@microsoft/office-js.Office.EventType.SettingsChanged'
+      - '@microsoft/office-js.Office.EventType.TaskSelectionChanged'
+      - '@microsoft/office-js.Office.EventType.ViewSelectionChanged'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 266
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.ActiveViewChanged'
+    name: ActiveViewChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Occurs when the user changes the current view of the document.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.BindingDataChanged'
+    name: BindingDataChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a binding level data change happens
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.BindingSelectionChanged'
+    name: BindingSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a binding level selection happens
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.DialogEventReceived'
+    name: DialogEventReceived
+    children: []
+    langs:
+      - typeScript
+    summary: >-
+      Triggers when Dialog has a event, such as dialog closed, dialog navigation
+      failed.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.DialogMessageReceived'
+    name: DialogMessageReceived
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when Dialog sends a message via MessageParent.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.DocumentSelectionChanged'
+    name: DocumentSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a document level selection happens
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.NodeDeleted'
+    name: NodeDeleted
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a customXmlPart node was deleted
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.NodeInserted'
+    name: NodeInserted
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a customXmlPart node was inserted
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.NodeReplaced'
+    name: NodeReplaced
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a customXmlPart node was replaced
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.ResourceSelectionChanged'
+    name: ResourceSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a Resource selection happens in Project.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.SettingsChanged'
+    name: SettingsChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when settings change in a co-Auth session.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.TaskSelectionChanged'
+    name: TaskSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a Task selection happens in Project.
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.EventType.ViewSelectionChanged'
+    name: ViewSelectionChanged
+    children: []
+    langs:
+      - typeScript
+    summary: Triggers when a View selection happens in Project.
+    type: field
+    module: Office

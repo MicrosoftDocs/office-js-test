@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.RequestContext'
+    name: RequestContext
+    fullName: RequestContext
+    children:
+      - '@microsoft/office-js.OneNote.RequestContext.application'
+      - '@microsoft/office-js.OneNote.RequestContext.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+    source:
+      path: office.d.ts
+      startLine: 21894
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.RequestContext.application'
+    name: application
+    fullName: application
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Application application
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Application'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.RequestContext.constructor'
+    name: RequestContext
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RequestContext(url?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+          optional: true
+    module: OneNote

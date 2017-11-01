@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ActiveView'
+    name: ActiveView
+    fullName: ActiveView
+    children:
+      - '@microsoft/office-js.Office.ActiveView.Edit'
+      - '@microsoft/office-js.Office.ActiveView.Read'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 208
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ActiveView.Edit'
+    name: Edit
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.ActiveView.Read'
+    name: Read
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    module: Office

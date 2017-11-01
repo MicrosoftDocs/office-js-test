@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.TableData'
+    name: TableData
+    fullName: TableData
+    children:
+      - '@microsoft/office-js.Office.TableData.headers'
+      - '@microsoft/office-js.Office.TableData.rows'
+      - '@microsoft/office-js.Office.TableData.constructor'
+      - '@microsoft/office-js.Office.TableData.constructor_1'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 885
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableData.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] headers'
+      return:
+        type:
+          - 'any[]'
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableData.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'any[] rows'
+      return:
+        type:
+          - 'any[]'
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableData.constructor'
+    name: TableData
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TableData(rows: any[], headers: any[])'
+      parameters:
+        - id: rows
+          type:
+            - 'any[]'
+          description: ''
+        - id: headers
+          type:
+            - 'any[]'
+          description: ''
+    module: Office
+  - uid: '@microsoft/office-js.Office.TableData.constructor_1'
+    name: TableData
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new TableData()
+      parameters: []
+    module: Office

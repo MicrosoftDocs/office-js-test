@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection'
+    name: PivotTableCollection
+    fullName: PivotTableCollection
+    children:
+      - '@microsoft/office-js.Excel.PivotTableCollection.getCount'
+      - '@microsoft/office-js.Excel.PivotTableCollection.getItem'
+      - '@microsoft/office-js.Excel.PivotTableCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.PivotTableCollection.items'
+      - '@microsoft/office-js.Excel.PivotTableCollection.load'
+      - '@microsoft/office-js.Excel.PivotTableCollection.refreshAll'
+      - '@microsoft/office-js.Excel.PivotTableCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of all the PivotTables that are part of the
+      workbook or worksheet.
+
+      [Api set: ExcelApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7111
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of pivot tables in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a PivotTable by name.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: 'function getItem(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            Name of the PivotTable to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTable'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a PivotTable by name. If the PivotTable does not exist, will return a
+      null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            Name of the PivotTable to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTable'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<PivotTable> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.PivotTable>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.refreshAll'
+    name: refreshAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Refreshes all the pivot tables in the collection.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: function refreshAll()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.PivotTableCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

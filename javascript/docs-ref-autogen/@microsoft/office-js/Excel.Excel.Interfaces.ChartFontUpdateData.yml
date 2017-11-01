@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+    name: ChartFontUpdateData
+    fullName: ChartFontUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.bold'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.color'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.italic'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.name'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.size'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.underline
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartFont object, for use in
+      "chartFont.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13756
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.bold'
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the bold status of font.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representation of the text color. E.g. #FF0000 represents
+      Red.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.italic'
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the italic status of the font.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Font name (e.g. "Calibri")
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Size of the font (e.g. 11)
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData.underline'
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Type of underline applied to the font. See Excel.ChartUnderlineStyle for
+      details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

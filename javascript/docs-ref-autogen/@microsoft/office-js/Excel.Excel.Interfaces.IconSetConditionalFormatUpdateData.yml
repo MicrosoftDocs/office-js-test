@@ -1,0 +1,104 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData
+    name: IconSetConditionalFormatUpdateData
+    fullName: IconSetConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.criteria
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.reverseIconOrder
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.showIconOnly
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.style
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the IconSetConditionalFormat object, for
+      use in "iconSetConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14109
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.criteria
+    name: criteria
+    fullName: criteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      An array of Criteria and IconSets for the rules and potential custom icons
+      for conditional icons. Note that for the first criterion only the custom
+      icon can be modified, while type, formula and operator will be ignored
+      when set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: Array<ConditionalIconCriterion> criteria
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.ConditionalIconCriterion>
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.reverseIconOrder
+    name: reverseIconOrder
+    fullName: reverseIconOrder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If true, reverses the icon orders for the IconSet. Note that this cannot
+      be set if custom icons are used.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean reverseIconOrder
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.showIconOnly
+    name: showIconOnly
+    fullName: showIconOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If true, hides the values and only shows icons.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean showIconOnly
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If set, displays the IconSet option for the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData'
+    name: NamedItemUpdateData
+    fullName: NamedItemUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData.comment'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData.visible'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the NamedItem object, for use in
+      "namedItem.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13052
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData.comment'
+    name: comment
+    fullName: comment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the comment associated with this name.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: string comment
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Specifies whether the object is visible or not.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

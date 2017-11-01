@@ -1,0 +1,42 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelFormatUpdateData'
+    name: ChartDataLabelFormatUpdateData
+    fullName: ChartDataLabelFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelFormatUpdateData.font
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartDataLabelFormat object, for use
+      in "chartDataLabelFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13627
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelFormatUpdateData.font
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes (font name, font size, color, etc.) for a
+      chart data label.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+    module: Excel.Interfaces

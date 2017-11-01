@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Icon'
+    name: Icon
+    fullName: Icon
+    children:
+      - '@microsoft/office-js.Excel.Icon.index'
+      - '@microsoft/office-js.Excel.Icon.set'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents a cell icon.
+      [Api set: ExcelApi 1.2]
+    source:
+      path: office.d.ts
+      startLine: 6918
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Icon.index'
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the index of the icon in the given set.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Icon.set'
+    name: set
+    fullName: set
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the set that the icon is part of.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string set
+      return:
+        type:
+          - string
+    module: Excel

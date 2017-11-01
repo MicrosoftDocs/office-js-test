@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection'
+    name: PageContentCollection
+    fullName: PageContentCollection
+    children:
+      - '@microsoft/office-js.OneNote.PageContentCollection.count'
+      - '@microsoft/office-js.OneNote.PageContentCollection.getItem'
+      - '@microsoft/office-js.OneNote.PageContentCollection.getItemAt'
+      - '@microsoft/office-js.OneNote.PageContentCollection.items'
+      - '@microsoft/office-js.OneNote.PageContentCollection.load'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the contents of a page, as a collection of PageContent objects.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20985
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of page contents in the collection. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets a PageContent object by ID or by its index in the collection.
+      Read-only.
+    syntax:
+      content: 'function getItem(index: number | string)'
+      parameters:
+        - id: index
+          type:
+            - number | string
+          description: >
+            The ID of the PageContent object, or the index location of the
+            PageContent object in the collection.
+
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a page content on its position in the collection.
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<PageContent> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.OneNote.PageContent>
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.PageContentCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContentCollection'
+    module: OneNote

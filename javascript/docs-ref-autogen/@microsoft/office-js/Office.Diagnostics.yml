@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Diagnostics'
+    name: Diagnostics
+    fullName: Diagnostics
+    children:
+      - '@microsoft/office-js.Office.Diagnostics.hostName'
+      - '@microsoft/office-js.Office.Diagnostics.hostVersion'
+      - '@microsoft/office-js.Office.Diagnostics.OWAView'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1740
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Diagnostics.hostName'
+    name: hostName
+    fullName: hostName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hostName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Diagnostics.hostVersion'
+    name: hostVersion
+    fullName: hostVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string hostVersion
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Diagnostics.OWAView'
+    name: OWAView
+    fullName: OWAView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string OWAView
+      return:
+        type:
+          - string
+    module: Office

@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat'
+    name: ChartSeriesFormat
+    fullName: ChartSeriesFormat
+    children:
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.fill'
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.line'
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.load'
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.set'
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.set_1'
+      - '@microsoft/office-js.Excel.ChartSeriesFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      encapsulates the format properties for the chart series
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5652
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the fill format of a chart series, which includes background
+      formating information. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents line formatting. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLineFormat line
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartLineFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeriesFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ChartSeriesFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartSeriesFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartSeriesFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeriesFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

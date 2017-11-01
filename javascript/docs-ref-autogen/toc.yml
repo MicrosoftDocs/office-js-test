@@ -1,1 +1,1136 @@
-[]
+- uid: '@microsoft/office-js'
+  name: '@microsoft/office-js'
+  items:
+    - uid: '@microsoft/office-js.Excel'
+      name: Excel
+      items:
+        - uid: '@microsoft/office-js.Excel.Application'
+          name: Application
+          items: []
+        - uid: '@microsoft/office-js.Excel.Binding'
+          name: Binding
+          items: []
+        - uid: '@microsoft/office-js.Excel.BindingCollection'
+          name: BindingCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.BindingDataChangedEventArgs'
+          name: BindingDataChangedEventArgs
+          items: []
+        - uid: '@microsoft/office-js.Excel.BindingSelectionChangedEventArgs'
+          name: BindingSelectionChangedEventArgs
+          items: []
+        - uid: '@microsoft/office-js.Excel.CellValueConditionalFormat'
+          name: CellValueConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.Chart'
+          name: Chart
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAreaFormat'
+          name: ChartAreaFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAxes'
+          name: ChartAxes
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAxis'
+          name: ChartAxis
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAxisFormat'
+          name: ChartAxisFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAxisTitle'
+          name: ChartAxisTitle
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartAxisTitleFormat'
+          name: ChartAxisTitleFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartCollection'
+          name: ChartCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartDataLabelFormat'
+          name: ChartDataLabelFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartDataLabels'
+          name: ChartDataLabels
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartFill'
+          name: ChartFill
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartFont'
+          name: ChartFont
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartGridlines'
+          name: ChartGridlines
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartGridlinesFormat'
+          name: ChartGridlinesFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartLegend'
+          name: ChartLegend
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartLegendFormat'
+          name: ChartLegendFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartLineFormat'
+          name: ChartLineFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartPoint'
+          name: ChartPoint
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartPointFormat'
+          name: ChartPointFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartPointsCollection'
+          name: ChartPointsCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartSeries'
+          name: ChartSeries
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartSeriesCollection'
+          name: ChartSeriesCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartSeriesFormat'
+          name: ChartSeriesFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartTitle'
+          name: ChartTitle
+          items: []
+        - uid: '@microsoft/office-js.Excel.ChartTitleFormat'
+          name: ChartTitleFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ColorScaleConditionalFormat'
+          name: ColorScaleConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalCellValueRule'
+          name: ConditionalCellValueRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriteria'
+          name: ConditionalColorScaleCriteria
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriterion'
+          name: ConditionalColorScaleCriterion
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalDataBarNegativeFormat'
+          name: ConditionalDataBarNegativeFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalDataBarPositiveFormat'
+          name: ConditionalDataBarPositiveFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalDataBarRule'
+          name: ConditionalDataBarRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalFormat'
+          name: ConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection'
+          name: ConditionalFormatCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalFormatRule'
+          name: ConditionalFormatRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalIconCriterion'
+          name: ConditionalIconCriterion
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalPresetCriteriaRule'
+          name: ConditionalPresetCriteriaRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalRangeBorder'
+          name: ConditionalRangeBorder
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalRangeBorderCollection'
+          name: ConditionalRangeBorderCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalRangeFill'
+          name: ConditionalRangeFill
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalRangeFont'
+          name: ConditionalRangeFont
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat'
+          name: ConditionalRangeFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalTextComparisonRule'
+          name: ConditionalTextComparisonRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.ConditionalTopBottomRule'
+          name: ConditionalTopBottomRule
+          items: []
+        - uid: '@microsoft/office-js.Excel.CustomConditionalFormat'
+          name: CustomConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.CustomXmlPart'
+          name: CustomXmlPart
+          items: []
+        - uid: '@microsoft/office-js.Excel.CustomXmlPartCollection'
+          name: CustomXmlPartCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.CustomXmlPartScopedCollection'
+          name: CustomXmlPartScopedCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.DataBarConditionalFormat'
+          name: DataBarConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.Filter'
+          name: Filter
+          items: []
+        - uid: '@microsoft/office-js.Excel.FilterCriteria'
+          name: FilterCriteria
+          items: []
+        - uid: '@microsoft/office-js.Excel.FilterDatetime'
+          name: FilterDatetime
+          items: []
+        - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet'
+          name: FiveArrowsGraySet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FiveArrowsSet'
+          name: FiveArrowsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FiveBoxesSet'
+          name: FiveBoxesSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FiveQuartersSet'
+          name: FiveQuartersSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FiveRatingSet'
+          name: FiveRatingSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FormatProtection'
+          name: FormatProtection
+          items: []
+        - uid: '@microsoft/office-js.Excel.FourArrowsGraySet'
+          name: FourArrowsGraySet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FourArrowsSet'
+          name: FourArrowsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FourRatingSet'
+          name: FourRatingSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FourRedToBlackSet'
+          name: FourRedToBlackSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FourTrafficLightsSet'
+          name: FourTrafficLightsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.FunctionResult'
+          name: FunctionResult
+          items: []
+        - uid: '@microsoft/office-js.Excel.Functions'
+          name: Functions
+          items: []
+        - uid: '@microsoft/office-js.Excel.Global'
+          name: Global
+          items: []
+        - uid: '@microsoft/office-js.Excel.Icon'
+          name: Icon
+          items: []
+        - uid: '@microsoft/office-js.Excel.IconCollections'
+          name: IconCollections
+          items: []
+        - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat'
+          name: IconSetConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.NamedItem'
+          name: NamedItem
+          items: []
+        - uid: '@microsoft/office-js.Excel.NamedItemCollection'
+          name: NamedItemCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.PivotTable'
+          name: PivotTable
+          items: []
+        - uid: '@microsoft/office-js.Excel.PivotTableCollection'
+          name: PivotTableCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.PresetCriteriaConditionalFormat'
+          name: PresetCriteriaConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.Range'
+          name: Range
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeBorder'
+          name: RangeBorder
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeBorderCollection'
+          name: RangeBorderCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeFill'
+          name: RangeFill
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeFont'
+          name: RangeFont
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeFormat'
+          name: RangeFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeReference'
+          name: RangeReference
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeSort'
+          name: RangeSort
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeView'
+          name: RangeView
+          items: []
+        - uid: '@microsoft/office-js.Excel.RangeViewCollection'
+          name: RangeViewCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.RequestContext'
+          name: RequestContext
+          items: []
+        - uid: '@microsoft/office-js.Excel.SelectionChangedEventArgs'
+          name: SelectionChangedEventArgs
+          items: []
+        - uid: '@microsoft/office-js.Excel.Session'
+          name: Session
+          items: []
+        - uid: '@microsoft/office-js.Excel.Setting'
+          name: Setting
+          items: []
+        - uid: '@microsoft/office-js.Excel.SettingCollection'
+          name: SettingCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.SettingsChangedEventArgs'
+          name: SettingsChangedEventArgs
+          items: []
+        - uid: '@microsoft/office-js.Excel.SortField'
+          name: SortField
+          items: []
+        - uid: '@microsoft/office-js.Excel.Table'
+          name: Table
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableCollection'
+          name: TableCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableColumn'
+          name: TableColumn
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableColumnCollection'
+          name: TableColumnCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableRow'
+          name: TableRow
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableRowCollection'
+          name: TableRowCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.TableSort'
+          name: TableSort
+          items: []
+        - uid: '@microsoft/office-js.Excel.TextConditionalFormat'
+          name: TextConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeArrowsGraySet'
+          name: ThreeArrowsGraySet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeArrowsSet'
+          name: ThreeArrowsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeFlagsSet'
+          name: ThreeFlagsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeSignsSet'
+          name: ThreeSignsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeStarsSet'
+          name: ThreeStarsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeSymbols2Set'
+          name: ThreeSymbols2Set
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeSymbolsSet'
+          name: ThreeSymbolsSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeTrafficLights1Set'
+          name: ThreeTrafficLights1Set
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeTrafficLights2Set'
+          name: ThreeTrafficLights2Set
+          items: []
+        - uid: '@microsoft/office-js.Excel.ThreeTrianglesSet'
+          name: ThreeTrianglesSet
+          items: []
+        - uid: '@microsoft/office-js.Excel.TopBottomConditionalFormat'
+          name: TopBottomConditionalFormat
+          items: []
+        - uid: '@microsoft/office-js.Excel.Workbook'
+          name: Workbook
+          items: []
+        - uid: '@microsoft/office-js.Excel.Worksheet'
+          name: Worksheet
+          items: []
+        - uid: '@microsoft/office-js.Excel.WorksheetCollection'
+          name: WorksheetCollection
+          items: []
+        - uid: '@microsoft/office-js.Excel.WorksheetProtection'
+          name: WorksheetProtection
+          items: []
+        - uid: '@microsoft/office-js.Excel.WorksheetProtectionOptions'
+          name: WorksheetProtectionOptions
+          items: []
+    - uid: '@microsoft/office-js.Excel.Interfaces'
+      name: Excel.Interfaces
+      items:
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.CellValueConditionalFormatUpdateData
+          name: CellValueConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartAreaFormatUpdateData
+          name: ChartAreaFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData'
+          name: ChartAxesUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData
+          name: ChartAxisFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleFormatUpdateData
+          name: ChartAxisTitleFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisTitleUpdateData'
+          name: ChartAxisTitleUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisUpdateData'
+          name: ChartAxisUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelFormatUpdateData
+          name: ChartDataLabelFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData
+          name: ChartDataLabelsUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+          name: ChartFontUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData
+          name: ChartGridlinesFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesUpdateData'
+          name: ChartGridlinesUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartLegendFormatUpdateData
+          name: ChartLegendFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData'
+          name: ChartLegendUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData
+          name: ChartLineFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesFormatUpdateData
+          name: ChartSeriesFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData'
+          name: ChartSeriesUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ChartTitleFormatUpdateData
+          name: ChartTitleFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData'
+          name: ChartTitleUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData'
+          name: ChartUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ColorScaleConditionalFormatUpdateData
+          name: ColorScaleConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarNegativeFormatUpdateData
+          name: ConditionalDataBarNegativeFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalDataBarPositiveFormatUpdateData
+          name: ConditionalDataBarPositiveFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData
+          name: ConditionalFormatRuleUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatUpdateData
+          name: ConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeBorderUpdateData
+          name: ConditionalRangeBorderUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFillUpdateData
+          name: ConditionalRangeFillUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFontUpdateData
+          name: ConditionalRangeFontUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+          name: ConditionalRangeFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData
+          name: CustomConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.DataBarConditionalFormatUpdateData
+          name: DataBarConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.FormatProtectionUpdateData
+          name: FormatProtectionUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData
+          name: IconSetConditionalFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.NamedItemUpdateData'
+          name: NamedItemUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.PivotTableUpdateData'
+          name: PivotTableUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData
+          name: PresetCriteriaConditionalFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeBorderUpdateData'
+          name: RangeBorderUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFillUpdateData'
+          name: RangeFillUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFontUpdateData'
+          name: RangeFontUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData'
+          name: RangeFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData'
+          name: RangeUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeViewUpdateData'
+          name: RangeViewUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.SettingUpdateData'
+          name: SettingUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableColumnUpdateData'
+          name: TableColumnUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableRowUpdateData'
+          name: TableRowUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.TableUpdateData'
+          name: TableUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData
+          name: TextConditionalFormatUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Excel.Excel.Interfaces.TopBottomConditionalFormatUpdateData
+          name: TopBottomConditionalFormatUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData'
+          name: WorksheetUpdateData
+          items: []
+    - uid: '@microsoft/office-js.Office'
+      name: Office
+      items:
+        - uid: '@microsoft/office-js.Office.ActiveView'
+          name: ActiveView
+          items: []
+        - uid: '@microsoft/office-js.Office.Appointment'
+          name: Appointment
+          items: []
+        - uid: '@microsoft/office-js.Office.AppointmentCompose'
+          name: AppointmentCompose
+          items: []
+        - uid: '@microsoft/office-js.Office.AppointmentForm'
+          name: AppointmentForm
+          items: []
+        - uid: '@microsoft/office-js.Office.AppointmentRead'
+          name: AppointmentRead
+          items: []
+        - uid: '@microsoft/office-js.Office.AsyncContextOptions'
+          name: AsyncContextOptions
+          items: []
+        - uid: '@microsoft/office-js.Office.AsyncResult'
+          name: AsyncResult
+          items: []
+        - uid: '@microsoft/office-js.Office.AsyncResultStatus'
+          name: AsyncResultStatus
+          items: []
+        - uid: '@microsoft/office-js.Office.AttachmentDetails'
+          name: AttachmentDetails
+          items: []
+        - uid: '@microsoft/office-js.Office.Binding'
+          name: Binding
+          items: []
+        - uid: '@microsoft/office-js.Office.Bindings'
+          name: Bindings
+          items: []
+        - uid: '@microsoft/office-js.Office.BindingType'
+          name: BindingType
+          items: []
+        - uid: '@microsoft/office-js.Office.Body'
+          name: Body
+          items: []
+        - uid: '@microsoft/office-js.Office.CoercionType'
+          name: CoercionType
+          items: []
+        - uid: '@microsoft/office-js.Office.CoercionTypeOptions'
+          name: CoercionTypeOptions
+          items: []
+        - uid: '@microsoft/office-js.Office.Contact'
+          name: Contact
+          items: []
+        - uid: '@microsoft/office-js.Office.Context'
+          name: Context
+          items: []
+        - uid: '@microsoft/office-js.Office.CustomProperties'
+          name: CustomProperties
+          items: []
+        - uid: '@microsoft/office-js.Office.CustomXmlNode'
+          name: CustomXmlNode
+          items: []
+        - uid: '@microsoft/office-js.Office.CustomXmlPart'
+          name: CustomXmlPart
+          items: []
+        - uid: '@microsoft/office-js.Office.CustomXmlParts'
+          name: CustomXmlParts
+          items: []
+        - uid: '@microsoft/office-js.Office.CustomXmlPrefixMappings'
+          name: CustomXmlPrefixMappings
+          items: []
+        - uid: '@microsoft/office-js.Office.Diagnostics'
+          name: Diagnostics
+          items: []
+        - uid: '@microsoft/office-js.Office.DialogHandler'
+          name: DialogHandler
+          items: []
+        - uid: '@microsoft/office-js.Office.DialogOptions'
+          name: DialogOptions
+          items: []
+        - uid: '@microsoft/office-js.Office.Document'
+          name: Document
+          items: []
+        - uid: '@microsoft/office-js.Office.DocumentMode'
+          name: DocumentMode
+          items: []
+        - uid: '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs'
+          name: DocumentSelectionChangedEventArgs
+          items: []
+        - uid: '@microsoft/office-js.Office.EmailAddressDetails'
+          name: EmailAddressDetails
+          items: []
+        - uid: '@microsoft/office-js.Office.EmailUser'
+          name: EmailUser
+          items: []
+        - uid: '@microsoft/office-js.Office.Entities'
+          name: Entities
+          items: []
+        - uid: '@microsoft/office-js.Office.Error'
+          name: Error
+          items: []
+        - uid: '@microsoft/office-js.Office.EventType'
+          name: EventType
+          items: []
+        - uid: '@microsoft/office-js.Office.File'
+          name: File
+          items: []
+        - uid: '@microsoft/office-js.Office.FileProperties'
+          name: FileProperties
+          items: []
+        - uid: '@microsoft/office-js.Office.FileType'
+          name: FileType
+          items: []
+        - uid: '@microsoft/office-js.Office.FilterType'
+          name: FilterType
+          items: []
+        - uid: '@microsoft/office-js.Office.Global'
+          name: Global
+          items: []
+        - uid: '@microsoft/office-js.Office.GoToType'
+          name: GoToType
+          items: []
+        - uid: '@microsoft/office-js.Office.HostType'
+          name: HostType
+          items: []
+        - uid: '@microsoft/office-js.Office.Index'
+          name: Index
+          items: []
+        - uid: '@microsoft/office-js.Office.InitializationReason'
+          name: InitializationReason
+          items: []
+        - uid: '@microsoft/office-js.Office.Item'
+          name: Item
+          items: []
+        - uid: '@microsoft/office-js.Office.ItemCompose'
+          name: ItemCompose
+          items: []
+        - uid: '@microsoft/office-js.Office.ItemRead'
+          name: ItemRead
+          items: []
+        - uid: '@microsoft/office-js.Office.LocalClientTime'
+          name: LocalClientTime
+          items: []
+        - uid: '@microsoft/office-js.Office.Location'
+          name: Location
+          items: []
+        - uid: '@microsoft/office-js.Office.Mailbox'
+          name: Mailbox
+          items: []
+        - uid: '@microsoft/office-js.Office.MatrixBinding'
+          name: MatrixBinding
+          items: []
+        - uid: '@microsoft/office-js.Office.MeetingSuggestion'
+          name: MeetingSuggestion
+          items: []
+        - uid: '@microsoft/office-js.Office.Message'
+          name: Message
+          items: []
+        - uid: '@microsoft/office-js.Office.MessageCompose'
+          name: MessageCompose
+          items: []
+        - uid: '@microsoft/office-js.Office.MessageRead'
+          name: MessageRead
+          items: []
+        - uid: '@microsoft/office-js.Office.NotificationMessageDetails'
+          name: NotificationMessageDetails
+          items: []
+        - uid: '@microsoft/office-js.Office.NotificationMessages'
+          name: NotificationMessages
+          items: []
+        - uid: '@microsoft/office-js.Office.OfficeTheme'
+          name: OfficeTheme
+          items: []
+        - uid: '@microsoft/office-js.Office.PhoneNumber'
+          name: PhoneNumber
+          items: []
+        - uid: '@microsoft/office-js.Office.PlatformType'
+          name: PlatformType
+          items: []
+        - uid: '@microsoft/office-js.Office.ProjectProjectFields'
+          name: ProjectProjectFields
+          items: []
+        - uid: '@microsoft/office-js.Office.ProjectResourceFields'
+          name: ProjectResourceFields
+          items: []
+        - uid: '@microsoft/office-js.Office.ProjectTaskFields'
+          name: ProjectTaskFields
+          items: []
+        - uid: '@microsoft/office-js.Office.ProjectViewTypes'
+          name: ProjectViewTypes
+          items: []
+        - uid: '@microsoft/office-js.Office.Recipients'
+          name: Recipients
+          items: []
+        - uid: '@microsoft/office-js.Office.ReplyFormAttachment'
+          name: ReplyFormAttachment
+          items: []
+        - uid: '@microsoft/office-js.Office.ReplyFormData'
+          name: ReplyFormData
+          items: []
+        - uid: '@microsoft/office-js.Office.RoamingSettings'
+          name: RoamingSettings
+          items: []
+        - uid: '@microsoft/office-js.Office.SelectionMode'
+          name: SelectionMode
+          items: []
+        - uid: '@microsoft/office-js.Office.Settings'
+          name: Settings
+          items: []
+        - uid: '@microsoft/office-js.Office.Slice'
+          name: Slice
+          items: []
+        - uid: '@microsoft/office-js.Office.SourceProperty'
+          name: SourceProperty
+          items: []
+        - uid: '@microsoft/office-js.Office.Subject'
+          name: Subject
+          items: []
+        - uid: '@microsoft/office-js.Office.Table'
+          name: Table
+          items: []
+        - uid: '@microsoft/office-js.Office.TableBinding'
+          name: TableBinding
+          items: []
+        - uid: '@microsoft/office-js.Office.TableData'
+          name: TableData
+          items: []
+        - uid: '@microsoft/office-js.Office.TaskSuggestion'
+          name: TaskSuggestion
+          items: []
+        - uid: '@microsoft/office-js.Office.TextBinding'
+          name: TextBinding
+          items: []
+        - uid: '@microsoft/office-js.Office.Time'
+          name: Time
+          items: []
+        - uid: '@microsoft/office-js.Office.UI'
+          name: UI
+          items: []
+        - uid: '@microsoft/office-js.Office.UserProfile'
+          name: UserProfile
+          items: []
+        - uid: '@microsoft/office-js.Office.ValueFormat'
+          name: ValueFormat
+          items: []
+    - uid: '@microsoft/office-js.Office.cast.item'
+      name: Office.cast.item
+      items:
+        - uid: '@microsoft/office-js.Office.Office.cast.Office.cast.item.Global'
+          name: Global
+          items: []
+    - uid: '@microsoft/office-js.Office.MailboxEnums'
+      name: Office.MailboxEnums
+      items:
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType'
+          name: AttachmentType
+          items: []
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.EntityType'
+          name: EntityType
+          items: []
+        - uid: >-
+            @microsoft/office-js.Office.Office.MailboxEnums.ItemNotificationMessageType
+          name: ItemNotificationMessageType
+          items: []
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ItemType'
+          name: ItemType
+          items: []
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RecipientType'
+          name: RecipientType
+          items: []
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.ResponseType'
+          name: ResponseType
+          items: []
+        - uid: '@microsoft/office-js.Office.Office.MailboxEnums.RestVersion'
+          name: RestVersion
+          items: []
+    - uid: '@microsoft/office-js.OfficeCore'
+      name: OfficeCore
+      items:
+        - uid: '@microsoft/office-js.OfficeCore.ABType'
+          name: ABType
+          items: []
+        - uid: '@microsoft/office-js.OfficeCore.FlightingService'
+          name: FlightingService
+          items: []
+        - uid: '@microsoft/office-js.OfficeCore.RequestContext'
+          name: RequestContext
+          items: []
+        - uid: '@microsoft/office-js.OfficeCore.ScopedValue'
+          name: ScopedValue
+          items: []
+    - uid: '@microsoft/office-js.OfficeExtension'
+      name: OfficeExtension
+      items:
+        - uid: '@microsoft/office-js.OfficeExtension.ClientObject'
+          name: ClientObject
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.ClientRequestContext'
+          name: ClientRequestContext
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.ClientResult'
+          name: ClientResult
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.DebugInfo'
+          name: DebugInfo
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.Error'
+          name: Error
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.ErrorCodes'
+          name: ErrorCodes
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.EventHandlerResult'
+          name: EventHandlerResult
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.EventHandlers'
+          name: EventHandlers
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.EventInfo'
+          name: EventInfo
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.IPromise'
+          name: IPromise
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.LoadOption'
+          name: LoadOption
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.Promise'
+          name: Promise
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.RequestUrlAndHeaderInfo'
+          name: RequestUrlAndHeaderInfo
+          items: []
+        - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects'
+          name: TrackedObjects
+          items: []
+    - uid: '@microsoft/office-js.OneNote'
+      name: OneNote
+      items:
+        - uid: '@microsoft/office-js.OneNote.Application'
+          name: Application
+          items: []
+        - uid: '@microsoft/office-js.OneNote.FloatingInk'
+          name: FloatingInk
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Global'
+          name: Global
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Image'
+          name: Image
+          items: []
+        - uid: '@microsoft/office-js.OneNote.ImageOcrData'
+          name: ImageOcrData
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysis'
+          name: InkAnalysis
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisLine'
+          name: InkAnalysisLine
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisLineCollection'
+          name: InkAnalysisLineCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisParagraph'
+          name: InkAnalysisParagraph
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisParagraphCollection'
+          name: InkAnalysisParagraphCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisWord'
+          name: InkAnalysisWord
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkAnalysisWordCollection'
+          name: InkAnalysisWordCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkStroke'
+          name: InkStroke
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkStrokeCollection'
+          name: InkStrokeCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkStrokePointer'
+          name: InkStrokePointer
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkWord'
+          name: InkWord
+          items: []
+        - uid: '@microsoft/office-js.OneNote.InkWordCollection'
+          name: InkWordCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Notebook'
+          name: Notebook
+          items: []
+        - uid: '@microsoft/office-js.OneNote.NotebookCollection'
+          name: NotebookCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Outline'
+          name: Outline
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Page'
+          name: Page
+          items: []
+        - uid: '@microsoft/office-js.OneNote.PageCollection'
+          name: PageCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.PageContent'
+          name: PageContent
+          items: []
+        - uid: '@microsoft/office-js.OneNote.PageContentCollection'
+          name: PageContentCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Paragraph'
+          name: Paragraph
+          items: []
+        - uid: '@microsoft/office-js.OneNote.ParagraphCollection'
+          name: ParagraphCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.RequestContext'
+          name: RequestContext
+          items: []
+        - uid: '@microsoft/office-js.OneNote.RichText'
+          name: RichText
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Section'
+          name: Section
+          items: []
+        - uid: '@microsoft/office-js.OneNote.SectionCollection'
+          name: SectionCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.SectionGroup'
+          name: SectionGroup
+          items: []
+        - uid: '@microsoft/office-js.OneNote.SectionGroupCollection'
+          name: SectionGroupCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.Table'
+          name: Table
+          items: []
+        - uid: '@microsoft/office-js.OneNote.TableCell'
+          name: TableCell
+          items: []
+        - uid: '@microsoft/office-js.OneNote.TableCellCollection'
+          name: TableCellCollection
+          items: []
+        - uid: '@microsoft/office-js.OneNote.TableRow'
+          name: TableRow
+          items: []
+        - uid: '@microsoft/office-js.OneNote.TableRowCollection'
+          name: TableRowCollection
+          items: []
+    - uid: '@microsoft/office-js.Word'
+      name: Word
+      items:
+        - uid: '@microsoft/office-js.Word.Body'
+          name: Body
+          items: []
+        - uid: '@microsoft/office-js.Word.ContentControl'
+          name: ContentControl
+          items: []
+        - uid: '@microsoft/office-js.Word.ContentControlCollection'
+          name: ContentControlCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.CustomProperty'
+          name: CustomProperty
+          items: []
+        - uid: '@microsoft/office-js.Word.CustomPropertyCollection'
+          name: CustomPropertyCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.Document'
+          name: Document
+          items: []
+        - uid: '@microsoft/office-js.Word.DocumentProperties'
+          name: DocumentProperties
+          items: []
+        - uid: '@microsoft/office-js.Word.Font'
+          name: Font
+          items: []
+        - uid: '@microsoft/office-js.Word.Global'
+          name: Global
+          items: []
+        - uid: '@microsoft/office-js.Word.InlinePicture'
+          name: InlinePicture
+          items: []
+        - uid: '@microsoft/office-js.Word.InlinePictureCollection'
+          name: InlinePictureCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.List'
+          name: List
+          items: []
+        - uid: '@microsoft/office-js.Word.ListCollection'
+          name: ListCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.ListItem'
+          name: ListItem
+          items: []
+        - uid: '@microsoft/office-js.Word.Paragraph'
+          name: Paragraph
+          items: []
+        - uid: '@microsoft/office-js.Word.ParagraphCollection'
+          name: ParagraphCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.Range'
+          name: Range
+          items: []
+        - uid: '@microsoft/office-js.Word.RangeCollection'
+          name: RangeCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.RequestContext'
+          name: RequestContext
+          items: []
+        - uid: '@microsoft/office-js.Word.SearchOptions'
+          name: SearchOptions
+          items: []
+        - uid: '@microsoft/office-js.Word.Section'
+          name: Section
+          items: []
+        - uid: '@microsoft/office-js.Word.SectionCollection'
+          name: SectionCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.Table'
+          name: Table
+          items: []
+        - uid: '@microsoft/office-js.Word.TableBorder'
+          name: TableBorder
+          items: []
+        - uid: '@microsoft/office-js.Word.TableCell'
+          name: TableCell
+          items: []
+        - uid: '@microsoft/office-js.Word.TableCellCollection'
+          name: TableCellCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.TableCollection'
+          name: TableCollection
+          items: []
+        - uid: '@microsoft/office-js.Word.TableRow'
+          name: TableRow
+          items: []
+        - uid: '@microsoft/office-js.Word.TableRowCollection'
+          name: TableRowCollection
+          items: []
+    - uid: '@microsoft/office-js.Word.Interfaces'
+      name: Word.Interfaces
+      items:
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.BodyUpdateData'
+          name: BodyUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.ContentControlUpdateData'
+          name: ContentControlUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.CustomPropertyUpdateData'
+          name: CustomPropertyUpdateData
+          items: []
+        - uid: >-
+            @microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData
+          name: DocumentPropertiesUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData'
+          name: DocumentUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+          name: FontUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.InlinePictureUpdateData'
+          name: InlinePictureUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.ListItemUpdateData'
+          name: ListItemUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.ParagraphUpdateData'
+          name: ParagraphUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.RangeUpdateData'
+          name: RangeUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.SearchOptionsUpdateData'
+          name: SearchOptionsUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.SectionUpdateData'
+          name: SectionUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.TableBorderUpdateData'
+          name: TableBorderUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.TableCellUpdateData'
+          name: TableCellUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.TableRowUpdateData'
+          name: TableRowUpdateData
+          items: []
+        - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData'
+          name: TableUpdateData
+          items: []

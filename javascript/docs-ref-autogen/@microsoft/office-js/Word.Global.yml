@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Global'
+    package: '@microsoft/office-js'
+    name: Global
+    module: Word
+    children:
+      - '@microsoft/office-js.Word.run'
+      - '@microsoft/office-js.Word.run_1'
+      - '@microsoft/office-js.Word.run_2'
+    type: package
+    langs:
+      - typeScript
+  - uid: '@microsoft/office-js.Word.run'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Word object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: 'function run<T>(batch: (context: RequestContext) => IPromise<T>)'
+      parameters:
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Word application. Since the
+            Office add-in and the Word application run in two different
+            processes, the RequestContext is required to get access to the Word
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.run_1'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Word object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(object: ClientObject, batch: (context: RequestContext)
+        => IPromise<T>)
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: >-
+            A previously-created API object. The batch will use the same
+            RequestContext as the passed-in object, which means that any changes
+            applied to the object will be picked up by "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Word application. Since the
+            Office add-in and the Word application run in two different
+            processes, the RequestContext is required to get access to the Word
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Word
+  - uid: '@microsoft/office-js.Word.run_2'
+    name: run
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Executes a batch script that performs actions on the Word object model,
+      using a new RequestContext. When the promise is resolved, any tracked
+      objects that were automatically allocated during execution will be
+      released.
+    syntax:
+      content: >-
+        function run<T>(objects: ClientObject[], batch: (context:
+        RequestContext) => IPromise<T>)
+      parameters:
+        - id: objects
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject[]'
+          description: >-
+            An array of previously-created API objects. The array will be
+            validated to make sure that all of the objects share the same
+            context. The batch will use this shared RequestContext, which means
+            that any changes applied to these objects will be picked up by
+            "context.sync()".
+        - id: batch
+          type:
+            - '(context: RequestContext) => IPromise<T>'
+          description: >
+            A function that takes in a RequestContext and returns a promise
+            (typically, just the result of "context.sync()"). The context
+            parameter facilitates requests to the Word application. Since the
+            Office add-in and the Word application run in two different
+            processes, the RequestContext is required to get access to the Word
+            object model from the add-in.
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<T>'
+    module: Word

@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType'
+    name: AttachmentType
+    fullName: AttachmentType
+    children:
+      - '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType.File'
+      - '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType.Item'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1493
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType.File'
+    name: File
+    children: []
+    langs:
+      - typeScript
+    summary: The attachment is a file
+    type: field
+    module: Office.MailboxEnums
+  - uid: '@microsoft/office-js.Office.Office.MailboxEnums.AttachmentType.Item'
+    name: Item
+    children: []
+    langs:
+      - typeScript
+    summary: The attachment is an Exchange item
+    type: field
+    module: Office.MailboxEnums

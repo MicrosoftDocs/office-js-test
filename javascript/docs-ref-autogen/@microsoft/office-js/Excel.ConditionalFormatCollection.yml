@@ -1,0 +1,174 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection'
+    name: ConditionalFormatCollection
+    fullName: ConditionalFormatCollection
+    children:
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.add'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.clearAll'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.getCount'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.getItem'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.getItemAt'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.items'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.load'
+      - '@microsoft/office-js.Excel.ConditionalFormatCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of all the conditional formats that are overlap
+      the range.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7211
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Adds a new conditional format to the collection at the first/top priority.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: 'function add(type: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: >
+            The type of conditional format being added. See
+            Excel.ConditionalFormatType for details.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.clearAll'
+    name: clearAll
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears all conditional formats active on the current specified range.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function clearAll()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the number of conditional formats in the workbook. Read-only.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns a conditional format for the given ID.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: 'function getItem(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: The id of the conditional format.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns a conditional format at the given index.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index of the conditional formats to be retrieved.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<ConditionalFormat> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.ConditionalFormat>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormatCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

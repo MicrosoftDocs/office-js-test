@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet'
+    name: FiveArrowsGraySet
+    fullName: FiveArrowsGraySet
+    children:
+      - '@microsoft/office-js.Excel.FiveArrowsGraySet.grayDownArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsGraySet.grayDownInclineArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsGraySet.graySideArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsGraySet.grayUpArrow'
+      - '@microsoft/office-js.Excel.FiveArrowsGraySet.grayUpInclineArrow'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2641
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet.grayDownArrow'
+    name: grayDownArrow
+    fullName: grayDownArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayDownArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet.grayDownInclineArrow'
+    name: grayDownInclineArrow
+    fullName: grayDownInclineArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayDownInclineArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet.graySideArrow'
+    name: graySideArrow
+    fullName: graySideArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon graySideArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet.grayUpArrow'
+    name: grayUpArrow
+    fullName: grayUpArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayUpArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FiveArrowsGraySet.grayUpInclineArrow'
+    name: grayUpInclineArrow
+    fullName: grayUpInclineArrow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayUpInclineArrow
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

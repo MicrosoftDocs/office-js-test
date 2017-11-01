@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.SettingUpdateData'
+    name: SettingUpdateData
+    fullName: SettingUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.SettingUpdateData.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Setting object, for use in
+      "setting.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13042
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.SettingUpdateData.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the value stored for this setting.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: any value
+      return:
+        type:
+          - any
+    module: Excel.Interfaces

@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill'
+    name: ConditionalRangeFill
+    fullName: ConditionalRangeFill
+    children:
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.clear'
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.color'
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.load'
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.set'
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.set_1'
+      - '@microsoft/office-js.Excel.ConditionalRangeFill.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the background of a conditional range object.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 8337
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Resets the fill.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representing the color of the fill, of the form #RRGGBB
+      (e.g. "FFA500") or as a named HTML color (e.g. "orange").
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalRangeFillUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFillUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalRangeFill)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalRangeFill'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFill.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

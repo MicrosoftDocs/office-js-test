@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData'
+    name: ChartSeriesUpdateData
+    fullName: ChartSeriesUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData.format'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartSeries object, for use in
+      "chartSeries.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13400
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart series, which includes fill and line
+      formatting.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartSeriesFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesFormatUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of a series in a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

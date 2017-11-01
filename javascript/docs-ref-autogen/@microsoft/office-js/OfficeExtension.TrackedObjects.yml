@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects'
+    name: TrackedObjects
+    fullName: TrackedObjects
+    children:
+      - '@microsoft/office-js.OfficeExtension.TrackedObjects.add'
+      - '@microsoft/office-js.OfficeExtension.TrackedObjects.add_1'
+      - '@microsoft/office-js.OfficeExtension.TrackedObjects.remove'
+      - '@microsoft/office-js.OfficeExtension.TrackedObjects.remove_1'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Collection of tracked objects, contained within a request context. See
+      "context.trackedObjects" for more information.
+    source:
+      path: office.d.ts
+      startLine: 2417
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track a new object for automatic adjustment based on surrounding changes
+      in the document. Only some object types require this. If you are using an
+      object across ".sync" calls and outside the sequential execution of a
+      ".run" batch, and get an "InvalidObjectPath" error when setting a property
+      or invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: 'function add(object: ClientObject)'
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects.add_1'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track a new object for automatic adjustment based on surrounding changes
+      in the document. Only some object types require this. If you are using an
+      object across ".sync" calls and outside the sequential execution of a
+      ".run" batch, and get an "InvalidObjectPath" error when setting a property
+      or invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: 'function add(objects: ClientObject[])'
+      parameters:
+        - id: objects
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject[]'
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with an object that was previously added to
+      this collection. Having many tracked objects slows down the host
+      application, so please remember to free any objects you add, once you're
+      done using them. You will need to call "context.sync()" before the memory
+      release takes effect.
+    syntax:
+      content: 'function remove(object: ClientObject)'
+      parameters:
+        - id: object
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject'
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.TrackedObjects.remove_1'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with an object that was previously added to
+      this collection. Having many tracked objects slows down the host
+      application, so please remember to free any objects you add, once you're
+      done using them. You will need to call "context.sync()" before the memory
+      release takes effect.
+    syntax:
+      content: 'function remove(objects: ClientObject[])'
+      parameters:
+        - id: objects
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientObject[]'
+          description: ''
+    module: OfficeExtension

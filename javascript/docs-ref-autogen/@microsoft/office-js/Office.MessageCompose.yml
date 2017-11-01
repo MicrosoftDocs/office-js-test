@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.MessageCompose'
+    name: MessageCompose
+    fullName: MessageCompose
+    children:
+      - '@microsoft/office-js.Office.MessageCompose.bcc'
+      - '@microsoft/office-js.Office.MessageCompose.cc'
+      - '@microsoft/office-js.Office.MessageCompose.to'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Message'
+    source:
+      path: office.d.ts
+      startLine: 1966
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageCompose.bcc'
+    name: bcc
+    fullName: bcc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Recipients bcc
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Recipients'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageCompose.cc'
+    name: cc
+    fullName: cc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Recipients cc
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Recipients'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MessageCompose.to'
+    name: to
+    fullName: to
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Recipients to
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Recipients'
+    module: Office

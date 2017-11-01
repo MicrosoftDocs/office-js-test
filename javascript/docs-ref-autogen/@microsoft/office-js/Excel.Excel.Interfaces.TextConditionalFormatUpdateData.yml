@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData
+    name: TextConditionalFormatUpdateData
+    fullName: TextConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData.rule
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the TextConditionalFormat object, for
+      use in "textConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14184
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.TextConditionalFormatUpdateData.rule
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The rule of the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalTextComparisonRule rule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalTextComparisonRule'
+    module: Excel.Interfaces

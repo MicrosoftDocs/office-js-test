@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Settings'
+    name: Settings
+    fullName: Settings
+    children:
+      - '@microsoft/office-js.Office.Settings.addHandlerAsync'
+      - '@microsoft/office-js.Office.Settings.get'
+      - '@microsoft/office-js.Office.Settings.refreshAsync'
+      - '@microsoft/office-js.Office.Settings.remove'
+      - '@microsoft/office-js.Office.Settings.removeHandlerAsync'
+      - '@microsoft/office-js.Office.Settings.saveAsync'
+      - '@microsoft/office-js.Office.Settings.set'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 768
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.addHandlerAsync'
+    name: addHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event handler for the object using the specified event type.
+    syntax:
+      content: >-
+        function addHandlerAsync(eventType: EventType, handler: any, options?:
+        any, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: The event type. For settings can be 'settingsChanged'
+        - id: handler
+          type:
+            - any
+          description: The name of the handler
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.get'
+    name: get
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Retrieves the setting with the specified name.
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.refreshAsync'
+    name: refreshAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the latest version of the settings object.
+    syntax:
+      content: 'function refreshAsync(callback?: (result: AsyncResult) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the setting with the specified name.
+    syntax:
+      content: 'function remove(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.removeHandlerAsync'
+    name: removeHandlerAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes an event handler for the specified event type.
+    syntax:
+      content: >-
+        function removeHandlerAsync(eventType: EventType, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: The event type. For settings can be 'settingsChanged'
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {handler:eventHandler}
+                  handler: Indicates a specific handler to be removed, if not specified all handlers are removed
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.saveAsync'
+    name: saveAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Saves all settings.
+    syntax:
+      content: 'function saveAsync(callback?: (result: AsyncResult) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Settings.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets a value for the setting with the specified name.
+    syntax:
+      content: 'function set(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - any
+          description: |
+            The value for the setting
+    module: Office

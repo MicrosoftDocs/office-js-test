@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeFlagsSet'
+    name: ThreeFlagsSet
+    fullName: ThreeFlagsSet
+    children:
+      - '@microsoft/office-js.Excel.ThreeFlagsSet.greenFlag'
+      - '@microsoft/office-js.Excel.ThreeFlagsSet.redFlag'
+      - '@microsoft/office-js.Excel.ThreeFlagsSet.yellowFlag'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2562
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeFlagsSet.greenFlag'
+    name: greenFlag
+    fullName: greenFlag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenFlag
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeFlagsSet.redFlag'
+    name: redFlag
+    fullName: redFlag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redFlag
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeFlagsSet.yellowFlag'
+    name: yellowFlag
+    fullName: yellowFlag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowFlag
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

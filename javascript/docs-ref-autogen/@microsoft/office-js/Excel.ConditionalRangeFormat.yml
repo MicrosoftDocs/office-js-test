@@ -1,0 +1,182 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat'
+    name: ConditionalRangeFormat
+    fullName: ConditionalRangeFormat
+    children:
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.borders'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.fill'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.font'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.load'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.numberFormat'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.set'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.set_1'
+      - '@microsoft/office-js.Excel.ConditionalRangeFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A format object encapsulating the conditional formats range's font, fill,
+      borders, and other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 8215
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.borders'
+    name: borders
+    fullName: borders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Collection of border objects that apply to the overall conditional format
+      range. Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeBorderCollection borders
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeBorderCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.fill'
+    name: fill
+    fullName: fill
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the fill object defined on the overall conditional format range.
+      Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFill fill
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFill'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the font object defined on the overall conditional format range.
+      Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFont font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFont'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.numberFormat'
+    name: numberFormat
+    fullName: numberFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents Excel's number format code for the given range. Cleared if null
+      is passed in.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: any numberFormat
+      return:
+        type:
+          - any
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalRangeFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalRangeFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalRangeFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalRangeFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

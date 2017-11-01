@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.SelectionChangedEventArgs'
+    name: SelectionChangedEventArgs
+    fullName: SelectionChangedEventArgs
+    children:
+      - '@microsoft/office-js.Excel.SelectionChangedEventArgs.workbook'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Provides information about the document that raised the SelectionChanged
+      event.
+
+      [Api set: ExcelApi 1.2]
+    source:
+      path: office.d.ts
+      startLine: 2831
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SelectionChangedEventArgs.workbook'
+    name: workbook
+    fullName: workbook
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the workbook object that raised the SelectionChanged event.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Workbook workbook
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Workbook'
+    module: Excel

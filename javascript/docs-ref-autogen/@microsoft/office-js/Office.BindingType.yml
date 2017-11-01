@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.BindingType'
+    name: BindingType
+    fullName: BindingType
+    children:
+      - '@microsoft/office-js.Office.BindingType.Matrix'
+      - '@microsoft/office-js.Office.BindingType.Table'
+      - '@microsoft/office-js.Office.BindingType.Text'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 212
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.BindingType.Matrix'
+    name: Matrix
+    children: []
+    langs:
+      - typeScript
+    summary: Matrix based Binding
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.BindingType.Table'
+    name: Table
+    children: []
+    langs:
+      - typeScript
+    summary: Table based Binding
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.BindingType.Text'
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: Text based Binding
+    type: field
+    module: Office

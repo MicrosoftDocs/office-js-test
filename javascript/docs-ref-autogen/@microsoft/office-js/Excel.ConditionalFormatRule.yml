@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule'
+    name: ConditionalFormatRule
+    fullName: ConditionalFormatRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.formula'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.formulaLocal'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.formulaR1C1'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.load'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.set'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.set_1'
+      - '@microsoft/office-js.Excel.ConditionalFormatRule.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a rule, for all traditional rule/format pairings.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7736
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.formula'
+    name: formula
+    fullName: formula
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The formula, if required, to evaluate the conditional format rule on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.formulaLocal'
+    name: formulaLocal
+    fullName: formulaLocal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The formula, if required, to evaluate the conditional format rule on in
+      the user's language.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formulaLocal
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.formulaR1C1'
+    name: formulaR1C1
+    fullName: formulaR1C1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The formula, if required, to evaluate the conditional format rule on in
+      R1C1-style notation.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formulaR1C1
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormatRule'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: ConditionalFormatRuleUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ConditionalFormatRule)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ConditionalFormatRule'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalFormatRule.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

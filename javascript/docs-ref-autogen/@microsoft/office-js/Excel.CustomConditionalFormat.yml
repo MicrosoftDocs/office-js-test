@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat'
+    name: CustomConditionalFormat
+    fullName: CustomConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.format'
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.load'
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.rule'
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.set'
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.CustomConditionalFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a custom conditional format type.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7697
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties. Read-only.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalRangeFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.CustomConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.rule'
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the Rule object on this conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalFormatRule rule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalFormatRule'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: CustomConditionalFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.CustomConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: CustomConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.CustomConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.CustomConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

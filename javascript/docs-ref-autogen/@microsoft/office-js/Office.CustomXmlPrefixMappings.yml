@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.CustomXmlPrefixMappings'
+    name: CustomXmlPrefixMappings
+    fullName: CustomXmlPrefixMappings
+    children:
+      - '@microsoft/office-js.Office.CustomXmlPrefixMappings.addNamespaceAsync'
+      - '@microsoft/office-js.Office.CustomXmlPrefixMappings.getNamespaceAsync'
+      - '@microsoft/office-js.Office.CustomXmlPrefixMappings.getPrefixAsync'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 627
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPrefixMappings.addNamespaceAsync'
+    name: addNamespaceAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a namespace.
+    syntax:
+      content: >-
+        function addNamespaceAsync(prefix: string, ns: string, options?: any,
+        callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: The namespace prefix
+        - id: ns
+          type:
+            - string
+          description: The namespace URI
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPrefixMappings.getNamespaceAsync'
+    name: getNamespaceAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a namespace  with the specified prefix
+    syntax:
+      content: >-
+        function getNamespaceAsync(prefix: string, options?: any, callback?:
+        (result: AsyncResult) => void)
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: The namespace prefix
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.CustomXmlPrefixMappings.getPrefixAsync'
+    name: getPrefixAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a prefix  for  the specified URI
+    syntax:
+      content: >-
+        function getPrefixAsync(ns: string, options?: any, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: ns
+          type:
+            - string
+          description: The namespace URI
+        - id: options
+          type:
+            - any
+          description: |-
+            Syntax example: {asyncContext:context}
+                  asyncContext: Object keeping state for the callback
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office

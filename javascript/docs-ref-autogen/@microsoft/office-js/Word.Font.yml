@@ -1,0 +1,352 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Font'
+    name: Font
+    fullName: Font
+    children:
+      - '@microsoft/office-js.Word.Font.bold'
+      - '@microsoft/office-js.Word.Font.color'
+      - '@microsoft/office-js.Word.Font.doubleStrikeThrough'
+      - '@microsoft/office-js.Word.Font.highlightColor'
+      - '@microsoft/office-js.Word.Font.italic'
+      - '@microsoft/office-js.Word.Font.load'
+      - '@microsoft/office-js.Word.Font.name'
+      - '@microsoft/office-js.Word.Font.set_1'
+      - '@microsoft/office-js.Word.Font.set'
+      - '@microsoft/office-js.Word.Font.size'
+      - '@microsoft/office-js.Word.Font.strikeThrough'
+      - '@microsoft/office-js.Word.Font.subscript'
+      - '@microsoft/office-js.Word.Font.superscript'
+      - '@microsoft/office-js.Word.Font.toJSON'
+      - '@microsoft/office-js.Word.Font.track'
+      - '@microsoft/office-js.Word.Font.underline'
+      - '@microsoft/office-js.Word.Font.untrack'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a font.
+      [Api set: WordApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 15493
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.bold'
+    name: bold
+    fullName: bold
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is bold. True if the
+      font is formatted as bold, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean bold
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the color for the specified font. You can provide the value
+      in the '#RRGGBB' format or the color name.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.doubleStrikeThrough'
+    name: doubleStrikeThrough
+    fullName: doubleStrikeThrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font has a double strike
+      through. True if the font is formatted as double strikethrough text,
+      otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean doubleStrikeThrough
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.highlightColor'
+    name: highlightColor
+    fullName: highlightColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the highlight color. To set it, use a value either in the
+      '#RRGGBB' format or the color name. To remove highlight color, set it to
+      null. The returned highlight color can be in the '#RRGGBB' format, or an
+      empty string for mixed highlight colors, or null for no highlight color.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string highlightColor
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.italic'
+    name: italic
+    fullName: italic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is italicized. True
+      if the font is italicized, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean italic
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Font'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a value that represents the name of the font.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Font)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Font'
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: FontUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets a value that represents the font size in points.
+      [Api set: WordApi 1.1]
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.strikeThrough'
+    name: strikeThrough
+    fullName: strikeThrough
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font has a strike through.
+      True if the font is formatted as strikethrough text, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean strikeThrough
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.subscript'
+    name: subscript
+    fullName: subscript
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is a subscript. True
+      if the font is formatted as subscript, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean subscript
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.superscript'
+    name: superscript
+    fullName: superscript
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates whether the font is a superscript.
+      True if the font is formatted as superscript, otherwise, false.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: boolean superscript
+      return:
+        type:
+          - boolean
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Font'
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.underline'
+    name: underline
+    fullName: underline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets a value that indicates the font's underline type. 'None' if
+      the font is not underlined.
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: string underline
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.Font.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Font'
+    module: Word

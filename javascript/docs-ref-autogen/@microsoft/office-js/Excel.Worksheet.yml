@@ -1,0 +1,516 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Worksheet'
+    name: Worksheet
+    fullName: Worksheet
+    children:
+      - '@microsoft/office-js.Excel.Worksheet.activate'
+      - '@microsoft/office-js.Excel.Worksheet.calculate'
+      - '@microsoft/office-js.Excel.Worksheet.charts'
+      - '@microsoft/office-js.Excel.Worksheet.delete'
+      - '@microsoft/office-js.Excel.Worksheet.getCell'
+      - '@microsoft/office-js.Excel.Worksheet.getNext'
+      - '@microsoft/office-js.Excel.Worksheet.getNextOrNullObject'
+      - '@microsoft/office-js.Excel.Worksheet.getPrevious'
+      - '@microsoft/office-js.Excel.Worksheet.getPreviousOrNullObject'
+      - '@microsoft/office-js.Excel.Worksheet.getRange'
+      - '@microsoft/office-js.Excel.Worksheet.getUsedRange'
+      - '@microsoft/office-js.Excel.Worksheet.getUsedRangeOrNullObject'
+      - '@microsoft/office-js.Excel.Worksheet.id'
+      - '@microsoft/office-js.Excel.Worksheet.load'
+      - '@microsoft/office-js.Excel.Worksheet.name'
+      - '@microsoft/office-js.Excel.Worksheet.names'
+      - '@microsoft/office-js.Excel.Worksheet.pivotTables'
+      - '@microsoft/office-js.Excel.Worksheet.position'
+      - '@microsoft/office-js.Excel.Worksheet.protection'
+      - '@microsoft/office-js.Excel.Worksheet.set'
+      - '@microsoft/office-js.Excel.Worksheet.set_1'
+      - '@microsoft/office-js.Excel.Worksheet.tables'
+      - '@microsoft/office-js.Excel.Worksheet.toJSON'
+      - '@microsoft/office-js.Excel.Worksheet.visibility'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      An Excel worksheet is a grid of cells. It can contain data, tables,
+      charts, etc.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 2989
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.activate'
+    name: activate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Activate the worksheet in the Excel UI.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function activate()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.calculate'
+    name: calculate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Calculates all cells on a worksheet.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: 'function calculate(markAllDirty: boolean)'
+      parameters:
+        - id: markAllDirty
+          type:
+            - boolean
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.charts'
+    name: charts
+    fullName: charts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns collection of charts that are part of the worksheet. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartCollection charts
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the worksheet from the workbook.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getCell'
+    name: getCell
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the range object containing the single cell based on row and column
+      numbers. The cell can be outside the bounds of its parent range, so long
+      as it's stays within the worksheet grid.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getCell(row: number, column: number)'
+      parameters:
+        - id: row
+          type:
+            - number
+          description: The row number of the cell to be retrieved. Zero-indexed.
+        - id: column
+          type:
+            - number
+          description: |
+            the column number of the cell to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getNext'
+    name: getNext
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the worksheet that follows this one. If there are no worksheets
+      following this one, this method will throw an error.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getNext(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: >
+            If true, considers only visible worksheets, skipping over any hidden
+            ones.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getNextOrNullObject'
+    name: getNextOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the worksheet that follows this one. If there are no worksheets
+      following this one, this method will return a null object.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getNextOrNullObject(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: >
+            If true, considers only visible worksheets, skipping over any hidden
+            ones.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getPrevious'
+    name: getPrevious
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the worksheet that precedes this one. If there are no previous
+      worksheets, this method will throw an error.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getPrevious(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: >
+            If true, considers only visible worksheets, skipping over any hidden
+            ones.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getPreviousOrNullObject'
+    name: getPreviousOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets the worksheet that precedes this one. If there are no previous
+      worksheets, this method will return a null objet.
+
+      [Api set: ExcelApi 1.5]
+    syntax:
+      content: 'function getPreviousOrNullObject(visibleOnly?: boolean)'
+      parameters:
+        - id: visibleOnly
+          type:
+            - boolean
+          description: >
+            If true, considers only visible worksheets, skipping over any hidden
+            ones.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object specified by the address or name.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getRange(address?: string)'
+      parameters:
+        - id: address
+          type:
+            - string
+          description: >
+            The address or the name of the range. If not specified, the entire
+            worksheet range is returned.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getUsedRange'
+    name: getUsedRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The used range is the smallest range that encompasses any cells that have
+      a value or formatting assigned to them. If the entire worksheet is blank,
+      this function will return the top left cell (i.e.,: it will *not* throw an
+      error).
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getUsedRange(valuesOnly?: boolean)'
+      parameters:
+        - id: valuesOnly
+          type:
+            - boolean
+          description: >
+            Considers only cells with values as used cells (ignoring
+            formatting). [Api set: ExcelApi 1.2]
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.getUsedRangeOrNullObject'
+    name: getUsedRangeOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The used range is the smallest range that encompasses any cells that have
+      a value or formatting assigned to them. If the entire worksheet is blank,
+      this function will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getUsedRangeOrNullObject(valuesOnly?: boolean)'
+      parameters:
+        - id: valuesOnly
+          type:
+            - boolean
+          description: |
+            Considers only cells with values as used cells.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a value that uniquely identifies the worksheet in a given
+      workbook. The value of the identifier remains the same even when the
+      worksheet is renamed or moved. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The display name of the worksheet.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.names'
+    name: names
+    fullName: names
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Collection of names scoped to the current worksheet. Read-only.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: NamedItemCollection names
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItemCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.pivotTables'
+    name: pivotTables
+    fullName: pivotTables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Collection of PivotTables that are part of the worksheet. Read-only.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: PivotTableCollection pivotTables
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.PivotTableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The zero-based position of the worksheet within the workbook.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number position
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.protection'
+    name: protection
+    fullName: protection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns sheet protection object for a worksheet.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: WorksheetProtection protection
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.WorksheetProtection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: WorksheetUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Worksheet)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Worksheet'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.tables'
+    name: tables
+    fullName: tables
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Collection of tables that are part of the worksheet. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: TableCollection tables
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Worksheet.visibility'
+    name: visibility
+    fullName: visibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The Visibility of the worksheet.
+      [Api set: ExcelApi 1.1 for reading visibility; 1.2 for setting it.]
+    syntax:
+      content: string visibility
+      return:
+        type:
+          - string
+    module: Excel

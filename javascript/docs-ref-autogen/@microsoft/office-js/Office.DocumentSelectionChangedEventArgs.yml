@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs'
+    name: DocumentSelectionChangedEventArgs
+    fullName: DocumentSelectionChangedEventArgs
+    children:
+      - '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs.document'
+      - '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Provides information about the document that raised the SelectionChanged
+      event.
+    source:
+      path: office.d.ts
+      startLine: 733
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs.document'
+    name: document
+    fullName: document
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets a Document object that represents the document that raised the
+      SelectionChanged event.
+    syntax:
+      content: Document document
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Document'
+    module: Office
+  - uid: '@microsoft/office-js.Office.DocumentSelectionChangedEventArgs.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Get an EventType enumeration value that identifies the kind of event that
+      was raised.
+    syntax:
+      content: EventType type
+      return:
+        type:
+          - '@@microsoft/office-js.Office.EventType'
+    module: Office

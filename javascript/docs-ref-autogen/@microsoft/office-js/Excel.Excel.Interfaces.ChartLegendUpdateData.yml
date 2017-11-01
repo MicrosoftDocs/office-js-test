@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData'
+    name: ChartLegendUpdateData
+    fullName: ChartLegendUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.format'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.overlay
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.position
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.visible
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartLegend object, for use in
+      "chartLegend.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13664
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart legend, which includes fill and font
+      formatting.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLegendFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendFormatUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.overlay'
+    name: overlay
+    fullName: overlay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Boolean value for whether the chart legend should overlap with the main
+      body of the chart.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean overlay
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the position of the legend on the chart. See
+      Excel.ChartLegendPosition for details.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string position
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData.visible'
+    name: visible
+    fullName: visible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A boolean value the represents the visibility of a ChartLegend object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean visible
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces

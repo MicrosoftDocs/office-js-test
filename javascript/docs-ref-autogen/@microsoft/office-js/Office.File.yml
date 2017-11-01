@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.File'
+    name: File
+    fullName: File
+    children:
+      - '@microsoft/office-js.Office.File.closeAsync'
+      - '@microsoft/office-js.Office.File.getSliceAsync'
+      - '@microsoft/office-js.Office.File.size'
+      - '@microsoft/office-js.Office.File.sliceCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 743
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.File.closeAsync'
+    name: closeAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Closes the File.
+    syntax:
+      content: 'function closeAsync(callback?: (result: AsyncResult) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.File.getSliceAsync'
+    name: getSliceAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the specified slice.
+    syntax:
+      content: >-
+        function getSliceAsync(sliceIndex: number, callback?: (result:
+        AsyncResult) => void)
+      parameters:
+        - id: sliceIndex
+          type:
+            - number
+          description: The index of the slice to be retrieved
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: |
+            The optional callback method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.File.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number size
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.File.sliceCount'
+    name: sliceCount
+    fullName: sliceCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number sliceCount
+      return:
+        type:
+          - number
+    module: Office

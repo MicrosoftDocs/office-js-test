@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.PlatformType'
+    name: PlatformType
+    fullName: PlatformType
+    children:
+      - '@microsoft/office-js.Office.PlatformType.Android'
+      - '@microsoft/office-js.Office.PlatformType.iOS'
+      - '@microsoft/office-js.Office.PlatformType.Mac'
+      - '@microsoft/office-js.Office.PlatformType.OfficeOnline'
+      - '@microsoft/office-js.Office.PlatformType.PC'
+      - '@microsoft/office-js.Office.PlatformType.Universal'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 74
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.Android'
+    name: Android
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is Android
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.iOS'
+    name: iOS
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is iOS
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.Mac'
+    name: Mac
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is Mac
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.OfficeOnline'
+    name: OfficeOnline
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is Web
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.PC'
+    name: PC
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is PC
+    type: field
+    module: Office
+  - uid: '@microsoft/office-js.Office.PlatformType.Universal'
+    name: Universal
+    children: []
+    langs:
+      - typeScript
+    summary: Platform is Winrt
+    type: field
+    module: Office

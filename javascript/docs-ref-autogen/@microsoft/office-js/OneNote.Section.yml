@@ -1,0 +1,260 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.Section'
+    name: Section
+    fullName: Section
+    children:
+      - '@microsoft/office-js.OneNote.Section.addPage'
+      - '@microsoft/office-js.OneNote.Section.clientUrl'
+      - '@microsoft/office-js.OneNote.Section.copyToNotebook'
+      - '@microsoft/office-js.OneNote.Section.copyToSectionGroup'
+      - '@microsoft/office-js.OneNote.Section.id'
+      - '@microsoft/office-js.OneNote.Section.insertSectionAsSibling'
+      - '@microsoft/office-js.OneNote.Section.load'
+      - '@microsoft/office-js.OneNote.Section.name'
+      - '@microsoft/office-js.OneNote.Section.notebook'
+      - '@microsoft/office-js.OneNote.Section.pages'
+      - '@microsoft/office-js.OneNote.Section.parentSectionGroup'
+      - '@microsoft/office-js.OneNote.Section.parentSectionGroupOrNull'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a OneNote section. Sections can contain pages.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20586
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.addPage'
+    name: addPage
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds a new page to the end of the section.
+    syntax:
+      content: 'function addPage(title: string)'
+      parameters:
+        - id: title
+          type:
+            - string
+          description: |
+            The title of the new page.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Page'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.clientUrl'
+    name: clientUrl
+    fullName: clientUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The client url of the section. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string clientUrl
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.copyToNotebook'
+    name: copyToNotebook
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Copies this section to specified notebook.
+    syntax:
+      content: 'function copyToNotebook(destinationNotebook: Notebook)'
+      parameters:
+        - id: destinationNotebook
+          type:
+            - '@@microsoft/office-js.OneNote.Notebook'
+          description: |
+            The notebook to copy this section to.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.copyToSectionGroup'
+    name: copyToSectionGroup
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Copies this section to specified section group.
+    syntax:
+      content: 'function copyToSectionGroup(destinationSectionGroup: SectionGroup)'
+      parameters:
+        - id: destinationSectionGroup
+          type:
+            - '@@microsoft/office-js.OneNote.SectionGroup'
+          description: |
+            The section group to copy this section to.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the section. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.insertSectionAsSibling'
+    name: insertSectionAsSibling
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Inserts a new section before or after the current section.
+    syntax:
+      content: 'function insertSectionAsSibling(location: string, title: string)'
+      parameters:
+        - id: location
+          type:
+            - string
+          description: The location of the new section relative to the current section.
+        - id: title
+          type:
+            - string
+          description: |
+            The name of the new section.
+
+            [Api set: OneNoteApi 1.1]
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Section'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the name of the section. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.notebook'
+    name: notebook
+    fullName: notebook
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the notebook that contains the section. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Notebook notebook
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Notebook'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.pages'
+    name: pages
+    fullName: pages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The collection of pages in the section. Read only
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: PageCollection pages
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.parentSectionGroup'
+    name: parentSectionGroup
+    fullName: parentSectionGroup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the section group that contains the section. Throws ItemNotFound if
+      the section is a direct child of the notebook. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: SectionGroup parentSectionGroup
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroup'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.Section.parentSectionGroupOrNull'
+    name: parentSectionGroupOrNull
+    fullName: parentSectionGroupOrNull
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the section group that contains the section. Returns null if the
+      section is a direct child of the notebook. Read-only.
+
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: SectionGroup parentSectionGroupOrNull
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.SectionGroup'
+    module: OneNote

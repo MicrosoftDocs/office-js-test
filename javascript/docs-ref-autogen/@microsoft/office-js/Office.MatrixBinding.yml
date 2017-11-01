@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.MatrixBinding'
+    name: MatrixBinding
+    fullName: MatrixBinding
+    children:
+      - '@microsoft/office-js.Office.MatrixBinding.columnCount'
+      - '@microsoft/office-js.Office.MatrixBinding.rowCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Binding'
+    source:
+      path: office.d.ts
+      startLine: 764
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MatrixBinding.columnCount'
+    name: columnCount
+    fullName: columnCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number columnCount
+      return:
+        type:
+          - number
+    module: Office
+  - uid: '@microsoft/office-js.Office.MatrixBinding.rowCount'
+    name: rowCount
+    fullName: rowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number rowCount
+      return:
+        type:
+          - number
+    module: Office

@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.FloatingInk'
+    name: FloatingInk
+    fullName: FloatingInk
+    children:
+      - '@microsoft/office-js.OneNote.FloatingInk.id'
+      - '@microsoft/office-js.OneNote.FloatingInk.inkStrokes'
+      - '@microsoft/office-js.OneNote.FloatingInk.load'
+      - '@microsoft/office-js.OneNote.FloatingInk.pageContent'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a group of ink strokes.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20123
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.FloatingInk.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the FloatingInk object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.FloatingInk.inkStrokes'
+    name: inkStrokes
+    fullName: inkStrokes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the strokes of the FloatingInk object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: InkStrokeCollection inkStrokes
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkStrokeCollection'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.FloatingInk.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.FloatingInk'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.FloatingInk.pageContent'
+    name: pageContent
+    fullName: pageContent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the PageContent parent of the FloatingInk object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: PageContent pageContent
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.PageContent'
+    module: OneNote

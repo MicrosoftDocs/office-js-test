@@ -1,0 +1,333 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.Mailbox'
+    name: Mailbox
+    fullName: Mailbox
+    children:
+      - '@microsoft/office-js.Office.Mailbox.convertToEwsId'
+      - '@microsoft/office-js.Office.Mailbox.convertToLocalClientTime'
+      - '@microsoft/office-js.Office.Mailbox.convertToRestId'
+      - '@microsoft/office-js.Office.Mailbox.convertToUtcClientTime'
+      - '@microsoft/office-js.Office.Mailbox.diagnostics'
+      - '@microsoft/office-js.Office.Mailbox.displayAppointmentForm'
+      - '@microsoft/office-js.Office.Mailbox.displayMessageForm'
+      - '@microsoft/office-js.Office.Mailbox.displayNewAppointmentForm'
+      - '@microsoft/office-js.Office.Mailbox.displayNewMessageForm'
+      - '@microsoft/office-js.Office.Mailbox.ewsUrl'
+      - '@microsoft/office-js.Office.Mailbox.getCallbackTokenAsync'
+      - '@microsoft/office-js.Office.Mailbox.getUserIdentityTokenAsync'
+      - '@microsoft/office-js.Office.Mailbox.item'
+      - '@microsoft/office-js.Office.Mailbox.makeEwsRequestAsync'
+      - '@microsoft/office-js.Office.Mailbox.userProfile'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1895
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.convertToEwsId'
+    name: convertToEwsId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Converts an item ID formatted for REST into EWS format.
+    syntax:
+      content: 'function convertToEwsId(itemId: string, restVersion: RestVersion)'
+      parameters:
+        - id: itemId
+          type:
+            - string
+          description: An item ID formatted for the Outlook REST APIs
+        - id: restVersion
+          type:
+            - '@@microsoft/office-js.Office.Office.MailboxEnums.RestVersion'
+          description: >
+            A value indicating the version of the Outlook REST API used to
+            retrieve the item ID
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.convertToLocalClientTime'
+    name: convertToLocalClientTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a Date object from a dictionary containing time information
+    syntax:
+      content: 'function convertToLocalClientTime(timeValue: Date)'
+      parameters:
+        - id: timeValue
+          type:
+            - Date
+          description: |
+            A Date object
+      return:
+        type:
+          - '@@microsoft/office-js.Office.LocalClientTime'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.convertToRestId'
+    name: convertToRestId
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Converts an item ID formatted for EWS into REST format.
+    syntax:
+      content: 'function convertToRestId(itemId: string, restVersion: RestVersion)'
+      parameters:
+        - id: itemId
+          type:
+            - string
+          description: An item ID formatted for the Outlook EWS APIs
+        - id: restVersion
+          type:
+            - '@@microsoft/office-js.Office.Office.MailboxEnums.RestVersion'
+          description: >
+            A value indicating the version of the Outlook REST API that the
+            converted ID will be used with
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.convertToUtcClientTime'
+    name: convertToUtcClientTime
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a dictionary containing time information in local client time
+    syntax:
+      content: 'function convertToUtcClientTime(input: LocalClientTime)'
+      parameters:
+        - id: input
+          type:
+            - '@@microsoft/office-js.Office.LocalClientTime'
+          description: >
+            A dictionary containing a date. The dictionary should contain the
+            following fields: year, month, date, hours, minutes, seconds, time
+            zone, time zone offset
+      return:
+        type:
+          - Date
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.diagnostics'
+    name: diagnostics
+    fullName: diagnostics
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Diagnostics diagnostics
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Diagnostics'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.displayAppointmentForm'
+    name: displayAppointmentForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Displays an existing calendar appointment
+    syntax:
+      content: 'function displayAppointmentForm(itemId: string)'
+      parameters:
+        - id: itemId
+          type:
+            - string
+          description: >
+            The Exchange Web Services (EWS) identifier for an existing calendar
+            appointment
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.displayMessageForm'
+    name: displayMessageForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Displays an existing message
+    syntax:
+      content: 'function displayMessageForm(itemId: string)'
+      parameters:
+        - id: itemId
+          type:
+            - string
+          description: |
+            The Exchange Web Services (EWS) identifier for an existing message
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.displayNewAppointmentForm'
+    name: displayNewAppointmentForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Displays a form for creating a new calendar appointment
+    syntax:
+      content: 'function displayNewAppointmentForm(parameters?: AppointmentForm)'
+      parameters:
+        - id: parameters
+          type:
+            - '@@microsoft/office-js.Office.AppointmentForm'
+          description: |
+            A dictionary of parameters describing the new appointment.
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.displayNewMessageForm'
+    name: displayNewMessageForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Displays a new message form
+
+      WARNING: This api is not officially released, and may not work on all
+      platforms
+    syntax:
+      content: 'function displayNewMessageForm(options?: any)'
+      parameters:
+        - id: options
+          type:
+            - any
+          description: >
+            A dictionary containing all values to be filled in for the user in
+            the new form
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.ewsUrl'
+    name: ewsUrl
+    fullName: ewsUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string ewsUrl
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.getCallbackTokenAsync'
+    name: getCallbackTokenAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets a string that contains a token used to get an attachment or item from
+      an Exchange Server
+    syntax:
+      content: >-
+        function getCallbackTokenAsync(callback?: (result: AsyncResult) => void,
+        userContext?: any)
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: The optional method to call when the string is inserted
+          optional: true
+        - id: userContext
+          type:
+            - any
+          description: >
+            Optional variable for any state data that is passed to the
+            asynchronous method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.getUserIdentityTokenAsync'
+    name: getUserIdentityTokenAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a token identifying the user and the app for Office
+    syntax:
+      content: >-
+        function getUserIdentityTokenAsync(callback?: (result: AsyncResult) =>
+        void, userContext?: any)
+      parameters:
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: The optional method to call when the string is inserted
+          optional: true
+        - id: userContext
+          type:
+            - any
+          description: >
+            Optional variable for any state data that is passed to the
+            asynchronous method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.item'
+    name: item
+    fullName: item
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Item item
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Item'
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.makeEwsRequestAsync'
+    name: makeEwsRequestAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Makes an asynchronous request to an Exchange Web Services (EWS) service on
+      the Exchange server that hosts the user’s mailbox
+    syntax:
+      content: >-
+        function makeEwsRequestAsync(data: any, callback?: (result: AsyncResult)
+        => void, userContext?: any)
+      parameters:
+        - id: data
+          type:
+            - any
+          description: The EWS request
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: The optional method to call when the string is inserted
+          optional: true
+        - id: userContext
+          type:
+            - any
+          description: >
+            Optional variable for any state data that is passed to the
+            asynchronous method
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.Mailbox.userProfile'
+    name: userProfile
+    fullName: userProfile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: UserProfile userProfile
+      return:
+        type:
+          - '@@microsoft/office-js.Office.UserProfile'
+    module: Office

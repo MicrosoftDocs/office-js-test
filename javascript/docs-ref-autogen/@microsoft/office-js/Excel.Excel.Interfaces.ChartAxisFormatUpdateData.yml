@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData'
+    name: ChartAxisFormatUpdateData
+    fullName: ChartAxisFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData.font
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData.line
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartAxisFormat object, for use in
+      "chartAxisFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13510
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the font attributes (font name, font size, color, etc.) for a
+      chart axis element.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartFontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartFontUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartAxisFormatUpdateData.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart line formatting.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLineFormatUpdateData line
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData
+    module: Excel.Interfaces

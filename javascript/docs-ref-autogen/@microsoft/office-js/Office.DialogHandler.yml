@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.DialogHandler'
+    name: DialogHandler
+    fullName: DialogHandler
+    children:
+      - '@microsoft/office-js.Office.DialogHandler.addEventHandler'
+      - '@microsoft/office-js.Office.DialogHandler.close'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Dialog object returned as part of the displayDialogAsync callback. The
+      object exposes methods for registering event handlers and closing the
+      dialog
+    source:
+      path: office.d.ts
+      startLine: 187
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.DialogHandler.addEventHandler'
+    name: addEventHandler
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event handler for DialogMessageReceived or DialogEventReceived
+    syntax:
+      content: 'function addEventHandler(eventType: EventType, handler: Function)'
+      parameters:
+        - id: eventType
+          type:
+            - '@@microsoft/office-js.Office.EventType'
+          description: ''
+        - id: handler
+          type:
+            - Function
+          description: ''
+    module: Office
+  - uid: '@microsoft/office-js.Office.DialogHandler.close'
+    name: close
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      When called from an active add-in dialog, asynchronously closes the
+      dialog.
+    syntax:
+      content: function close()
+      parameters: []
+    module: Office

@@ -1,0 +1,337 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.Promise'
+    name: Promise
+    fullName: Promise<R>
+    children:
+      - '@microsoft/office-js.OfficeExtension.Promise.all'
+      - '@microsoft/office-js.OfficeExtension.Promise.catch_1'
+      - '@microsoft/office-js.OfficeExtension.Promise.catch_2'
+      - '@microsoft/office-js.OfficeExtension.Promise.catch'
+      - '@microsoft/office-js.OfficeExtension.Promise.constructor'
+      - '@microsoft/office-js.OfficeExtension.Promise.reject'
+      - '@microsoft/office-js.OfficeExtension.Promise.resolve'
+      - '@microsoft/office-js.OfficeExtension.Promise.then_3'
+      - '@microsoft/office-js.OfficeExtension.Promise.then_4'
+      - '@microsoft/office-js.OfficeExtension.Promise.then_5'
+      - '@microsoft/office-js.OfficeExtension.Promise.then_1'
+      - '@microsoft/office-js.OfficeExtension.Promise.then'
+      - '@microsoft/office-js.OfficeExtension.Promise.then_2'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      An Promise object that represents a deferred interaction with the host
+      Office application. The publically-consumable OfficeExtension.Promise is
+      available starting in ExcelApi 1.2 and WordApi 1.2. Promises can be
+      chained via ".then", and errors can be caught via ".catch". Remember to
+      always use a ".catch" on the outer promise, and to return intermediary
+      promises so as not to break the promise chain. When a "native" Promise
+      implementation is available, OfficeExtension.Promise will switch to use
+      the native Promise instead.
+    source:
+      path: office.d.ts
+      startLine: 2319
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.all'
+    name: all
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a promise that resolves when all of the child promises resolve.
+    syntax:
+      content: 'static function all<U>(promises: IPromise<U>[])'
+      parameters:
+        - id: promises
+          type:
+            - '@@microsoft/office-js.OfficeExtension.IPromise<U>[]'
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U[]>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.catch_1'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => U)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.catch_2'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => void)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.catch'
+    name: catch
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Catches failures or exceptions from actions within the promise, or from an
+      unhandled exception earlier in the call stack.
+    syntax:
+      content: 'function catch<U>(onRejected?: (error: any) => IPromise<U>)'
+      parameters:
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: |
+            function to be called if or when the promise rejects.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.constructor'
+    name: Promise
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Creates a new promise based on a function that accepts resolve and reject
+      handlers.
+    syntax:
+      content: >-
+        new Promise(func: (resolve: (value?: R | IPromise) => void, reject:
+        (error?: any) => void) => void)
+      parameters:
+        - id: func
+          type:
+            - >-
+              (resolve: (value?: R | IPromise) => void, reject: (error?: any) =>
+              void) => void
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.reject'
+    name: reject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a promise that is rejected.
+    syntax:
+      content: 'static function reject<U>(error: any)'
+      parameters:
+        - id: error
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.resolve'
+    name: resolve
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a promise that is resolved.
+    syntax:
+      content: 'static function resolve<U>(value: U)'
+      parameters:
+        - id: value
+          type:
+            - U
+          description: ''
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then_3'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => IPromise<U>)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then_4'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => U)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then_5'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => U, onRejected?: (error:
+        any) => void)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => U'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then_1'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => U)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => U'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => IPromise<U>)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => IPromise<U>'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.Promise.then_2'
+    name: then
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function then<U>(onFulfilled?: (value: R) => IPromise<U>, onRejected?:
+        (error: any) => void)
+      parameters:
+        - id: onFulfilled
+          type:
+            - '(value: R) => IPromise<U>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - '(error: any) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.IPromise<U>'
+    module: OfficeExtension

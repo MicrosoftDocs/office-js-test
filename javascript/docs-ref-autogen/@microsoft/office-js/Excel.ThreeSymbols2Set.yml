@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeSymbols2Set'
+    name: ThreeSymbols2Set
+    fullName: ThreeSymbols2Set
+    children:
+      - '@microsoft/office-js.Excel.ThreeSymbols2Set.greenCheck'
+      - '@microsoft/office-js.Excel.ThreeSymbols2Set.redCross'
+      - '@microsoft/office-js.Excel.ThreeSymbols2Set.yellowExclamation'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2592
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSymbols2Set.greenCheck'
+    name: greenCheck
+    fullName: greenCheck
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenCheck
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSymbols2Set.redCross'
+    name: redCross
+    fullName: redCross
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redCross
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeSymbols2Set.yellowExclamation'
+    name: yellowExclamation
+    fullName: yellowExclamation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowExclamation
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

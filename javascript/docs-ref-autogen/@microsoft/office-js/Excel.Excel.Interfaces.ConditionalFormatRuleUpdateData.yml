@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData
+    name: ConditionalFormatRuleUpdateData
+    fullName: ConditionalFormatRuleUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formula
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formulaLocal
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formulaR1C1
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ConditionalFormatRule object, for
+      use in "conditionalFormatRule.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14085
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formula
+    name: formula
+    fullName: formula
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The formula, if required, to evaluate the conditional format rule on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formulaLocal
+    name: formulaLocal
+    fullName: formulaLocal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The formula, if required, to evaluate the conditional format rule on in
+      the user's language.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formulaLocal
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ConditionalFormatRuleUpdateData.formulaR1C1
+    name: formulaR1C1
+    fullName: formulaR1C1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The formula, if required, to evaluate the conditional format rule on in
+      R1C1-style notation.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formulaR1C1
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

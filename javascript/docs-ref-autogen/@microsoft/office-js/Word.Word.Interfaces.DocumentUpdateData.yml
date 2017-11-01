@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData'
+    name: DocumentUpdateData
+    fullName: DocumentUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData.body'
+      - '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData.properties'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Document object, for use in
+      "document.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19045
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the body object of the document. The body is the text that excludes
+      headers, footers, footnotes, textboxes, etc..
+
+      [Api set: WordApi 1.1]
+    syntax:
+      content: BodyUpdateData body
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.BodyUpdateData'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.DocumentUpdateData.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the properties of the current document.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: DocumentPropertiesUpdateData properties
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Word.Word.Interfaces.DocumentPropertiesUpdateData
+    module: Word.Interfaces

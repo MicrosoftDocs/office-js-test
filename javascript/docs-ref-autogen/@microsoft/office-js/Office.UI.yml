@@ -1,0 +1,68 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.UI'
+    name: UI
+    fullName: UI
+    children:
+      - '@microsoft/office-js.Office.UI.displayDialogAsync'
+      - '@microsoft/office-js.Office.UI.messageParent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 150
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.UI.displayDialogAsync'
+    name: displayDialogAsync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Displays a dialog to show or collect information from the user or to
+      facilitate Web navigation.
+    syntax:
+      content: >-
+        function displayDialogAsync(startAddress: string, options?:
+        DialogOptions, callback?: (result: AsyncResult) => void)
+      parameters:
+        - id: startAddress
+          type:
+            - string
+          description: Accepts the initial HTTPS Url that opens in the dialog.
+        - id: options
+          type:
+            - '@@microsoft/office-js.Office.DialogOptions'
+          description: Optional. Accepts a DialogOptions object to define dialog behaviors.
+          optional: true
+        - id: callback
+          type:
+            - '(result: AsyncResult) => void'
+          description: >
+            Optional. Accepts a callback method to handle the dialog creation
+            attempt.
+          optional: true
+    module: Office
+  - uid: '@microsoft/office-js.Office.UI.messageParent'
+    name: messageParent
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Synchronously delivers a message from the dialog to its parent add-in.
+    syntax:
+      content: 'function messageParent(messageObject: any)'
+      parameters:
+        - id: messageObject
+          type:
+            - any
+          description: |
+            Accepts a message from the dialog to deliver to the add-in.
+    module: Office

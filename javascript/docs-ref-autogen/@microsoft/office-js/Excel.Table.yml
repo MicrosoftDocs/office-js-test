@@ -1,0 +1,484 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Table'
+    name: Table
+    fullName: Table
+    children:
+      - '@microsoft/office-js.Excel.Table.clearFilters'
+      - '@microsoft/office-js.Excel.Table.columns'
+      - '@microsoft/office-js.Excel.Table.convertToRange'
+      - '@microsoft/office-js.Excel.Table.delete'
+      - '@microsoft/office-js.Excel.Table.getDataBodyRange'
+      - '@microsoft/office-js.Excel.Table.getHeaderRowRange'
+      - '@microsoft/office-js.Excel.Table.getRange'
+      - '@microsoft/office-js.Excel.Table.getTotalRowRange'
+      - '@microsoft/office-js.Excel.Table.highlightFirstColumn'
+      - '@microsoft/office-js.Excel.Table.highlightLastColumn'
+      - '@microsoft/office-js.Excel.Table.id'
+      - '@microsoft/office-js.Excel.Table.load'
+      - '@microsoft/office-js.Excel.Table.name'
+      - '@microsoft/office-js.Excel.Table.reapplyFilters'
+      - '@microsoft/office-js.Excel.Table.rows'
+      - '@microsoft/office-js.Excel.Table.set_1'
+      - '@microsoft/office-js.Excel.Table.set'
+      - '@microsoft/office-js.Excel.Table.showBandedColumns'
+      - '@microsoft/office-js.Excel.Table.showBandedRows'
+      - '@microsoft/office-js.Excel.Table.showFilterButton'
+      - '@microsoft/office-js.Excel.Table.showHeaders'
+      - '@microsoft/office-js.Excel.Table.showTotals'
+      - '@microsoft/office-js.Excel.Table.sort'
+      - '@microsoft/office-js.Excel.Table.style'
+      - '@microsoft/office-js.Excel.Table.toJSON'
+      - '@microsoft/office-js.Excel.Table.worksheet'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents an Excel table.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4472
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.clearFilters'
+    name: clearFilters
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clears all the filters currently applied on the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function clearFilters()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.columns'
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents a collection of all the columns in the table. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: TableColumnCollection columns
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableColumnCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.convertToRange'
+    name: convertToRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Converts the table into a normal range of cells. All data is preserved.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function convertToRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.delete'
+    name: delete
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Deletes the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function delete()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.getDataBodyRange'
+    name: getDataBodyRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the data body of the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getDataBodyRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.getHeaderRowRange'
+    name: getHeaderRowRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with header row of the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getHeaderRowRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.getRange'
+    name: getRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with the entire table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.getTotalRowRange'
+    name: getTotalRowRange
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the range object associated with totals row of the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: function getTotalRowRange()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Range'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.highlightFirstColumn'
+    name: highlightFirstColumn
+    fullName: highlightFirstColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates whether the first column contains special formatting.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: boolean highlightFirstColumn
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.highlightLastColumn'
+    name: highlightLastColumn
+    fullName: highlightLastColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Indicates whether the last column contains special formatting.
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: boolean highlightLastColumn
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a value that uniquely identifies the table in a given workbook.
+      The value of the identifier remains the same even when the table is
+      renamed. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number id
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Table'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Name of the table.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.reapplyFilters'
+    name: reapplyFilters
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Reapplies all the filters currently on the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function reapplyFilters()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents a collection of all the rows in the table. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: TableRowCollection rows
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableRowCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: Table)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Table'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.TableUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.showBandedColumns'
+    name: showBandedColumns
+    fullName: showBandedColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the columns show banded formatting in which odd columns
+      are highlighted differently from even ones to make reading the table
+      easier.
+
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: boolean showBandedColumns
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.showBandedRows'
+    name: showBandedRows
+    fullName: showBandedRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the rows show banded formatting in which odd rows are
+      highlighted differently from even ones to make reading the table easier.
+
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: boolean showBandedRows
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.showFilterButton'
+    name: showFilterButton
+    fullName: showFilterButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the filter buttons are visible at the top of each column
+      header. Setting this is only allowed if the table contains a header row.
+
+      [Api set: ExcelApi 1.3]
+    syntax:
+      content: boolean showFilterButton
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.showHeaders'
+    name: showHeaders
+    fullName: showHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the header row is visible or not. This value can be set
+      to show or remove the header row.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showHeaders
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.showTotals'
+    name: showTotals
+    fullName: showTotals
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Indicates whether the total row is visible or not. This value can be set
+      to show or remove the total row.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: boolean showTotals
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.sort'
+    name: sort
+    fullName: sort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the sorting for the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: TableSort sort
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableSort'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Constant value that represents the Table style. Possible values are:
+      TableStyleLight1 thru TableStyleLight21, TableStyleMedium1 thru
+      TableStyleMedium28, TableStyleStyleDark1 thru TableStyleStyleDark11. A
+      custom user-defined style present in the workbook can also be specified.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Table.worksheet'
+    name: worksheet
+    fullName: worksheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The worksheet containing the current table. Read-only.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Worksheet worksheet
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Worksheet'
+    module: Excel

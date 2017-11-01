@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.EmailUser'
+    name: EmailUser
+    fullName: EmailUser
+    children:
+      - '@microsoft/office-js.Office.EmailUser.displayName'
+      - '@microsoft/office-js.Office.EmailUser.emailAddress'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1751
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailUser.displayName'
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string displayName
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.EmailUser.emailAddress'
+    name: emailAddress
+    fullName: emailAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string emailAddress
+      return:
+        type:
+          - string
+    module: Office

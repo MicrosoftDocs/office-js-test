@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.ItemRead'
+    name: ItemRead
+    fullName: ItemRead
+    children:
+      - '@microsoft/office-js.Office.ItemRead.displayReplyAllForm'
+      - '@microsoft/office-js.Office.ItemRead.displayReplyForm'
+      - '@microsoft/office-js.Office.ItemRead.getEntities'
+      - '@microsoft/office-js.Office.ItemRead.getEntitiesByType'
+      - '@microsoft/office-js.Office.ItemRead.getFilteredEntitiesByName'
+      - '@microsoft/office-js.Office.ItemRead.getRegExMatches'
+      - '@microsoft/office-js.Office.ItemRead.getRegExMatchesByName'
+      - '@microsoft/office-js.Office.ItemRead.itemClass'
+      - '@microsoft/office-js.Office.ItemRead.itemId'
+      - '@microsoft/office-js.Office.ItemRead.normalizedSubject'
+      - '@microsoft/office-js.Office.ItemRead.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@@microsoft/office-js.Office.Item'
+    source:
+      path: office.d.ts
+      startLine: 1828
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.displayReplyAllForm'
+    name: displayReplyAllForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Displays a reply form that includes the sender and all the recipients of
+      the selected message
+    syntax:
+      content: 'function displayReplyAllForm(formData: string | ReplyFormData)'
+      parameters:
+        - id: formData
+          type:
+            - string | ReplyFormData
+          description: >
+            A string that contains text and HTML and that represents the body of
+            the reply form. The string is limited to 32 KB
+             OR
+            An object that contains body or attachment data and a callback
+            function
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.displayReplyForm'
+    name: displayReplyForm
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Displays a reply form that includes only the sender of the selected
+      message
+    syntax:
+      content: 'function displayReplyForm(formData: string | ReplyFormData)'
+      parameters:
+        - id: formData
+          type:
+            - string | ReplyFormData
+          description: >
+            A string that contains text and HTML and that represents the body of
+            the reply form. The string is limited to 32 KB
+             OR
+            An object that contains body or attachment data and a callback
+            function
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.getEntities'
+    name: getEntities
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the entities found in the selected item
+    syntax:
+      content: function getEntities()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Office.Entities'
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.getEntitiesByType'
+    name: getEntitiesByType
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets an array of entities of the specified entity type found in an message
+    syntax:
+      content: 'function getEntitiesByType(entityType: EntityType)'
+      parameters:
+        - id: entityType
+          type:
+            - '@@microsoft/office-js.Office.Office.MailboxEnums.EntityType'
+          description: |
+            One of the EntityType enumeration values
+      return:
+        type:
+          - >-
+            Array<string | Contact | MeetingSuggestion | PhoneNumber |
+            TaskSuggestion>
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.getFilteredEntitiesByName'
+    name: getFilteredEntitiesByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns well-known entities that pass the named filter defined in the
+      manifest XML file
+    syntax:
+      content: 'function getFilteredEntitiesByName(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: >
+            The name of the ItemHasKnownEntity rule element that defines the
+            filter to match
+      return:
+        type:
+          - >-
+            Array<string | Contact | MeetingSuggestion | PhoneNumber |
+            TaskSuggestion>
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.getRegExMatches'
+    name: getRegExMatches
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns string values in the currently selected message object that match
+      the regular expressions defined in the manifest XML file
+    syntax:
+      content: function getRegExMatches()
+      parameters: []
+      return:
+        type:
+          - any
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.getRegExMatchesByName'
+    name: getRegExMatchesByName
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns string values that match the named regular expression defined in
+      the manifest XML file
+    syntax:
+      content: 'function getRegExMatchesByName(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Array<string>
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.itemClass'
+    name: itemClass
+    fullName: itemClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string itemClass
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.itemId'
+    name: itemId
+    fullName: itemId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string itemId
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.normalizedSubject'
+    name: normalizedSubject
+    fullName: normalizedSubject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string normalizedSubject
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.ItemRead.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string
+    module: Office

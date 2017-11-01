@@ -1,0 +1,172 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableSort'
+    name: TableSort
+    fullName: TableSort
+    children:
+      - '@microsoft/office-js.Excel.TableSort.apply'
+      - '@microsoft/office-js.Excel.TableSort.clear'
+      - '@microsoft/office-js.Excel.TableSort.fields'
+      - '@microsoft/office-js.Excel.TableSort.load'
+      - '@microsoft/office-js.Excel.TableSort.matchCase'
+      - '@microsoft/office-js.Excel.TableSort.method'
+      - '@microsoft/office-js.Excel.TableSort.reapply'
+      - '@microsoft/office-js.Excel.TableSort.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Manages sorting operations on Table objects.
+      [Api set: ExcelApi 1.2]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6586
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.apply'
+    name: apply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Perform a sort operation.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: >-
+        function apply(fields: Array<SortField>, matchCase?: boolean, method?:
+        string)
+      parameters:
+        - id: fields
+          type:
+            - Array<@@microsoft/office-js.Excel.SortField>
+          description: The list of conditions to sort on.
+        - id: matchCase
+          type:
+            - boolean
+          description: Whether to have the casing impact string ordering.
+          optional: true
+        - id: method
+          type:
+            - string
+          description: |
+            The ordering method used for Chinese characters.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Clears the sorting that is currently on the table. While this doesn't
+      modify the table's ordering, it clears the state of the header buttons.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.fields'
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the current conditions used to last sort the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Array<SortField> fields
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.SortField>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableSort'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.matchCase'
+    name: matchCase
+    fullName: matchCase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents whether the casing impacted the last sort of the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean matchCase
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.method'
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents Chinese character ordering method last used to sort the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: string method
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.reapply'
+    name: reapply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Reapplies the current sorting parameters to the table.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function reapply()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableSort.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

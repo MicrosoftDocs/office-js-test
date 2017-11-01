@@ -1,0 +1,154 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ChartSeries'
+    name: ChartSeries
+    fullName: ChartSeries
+    children:
+      - '@microsoft/office-js.Excel.ChartSeries.format'
+      - '@microsoft/office-js.Excel.ChartSeries.load'
+      - '@microsoft/office-js.Excel.ChartSeries.name'
+      - '@microsoft/office-js.Excel.ChartSeries.points'
+      - '@microsoft/office-js.Excel.ChartSeries.set'
+      - '@microsoft/office-js.Excel.ChartSeries.set_1'
+      - '@microsoft/office-js.Excel.ChartSeries.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents a series in a chart.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 5606
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formatting of a chart series, which includes fill and line
+      formatting. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartSeriesFormat format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeriesFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartSeries'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of a series in a chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.points'
+    name: points
+    fullName: points
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents a collection of all points in the series. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartPointsCollection points
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ChartPointsCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartSeriesUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartSeriesUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: ChartSeries)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.ChartSeries'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ChartSeries.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData
+    name: PresetCriteriaConditionalFormatUpdateData
+    fullName: PresetCriteriaConditionalFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData.format
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData.rule
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the PresetCriteriaConditionalFormat
+      object, for use in "presetCriteriaConditionalFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 14167
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData.format
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the conditional formats font, fill,
+      borders, and other properties.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalRangeFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ConditionalRangeFormatUpdateData
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.PresetCriteriaConditionalFormatUpdateData.rule
+    name: rule
+    fullName: rule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The rule of the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: ConditionalPresetCriteriaRule rule
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.ConditionalPresetCriteriaRule'
+    module: Excel.Interfaces

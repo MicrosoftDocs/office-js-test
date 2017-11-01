@@ -1,0 +1,203 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.TableRowCollection'
+    name: TableRowCollection
+    fullName: TableRowCollection
+    children:
+      - '@microsoft/office-js.Excel.TableRowCollection.add'
+      - '@microsoft/office-js.Excel.TableRowCollection.count'
+      - '@microsoft/office-js.Excel.TableRowCollection.getCount'
+      - '@microsoft/office-js.Excel.TableRowCollection.getItemAt'
+      - '@microsoft/office-js.Excel.TableRowCollection.items'
+      - '@microsoft/office-js.Excel.TableRowCollection.load'
+      - '@microsoft/office-js.Excel.TableRowCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of all the rows that are part of the table.
+
+      Note that unlike Ranges or Columns, which will adjust if new rows/columns
+      are added before them,
+
+      a TableRow object represent the physical location of the table row, but
+      not the data.
+
+      That is, if the data is sorted or if new rows are added, a table row will
+      continue
+
+      to point at the index for which it was created.
+
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4830
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds one or more rows to the table. The return object will be the top of
+      the newly added row(s).
+
+      Note that unlike Ranges or Columns, which will adjust if new rows/columns
+      are added before them,
+
+      a TableRow object represent the physical location of the table row, but
+      not the data.
+
+      That is, if the data is sorted or if new rows are added, a table row will
+      continue
+
+      to point at the index for which it was created.
+
+
+      [Api set: ExcelApi 1.1 for adding a single row; 1.4 allows adding of
+      multiple rows.]
+    syntax:
+      content: 'function add(index?: number, values?: Array | boolean | string | number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: >-
+            Specifies the relative position of the new row. If null or -1, the
+            addition happens at the end. Any rows below the inserted row are
+            shifted downwards. Zero-indexed.
+          optional: true
+        - id: values
+          type:
+            - Array | boolean | string | number
+          description: |
+            A 2-dimensional array of unformatted values of the table row.
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableRow'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Returns the number of rows in the table. Read-only.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number count
+      return:
+        type:
+          - number
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of rows in the table.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.getItemAt'
+    name: getItemAt
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a row based on its position in the collection.
+
+      Note that unlike Ranges or Columns, which will adjust if new rows/columns
+      are added before them,
+
+      a TableRow object represent the physical location of the table row, but
+      not the data.
+
+      That is, if the data is sorted or if new rows are added, a table row will
+      continue
+
+      to point at the index for which it was created.
+
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: |
+            Index value of the object to be retrieved. Zero-indexed.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableRow'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<TableRow> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.TableRow>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.TableRowCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.TableRowCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

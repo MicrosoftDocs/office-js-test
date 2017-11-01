@@ -1,0 +1,318 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Filter'
+    name: Filter
+    fullName: Filter
+    children:
+      - '@microsoft/office-js.Excel.Filter.apply'
+      - '@microsoft/office-js.Excel.Filter.applyBottomItemsFilter'
+      - '@microsoft/office-js.Excel.Filter.applyBottomPercentFilter'
+      - '@microsoft/office-js.Excel.Filter.applyCellColorFilter'
+      - '@microsoft/office-js.Excel.Filter.applyCustomFilter'
+      - '@microsoft/office-js.Excel.Filter.applyDynamicFilter'
+      - '@microsoft/office-js.Excel.Filter.applyFontColorFilter'
+      - '@microsoft/office-js.Excel.Filter.applyIconFilter'
+      - '@microsoft/office-js.Excel.Filter.applyTopItemsFilter'
+      - '@microsoft/office-js.Excel.Filter.applyTopPercentFilter'
+      - '@microsoft/office-js.Excel.Filter.applyValuesFilter'
+      - '@microsoft/office-js.Excel.Filter.clear'
+      - '@microsoft/office-js.Excel.Filter.criteria'
+      - '@microsoft/office-js.Excel.Filter.load'
+      - '@microsoft/office-js.Excel.Filter.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Manages the filtering of a table's column.
+      [Api set: ExcelApi 1.2]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 6699
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.apply'
+    name: apply
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply the given filter criteria on the given column.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function apply(criteria: FilterCriteria)'
+      parameters:
+        - id: criteria
+          type:
+            - '@@microsoft/office-js.Excel.FilterCriteria'
+          description: |
+            The criteria to apply.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyBottomItemsFilter'
+    name: applyBottomItemsFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Apply a "Bottom Item" filter to the column for the given number of
+      elements.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyBottomItemsFilter(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: |
+            The number of elements from the bottom to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyBottomPercentFilter'
+    name: applyBottomPercentFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Apply a "Bottom Percent" filter to the column for the given percentage of
+      elements.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyBottomPercentFilter(percent: number)'
+      parameters:
+        - id: percent
+          type:
+            - number
+          description: |
+            The percentage of elements from the bottom to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyCellColorFilter'
+    name: applyCellColorFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Cell Color" filter to the column for the given color.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyCellColorFilter(color: string)'
+      parameters:
+        - id: color
+          type:
+            - string
+          description: |
+            The background color of the cells to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyCustomFilter'
+    name: applyCustomFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Icon" filter to the column for the given criteria strings.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: >-
+        function applyCustomFilter(criteria1: string, criteria2?: string, oper?:
+        string)
+      parameters:
+        - id: criteria1
+          type:
+            - string
+          description: The first criteria string.
+        - id: criteria2
+          type:
+            - string
+          description: The second criteria string.
+          optional: true
+        - id: oper
+          type:
+            - string
+          description: |
+            The operator that describes how the two criteria are joined.
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyDynamicFilter'
+    name: applyDynamicFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Dynamic" filter to the column.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyDynamicFilter(criteria: string)'
+      parameters:
+        - id: criteria
+          type:
+            - string
+          description: |
+            The dynamic criteria to apply.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyFontColorFilter'
+    name: applyFontColorFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Font Color" filter to the column for the given color.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyFontColorFilter(color: string)'
+      parameters:
+        - id: color
+          type:
+            - string
+          description: |
+            The font color of the cells to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyIconFilter'
+    name: applyIconFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Icon" filter to the column for the given icon.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyIconFilter(icon: Icon)'
+      parameters:
+        - id: icon
+          type:
+            - '@@microsoft/office-js.Excel.Icon'
+          description: |
+            The icons of the cells to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyTopItemsFilter'
+    name: applyTopItemsFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Top Item" filter to the column for the given number of elements.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyTopItemsFilter(count: number)'
+      parameters:
+        - id: count
+          type:
+            - number
+          description: |
+            The number of elements from the top to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyTopPercentFilter'
+    name: applyTopPercentFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Apply a "Top Percent" filter to the column for the given percentage of
+      elements.
+
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyTopPercentFilter(percent: number)'
+      parameters:
+        - id: percent
+          type:
+            - number
+          description: |
+            The percentage of elements from the top to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.applyValuesFilter'
+    name: applyValuesFilter
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Apply a "Values" filter to the column for the given values.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: 'function applyValuesFilter(values: Array<string | FilterDatetime>)'
+      parameters:
+        - id: values
+          type:
+            - Array<string | FilterDatetime>
+          description: |
+            The list of values to show.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.clear'
+    name: clear
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Clear the filter on the given column.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: function clear()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.criteria'
+    name: criteria
+    fullName: criteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The currently applied filter on the given column.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: FilterCriteria criteria
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.FilterCriteria'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Filter'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Filter.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

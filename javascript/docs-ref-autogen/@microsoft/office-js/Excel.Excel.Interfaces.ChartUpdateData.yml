@@ -1,0 +1,199 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData'
+    name: ChartUpdateData
+    fullName: ChartUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.axes'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.dataLabels'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.format'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.height'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.left'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.legend'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.name'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.title'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.top'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Chart object, for use in
+      "chart.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13317
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.axes'
+    name: axes
+    fullName: axes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart axes.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAxesUpdateData axes
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartAxesUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.dataLabels'
+    name: dataLabels
+    fullName: dataLabels
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the datalabels on the chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartDataLabelsUpdateData dataLabels
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartDataLabelsUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Encapsulates the format properties for the chart area.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartAreaFormatUpdateData format
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartAreaFormatUpdateData
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.height'
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the height, in points, of the chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.left'
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The distance, in points, from the left side of the chart to the worksheet
+      origin.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number left
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.legend'
+    name: legend
+    fullName: legend
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the legend for the chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLegendUpdateData legend
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartLegendUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the name of a chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.title'
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the title of the specified chart, including the text,
+      visibility, position and formating of the title.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartTitleUpdateData title
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.ChartTitleUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the distance, in points, from the top edge of the object to the
+      top of row 1 (on a worksheet) or the top of the chart area (on a chart).
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number top
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartUpdateData.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the width, in points, of the chart object.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Excel.Interfaces

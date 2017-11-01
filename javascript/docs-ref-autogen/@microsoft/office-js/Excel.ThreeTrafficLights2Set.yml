@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights2Set'
+    name: ThreeTrafficLights2Set
+    fullName: ThreeTrafficLights2Set
+    children:
+      - '@microsoft/office-js.Excel.ThreeTrafficLights2Set.greenTrafficLight'
+      - '@microsoft/office-js.Excel.ThreeTrafficLights2Set.redTrafficLight'
+      - '@microsoft/office-js.Excel.ThreeTrafficLights2Set.yellowTrafficLight'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2574
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights2Set.greenTrafficLight'
+    name: greenTrafficLight
+    fullName: greenTrafficLight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon greenTrafficLight
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights2Set.redTrafficLight'
+    name: redTrafficLight
+    fullName: redTrafficLight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redTrafficLight
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ThreeTrafficLights2Set.yellowTrafficLight'
+    name: yellowTrafficLight
+    fullName: yellowTrafficLight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon yellowTrafficLight
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

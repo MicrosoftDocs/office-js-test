@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData'
+    name: RangeUpdateData
+    fullName: RangeUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.columnHidden'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.format'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulas'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulasLocal
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulasR1C1'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.numberFormat'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.rowHidden'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.values'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Range object, for use in
+      "range.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 12945
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.columnHidden'
+    name: columnHidden
+    fullName: columnHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents if all columns of the current range are hidden.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean columnHidden
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns a format object, encapsulating the range's font, fill, borders,
+      alignment, and other properties.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: RangeFormatUpdateData format
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Excel.Interfaces.RangeFormatUpdateData'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulas'
+    name: formulas
+    fullName: formulas
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formula in A1-style notation.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> formulas
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulasLocal'
+    name: formulasLocal
+    fullName: formulasLocal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the formula in A1-style notation, in the user's language and
+      number-formatting locale.  For example, the English "=SUM(A1, 1.5)"
+      formula would become "=SUMME(A1; 1,5)" in German.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> formulasLocal
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.formulasR1C1'
+    name: formulasR1C1
+    fullName: formulasR1C1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents the formula in R1C1-style notation.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: Array<Array<any>> formulasR1C1
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.numberFormat'
+    name: numberFormat
+    fullName: numberFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents Excel's number format code for the given cell.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> numberFormat
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.rowHidden'
+    name: rowHidden
+    fullName: rowHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents if all rows of the current range are hidden.
+      [Api set: ExcelApi 1.2]
+    syntax:
+      content: boolean rowHidden
+      return:
+        type:
+          - boolean
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.RangeUpdateData.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Represents the raw values of the specified range. The data returned could
+      be of type string, number, or a boolean. Cell that contain an error will
+      return the error string.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: Array<Array<any>> values
+      return:
+        type:
+          - Array<Array<any>>
+    module: Excel.Interfaces

@@ -1,0 +1,204 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection'
+    name: NamedItemCollection
+    fullName: NamedItemCollection
+    children:
+      - '@microsoft/office-js.Excel.NamedItemCollection.add'
+      - '@microsoft/office-js.Excel.NamedItemCollection.addFormulaLocal'
+      - '@microsoft/office-js.Excel.NamedItemCollection.getCount'
+      - '@microsoft/office-js.Excel.NamedItemCollection.getItem'
+      - '@microsoft/office-js.Excel.NamedItemCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.NamedItemCollection.items'
+      - '@microsoft/office-js.Excel.NamedItemCollection.load'
+      - '@microsoft/office-js.Excel.NamedItemCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      A collection of all the nameditem objects that are part of the workbook or
+      worksheet, depending on how it was reached.
+
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 4072
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Adds a new name to the collection of the given scope.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function add(name: string, reference: Range | string, comment?: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the named item.
+        - id: reference
+          type:
+            - Range | string
+          description: The formula or the range that the name will refer to.
+        - id: comment
+          type:
+            - string
+          description: The comment associated with the named item
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItem'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.addFormulaLocal'
+    name: addFormulaLocal
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Adds a new name to the collection of the given scope using the user's
+      locale for the formula.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: >-
+        function addFormulaLocal(name: string, formula: string, comment?:
+        string)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The "name" of the named item.
+        - id: formula
+          type:
+            - string
+          description: The formula in the user's locale that the name will refer to.
+        - id: comment
+          type:
+            - string
+          description: The comment associated with the named item
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItem'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of named items in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a nameditem object using its name
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function getItem(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            nameditem name.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItem'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a nameditem object using its name. If the nameditem object does not
+      exist, will return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: |
+            nameditem name.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItem'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<NamedItem> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.NamedItem>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.NamedItemCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.NamedItemCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

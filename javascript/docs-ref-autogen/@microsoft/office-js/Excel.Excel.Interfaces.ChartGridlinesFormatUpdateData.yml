@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData'
+    name: ChartGridlinesFormatUpdateData
+    fullName: ChartGridlinesFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData.line
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartGridlinesFormat object, for use
+      in "chartGridlinesFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13654
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartGridlinesFormatUpdateData.line
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Represents chart line formatting.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: ChartLineFormatUpdateData line
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData
+    module: Excel.Interfaces

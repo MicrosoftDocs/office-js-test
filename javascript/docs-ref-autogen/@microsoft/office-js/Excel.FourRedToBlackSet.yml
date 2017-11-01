@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.FourRedToBlackSet'
+    name: FourRedToBlackSet
+    fullName: FourRedToBlackSet
+    children:
+      - '@microsoft/office-js.Excel.FourRedToBlackSet.blackCircle'
+      - '@microsoft/office-js.Excel.FourRedToBlackSet.grayCircle'
+      - '@microsoft/office-js.Excel.FourRedToBlackSet.pinkCircle'
+      - '@microsoft/office-js.Excel.FourRedToBlackSet.redCircle'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2612
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRedToBlackSet.blackCircle'
+    name: blackCircle
+    fullName: blackCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon blackCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRedToBlackSet.grayCircle'
+    name: grayCircle
+    fullName: grayCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon grayCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRedToBlackSet.pinkCircle'
+    name: pinkCircle
+    fullName: pinkCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon pinkCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.FourRedToBlackSet.redCircle'
+    name: redCircle
+    fullName: redCircle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Icon redCircle
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Icon'
+    module: Excel

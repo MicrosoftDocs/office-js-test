@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData'
+    name: ChartLineFormatUpdateData
+    fullName: ChartLineFormatUpdateData
+    children:
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData.color
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the ChartLineFormat object, for use in
+      "chartLineFormat.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 13746
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: >-
+      @microsoft/office-js.Excel.Excel.Interfaces.ChartLineFormatUpdateData.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      HTML color code representing the color of lines in the chart.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

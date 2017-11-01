@@ -1,0 +1,117 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Application'
+    name: Application
+    fullName: Application
+    children:
+      - '@microsoft/office-js.Excel.Application.calculate'
+      - '@microsoft/office-js.Excel.Application.calculationMode'
+      - '@microsoft/office-js.Excel.Application.load'
+      - >-
+        @microsoft/office-js.Excel.Application.suspendApiCalculationUntilNextSync
+      - '@microsoft/office-js.Excel.Application.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents the Excel application that manages the workbook.
+      [Api set: ExcelApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 2861
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Application.calculate'
+    name: calculate
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Recalculate all currently opened workbooks in Excel.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: 'function calculate(calculationType: string)'
+      parameters:
+        - id: calculationType
+          type:
+            - string
+          description: >
+            Specifies the calculation type to use. See Excel.CalculationType for
+            details.
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Application.calculationMode'
+    name: calculationMode
+    fullName: calculationMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Returns the calculation mode used in the workbook. See
+      Excel.CalculationMode for details. Read-only.
+
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string calculationMode
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Application.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Application'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Application.suspendApiCalculationUntilNextSync'
+    name: suspendApiCalculationUntilNextSync
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Suspends calculation until the next "context.sync()" is called. Once set,
+      it is the developer's responsibility to re-calc the workbook, to ensure
+      that any dependencies are propagated.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: function suspendApiCalculationUntilNextSync()
+      parameters: []
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.Application.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

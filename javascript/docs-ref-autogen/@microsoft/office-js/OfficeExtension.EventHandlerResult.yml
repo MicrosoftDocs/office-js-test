@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlerResult'
+    name: EventHandlerResult
+    fullName: EventHandlerResult<T>
+    children:
+      - '@microsoft/office-js.OfficeExtension.EventHandlerResult.constructor'
+      - '@microsoft/office-js.OfficeExtension.EventHandlerResult.remove'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2436
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlerResult.constructor'
+    name: EventHandlerResult
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new EventHandlerResult(context: ClientRequestContext, handlers:
+        EventHandlers<T>, handler: (args: T) => IPromise<any>)
+      parameters:
+        - id: context
+          type:
+            - '@@microsoft/office-js.OfficeExtension.ClientRequestContext'
+          description: ''
+        - id: handlers
+          type:
+            - '@@microsoft/office-js.OfficeExtension.EventHandlers<T>'
+          description: ''
+        - id: handler
+          type:
+            - '(args: T) => IPromise<any>'
+          description: ''
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.EventHandlerResult.remove'
+    name: remove
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remove()
+      parameters: []
+    module: OfficeExtension

@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion'
+    name: MeetingSuggestion
+    fullName: MeetingSuggestion
+    children:
+      - '@microsoft/office-js.Office.MeetingSuggestion.attendees'
+      - '@microsoft/office-js.Office.MeetingSuggestion.end'
+      - '@microsoft/office-js.Office.MeetingSuggestion.location'
+      - '@microsoft/office-js.Office.MeetingSuggestion.meetingstring'
+      - '@microsoft/office-js.Office.MeetingSuggestion.start'
+      - '@microsoft/office-js.Office.MeetingSuggestion.subject'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 1978
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.attendees'
+    name: attendees
+    fullName: attendees
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Array<EmailUser> attendees
+      return:
+        type:
+          - Array<@@microsoft/office-js.Office.EmailUser>
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.end'
+    name: end
+    fullName: end
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string end
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.location'
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string location
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.meetingstring'
+    name: meetingstring
+    fullName: meetingstring
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string meetingstring
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.start'
+    name: start
+    fullName: start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string start
+      return:
+        type:
+          - string
+    module: Office
+  - uid: '@microsoft/office-js.Office.MeetingSuggestion.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string subject
+      return:
+        type:
+          - string
+    module: Office

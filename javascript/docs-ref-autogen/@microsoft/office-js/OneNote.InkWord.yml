@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OneNote.InkWord'
+    name: InkWord
+    fullName: InkWord
+    children:
+      - '@microsoft/office-js.OneNote.InkWord.id'
+      - '@microsoft/office-js.OneNote.InkWord.languageId'
+      - '@microsoft/office-js.OneNote.InkWord.load'
+      - '@microsoft/office-js.OneNote.InkWord.paragraph'
+      - '@microsoft/office-js.OneNote.InkWord.wordAlternates'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      A container for the ink in a word in a paragraph.
+      [Api set: OneNoteApi 1.1]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 20231
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkWord.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets the ID of the InkWord object. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string id
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkWord.languageId'
+    name: languageId
+    fullName: languageId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The id of the recognized language in this ink word. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: string languageId
+      return:
+        type:
+          - string
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkWord.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.InkWord'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkWord.paragraph'
+    name: paragraph
+    fullName: paragraph
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The parent paragraph containing the ink word. Read-only.
+      [Api set: OneNoteApi 1.1]
+    syntax:
+      content: Paragraph paragraph
+      return:
+        type:
+          - '@@microsoft/office-js.OneNote.Paragraph'
+    module: OneNote
+  - uid: '@microsoft/office-js.OneNote.InkWord.wordAlternates'
+    name: wordAlternates
+    fullName: wordAlternates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      The words that were recognized in this ink word, in order of likelihood.
+      Read-only.
+
+      [Api set: OneNoteApi]
+    syntax:
+      content: Array<string> wordAlternates
+      return:
+        type:
+          - Array<string>
+    module: OneNote

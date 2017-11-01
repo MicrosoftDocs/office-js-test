@@ -1,0 +1,72 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalCellValueRule'
+    name: ConditionalCellValueRule
+    fullName: ConditionalCellValueRule
+    children:
+      - '@microsoft/office-js.Excel.ConditionalCellValueRule.formula1'
+      - '@microsoft/office-js.Excel.ConditionalCellValueRule.formula2'
+      - '@microsoft/office-js.Excel.ConditionalCellValueRule.operator'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Represents a Cell Value Conditional Format Rule
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 8186
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalCellValueRule.formula1'
+    name: formula1
+    fullName: formula1
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The formula, if required, to evaluate the conditional format rule on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula1
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalCellValueRule.formula2'
+    name: formula2
+    fullName: formula2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The formula, if required, to evaluate the conditional format rule on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula2
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalCellValueRule.operator'
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The operator of the text conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string operator
+      return:
+        type:
+          - string
+    module: Excel

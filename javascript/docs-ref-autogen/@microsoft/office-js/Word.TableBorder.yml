@@ -1,0 +1,197 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.TableBorder'
+    name: TableBorder
+    fullName: TableBorder
+    children:
+      - '@microsoft/office-js.Word.TableBorder.color'
+      - '@microsoft/office-js.Word.TableBorder.load'
+      - '@microsoft/office-js.Word.TableBorder.set'
+      - '@microsoft/office-js.Word.TableBorder.set_1'
+      - '@microsoft/office-js.Word.TableBorder.toJSON'
+      - '@microsoft/office-js.Word.TableBorder.track'
+      - '@microsoft/office-js.Word.TableBorder.type'
+      - '@microsoft/office-js.Word.TableBorder.untrack'
+      - '@microsoft/office-js.Word.TableBorder.width'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Specifies the border style
+      [Api set: WordApi 1.3]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 18337
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the table border color, as a hex value or name.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableBorder'
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableBorderUpdateData, options?: function)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.Word.Interfaces.TableBorderUpdateData'
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: TableBorder)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Word.TableBorder'
+          description: ''
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.track'
+    name: track
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Track the object for automatic adjustment based on surrounding changes in
+      the document. This call is a shorthand for
+      context.trackedObjects.add(thisObject). If you are using this object
+      across ".sync" calls and outside the sequential execution of a ".run"
+      batch, and get an "InvalidObjectPath" error when setting a property or
+      invoking a method on the object, you needed to have added the object to
+      the tracked object collection when the object was first created.
+    syntax:
+      content: function track()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableBorder'
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets or sets the type of the table border.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.untrack'
+    name: untrack
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Release the memory associated with this object, if it has previously been
+      tracked. This call is shorthand for
+      context.trackedObjects.remove(thisObject). Having many tracked objects
+      slows down the host application, so please remember to free any objects
+      you add, once you're done using them. You will need to call
+      "context.sync()" before the memory release takes effect.
+    syntax:
+      content: function untrack()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.Word.TableBorder'
+    module: Word
+  - uid: '@microsoft/office-js.Word.TableBorder.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the width, in points, of the table border. Not applicable to
+      table border types that have fixed widths.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Word

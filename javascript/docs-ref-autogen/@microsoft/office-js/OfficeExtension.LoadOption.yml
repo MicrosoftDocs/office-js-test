@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.OfficeExtension.LoadOption'
+    name: LoadOption
+    fullName: LoadOption
+    children:
+      - '@microsoft/office-js.OfficeExtension.LoadOption.expand'
+      - '@microsoft/office-js.OfficeExtension.LoadOption.select'
+      - '@microsoft/office-js.OfficeExtension.LoadOption.skip'
+      - '@microsoft/office-js.OfficeExtension.LoadOption.top'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    source:
+      path: office.d.ts
+      startLine: 2151
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.LoadOption.expand'
+    name: expand
+    fullName: expand
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string |  expand
+      return:
+        type:
+          - 'string | '
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.LoadOption.select'
+    name: select
+    fullName: select
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string |  select
+      return:
+        type:
+          - 'string | '
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.LoadOption.skip'
+    name: skip
+    fullName: skip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number skip
+      return:
+        type:
+          - number
+    module: OfficeExtension
+  - uid: '@microsoft/office-js.OfficeExtension.LoadOption.top'
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number top
+      return:
+        type:
+          - number
+    module: OfficeExtension

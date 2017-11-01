@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat'
+    name: IconSetConditionalFormat
+    fullName: IconSetConditionalFormat
+    children:
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.criteria'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.load'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.reverseIconOrder'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.set'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.set_1'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.showIconOnly'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.style'
+      - '@microsoft/office-js.Excel.IconSetConditionalFormat.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: |
+      Represents an IconSet criteria for conditional formatting.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 7783
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.criteria'
+    name: criteria
+    fullName: criteria
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      An array of Criteria and IconSets for the rules and potential custom icons
+      for conditional icons. Note that for the first criterion only the custom
+      icon can be modified, while type, formula and operator will be ignored
+      when set.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: Array<ConditionalIconCriterion> criteria
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.ConditionalIconCriterion>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.IconSetConditionalFormat'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.reverseIconOrder'
+    name: reverseIconOrder
+    fullName: reverseIconOrder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      If true, reverses the icon orders for the IconSet. Note that this cannot
+      be set if custom icons are used.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean reverseIconOrder
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.set'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: >-
+        function set(properties: IconSetConditionalFormatUpdateData, options?:
+        function)
+      parameters:
+        - id: properties
+          type:
+            - >-
+              @@microsoft/office-js.Excel.Excel.Interfaces.IconSetConditionalFormatUpdateData
+          description: ''
+        - id: options
+          type:
+            - function
+          description: ''
+          optional: true
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.set_1'
+    name: set
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets multiple properties on the object at the same time, based on JSON
+      input.
+    syntax:
+      content: 'function set(properties: IconSetConditionalFormat)'
+      parameters:
+        - id: properties
+          type:
+            - '@@microsoft/office-js.Excel.IconSetConditionalFormat'
+          description: ''
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.showIconOnly'
+    name: showIconOnly
+    fullName: showIconOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If true, hides the values and only shows icons.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: boolean showIconOnly
+      return:
+        type:
+          - boolean
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      If set, displays the IconSet option for the conditional format.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.IconSetConditionalFormat.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - function
+    module: Excel

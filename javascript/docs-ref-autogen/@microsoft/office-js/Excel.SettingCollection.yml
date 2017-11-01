@@ -1,0 +1,186 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.SettingCollection'
+    name: SettingCollection
+    fullName: SettingCollection
+    children:
+      - '@microsoft/office-js.Excel.SettingCollection.add'
+      - '@microsoft/office-js.Excel.SettingCollection.getCount'
+      - '@microsoft/office-js.Excel.SettingCollection.getItem'
+      - '@microsoft/office-js.Excel.SettingCollection.getItemOrNullObject'
+      - '@microsoft/office-js.Excel.SettingCollection.items'
+      - '@microsoft/office-js.Excel.SettingCollection.load'
+      - '@microsoft/office-js.Excel.SettingCollection.onSettingsChanged'
+      - '@microsoft/office-js.Excel.SettingCollection.toJSON'
+    langs:
+      - typeScript
+    type: class
+    summary: >
+      Represents a collection of worksheet objects that are part of the
+      workbook.
+
+      [Api set: ExcelApi 1.4]
+    extends:
+      name: '@@microsoft/office-js.OfficeExtension.ClientObject'
+    source:
+      path: office.d.ts
+      startLine: 3966
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.add'
+    name: add
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Sets or adds the specified setting to the workbook.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: >-
+        function add(key: string, value: string | number | boolean | Array |
+        any)
+      parameters:
+        - id: key
+          type:
+            - string
+          description: The Key of the new setting.
+        - id: value
+          type:
+            - string | number | boolean | Array | any
+          description: |
+            The Value for the new setting.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Setting'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.getCount'
+    name: getCount
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets the number of Settings in the collection.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - '@@microsoft/office-js.OfficeExtension.ClientResult<number>'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.getItem'
+    name: getItem
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Gets a Setting entry via the key.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItem(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            Key of the setting.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Setting'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.getItemOrNullObject'
+    name: getItemOrNullObject
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Gets a Setting entry via the key. If the Setting does not exist, will
+      return a null object.
+
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: 'function getItemOrNullObject(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            The key of the setting.
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.Setting'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.items'
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the loaded child items in this collection.
+    syntax:
+      content: Array<Setting> items
+      return:
+        type:
+          - Array<@@microsoft/office-js.Excel.Setting>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.load'
+    name: load
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Queues up a command to load the specified properties of the object. You
+      must call "context.sync()" before reading the properties.
+    syntax:
+      content: 'function load(option?: string |  | LoadOption)'
+      parameters:
+        - id: option
+          type:
+            - string |  | LoadOption
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@@microsoft/office-js.Excel.SettingCollection'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.onSettingsChanged'
+    name: onSettingsChanged
+    fullName: onSettingsChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Occurs when the Settings in the document are changed.
+      [Api set: ExcelApi 1.4]
+    syntax:
+      content: EventHandlers<SettingsChangedEventArgs> onSettingsChanged
+      return:
+        type:
+          - >-
+            @@microsoft/office-js.OfficeExtension.EventHandlers<@@microsoft/office-js.Excel.SettingsChangedEventArgs>
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.SettingCollection.toJSON'
+    name: toJSON
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - __type
+    module: Excel

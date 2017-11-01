@@ -1,0 +1,301 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData'
+    name: TableUpdateData
+    fullName: TableUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.alignment'
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.font'
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.headerRowCount'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.horizontalAlignment
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.shadingColor'
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.style'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBandedColumns
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBandedRows
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBuiltIn'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleFirstColumn
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleLastColumn
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleTotalRow'
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.values'
+      - >-
+        @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.verticalAlignment
+      - '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.width'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Table object, for use in
+      "table.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19464
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.alignment'
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the alignment of the table against the page column. The value
+      can be 'left', 'centered' or 'right'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string alignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.font'
+    name: font
+    fullName: font
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets the font. Use this to get and set font name, size, color, and other
+      properties.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: FontUpdateData font
+      return:
+        type:
+          - '@@microsoft/office-js.Word.Word.Interfaces.FontUpdateData'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.headerRowCount'
+    name: headerRowCount
+    fullName: headerRowCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the number of header rows.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number headerRowCount
+      return:
+        type:
+          - number
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the horizontal alignment of every cell in the table. The
+      value can be 'left', 'centered', 'right', or 'justified'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string horizontalAlignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.shadingColor'
+    name: shadingColor
+    fullName: shadingColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the shading color.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string shadingColor
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.style'
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the style name for the table. Use this property for custom
+      styles and localized style names. To use the built-in styles that are
+      portable between locales, see the "styleBuiltIn" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string style
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBandedColumns
+    name: styleBandedColumns
+    fullName: styleBandedColumns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has banded columns.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleBandedColumns
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBandedRows'
+    name: styleBandedRows
+    fullName: styleBandedRows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has banded rows.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleBandedRows
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleBuiltIn'
+    name: styleBuiltIn
+    fullName: styleBuiltIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the built-in style name for the table. Use this property for
+      built-in styles that are portable between locales. To use custom styles or
+      localized style names, see the "style" property.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string styleBuiltIn
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleFirstColumn'
+    name: styleFirstColumn
+    fullName: styleFirstColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has a first column with a special style.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleFirstColumn
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleLastColumn'
+    name: styleLastColumn
+    fullName: styleLastColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets whether the table has a last column with a special style.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleLastColumn
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.styleTotalRow'
+    name: styleTotalRow
+    fullName: styleTotalRow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets whether the table has a total (last) row with a special
+      style.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: boolean styleTotalRow
+      return:
+        type:
+          - boolean
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.values'
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the text values in the table, as a 2D Javascript array.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: Array<Array<string>> values
+      return:
+        type:
+          - Array<Array<string>>
+    module: Word.Interfaces
+  - uid: >-
+      @microsoft/office-js.Word.Word.Interfaces.TableUpdateData.verticalAlignment
+    name: verticalAlignment
+    fullName: verticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets and sets the vertical alignment of every cell in the table. The value
+      can be 'top', 'center' or 'bottom'.
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: string verticalAlignment
+      return:
+        type:
+          - string
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.TableUpdateData.width'
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Gets and sets the width of the table in points.
+      [Api set: WordApi 1.3]
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+    module: Word.Interfaces

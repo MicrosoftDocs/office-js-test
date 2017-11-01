@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriterion'
+    name: ConditionalColorScaleCriterion
+    fullName: ConditionalColorScaleCriterion
+    children:
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.color'
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.formula'
+      - '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Represents a Color Scale Criterion which contains a type, value and a
+      color.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    source:
+      path: office.d.ts
+      startLine: 7942
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.color'
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      HTML color code representation of the color scale color. E.g. #FF0000
+      represents Red.
+
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string color
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.formula'
+    name: formula
+    fullName: formula
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      A number, a formula, or null (if Type is LowestValue).
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string formula
+      return:
+        type:
+          - string
+    module: Excel
+  - uid: '@microsoft/office-js.Excel.ConditionalColorScaleCriterion.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      What the icon conditional formula should be based on.
+      [Api set: ExcelApi 1.6 (PREVIEW)]
+    syntax:
+      content: string type
+      return:
+        type:
+          - string
+    module: Excel

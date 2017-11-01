@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData'
+    name: WorksheetUpdateData
+    fullName: WorksheetUpdateData
+    children:
+      - '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.name'
+      - '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.position'
+      - >-
+        @microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.visibility
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the Worksheet object, for use in
+      "worksheet.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 12921
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The display name of the worksheet.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: string name
+      return:
+        type:
+          - string
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.position'
+    name: position
+    fullName: position
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The zero-based position of the worksheet within the workbook.
+      [Api set: ExcelApi 1.1]
+    syntax:
+      content: number position
+      return:
+        type:
+          - number
+    module: Excel.Interfaces
+  - uid: '@microsoft/office-js.Excel.Excel.Interfaces.WorksheetUpdateData.visibility'
+    name: visibility
+    fullName: visibility
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The Visibility of the worksheet.
+      [Api set: ExcelApi 1.1 for reading visibility; 1.2 for setting it.]
+    syntax:
+      content: string visibility
+      return:
+        type:
+          - string
+    module: Excel.Interfaces

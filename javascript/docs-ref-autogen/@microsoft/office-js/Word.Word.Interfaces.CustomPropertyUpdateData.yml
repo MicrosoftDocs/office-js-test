@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.CustomPropertyUpdateData'
+    name: CustomPropertyUpdateData
+    fullName: CustomPropertyUpdateData
+    children:
+      - '@microsoft/office-js.Word.Word.Interfaces.CustomPropertyUpdateData.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface for updating data on the CustomProperty object, for use in
+      "customProperty.set({ ... })".
+    source:
+      path: office.d.ts
+      startLine: 19035
+      remote:
+        path: dist\office.d.ts
+        repo: 'https://github.com/OfficeDev/office-js.git'
+        branch: master
+    package: '@microsoft/office-js'
+    module: Word.Interfaces
+  - uid: '@microsoft/office-js.Word.Word.Interfaces.CustomPropertyUpdateData.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Gets or sets the value of the custom property. Note that even though Word
+      Online and the docx file format allow these properties to be arbitrarily
+      long, the desktop version of Word will truncate string values to 255
+      16-bit chars (possibly creating invalid unicode by breaking up a surrogate
+      pair).
+
+      [Api set: WordApi 1.3]
+    syntax:
+      content: any value
+      return:
+        type:
+          - any
+    module: Word.Interfaces
