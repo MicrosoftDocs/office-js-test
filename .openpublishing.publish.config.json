@@ -10,8 +10,13 @@
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
-        "ManagedReference": "Content",
         "RestApi": "Content",
+        "TSType": "Content",
+        "TSPackage": "Content",
+        "TSEnum": "Content",
+        "TSTypeAlias": "Content",
+        "ReferenceContainer": "Content",
+        "ManagedReference": "Content",
         "UniversalReference": "Content"
       },
       "build_entry_point": "docs",
@@ -23,7 +28,10 @@
       ]
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "routlaw@microsoft.com"
+  ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
