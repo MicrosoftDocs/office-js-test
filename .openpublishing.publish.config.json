@@ -26,6 +26,28 @@
       "customized_template_paths": [
         "_dependentPackages/uref.plugins/content"
       ]
+    },
+    {
+      "docset_name": "office-js-test",
+      "build_source_folder": ".",
+      "build_output_subfolder": "office-js-test",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "RestApi": "Content",
+        "TSType": "Content",
+        "TSPackage": "Content",
+        "TSEnum": "Content",
+        "TSTypeAlias": "Content",
+        "ReferenceContainer": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "javascript",
+      "site_name": "Docs"
     }
   ],
   "notification_subscribers": [
